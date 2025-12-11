@@ -80,16 +80,16 @@ extends IiiiIiiiiIiIi {
         }
         PartJade IiiiiiiiIIIII5 = (PartJade)this.iiiiIiiiIiiII[1].ALLATORIxDEMO();
         if (IiiiiiiiIIIII4 == null || IiiiiiiiIIIII5 == null) {
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u8bf7\u51c6\u5907\u8981\u5347\u7ea7\u7684\u88c5\u5907\u548c\u7389\u7b26\u3002");
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("请准备要升级的装备和玉符。");
             return;
         }
         int IiiiiiiiIIIII6 = (int)this.iiiiIiiiIiiII[1].ALLATORIxDEMO();
         if (this.IiIIIiiiiIiiI.compareTo(IiiiiiiiIIIII3.getLoginResult().getGold()) > 0) {
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u91d1\u5e01\u4e0d\u8db3..");
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("金币不足..");
             return;
         }
         if (IiiiiiiiIIIII4.getGoodlock() == 1) {
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u8be5\u7269\u54c1\u5df2\u88ab\u52a0\u9501");
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("该物品已被加锁");
             return;
         }
         SuitOperBean IiiiiiiiIIIII7 = new SuitOperBean();
@@ -102,10 +102,10 @@ extends IiiiIiiiiIiIi {
         IiiiiiiiIIIII7.setJade((PartJade)IiiiiiiiIIIII2);
         String IiiiiiiiIIIII9 = Agreement.getSendTextAES((String)"suitoperate", (String)iiIiiiiiIIiii.ALLATORIxDEMO().toJson(IiiiiiiiIIIII7));
         this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII9);
-        String IiiiiiiiIIIII10 = GoodType.getExtra((String)IiiiiiiiIIIII4.getValue(), (String)"\u5957\u88c5\u5c5e\u6027");
+        String IiiiiiiiIIIII10 = GoodType.getExtra((String)IiiiiiiiIIIII4.getValue(), (String)"套装属性");
         String[] IiiiiiiiIIIII11 = IiiiiiiiIIIII4.getValue().split("\\|");
         String string = MsgUntil.ALLATORIxDEMO((int)1, (String)IiiiiiiiIIIII10);
-        IiiiiiiiIIIII11[0] = "\u5957\u88c5\u54c1\u8d28=" + MsgUntil.ALLATORIxDEMO((int)3, (String)IiiiiiiiIIIII10);
+        IiiiiiiiIIIII11[0] = "套装品质=" + MsgUntil.ALLATORIxDEMO((int)3, (String)IiiiiiiiIIIII10);
         IiiiiiiiIIIII4.setValue(GoodType.ALLATORIxDEMO((String[])IiiiiiiiIIIII11, (int)3, (String)IiiiiiiiIIIII));
         IiiiiiiiIIIII5.ALLATORIxDEMO(IiiiiiiiIIIII6, 1);
         IiiiiiiiIIIII3.getLoginResult().setGold(IiiiiiiiIIIII3.getLoginResult().getGold().subtract(this.IiIIIiiiiIiiI));
@@ -115,8 +115,8 @@ extends IiiiIiiiiIiIi {
             ++IiiiiiiiIIIII12;
             iIIiiiiiIiIiI.ALLATORIxDEMO(0, null);
         }
-        this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u6d88\u8017\u4e86\u4e00\u4e2a" + MsgUntil.ALLATORIxDEMO((int)IiiiiiiiIIIII6) + "\u7389\u7b26..");
-        this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u6d88\u8017\u4e86" + this.IiIIIiiiiIiiI.longValue() / 10000L + "W\u91d1\u5e01..");
+        this.iiIIiiiiIiIIi.iIiIiiiiIIiii("消耗了一个" + MsgUntil.ALLATORIxDEMO((int)IiiiiiiiIIIII6) + "玉符..");
+        this.iiIIiiiiIiIIi.iIiIiiiiIIiii("消耗了" + this.IiIIIiiiiIiiI.longValue() / 10000L + "W金币..");
     }
 
     public void iIiIiiiiIIiIi() {
@@ -129,12 +129,12 @@ extends IiiiIiiiiIiIi {
         if (IiiiiiiiIIIII2 == null) {
             return;
         }
-        String IiiiiiiiIIIII3 = IiiiiiiiIIIII2.getGoodsname().split("\\\u00b7")[0];
+        String IiiiiiiiIIIII3 = IiiiiiiiIIIII2.getGoodsname().split("\\·")[0];
         int IiiiiiiiIIIII4 = Integer.parseInt(IiiiiiiiIIIII2.getValue().split("\\|")[1].split("=")[1]);
         RoleSuitBean IiiiiiiiIIIII5 = this.ALLATORIxDEMO().ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII3);
         PartJade IiiiiiiiIIIII6 = this.ALLATORIxDEMO().getPackRecord().getPartJade(IiiiiiiiIIIII5.getSuitID(), IiiiiiiiIIIII4);
         if (IiiiiiiiIIIII6.ALLATORIxDEMO()) return;
-        int IiiiiiiiIIIII7 = MsgUntil.ALLATORIxDEMO((String)MsgUntil.ALLATORIxDEMO((int)0, (String)GoodType.getExtra((String)IiiiiiiiIIIII2.getValue(), (String)"\u5957\u88c5\u5c5e\u6027")));
+        int IiiiiiiiIIIII7 = MsgUntil.ALLATORIxDEMO((String)MsgUntil.ALLATORIxDEMO((int)0, (String)GoodType.getExtra((String)IiiiiiiiIIIII2.getValue(), (String)"套装属性")));
         if (IiiiiiiiIIIII7 >= 5) return;
         if (IiiiiiiiIIIII6.getJade(IiiiiiiiIIIII7 + 1) <= 0) return;
         this.iiiiIiiiIiiII[1].ALLATORIxDEMO(100 + IiiiiiiiIIIII7 + 1, (Object)IiiiiiiiIIIII6);
@@ -151,14 +151,14 @@ extends IiiiIiiiiIiIi {
         super(-1, -1, IiiiIiiiiIiIi.iIIiIiiiiiiIi, var1_1);
         this.IiIIIiiiiIiiI = new BigDecimal(this.ALLATORIxDEMO().ALLATORIxDEMO(2, 12) != false ? 1000000 : (this.ALLATORIxDEMO().gameType == 2 ? 5000000 : 10000000));
         this.ALLATORIxDEMO(46, 74, 490, 428, IiiiIiiiiIiIi.iIIiIiiiiiiIi);
-        this.iIiiIiiiiiiII = new iiIiIiiiiIiii("sc/e/31.png", 1, 3, iiIIiiiiIiiII.iiiiIiiiIiiII, iiIIiiiiIiiII.IIiiiiiiIiiII, "\u5347 \u7ea7", (IiiiIiiiiIiIi)this);
+        this.iIiiIiiiiiiII = new iiIiIiiiiIiii("sc/e/31.png", 1, 3, iiIIiiiiIiiII.iiiiIiiiIiiII, iiIIiiiiIiiII.IIiiiiiiIiiII, "升 级", (IiiiIiiiiIiIi)this);
         this.iIiiIiiiiiiII.setBounds(289, 337, 79, 25);
         this.add((Component)this.iIiiIiiiiiiII);
         this.IiiiiiiiIIIII = new JLabel[3];
         IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.IiiiiiiiIIIII.length) {
             this.IiiiiiiiIIIII[IiiiiiiiIIIII] = IiIIIiiiiIIiI.ALLATORIxDEMO((int)57, (int)88, (int)37, (int)17, (int)0, (Color)iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c000000"), (Font)iiIIiiiiIiiII.iiiiIiiiIiiII);
-            this.IiiiiiiiIIIII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "\u5957\u88c5" : (IiiiiiiiIIIII == 1 ? "\u6d88\u8017\u91d1\u94b1" : (IiiiiiiiIIIII == 2 ? "\u62e5\u6709\u91d1\u94b1" : "")));
+            this.IiiiiiiiIIIII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "套装" : (IiiiiiiiIIIII == 1 ? "消耗金钱" : (IiiiiiiiIIIII == 2 ? "拥有金钱" : "")));
             if (IiiiiiiiIIIII >= 1 && IiiiiiiiIIIII <= 2) {
                 this.IiiiiiiiIIIII[IiiiiiiiIIIII].setBounds(279, 345 + (IiiiiiiiIIIII - 1) * 26, 72, 19);
             }
@@ -166,7 +166,7 @@ extends IiiiIiiiiIiIi {
             this.add(this.IiiiiiiiIIIII[IiiiiiiiIIIII++]);
         }
         this.iIiIiiiiIiIii = new MoneyType();
-        this.iIiIiiiiIiIii.setIdAndKey(1, "\u73b0 \u91d1");
+        this.iIiIiiiiIiIii.setIdAndKey(1, "现 金");
         this.ALLATORIxDEMO = IiIIIiiiiIIiI.ALLATORIxDEMO((int)308, (int)297, (int)118, (int)19, (int)10, (Color)Color.white, (Font)iiIIiiiiIiiII.iIIIiiiiIIIii, (MoneyType)this.iIiIiiiiIiIii, (GameView)gameView);
         this.ALLATORIxDEMO.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/17.png", (int)3, (int)3, (int)3, (int)3, (boolean)false));
         this.ALLATORIxDEMO.ALLATORIxDEMO(2);
