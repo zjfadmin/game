@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.xy.a.v.iiIiIiiiiIiIi
+ *  com.xy.a.v.BWDHJpanel2
  *  com.xy.q.IiIIIiiiiIIiI
  *  com.xy.q.iiIIiiiiIiiII
  *  com.xy.readbean.Activity
@@ -13,7 +13,7 @@
  */
 package com.xy.a.v;
 
-import com.xy.a.v.iiIiIiiiiIiIi;
+import com.xy.a.v.BWDHJpanel2;
 import com.xy.q.IiIIIiiiiIIiI;
 import com.xy.q.iiIIiiiiIiiII;
 import com.xy.readbean.Activity;
@@ -31,10 +31,10 @@ import javax.swing.JLabel;
 /*
  * Exception performing whole class analysis ignored.
  */
-static class IiIIIiiiIIiII
+static class BWDHButton3
 extends IIIiiiiiIiIiI
 implements MouseListener {
-    final /* synthetic */ iiIiIiiiiIiIi iIiIiiiiIiIii;
+    final /* synthetic */ BWDHJpanel2 iIiIiiiiIiIii;
     private int IiIIIiiiiIiiI;
     private JLabel iiIiiiiiiiIii;
     private JLabel IiiiiiiiIIIII;
@@ -44,7 +44,7 @@ implements MouseListener {
     public void mouseEntered(MouseEvent e) {
     }
 
-    static /* synthetic */ boolean ALLATORIxDEMO(IiIIIiiiIIiII arg0) {
+    static /* synthetic */ boolean ALLATORIxDEMO(BWDHButton3 arg0) {
         return arg0.ALLATORIxDEMO;
     }
 
@@ -97,7 +97,7 @@ implements MouseListener {
         if (iIiIIiiiIiiiI.ALLATORIxDEMO()) {
             return;
         }
-        Activity IiiiiiiiIIIII = iiIiIiiiiIiIi.ALLATORIxDEMO((iiIiIiiiiIiIi)this.iIiIiiiiIiIii).ALLATORIxDEMO();
+        Activity IiiiiiiiIIIII = BWDHJpanel2.ALLATORIxDEMO((BWDHJpanel2)this.iIiIiiiiIiIii).ALLATORIxDEMO();
         String IiiiiiiiIIIII2 = Agreement.getSendTextAES((String)"activity", (String)(String.valueOf(IiiiiiiiIIIII.getId()) + "|M" + (this.IiIIIiiiiIiiI + 2)));
         this.iIiIiiiiIiIii.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII2);
     }
@@ -106,7 +106,7 @@ implements MouseListener {
     public void mousePressed(MouseEvent e) {
     }
 
-    public IiIIIiiiIIiII(iiIiIiiiiIiIi iiIiIiiiiIiIi2, int index) {
+    public BWDHButton3(BWDHJpanel2 iiIiIiiiiIiIi2, int index) {
         this.iIiIiiiiIiIii = iiIiIiiiiIiIi2;
         this.IiIIIiiiiIiiI = index;
         this.IiiiiiiiIIIII = IiIIIiiiiIIiI.ALLATORIxDEMO((int)40, (int)3, (int)93, (int)20, (Color)iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c462803"), (Font)iiIIiiiiIiiII.iiiiIiiiIiiII);

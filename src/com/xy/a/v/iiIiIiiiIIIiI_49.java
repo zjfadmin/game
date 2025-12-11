@@ -3,7 +3,7 @@
  * 
  * Could not load the following classes:
  *  com.xy.a.v.IIIIIiiiIIIiI
- *  com.xy.a.v.IIiIIiiiIIIiI
+ *  com.xy.a.v.BWDHButton1
  *  com.xy.a.v.iiIiIiiiiIiIi
  *  com.xy.q.IIIiIiiiiIiII
  *  com.xy.q.IiIIIiiiiIIiI
@@ -17,7 +17,7 @@
 package com.xy.a.v;
 
 import com.xy.a.v.IIIIIiiiIIIiI;
-import com.xy.a.v.IIiIIiiiIIIiI;
+import com.xy.a.v.BWDHButton1;
 import com.xy.a.v.BWDHJpanel2;
 import com.xy.q.IIIiIiiiiIiII;
 import com.xy.q.IiIIIiiiiIIiI;
@@ -47,7 +47,7 @@ extends iIiIIiiiIiiiI {
     private IIIiIiiiiIiII IIiiIiiiIIiIi;
     private JLabel[] iIiIiiiiIiIii;
     private JScrollPane IiIIIiiiiIiiI;
-    private List<IIiIIiiiIIIiI> iiIiiiiiiiIii;
+    private List<BWDHButton1> iiIiiiiiiiIii;
     private JComponent IiiiiiiiIIIII;
     final /* synthetic */ iiIiIiiiiIiIi ALLATORIxDEMO;
 
@@ -84,16 +84,16 @@ extends iIiIIiiiIiiiI {
         this.IiIIIiiiiIiiI = IiIIIiiiiIIiI.ALLATORIxDEMO((int)50, (int)118, (int)593, (int)336, (Component)this.IiiiiiiiIIIII, (int)20);
         this.IiIIIiiiiIiiI.getVerticalScrollBar().setUI((ScrollBarUI)new iiiiiiiiiiIiI(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/106.png", (int)3, (int)3, (int)3, (int)3, (boolean)false), 8));
         this.add(this.IiIIIiiiiIiiI);
-        this.iiIiiiiiiiIii = new ArrayList<IIiIIiiiIIIiI>();
+        this.iiIiiiiiiiIii = new ArrayList<BWDHButton1>();
     }
 
     public void ALLATORIxDEMO(BWDHRuleBattleRecord[] records) {
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < records.length) {
-            IIiIIiiiIIIiI IiiiiiiiIIIII2;
-            IIiIIiiiIIIiI iIiIIiiiIIIiI = IiiiiiiiIIIII2 = IiiiiiiiIIIII < this.iiIiiiiiiiIii.size() ? this.iiIiiiiiiiIii.get(IiiiiiiiIIIII) : null;
+            BWDHButton1 IiiiiiiiIIIII2;
+            BWDHButton1 iIiIIiiiIIIiI = IiiiiiiiIIIII2 = IiiiiiiiIIIII < this.iiIiiiiiiiIii.size() ? this.iiIiiiiiiiIii.get(IiiiiiiiIIIII) : null;
             if (IiiiiiiiIIIII2 == null) {
-                IiiiiiiiIIIII2 = new IIiIIiiiIIIiI(this.ALLATORIxDEMO);
+                IiiiiiiiIIIII2 = new BWDHButton1(this.ALLATORIxDEMO);
                 this.iiIiiiiiiiIii.add(IiiiiiiiIIIII2);
                 this.IiiiiiiiIIIII.add((Component)IiiiiiiiIIIII2);
             }
@@ -105,7 +105,7 @@ extends iIiIIiiiIiiiI {
         }
         IiiiiiiiIIIII = records.length;
         while (IiiiiiiiIIIII < this.iiIiiiiiiiIii.size()) {
-            IIiIIiiiIIIiI iIiIIiiiIIIiI = this.iiIiiiiiiiIii.get(IiiiiiiiIIIII);
+            BWDHButton1 iIiIIiiiIIIiI = this.iiIiiiiiiiIii.get(IiiiiiiiIIIII);
             ++IiiiiiiiIIIII;
             iIiIIiiiIIIiI.setVisible(false);
         }

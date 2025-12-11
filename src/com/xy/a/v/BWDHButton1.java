@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.xy.a.v.iiIiIiiiiIiIi
+ *  com.xy.a.v.BWDHJpanel2
  *  com.xy.i.iiIiIiiiIIIiI
  *  com.xy.q.IiIIIiiiiIIiI
  *  com.xy.q.iiIIiiiiIiiII
@@ -29,15 +29,15 @@ import javax.swing.JLabel;
 /*
  * Exception performing whole class analysis ignored.
  */
-static class IIiIIiiiIIIiI
+static class BWDHButton1
 extends IIIiiiiiIiIiI {
     private iiIiIiiiIIIiI iIiIiiiiIiIii;
     private IIIiiiiiIiIiI IiIIIiiiiIiiI;
     private iiIiIiiiIIIiI iiIiiiiiiiIii;
-    final /* synthetic */ iiIiIiiiiIiIi IiiiiiiiIIIII;
+    final /* synthetic */ BWDHJpanel2 IiiiiiiiIIIII;
     private JLabel[] ALLATORIxDEMO;
 
-    public IIiIIiiiIIIiI(iiIiIiiiiIiIi iiIiIiiiiIiIi2) {
+    public BWDHButton1(BWDHJpanel2 iiIiIiiiiIiIi2) {
         this.IiiiiiiiIIIII = iiIiIiiiiIiIi2;
         super(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/142.png", (int)20, (int)10, (int)20, (int)10, (boolean)false));
         this.IiIIIiiiiIiiI = new IIIiiiiiIiIiI();

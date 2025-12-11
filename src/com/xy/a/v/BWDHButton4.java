@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.xy.a.v.iiIiIiiiiiIIi
+ *  com.xy.a.v.BWDHJpanel6
  *  com.xy.q.IiIIIiiiiIIiI
  *  com.xy.q.iiIIiiiiIiiII
  *  com.xy.readbean.Activity
@@ -13,7 +13,7 @@
  */
 package com.xy.a.v;
 
-import com.xy.a.v.iiIiIiiiiiIIi;
+import com.xy.a.v.BWDHJpanel6;
 import com.xy.q.IiIIIiiiiIIiI;
 import com.xy.q.iiIIiiiiIiiII;
 import com.xy.readbean.Activity;
@@ -31,14 +31,14 @@ import javax.swing.JLabel;
 /*
  * Exception performing whole class analysis ignored.
  */
-static class IiIIIiiiiiiIi
+static class BWDHButton4
 extends IIIiiiiiIiIiI
 implements MouseListener {
     private boolean iIiIiiiiIiIii;
     private JLabel IiIIIiiiiIiiI;
     private JLabel iiIiiiiiiiIii;
     private int IiiiiiiiIIIII;
-    final /* synthetic */ iiIiIiiiiiIIi ALLATORIxDEMO;
+    final /* synthetic */ BWDHJpanel6 ALLATORIxDEMO;
 
     @Override
     public void mouseEntered(MouseEvent e) {
@@ -48,11 +48,11 @@ implements MouseListener {
     public void mouseExited(MouseEvent e) {
     }
 
-    static /* synthetic */ boolean ALLATORIxDEMO(IiIIIiiiiiiIi arg0) {
+    static /* synthetic */ boolean ALLATORIxDEMO(BWDHButton4 arg0) {
         return arg0.iIiIiiiiIiIii;
     }
 
-    public IiIIIiiiiiiIi(iiIiIiiiiiIIi iiIiIiiiiiIIi2, int index) {
+    public BWDHButton4(BWDHJpanel6 iiIiIiiiiiIIi2, int index) {
         this.ALLATORIxDEMO = iiIiIiiiiiIIi2;
         this.IiiiiiiiIIIII = index;
         this.iiIiiiiiiiIii = IiIIIiiiiIIiI.ALLATORIxDEMO((int)40, (int)3, (int)93, (int)20, (Color)iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c462803"), (Font)iiIIiiiiIiiII.iiiiIiiiIiiII);
@@ -93,7 +93,7 @@ implements MouseListener {
         if (iIiIIiiiIiiiI.ALLATORIxDEMO()) {
             return;
         }
-        Activity IiiiiiiiIIIII = iiIiIiiiiiIIi.ALLATORIxDEMO((iiIiIiiiiiIIi)this.ALLATORIxDEMO).ALLATORIxDEMO();
+        Activity IiiiiiiiIIIII = BWDHJpanel6.ALLATORIxDEMO((BWDHJpanel6)this.ALLATORIxDEMO).ALLATORIxDEMO();
         String IiiiiiiiIIIII2 = Agreement.getSendTextAES((String)"activity", (String)(String.valueOf(IiiiiiiiIIIII.getId()) + "|R" + (this.IiiiiiiiIIIII + 2)));
         this.ALLATORIxDEMO.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII2);
     }

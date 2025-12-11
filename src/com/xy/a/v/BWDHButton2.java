@@ -3,7 +3,7 @@
  * 
  * Could not load the following classes:
  *  com.xy.a.v.IIiIiiiiIiiIi
- *  com.xy.a.v.iiIiIiiiiiIIi
+ *  com.xy.a.v.BWDHJpanel6
  *  com.xy.i.IIiIiiiiIiiIi
  *  com.xy.q.iIiIIiiiIiiiI
  *  com.xy.q.iiIIiiiiIiiII
@@ -15,7 +15,7 @@
 package com.xy.a.v;
 
 import com.xy.a.v.IIiIiiiiIiiIi;
-import com.xy.a.v.iiIiIiiiiiIIi;
+import com.xy.a.v.BWDHJpanel6;
 import com.xy.q.iIiIIiiiIiiiI;
 import com.xy.q.iiIIiiiiIiiII;
 import com.xy.scene.BWDHRuleBattle;
@@ -27,9 +27,9 @@ import java.awt.Component;
 /*
  * Exception performing whole class analysis ignored.
  */
-static class IIiiIiiiIiiiI
+static class BWDHButton2
 extends iIiIIiiiIiiiI {
-    final /* synthetic */ iiIiIiiiiiIIi iiiIiiiiiiiIi;
+    final /* synthetic */ BWDHJpanel6 iiiIiiiiiiiIi;
     private IIIiiiiiIiIiI iIiiIiiiiiiII;
     private IIIiiiiiIiIiI IIiiIiiiIIiIi;
     private IIiIiiiiIiiIi[] iIiIiiiiIiIii;
@@ -57,7 +57,7 @@ extends iIiIIiiiIiiiI {
                 } else if (IiiiiiiiIIIII == 0 && menuType == 3) {
                     this.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"季", "殿", "赛"});
                 } else {
-                    IIiiIiiiIiiiI iIiiIiiiIiiiI = this;
+                    BWDHButton2 iIiiIiiiIiiiI = this;
                     if (IiiiiiiiIIIII == 0) {
                         iIiiIiiiIiiiI.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"上", "半", "场"});
                     } else {
@@ -77,7 +77,7 @@ extends iIiIIiiiIiiiI {
                 } else if (IiiiiiiiIIIII2.getType() == 4) {
                     this.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"季", "殿", "赛"});
                 } else {
-                    IIiiIiiiIiiiI iIiiIiiiIiiiI = this;
+                    BWDHButton2 iIiiIiiiIiiiI = this;
                     if (IiiiiiiiIIIII == 0) {
                         iIiiIiiiIiiiI.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"上", "半", "场"});
                     } else {
@@ -91,7 +91,7 @@ extends iIiIIiiiIiiiI {
         }
     }
 
-    public IIiiIiiiIiiiI(iiIiIiiiiiIIi iiIiIiiiiiIIi2) {
+    public BWDHButton2(BWDHJpanel6 iiIiIiiiiiIIi2) {
         this.iiiIiiiiiiiIi = iiIiIiiiiiIIi2;
         this.setBounds(0, 0, 718, 526);
         this.iiIiiiiiiiIii = new com.xy.i.IIiIiiiiIiiIi[2];
