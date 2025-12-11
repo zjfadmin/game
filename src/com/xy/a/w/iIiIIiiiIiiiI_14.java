@@ -89,8 +89,8 @@ extends IiiiIiiiiIiIi {
         int IiiiiiiiIIIII3 = IiiiIiiiiIIII.iIiIiiiiIIiii((int)IiiiiiiiIIIII2.getGrade());
         int IiiiiiiiIIIII4 = IiiiIiiiiIIII.ALLATORIxDEMO((int)IiiiiiiiIIIII2.getGrade());
         this.iiIiiiiiiiIii.iIiIiiiiIIiii(IIiIiiiiIiiIi.iiiIiiiiiiIIi((String)IiiiiiiiIIIII2.getSpecies_id().toString()));
-        this.iIiiIiiiiiiII[6].setText(String.valueOf(IiiiIiiiiIIII.iIiIiiiiIIiii((int)IiiiiiiiIIIII2.getGrade())) + "\u7ea7");
-        this.IiiiiiiiIIIII[0].setText(String.valueOf(IiiiiiiiIIIII2.getRace_name()) + "\u00b7" + IiiiiiiiIIIII2.getLocalname());
+        this.iIiiIiiiiiiII[6].setText(String.valueOf(IiiiIiiiiIIII.iIiIiiiiIIiii((int)IiiiiiiiIIIII2.getGrade())) + "级");
+        this.IiiiiiiiIIIII[0].setText(String.valueOf(IiiiiiiiIIIII2.getRace_name()) + "·" + IiiiiiiiIIIII2.getLocalname());
         this.iIiiIiiiiiiII[2].setText(IiiiiiiiIIIII2.getGangname());
         this.iIiiIiiiiiiII[5].setText(IiiiiiiiIIIII2.getTitle());
         this.iIiiIiiiiiiII[0].setText(IiiiiiiiIIIII2.getRolename());
@@ -139,7 +139,7 @@ extends IiiiIiiiiIiIi {
     public iIiIIiiiIiiiI(GameView gameView) {
         super(0, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-3, 0, 362, 455, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
-        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u4eba\u7269\u5c5e\u6027");
+        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "人物属性");
         this.iiIiiiiiiiIii = new IIIiiiiiIiIiI();
         this.IIiiIiiiIIiIi = new IIIiiiiiIiIiI();
         this.iiIiiiiiiiIii.setBounds(67, 41, 75, 100);
@@ -151,7 +151,7 @@ extends IiiiIiiiiIiIi {
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.IiiiiiiiIIIII.length) {
             this.IiiiiiiiIIIII[IiiiiiiiIIIII] = IiIIIiiiiIIiI.ALLATORIxDEMO((int)40, (int)146, (int)130, (int)18, (int)0, (Color)Color.black, (Font)iiIIiiiiIiiII.iiiiIiiiIiiII);
-            this.IiiiiiiiIIIII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "\u5b66\u4e60\u4ea4\u6d41\u00b7\u81ea\u5b66" : (IiiiiiiiIIIII == 1 ? "\u5e2e\u6d3e" : (IiiiiiiiIIIII == 2 ? "\u58f0\u671b" : (IiiiiiiiIIIII == 3 ? "\u6218\u7ee9" : (IiiiiiiiIIIII == 4 ? "\u7b49\u7ea7" : (IiiiiiiiIIIII == 5 ? "\u6c14\u8840" : (IiiiiiiiIIIII == 6 ? "\u6cd5\u529b" : (IiiiiiiiIIIII == 7 ? "\u653b\u51fb" : (IiiiiiiiIIIII == 8 ? "\u901f\u5ea6" : (IiiiiiiiIIIII == 9 ? "\u7ecf\u9a8c" : (IiiiiiiiIIIII == 10 ? "\u53ef\u5206\u914d\u70b9" : (IiiiiiiiIIIII == 11 ? "\u6839\u9aa8" : (IiiiiiiiIIIII == 12 ? "\u7075\u6027" : (IiiiiiiiIIIII == 13 ? "\u529b\u91cf" : (IiiiiiiiIIIII == 14 ? "\u654f\u6377" : (IiiiiiiiIIIII == 15 ? "\u7985\u5b9a" : (IiiiiiiiIIIII == 16 ? "\u5b9a\u529b" : "")))))))))))))))));
+            this.IiiiiiiiIIIII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "学习交流·自学" : (IiiiiiiiIIIII == 1 ? "帮派" : (IiiiiiiiIIIII == 2 ? "声望" : (IiiiiiiiIIIII == 3 ? "战绩" : (IiiiiiiiIIIII == 4 ? "等级" : (IiiiiiiiIIIII == 5 ? "气血" : (IiiiiiiiIIIII == 6 ? "攻击" : (IiiiiiiiIIIII == 7 ? "速度" : (IiiiiiiiIIIII == 8 ? "经验" : (IiiiiiiiIIIII == 9 ? "人物技能" : (IiiiiiiiIIIII == 10 ? "坐骑" : (IiiiiiiiIIIII == 11 ? "作坊" : (IiiiiiiiIIIII == 12 ? "转换" : (IiiiiiiiIIIII == 13 ? "根骨" : (IiiiiiiiIIIII == 14 ? "灵性" : (IiiiiiiiIIIII == 15 ? "力量" : (IiiiiiiiIIIII == 16 ? "敏捷" : "")))))))))))))));
             if (IiiiiiiiIIIII >= 1 && IiiiiiiiIIIII <= 3) {
                 this.IiiiiiiiIIIII[IiiiiiiiIIIII].setBounds(167, 80 + (IiiiiiiiIIIII - 1) * 24, 40, 19);
             } else if (IiiiiiiiIIIII >= 4 && IiiiiiiiIIIII <= 9) {
@@ -170,7 +170,7 @@ extends IiiiIiiiiIiIi {
         this.iIiIiiiiIiIii = new IIiIiiiiIiIII[13];
         IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.iIiIiiiiIiIii.length) {
-            this.iIiIiiiiIiIii[IiiiiiiiIIIII] = new IIiIiiiiIiIII(null, 1, 1 + IiiiiiiiIIIII, iiIIiiiiIiiII.iiIiiiiiiIIiI, null, IiiiiiiiIIIII == 0 ? "\u540d\u5b57" : (IiiiiiiiIIIII == 1 ? "I D" : (IiiiiiiiIIIII == 2 ? "\u79f0\u8c13" : (IiiiiiiiIIIII == 3 ? "\u5207\u5c5e\u6027" : (IiiiiiiiIIIII == 4 ? "\u63a8\u8350\u52a0\u70b9" : (IiiiiiiiIIIII == 5 ? "\u786e\u8ba4\u52a0\u70b9" : (IiiiiiiiIIIII == 6 ? "\u4e03\u5341\u4e8c\u53d8" : (IiiiiiiiIIIII == 7 ? "\u7075 \u5b9d" : (IiiiiiiiIIIII == 8 ? "\u6297 \u6027" : (IiiiiiiiIIIII == 9 ? "\u4eba\u7269\u6280\u80fd" : (IiiiiiiiIIIII == 10 ? "\u5750 \u9a91" : (IiiiiiiiIIIII == 11 ? "\u4f5c \u574a" : (IiiiiiiiIIIII == 12 ? "\u8f6c\u6362" : "")))))))))))), (IiiiIiiiiIiIi)this);
+            this.iIiIiiiiIiIii[IiiiiiiiIIIII] = new IIiIiiiiIiIII(null, 1, 1 + IiiiiiiiIIIII, iiIIiiiiIiiII.iiIiiiiiiIIiI, null, IiiiiiiiIIIII == 0 ? "名字" : (IiiiiiiiIIIII == 1 ? "I D" : (IiiiiiiiIIIII == 2 ? "称谓" : (IiiiiiiiIIIII == 3 ? "切属性" : (IiiiiiiiIIIII == 4 ? "推荐加点" : (IiiiiiiiIIIII == 5 ? "确认加点" : (IiiiiiiiIIIII == 6 ? "七十二变" : (IiiiiiiiIIIII == 7 ? "灵 宝" : (IiiiiiiiIIIII == 8 ? "抗 性" : (IiiiiiiiIIIII == 9 ? "人物技能" : (IiiiiiiiIIIII == 10 ? "坐 骑" : (IiiiiiiiIIIII == 11 ? "作 坊" : (IiiiiiiiIIIII == 12 ? "转换" : "")))))))))))), (IiiiIiiiiIiIi)this);
             if (IiiiiiiiIIIII == 0 || IiiiiiiiIIIII == 1) {
                 this.iIiIiiiiIiIii[IiiiiiiiIIIII].setImage("sc/e/5.png");
                 this.iIiIiiiiIiIii[IiiiiiiiIIIII].setBounds(170, 33 + 24 * IiiiiiiiIIIII, 34, 17);
