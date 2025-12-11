@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.xy.a.a.IIIiiiiiiiiIi
+ *  com.xy.a.a.TestpackJpanel
  *  com.xy.a.a.iiIiIiiiiiIIi
  *  com.xy.a.i.WorkshopBtn
  *  com.xy.a.iiIiiiiiIIiiI
@@ -36,7 +36,7 @@
  */
 package com.xy.q;
 
-import com.xy.a.a.IIIiiiiiiiiIi;
+import com.xy.a.a.TestpackJpanel;
 import com.xy.a.a.iiIiIiiiiiIIi;
 import com.xy.a.i.WorkshopBtn;
 import com.xy.a.iiIiiiiiIIiiI;

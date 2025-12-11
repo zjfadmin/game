@@ -51,7 +51,7 @@ import javax.swing.JLabel;
 /*
  * Duplicate member names - consider using --renamedupmembers true
  */
-public class IIIiiiiiiiiIi
+public class TestpackJpanel
 extends IiiiIiiiiIiIi {
     private com.xy.w.IiiiIiiiiIiIi iiIIIiiiiiiiI;
     private IIIiiiiiIiIiI IiIiiiiiIIIII;
@@ -93,7 +93,7 @@ extends IiiiIiiiiIiIi {
     /*
      * Unable to fully structure code
      */
-    public IIIiiiiiiiiIi(GameView gameView) {
+    public TestpackJpanel(GameView gameView) {
         block11: {
             block10: {
                 super(2, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);

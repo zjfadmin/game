@@ -1,169 +1,4 @@
-/*
- * Decompiled with CFR 0.152.
- * 
- * Could not load the following classes:
- *  com.xy.a.IIIIIiiiIIIiI
- *  com.xy.a.IIIIIiiiIiiII
- *  com.xy.a.IIIIIiiiiiiii
- *  com.xy.a.IIIIiiiiiIiII
- *  com.xy.a.IIIiIiiiIiIii
- *  com.xy.a.IIIiIiiiiIIiI
- *  com.xy.a.IIiiiiiiIIIiI
- *  com.xy.a.IIiiiiiiIIIii
- *  com.xy.a.IIiiiiiiiIIII
- *  com.xy.a.IIiiiiiiiiIii
- *  com.xy.a.IiIIIiiiIIIiI
- *  com.xy.a.IiIIIiiiiIIiI
- *  com.xy.a.IiIIiiiiiIIII
- *  com.xy.a.IiIIiiiiiIiII
- *  com.xy.a.IiIIiiiiiiiiI
- *  com.xy.a.IiIiIiiiiIIiI
- *  com.xy.a.IiIiiiiiIIIII
- *  com.xy.a.IiiIIiiiiIiii
- *  com.xy.a.IiiIiiiiIIIIi
- *  com.xy.a.IiiIiiiiIiIIi
- *  com.xy.a.IiiiIiiiiIiII
- *  com.xy.a.IiiiIiiiiIiIi
- *  com.xy.a.a.IIIIIiiiIiIii
- *  com.xy.a.a.IIIIIiiiIiiII
- *  com.xy.a.a.IIIIiiiiIIIIi
- *  com.xy.a.a.IIIiIiiiIiIII
- *  com.xy.a.a.IIIiIiiiiIIiI
- *  com.xy.a.a.IIIiiiiiiiiIi
- *  com.xy.a.a.IIiiIiiiIiiiI
- *  com.xy.a.a.IIiiiiiiIiIii
- *  com.xy.a.a.IiiIiiiiIIIii
- *  com.xy.a.a.IiiiIiiiiIIII
- *  com.xy.a.a.IiiiIiiiiIiII
- *  com.xy.a.a.IiiiiiiiiIIII
- *  com.xy.a.a.TestChildJpanel
- *  com.xy.a.a.iIIiiiiiIIIIi
- *  com.xy.a.a.iIiIIiiiIiiiI
- *  com.xy.a.a.iIiIiiiiIiIII
- *  com.xy.a.a.iIiIiiiiiiiIi
- *  com.xy.a.a.iiIiIiiiiIiIi
- *  com.xy.a.a.iiIiIiiiiIiii
- *  com.xy.a.a.iiIiIiiiiiIIi
- *  com.xy.a.a.iiIiIiiiiiiiI
- *  com.xy.a.a.iiiIIiiiIIIii
- *  com.xy.a.a.iiiiiiiiiiIiI
- *  com.xy.a.i.WorkshopBtn
- *  com.xy.a.i.IIIIIiiiIiiII
- *  com.xy.a.i.IIIiiiiiIiIiI
- *  com.xy.a.i.IIiIIiiiIIIiI
- *  com.xy.a.i.IIiIiiiiIiIII
- *  com.xy.a.i.IiIIIiiiiiiIi
- *  com.xy.a.i.IiIiIiiiiIiii
- *  com.xy.a.i.AlreadyRecordedJpanel
- *  com.xy.a.i.IiIiiiiiIIIiI
- *  com.xy.a.i.IiiiiiiiiIIII
- *  com.xy.a.i.iIiIIiiiIIIiI
- *  com.xy.a.i.iIiIIiiiIIiIi
- *  com.xy.a.i.iiIiIiiiiIiIi
- *  com.xy.a.i.iiIiiiiiIIiiI
- *  com.xy.a.i.iiIiiiiiIIiii
- *  com.xy.a.iIIIiiiiIiiII
- *  com.xy.a.iIIiiiiiIIIIi
- *  com.xy.a.iIIiiiiiIiIII
- *  com.xy.a.iIiIIiiiIIIiI
- *  com.xy.a.iIiIIiiiIiiiI
- *  com.xy.a.iIiIIiiiiiiiI
- *  com.xy.a.iIiIIiiiiiiii
- *  com.xy.a.iIiIiiiiIiIiI
- *  com.xy.a.iIiIiiiiiiiIi
- *  com.xy.a.iIiiIiiiIiIIi
- *  com.xy.a.iIiiiiiiiiiii
- *  com.xy.a.iiIIiiiiIiIiI
- *  com.xy.a.iiIIiiiiiIIII
- *  com.xy.a.iiIiIiiiIIIiI
- *  com.xy.a.iiIiIiiiiIIII
- *  com.xy.a.iiIiIiiiiIIiI
- *  com.xy.a.iiIiIiiiiIiIi
- *  com.xy.a.iiIiIiiiiiIIi
- *  com.xy.a.iiIiiiiiIIiIi
- *  com.xy.a.iiIiiiiiIIiiI
- *  com.xy.a.iiIiiiiiIIiii
- *  com.xy.a.iiiIiiiiIiIiI
- *  com.xy.a.iiiIiiiiIiiiI
- *  com.xy.a.iiiIiiiiiiiiI
- *  com.xy.a.iiiiIiiiiiIiI
- *  com.xy.a.iiiiiiiiIIIII
- *  com.xy.a.iiiiiiiiiiIiI
- *  com.xy.a.iiiiiiiiiiiIi
- *  com.xy.a.q.IIIIIiiiIiIii
- *  com.xy.a.q.IIIIiiiiIIIIi
- *  com.xy.a.q.IIIiIiiiIiIII
- *  com.xy.a.q.IIIiIiiiIiIii
- *  com.xy.a.q.IIIiIiiiiIIii
- *  com.xy.a.q.IIIiiiiiiiiIi
- *  com.xy.a.q.IIiIiiiiiiiII
- *  com.xy.a.q.IIiiIiiiIiIii
- *  com.xy.a.q.IIiiiiiiIiIii
- *  com.xy.a.q.IIiiiiiiiiIii
- *  com.xy.a.q.IiIIIiiiiIIiI
- *  com.xy.a.q.IiIIIiiiiIiii
- *  com.xy.a.q.IiIIIiiiiiiIi
- *  com.xy.a.q.IiIIiiiiiIiiI
- *  com.xy.a.q.IiIiIiiiiIIiI
- *  com.xy.a.q.IiIiIiiiiIiii
- *  com.xy.a.q.IiIiIiiiiiIiI
- *  com.xy.a.q.IiIiiiiiIiIii
- *  com.xy.a.q.IiiIIiiiiIiii
- *  com.xy.a.q.iIIIIiiiIiiIi
- *  com.xy.a.q.iIIIiiiiIiIII
- *  com.xy.a.q.iIIIiiiiIiiII
- *  com.xy.a.q.iIIIiiiiiIiIi
- *  com.xy.a.q.iIIiiiiiIiIII
- *  com.xy.a.q.iIiIIiiiIIIiI
- *  com.xy.a.q.iIiIIiiiIiiiI
- *  com.xy.a.q.iIiIIiiiiiiiI
- *  com.xy.a.q.iIiIIiiiiiiii
- *  com.xy.a.q.iIiIiiiiIiIiI
- *  com.xy.a.q.iIiIiiiiiiiIi
- *  com.xy.a.q.iIiiIiiiIiIIi
- *  com.xy.a.q.iIiiiiiiiiiii
- *  com.xy.a.q.iiIIIiiiIIiII
- *  com.xy.a.q.iiIIIiiiiIiIi
- *  com.xy.a.q.iiIIIiiiiiIII
- *  com.xy.a.q.iiIIiiiiiiiIi
- *  com.xy.a.q.iiIiIiiiIIIiI
- *  com.xy.a.q.iiIiIiiiiIiii
- *  com.xy.a.q.iiIiIiiiiiiiI
- *  com.xy.a.q.iiIiiiiiiIIii
- *  com.xy.a.q.iiiIIiiiIIIii
- *  com.xy.a.q.iiiIiiiiIiiiI
- *  com.xy.a.q.iiiiIiiiiIiii
- *  com.xy.a.q.iiiiIiiiiiIII
- *  com.xy.a.q.iiiiIiiiiiIiI
- *  com.xy.a.q.iiiiiiiiiIiII
- *  com.xy.a.q.iiiiiiiiiiIiI
- *  com.xy.a.v.IIIIIiiiIiiII
- *  com.xy.a.v.IIIIiiiiIIIIi
- *  com.xy.a.v.IiiIIiiiiIiii
- *  com.xy.a.v.IiiiIiiiiIiII
- *  com.xy.a.v.IiiiIiiiiIiIi
- *  com.xy.a.v.iIIiIiiiIiiIi
- *  com.xy.a.v.iiIiIiiiiIiii
- *  com.xy.a.v.iiIiiiiiIIiii
- *  com.xy.a.w.IIIIIiiiIIIiI
- *  com.xy.a.w.IIIIiiiiIIIIi
- *  com.xy.a.w.IIIiiiiiIiIiI
- *  com.xy.a.w.IIIiiiiiiiiIi
- *  com.xy.a.w.IIiIIiiiIIIiI
- *  com.xy.a.w.IIiIiiiiIiIII
- *  com.xy.a.w.IIiiIiiiiIIiI
- *  com.xy.a.w.IiIIIiiiIIiII
- *  com.xy.a.w.IiIIIiiiiiiIi
- *  com.xy.a.w.IiiIiiiiIIIii
- *  com.xy.a.w.iIIIIiiiIiiIi
- *  com.xy.a.w.TeststateJpanel
- *  com.xy.a.w.iIiIiiiiIiIII
- *  com.xy.a.w.iiIiIiiiIIIiI
- *  com.xy.a.w.iiiiiiiiiiIiI
- *  com.xy.q.IiiiIiiiiIiIi
- *  com.xy.q.iiIiIiiiiiiiI
- *  com.xy.text.GameView
- */
+
 package com.xy.q;
 
 import com.xy.a.IIIIIiiiIIIiI;
@@ -189,7 +24,7 @@ import com.xy.a.IiiIiiiiIiIIi;
 import com.xy.a.a.IIIIIiiiIiIii;
 import com.xy.a.a.IIIIiiiiIIIIi;
 import com.xy.a.a.IIIiIiiiIiIII;
-import com.xy.a.a.IIIiiiiiiiiIi;
+import com.xy.a.a.TestpackJpanel;
 import com.xy.a.a.IIiiIiiiIiiiI;
 import com.xy.a.a.IIiiiiiiIiIii;
 import com.xy.a.a.IiiiIiiiiIIII;
@@ -364,7 +199,7 @@ public class IIiiIiiiIIiIi {
                 return IiiiiiiiIIIII;
             }
             case 2: {
-                IiiiiiiiIIIII = new IIIiiiiiiiiIi(this.IiIIIiiiiIiiI);
+                IiiiiiiiIIIII = new TestpackJpanel(this.IiIIIiiiiIiiI);
                 return IiiiiiiiIIIII;
             }
             case 3: {
