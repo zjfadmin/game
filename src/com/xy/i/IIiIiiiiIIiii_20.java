@@ -98,7 +98,7 @@ extends IIiiIiiiiIIiI {
                 return;
             }
             this.form.ALLATORIxDEMO().setLockPack();
-            this.form.ALLATORIxDEMO().iiiIiiiiiiIIi("\u80cc\u5305\u5df2\u52a0\u9501\uff01");
+            this.form.ALLATORIxDEMO().iiiIiiiiiiIIi("背包已加锁！");
             return;
         }
         if (this.ALLATORIxDEMO == 4) {
@@ -118,7 +118,7 @@ extends IIiiIiiiiIIiI {
             RoleShow IiiiiiiiIIIII = this.form.iiIIiiiiIiIIi.roleUnit.iIiIiiiiIiIii;
             if (this.form.ALLATORIxDEMO().ALLATORIxDEMO(2, 3)) {
                 if (!(IiiiiiiiIIIII.getMapid() == 1236L && IiiiiiiiIIIII.getX() > 5977 && IiiiiiiiIIIII.getX() < 8290 && IiiiiiiiIIIII.getY() > 3099 && IiiiiiiiIIIII.getY() < 4174 || IiiiiiiiIIIII.getMapid() == 1207L && IiiiiiiiIIIII.getX() > 3320 && IiiiiiiiIIIII.getX() < 4320 && IiiiiiiiIIIII.getY() > 4220 && IiiiiiiiIIIII.getY() < 4500)) {
-                    this.form.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u5728\u6d1b\u9633\u96c6\u5e02\u6216\u8005\u957f\u5b89\u96c6\u5e02\u6446\u644a");
+                    this.form.iiIIiiiiIiIIi.iIiIiiiiIIiii("在洛阳集市或者长安集市摆摊");
                     return;
                 }
                 if (IiiiiiiiIIIII.getMapid() == 1236L && IiiiiiiiIIIII.getX() > 7130 && IiiiiiiiIIIII.getX() < 7370 && IiiiiiiiIIIII.getY() > 3435 && IiiiiiiiIIIII.getY() < 3585) {
@@ -127,7 +127,7 @@ extends IIiiIiiiiIIiI {
                 }
             } else {
                 if (IiiiiiiiIIIII.getMapid() != 1236L || IiiiiiiiIIIII.getX() <= 5977 || IiiiiiiiIIIII.getX() >= 8290 || IiiiiiiiIIIII.getY() <= 3099 || IiiiiiiiIIIII.getY() >= 4174) {
-                    this.form.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u53ea\u80fd\u5728\u6d1b\u9633\u96c6\u5e02\u6446\u644a");
+                    this.form.iiIIiiiiIiIIi.iIiIiiiiIIiii("只能在洛阳集市摆摊");
                     return;
                 }
                 if (IiiiiiiiIIIII.getMapid() == 1236L && IiiiiiiiIIIII.getX() > 7130 && IiiiiiiiIIIII.getX() < 7370 && IiiiiiiiIIIII.getY() > 3435 && IiiiiiiiIIIII.getY() < 3585) {
@@ -144,7 +144,7 @@ extends IIiiIiiiiIIiI {
                 IiiIiiiiIIIii.ALLATORIxDEMO((int)152, (GameView)this.form.iiIIiiiiIiIIi);
                 return;
             }
-            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u5f53\u524d\u72b6\u6001\u4e0d\u80fd\u6446\u644a\uff01");
+            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("当前状态不能摆摊！");
             return;
         }
         if (this.ALLATORIxDEMO == 7) {
@@ -219,10 +219,10 @@ extends IIiiIiiiiIIiI {
             ++IiiiiiiiIIIII11;
         }
         if (IiiiiiiiIIIII10.length() == 0) {
-            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u5f53\u524d\u80cc\u5305\u680f\u6ca1\u6709\u8981\u6e05\u7406\u7684\u7269\u54c1");
+            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("当前背包栏没有要清理的物品");
             return;
         }
-        ConfirmBean IiiiiiiiIIIII2 = new ConfirmBean(1, IiiiiiiiIIIII10.toString(), "#W\u786e\u5b9a\u8981\u5c06\u5f53\u524d\u80cc\u5305\u680f\u7684\u7269\u54c1\u4e22\u5f03\u5417(\u4e0d\u5305\u542b\u52a0\u9501\u7269\u54c1)?");
+        ConfirmBean IiiiiiiiIIIII2 = new ConfirmBean(1, IiiiiiiiIIIII10.toString(), "#W确定要将当前背包栏的物品丢弃吗(不包含加锁物品)?");
         this.form.iiIIiiiiIiIIi.ALLATORIxDEMO(IiiiiiiiIIIII2);
     }
 
