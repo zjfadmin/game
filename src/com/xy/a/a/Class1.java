@@ -107,7 +107,6 @@ public class Class1 extends com.xy.q.Class30 {
                if ((var6 = var10000.indexOf("=")) != -1) {
                   String var7 = var3[var5].substring(0, var6);
                   String var8 = var3[var5].substring(var6 + 1);
-                  var10001 = "拱业属虸";
                   var4.append(var7);
                   String var10004 = "\u001a_";
                   var4.append(" +");
@@ -152,15 +151,12 @@ public class Class1 extends com.xy.q.Class30 {
 
       int var2;
       for (int var10000 = var2 = 0; var10000 < this.o.length; var10000 = ++var2) {
-         String var10008 = "Ep U U U";
          this.o[var2] = com.xy.q.Class1.f(47, 32, 250, 21, 0, com.xy.q.Class49.c("#cFFFFFF"), com.xy.q.Class49.ch);
          JLabel var4 = this.o[var2];
          String var7;
          if (var2 == 0) {
-            var7 = "坪髥抺肉";
             var7 = "坐骑技能";
          } else if (var2 == 1) {
-            var7 = "熌纥庵";
             var7 = "熟练度";
          } else {
             var7 = "";
