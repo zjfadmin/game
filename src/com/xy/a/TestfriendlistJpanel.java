@@ -43,14 +43,14 @@ import javax.swing.tree.DefaultMutableTreeNode;
 /*
  * Duplicate member names - consider using --renamedupmembers true
  */
-public class iIiiiiiiiiiii
+public class TestfriendlistJpanel
 extends IiiiIiiiiIiIi {
     private iiIiIiiiiiIIi[] IiIIIiiiiIiiI;
     private iiIiIiiiiiIIi[] iiIiiiiiiiIii;
     private IIIIIiiiIiiII IiiiiiiiIIIII;
     private long ALLATORIxDEMO;
 
-    public iIiiiiiiiiiii(GameView gameView) {
+    public TestfriendlistJpanel(GameView gameView) {
         super(4, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 160, 496, IiiiIiiiiIiIi.iIIiIiiiiiiIi);
         this.ALLATORIxDEMO(com.xy.w.IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/23.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), null);

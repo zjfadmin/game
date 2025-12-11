@@ -45,7 +45,7 @@ import com.xy.a.iIiIIiiiIIIiI;
 import com.xy.a.iIiIIiiiIiiiI;
 import com.xy.a.iIiIiiiiiiiIi;
 import com.xy.a.iIiiIiiiIiIIi;
-import com.xy.a.iIiiiiiiiiiii;
+import com.xy.a.TestfriendlistJpanel;
 import com.xy.a.iiIIiiiiIiIiI;
 import com.xy.a.iiIIiiiiiIIII;
 import com.xy.a.iiIiIiiiiIIII;
@@ -207,7 +207,7 @@ public class IIiiIiiiIIiIi {
                 return IiiiiiiiIIIII;
             }
             case 4: {
-                IiiiiiiiIIIII = new iIiiiiiiiiiii(this.IiIIIiiiiIiiI);
+                IiiiiiiiIIIII = new TestfriendlistJpanel(this.IiIIIiiiiIiiI);
                 return IiiiiiiiIIIII;
             }
             case 6: {
