@@ -66,9 +66,7 @@ public class Class35 extends com.xy.q.Class30 {
    public Class35(GameView var1) {
       super(2, 2, com.xy.q.Class30.afz, var1);
       this.yy(-1, 0, 412, 485, com.xy.q.Class30.agh);
-      com.xy.w.Class9 var36 = com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false);
-      String var10004 = "牳哆栕";
-      this.yu(var36, "物品栏");
+      this.yu(com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false), "物品栏");
       this.ajl = new Class54[12];
 
       int var2;
@@ -116,51 +114,34 @@ public class Class35 extends com.xy.q.Class30 {
 
       for (int var14 = var2 = 0; var14 < this.ajn.length; var14 = var2) {
          com.xy.i.Class17[] var15 = this.ajn;
-         var10004 = "$TxRx\u0001yG9P";
          int var48 = var2 == 4 ? 24 : 5 + var2;
          String var50;
-         Class35 var10010;
          if (var2 == 0) {
-            var50 = "孟欤";
             var50 = "存款";
-            var10010 = this;
          } else if (var2 == 1) {
-            var50 = "搑摽";
-            var50 = "摆摊";
-            var10010 = this;
+            var50 = "摆摇";
          } else if (var2 == 2) {
-            var50 = "裂扴";
             var50 = "装扮";
-            var10010 = this;
          } else if (var2 == 3) {
-            var50 = "梗柒";
             var50 = "检查";
-            var10010 = this;
          } else if (var2 == 4) {
-            var50 = "渂匟";
             var50 = "清包";
-            var10010 = this;
          } else {
             var50 = "";
-            var10010 = this;
          }
 
-         com.xy.i.Class17 var31 = new com.xy.i.Class17("sc/e/6.png", 1, var48, com.xy.q.Class49.bz, null, var50, var10010);
+         com.xy.i.Class17 var31 = new com.xy.i.Class17("sc/e/6.png", 1, var48, com.xy.q.Class49.bz, null, var50, this);
          var15[var2] = var31;
          this.ajn[var2].setOffsetTexts(com.xy.q.Class49.ag);
-         Class35 var16;
          if (var2 == 0) {
             this.ajn[var2].setBounds(189, 210, 34, 18);
-            var16 = this;
          } else {
             this.ajn[var2].setBounds(190 + 50 * var2, 206, 34, 18);
-            var16 = this;
          }
 
-         var16.add(this.ajn[var2++]);
+         this.add(this.ajn[var2++]);
       }
 
-      Class35 var19;
       if (this.za().i()) {
          for (int var17 = var2 = 1; var17 < this.ajn.length; var17 = var2) {
             com.xy.i.Class17 var18 = this.ajn[var2];
@@ -168,26 +149,18 @@ public class Class35 extends com.xy.q.Class30 {
             var2++;
             var18.setBounds(var25, 206, 34, 18);
          }
-
-         var19 = this;
       } else {
-         var19 = this;
          this.ajn[4].setVisible(false);
       }
 
-      if (var19.za().gamePawn) {
-         com.xy.i.Class17 var20 = this.ajn[3];
-         String var26 = "卒裎";
-         var20.setText("包裹");
+      if (this.za().gamePawn) {
+         this.ajn[3].setText("包裹");
       }
 
       this.ajm = new com.xy.i.Class17[3];
 
       for (int var21 = var2 = 0; var21 < this.ajm.length; var21 = var2) {
-         String var10008 = "id5b55\")ji}";
-         int var58 = 11 + var2;
-         String var10015 = "袒夰";
-         this.ajm[var2] = new com.xy.i.Class17("sc/e/28.png", 1, var58, com.xy.q.Class49.bz, null, "装备" + MsgUntil.h(var2 + 1), this);
+         this.ajm[var2] = new com.xy.i.Class17("sc/e/28.png", 1, 11 + var2, com.xy.q.Class49.bz, null, "装备" + MsgUntil.h(var2 + 1), this);
          this.ajm[var2].setBounds(310, 255 + var2 * 17, 68, 17);
          this.ajm[var2].setVisible(false);
          this.add(this.ajm[var2++]);
@@ -198,7 +171,6 @@ public class Class35 extends com.xy.q.Class30 {
       for (int var22 = var2 = 0; var22 < this.ajr.length; var22 = var2) {
          JLabel var3 = com.xy.q.Class1.f(43, 209 + var2 * 24, 36, 19, 0, Color.black, com.xy.q.Class49.ch);
          com.xy.q.Class52 var4 = com.xy.q.Class1.m(79, 209 + var2 * 24, 144, 19, 10, Color.white, com.xy.q.Class49.ac, null, var1);
-         String var10003 = "id5c56-)ji}";
          var4.mt(com.xy.w.Class16.m("sc/d/17.png", 6, 6, 6, 6, false));
          this.add(var3);
          this.add(var4);
@@ -207,10 +179,8 @@ public class Class35 extends com.xy.q.Class30 {
          var5.setId(var2 == 0 ? 1 : (var2 == 1 ? 2 : 0));
          String var28;
          if (var2 == 0) {
-            var28 = "珧釦";
             var28 = "现金";
          } else if (var2 == 1) {
-            var28 = "帏贻";
             var28 = "师贡";
          } else {
             var28 = "";
@@ -227,24 +197,17 @@ public class Class35 extends com.xy.q.Class30 {
 
       for (int var23 = var2 = 0; var23 < this.ajp.length; var23 = var2) {
          com.xy.i.Class17[] var24 = this.ajp;
-         var10004 = "$TxRx\u0000yG9P";
          int var49 = 9 + var2;
          String var56;
-         Class35 var59;
          if (var2 == 0) {
-            var56 = "敳琜";
             var56 = "整理";
-            var59 = this;
          } else if (var2 == 1) {
-            var56 = "挵裲";
             var56 = "换装";
-            var59 = this;
          } else {
             var56 = "";
-            var59 = this;
          }
 
-         com.xy.i.Class17 var34 = new com.xy.i.Class17("sc/e/7.png", 1, var49, com.xy.q.Class49.ch, com.xy.q.Class49.bv, var56, var59);
+         com.xy.i.Class17 var34 = new com.xy.i.Class17("sc/e/7.png", 1, var49, com.xy.q.Class49.ch, com.xy.q.Class49.bv, var56, this);
          var24[var2] = var34;
          this.ajp[var2].setBounds(240 + 75 * var2, 230, 59, 25);
          this.add(this.ajp[var2++]);
