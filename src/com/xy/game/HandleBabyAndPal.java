@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.xy.a.a.iIIIiiiiIiiII
+ *  com.xy.a.a.TestChildJpanel
  *  com.xy.a.a.iIiIiiiiiiiIi
  *  com.xy.bean.ConfirmBean
  *  com.xy.entity.Baby
@@ -20,7 +20,7 @@
  */
 package com.xy.game;
 
-import com.xy.a.a.iIIIiiiiIiiII;
+import com.xy.a.a.TestChildJpanel;
 import com.xy.a.a.iIiIiiiiiiiIi;
 import com.xy.bean.ConfirmBean;
 import com.xy.entity.Baby;

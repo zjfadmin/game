@@ -4,7 +4,7 @@
  * Could not load the following classes:
  *  com.xy.a.IiIiIiiiIIiiI
  *  com.xy.a.IiiiIiiiiIiII
- *  com.xy.a.a.iIIIiiiiIiiII
+ *  com.xy.a.a.TestChildJpanel
  *  com.xy.a.a.iiiIIiiiIIIii
  *  com.xy.a.i.IIIIIiiiIiIii
  *  com.xy.a.i.IIIIIiiiIiiII
@@ -63,7 +63,7 @@ package com.xy.q;
 
 import com.xy.a.IiIiIiiiIIiiI;
 import com.xy.a.IiiiIiiiiIiII;
-import com.xy.a.a.iIIIiiiiIiiII;
+import com.xy.a.a.TestChildJpanel;
 import com.xy.a.a.iiiIIiiiIIIii;
 import com.xy.a.i.IIIIIiiiIiIii;
 import com.xy.a.i.IIIIIiiiIiiII;

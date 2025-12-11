@@ -36,7 +36,7 @@
  *  com.xy.a.a.IiiiIiiiiIIII
  *  com.xy.a.a.IiiiIiiiiIiII
  *  com.xy.a.a.IiiiiiiiiIIII
- *  com.xy.a.a.iIIIiiiiIiiII
+ *  com.xy.a.a.TestChildJpanel
  *  com.xy.a.a.iIIiiiiiIIIIi
  *  com.xy.a.a.iIiIIiiiIiiiI
  *  com.xy.a.a.iIiIiiiiIiIII
@@ -360,7 +360,7 @@ public class IIiiIiiiIIiIi {
                 return IiiiiiiiIIIII;
             }
             case 1: {
-                IiiiiiiiIIIII = new com.xy.a.a.iIIIiiiiIiiII(this.IiIIIiiiiIiiI);
+                IiiiiiiiIIIII = new com.xy.a.a.TestChildJpanel(this.IiIIIiiiiIiiI);
                 return IiiiiiiiIIIII;
             }
             case 2: {

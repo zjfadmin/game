@@ -69,7 +69,7 @@ import javax.swing.JLabel;
 /*
  * Duplicate member names - consider using --renamedupmembers true
  */
-public class iIIIiiiiIiiII
+public class TestChildJpanel
 extends com.xy.q.IiiiIiiiiIiIi {
     private IIIiiiiiIiIiI[] iiiiIiiiIiiII;
     private iiIiIiiiIiIiI[] iiiIiiiiiiiIi;
@@ -329,7 +329,7 @@ lbl64:
         this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII22);
     }
 
-    public iIIIiiiiIiiII(GameView gameView) {
+    public TestChildJpanel(GameView gameView) {
         super(1, 2, com.xy.q.IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-2, 0, 582, 375, com.xy.q.IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "养育");
