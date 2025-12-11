@@ -34,11 +34,7 @@ class Class39 extends com.xy.q.Class50 {
          int var6 = this.ds == 0 ? var3.getPoint().x : var3.getPoint().y;
          if (var6 > 0) {
             GameView var10000 = Class3.ac(this.akp).afx;
-            String var10006 = "8S,A[g";
-            StringBuilder var10004 = new StringBuilder("SHGZ0|").append(Class3.ad(this.akp));
-            String var10005 = "Q";
-            String var8 = var10004.append("|").append(this.ds).toString();
-            var10005 = "HL砅宁屭课圻骊禐凡寣抿榖＄";
+            String var8 = new StringBuilder("SHGZ0|").append(Class3.ad(this.akp)).append("|").append(this.ds).toString();
             var10000.dm(new ConfirmBean(32, var8, "#W确定将该坐骑移出守护槽？"));
          } else {
             ((Class18)Class3.ac(this.akp).zc().j(173)).cc(Class3.ad(this.akp), this.ds);
@@ -46,13 +42,9 @@ class Class39 extends com.xy.q.Class50 {
       } else {
          Goodstable var4;
          if ((var4 = var2.au(107L)) == null) {
-            String var7 = "泏朤距夲盪灘儭晛";
             Class3.ac(this.akp).afx._do("没有足够的灵元晶");
          } else {
-            String var10003 = "8S>U";
-            StringBuilder var10001 = new StringBuilder("SHUN").append(Class3.ad(this.akp));
-            String var10002 = "Q";
-            String var5 = Agreement.getSendTextAES("usermount", var10001.append("|").append(var4.getRgid()).toString());
+            String var5 = Agreement.getSendTextAES("usermount", new StringBuilder("SHUN").append(Class3.ad(this.akp)).append("|").append(var4.getRgid()).toString());
             var2.getGameView().getClient().k(var5);
          }
       }
@@ -66,19 +58,15 @@ class Class39 extends com.xy.q.Class50 {
       this.jw.setBounds(28, 0, 60, 60);
       this.di = com.xy.q.Class1.k(0, 60, 115, 22, Color.white, com.xy.q.Class49.w);
       this.di.setHorizontalAlignment(0);
-      String var10005 = "\u001dNAIA\u001cX\u001e@]\u0000J";
       this.gh = new com.xy.w.Class18("sc/d/163.png");
       this.gh.setBounds(10, 60, 95, 22);
-      String var3;
+      com.xy.w.Class18 var10001;
       if (var2 == 0) {
-         var3 = "\u0018xD\u007fD*\\+Ek\u0005|";
-         var3 = "sc/d/170.png";
+         var10001 = new com.xy.w.Class18("sc/d/170.png");
       } else {
-         var3 = "\u001dNAIA\u001cY\u001c@]\u0000J";
-         var3 = "sc/d/171.png";
+         var10001 = new com.xy.w.Class18("sc/d/171.png");
       }
 
-      com.xy.w.Class18 var10001 = new com.xy.w.Class18(var3);
       this.nn = var10001;
       this.nn.setBounds(46, 81, 29, 32);
       this.add(this.jw);
@@ -96,23 +84,18 @@ class Class39 extends com.xy.q.Class50 {
    public void acx(boolean var1, BaseMountSH var2, RoleData var3) {
       if (var1) {
          int var4 = this.ds == 0 ? var2.getPoint().x : var2.getPoint().y;
-         String var10003 = "\u0018xD\u007fD*\\)Ek\u0005|";
          this.dn.dp("sc/d/172.png");
-         String var8 = "\u001dNAIA\u001cX\u001d@]\u0000J";
          this.jw.dq("sc/d/160.png");
          if (var4 > 0) {
             Mount var5 = var3.getMount(var4);
             this.jw.gt(com.xy.w.Class15.r(var3.getLoginResult().getRace_id().intValue(), var4));
-            var8 = "Hx(^)\"S,";
             this.di.setForeground(com.xy.q.Class49.c("#cCEB987"));
             JLabel var10000 = this.di;
             String var6;
             if (var5 != null) {
                var6 = var5.getMountname();
             } else {
-               StringBuilder var7 = new StringBuilder(String.valueOf(MsgUntil.h(var4)));
-               var8 = "圾骼";
-               var6 = var7.append("坐骑").toString();
+               var6 = new StringBuilder(String.valueOf(MsgUntil.h(var4))).append("坐骑").toString();
             }
 
             var10000.setText(var6);
@@ -121,14 +104,10 @@ class Class39 extends com.xy.q.Class50 {
             this.di.setText(null);
          }
       } else {
-         String var10005 = "\u0018xD\u007fD*\\(Ek\u0005|";
          this.dn.dp("sc/d/173.png");
-         String var10004 = "\u001dNAIA\u001cX\u001c@]\u0000J";
          this.jw.dq("sc/d/161.png");
          this.jw.l();
-         String var10002 = "HxR.R.R.";
          this.di.setForeground(com.xy.q.Class49.c("#c959595"));
-         String var10001 = "_\u001b绉参覍锬";
          this.di.setText("16级可解锁");
       }
    }
