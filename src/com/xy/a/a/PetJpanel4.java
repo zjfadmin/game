@@ -60,7 +60,7 @@ import java.math.BigDecimal;
 import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 
-public class IiIIIiiiiIIiI
+public class PetJpanel4
 extends IiiiIiiiiIiIi {
     private IIIiiiiiiiiIi iiIIIiiiiiiiI;
     private IiiIiiiiIIIIi[] IiIiiiiiIIIII;
@@ -239,7 +239,7 @@ lbl62:
         this.iiiIiiiiiiiIi[0].setText("\u4e0b\u9a91");
     }
 
-    public IiIIIiiiiIIiI(GameView gameView) {
+    public PetJpanel4(GameView gameView) {
         super(-1, -1, IiiiIiiiiIiIi.iIIiIiiiiiiIi, gameView);
         this.ALLATORIxDEMO(0, 0, 743, 519, IiiiIiiiiIiIi.iIIiIiiiiiiIi);
         this.iiIIIiiiiiiiI = new IIIiiiiiiiiIi((IiiiIiiiiIiIi)this);

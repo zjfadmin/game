@@ -64,11 +64,11 @@ import javax.swing.JScrollPane;
 
 public class PetJpanel2
 extends IiiiIiiiiIiIi {
-    private IIiIiiiiIiiIi[] iIiiIiiiiiiII;
+    private PetButton1[] iIiiIiiiiiiII;
     private JLabel[] IIiiIiiiIIiIi;
     private com.xy.i.IiIiIiiiiIIiI[] iIiIiiiiIiIii;
     private IiIiIiiiiIIiI IiIIIiiiiIiiI;
-    private List<IIiIiiiiIiiIi> iiIiiiiiiiIii;
+    private List<PetButton1> iiIiiiiiiiIii;
     private JScrollPane IiiiiiiiIIIII;
     private IIIiiiiiIiIiI[] ALLATORIxDEMO;
 
@@ -403,10 +403,10 @@ lbl166:
             this.IIiiIiiiIIiIi[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "\u5929\u751f\u6280\u80fd" : (IiiiiiiiIIIII == 1 ? "\u9886\u609f\u6280\u80fd" : ""));
             this.add(this.IIiiIiiiIIiIi[IiiiiiiiIIIII++]);
         }
-        this.iIiiIiiiiiiII = new IIiIiiiiIiiIi[9];
+        this.iIiiIiiiiiiII = new PetButton1[9];
         IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.iIiiIiiiiiiII.length) {
-            this.iIiiIiiiiiiII[IiiiiiiiIIIII] = new IIiIiiiiIiiIi(this, 1, IiiiiiiiIIIII);
+            this.iIiiIiiiiiiII[IiiiiiiiIIIII] = new PetButton1(this, 1, IiiiiiiiIIIII);
             if (IiiiiiiiIIIII == 0) {
                 this.iIiiIiiiiiiII[IiiiiiiiIIIII].setBounds(159, 144, 50, 50);
             } else if (IiiiiiiiIIIII == 1) {
@@ -429,7 +429,7 @@ lbl166:
             this.iIiiIiiiiiiII[IiiiiiiiIIIII].setBounds(this.iIiiIiiiiiiII[IiiiiiiiIIIII].getX() - 2, this.iIiiIiiiiiiII[IiiiiiiiIIIII].getY() - 2, 54, 54);
             this.add((Component)this.iIiiIiiiiiiII[IiiiiiiiIIIII++]);
         }
-        this.iiIiiiiiiiIii = new ArrayList<IIiIiiiiIiiIi>();
+        this.iiIiiiiiiiIii = new ArrayList<PetButton1>();
         this.IiIIIiiiiIiiI = new IiIiIiiiiIIiI(this);
         this.IiiiiiiiIIIII = IiIIIiiiiIIiI.ALLATORIxDEMO((int)318, (int)136, (int)233, (int)280, (Component)this.IiIIIiiiiIiiI, (int)30);
         this.add(this.IiiiiiiiIIIII);
@@ -727,10 +727,10 @@ lbl166:
                 Skill IiiiiiiiIIIII9 = this.ALLATORIxDEMO().iIiIiiiiIIiii(IiiiiiiiIIIII3[IiiiiiiiIIIII22]);
                 if (IiiiiiiiIIIII9 != null) {
                     void IiiiiiiiIIIII10;
-                    IIiIiiiiIiiIi iIiIiiiiIiiIi = this.ALLATORIxDEMO(IiiiiiiiIIIII8);
+                    PetButton1 petButton1 = this.ALLATORIxDEMO(IiiiiiiiIIIII8);
                     ++IiiiiiiiIIIII8;
                     IiiiiiiiIIIII10.setVisible(true);
-                    iIiIiiiiIiiIi.ALLATORIxDEMO(Integer.parseInt(IiiiiiiiIIIII9.getSkillid()), -1);
+                    petButton1.ALLATORIxDEMO(Integer.parseInt(IiiiiiiiIIIII9.getSkillid()), -1);
                 }
                 ++IiiiiiiiIIIII22;
             }
@@ -738,7 +738,7 @@ lbl166:
         if ((IiiiiiiiIIIII3 = this.ALLATORIxDEMO().iIiIiiiiIIiii("3036")) == null) {
             return;
         }
-        IIiIiiiiIiiIi IiiiiiiiIIIII22 = this.ALLATORIxDEMO(IiiiiiiiIIIII8);
+        PetButton1 IiiiiiiiIIIII22 = this.ALLATORIxDEMO(IiiiiiiiIIIII8);
         ++IiiiiiiiIIIII8;
         IiiiiiiiIIIII22.setVisible(true);
         IiiiiiiiIIIII = pet.getTFNum();
@@ -810,12 +810,12 @@ lbl166:
         return false;
     }
 
-    public IIiIiiiiIiiIi ALLATORIxDEMO(int index) {
+    public PetButton1 ALLATORIxDEMO(int index) {
         if (index < this.iiIiiiiiiiIii.size()) {
             this.iiIiiiiiiiIii.get(index).setBounds(55 + 57 * index, 50, 55, 55);
             return this.iiIiiiiiiiIii.get(index);
         }
-        IIiIiiiiIiiIi IiiiiiiiIIIII = new IIiIiiiiIiiIi(this, 0, this.iiIiiiiiiiIii.size());
+        PetButton1 IiiiiiiiIIIII = new PetButton1(this, 0, this.iiIiiiiiiiIii.size());
         this.ALLATORIxDEMO(IiiiiiiiIIIII);
         return IiiiiiiiIIIII;
     }
@@ -868,7 +868,7 @@ lbl166:
             IiiiiiiiIIIII = 0;
             while (IiiiiiiiIIIII < this.iIiiIiiiiiiII.length) {
                 Skill IiiiiiiiIIIII8;
-                Skill skill = IiiiiiiiIIIII8 = IIiIiiiiIiiIi.iIiIiiiiIIiii((IIiIiiiiIiiIi)this.iIiiIiiiiiiII[IiiiiiiiIIIII]) > 0 ? this.ALLATORIxDEMO().iIiIiiiiIIiii(String.valueOf(IIiIiiiiIiiIi.iIiIiiiiIIiii((IIiIiiiiIiiIi)this.iIiiIiiiiiiII[IiiiiiiiIIIII]))) : null;
+                Skill skill = IiiiiiiiIIIII8 = PetButton1.iIiIiiiiIIiii((PetButton1)this.iIiiIiiiiiiII[IiiiiiiiIIIII]) > 0 ? this.ALLATORIxDEMO().iIiIiiiiIIiii(String.valueOf(PetButton1.iIiIiiiiIIiii((PetButton1)this.iIiiIiiiiiiII[IiiiiiiiIIIII]))) : null;
                 if (IiiiiiiiIIIII8 != null && IiiiiiiiIIIII8.getSkilltype().equals("3")) {
                     ++IiiiiiiiIIIII7;
                 }
@@ -979,7 +979,7 @@ lbl166:
         this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII2);
     }
 
-    public void ALLATORIxDEMO(IIiIiiiiIiiIi component) {
+    public void ALLATORIxDEMO(PetButton1 component) {
         component.setBounds(55 + 57 * this.iiIiiiiiiiIii.size(), 50, 55, 55);
         this.iiIiiiiiiiIii.add(component);
         this.add((Component)component, 0);
@@ -988,15 +988,15 @@ lbl166:
     public void iiiIiiiiiiIIi() {
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.iiIiiiiiiiIii.size()) {
-            IIiIiiiiIiiIi iIiIiiiiIiiIi = this.iiIiiiiiiiIii.get(IiiiiiiiIIIII);
+            PetButton1 petButton1 = this.iiIiiiiiiiIii.get(IiiiiiiiIIIII);
             ++IiiiiiiiIIIII;
-            iIiIiiiiIiiIi.setVisible(false);
+            petButton1.setVisible(false);
         }
         IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.iIiiIiiiiiiII.length) {
-            IIiIiiiiIiiIi iIiIiiiiIiiIi = this.iIiiIiiiiiiII[IiiiiiiiIIIII];
+            PetButton1 petButton1 = this.iIiiIiiiiiiII[IiiiiiiiIIIII];
             ++IiiiiiiiIIIII;
-            iIiIiiiiIiiIi.ALLATORIxDEMO(-1, -1);
+            petButton1.ALLATORIxDEMO(-1, -1);
         }
         this.ALLATORIxDEMO(null, 0, 0, null, true);
     }

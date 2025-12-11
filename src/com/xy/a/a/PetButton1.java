@@ -3,7 +3,7 @@
  * 
  * Could not load the following classes:
  *  com.xy.a.a.IIIIIiiiIiiII
- *  com.xy.a.a.IIiiIiiiIiiiI
+ *  com.xy.a.a.PetJpanel2
  *  com.xy.a.iiIiiiiiIIiiI
  *  com.xy.entity.RoleSummoning
  *  com.xy.readbean.Skill
@@ -13,7 +13,7 @@
 package com.xy.a.a;
 
 import com.xy.a.a.IIIIIiiiIiiII;
-import com.xy.a.a.IIiiIiiiIiiiI;
+import com.xy.a.a.PetJpanel2;
 import com.xy.a.iiIiiiiiIIiiI;
 import com.xy.entity.RoleSummoning;
 import com.xy.readbean.Skill;
@@ -26,11 +26,11 @@ import javax.swing.JComponent;
 /*
  * Exception performing whole class analysis ignored.
  */
-static class IIiIiiiiIiiIi
+static class PetButton1
 extends JComponent
 implements MouseListener {
     private Image iIiiIiiiiiiII;
-    final /* synthetic */ IIiiIiiiIiiiI IIiiIiiiIIiIi;
+    final /* synthetic */ PetJpanel2 IIiiIiiiIIiIi;
     private int iIiIiiiiIiIii;
     private int IiIIIiiiiIiiI;
     private Image iiIiiiiiiiIii;
@@ -74,12 +74,12 @@ implements MouseListener {
         IiiiiiiiIIIII.IiiIiiiiiiIiI("#Y\u6280\u80fd\u683c(\u5c01\u5370)#r\u89e3\u5c01\u6280\u80fd\u683c\u65b9\u5f0f:#r1.\u660e\u96f7\u6218\u6597\u53ef\u968f\u673a\u5f00\u542f;#r2.\u4f7f\u7528\u542f\u9b42\u4e39\u5f00\u542f;");
     }
 
-    static /* synthetic */ int iIiIiiiiIIiii(IIiIiiiiIiiIi arg0) {
+    static /* synthetic */ int iIiIiiiiIIiii(PetButton1 arg0) {
         return arg0.IiiiiiiiIIIII;
     }
 
-    public IIiIiiiiIiiIi(IIiiIiiiIiiiI iIiiIiiiIiiiI, int type1, int type2) {
-        this.IIiiIiiiIIiIi = iIiiIiiiIiiiI;
+    public PetButton1(PetJpanel2 petJpanel2, int type1, int type2) {
+        this.IIiiIiiiIIiIi = petJpanel2;
         this.ALLATORIxDEMO = type1;
         this.IiIIIiiiiIiiI = type2;
         this.addMouseListener(this);
@@ -98,7 +98,7 @@ implements MouseListener {
     public void mousePressed(MouseEvent e) {
     }
 
-    static /* synthetic */ int ALLATORIxDEMO(IIiIiiiiIiiIi arg0) {
+    static /* synthetic */ int ALLATORIxDEMO(PetButton1 arg0) {
         return arg0.iIiIiiiiIiIii;
     }
 
@@ -119,8 +119,8 @@ implements MouseListener {
         } else if (skillId == -2) {
             this.iiIiiiiiiiIii = com.xy.w.IIIIIiiiIiiII.iiiIiiiiiiIIi((String)"sc/d/115.png");
         } else {
-            IIiIiiiiIiiIi iIiIiiiiIiiIi = this;
-            iIiIiiiiIiiIi.iiIiiiiiiiIii = skillId == 0 ? null : com.xy.w.IIiIiiiiIiiIi.iiiIiiiiiiIIi((String)String.valueOf(skillId));
+            PetButton1 petButton1 = this;
+            petButton1.iiIiiiiiiiIii = skillId == 0 ? null : com.xy.w.IIiIiiiiIiiIi.iiiIiiiiiiIIi((String)String.valueOf(skillId));
         }
         this.iIiiIiiiiiiII = slvl >= 0 ? com.xy.w.IIIIIiiiIiiII.iiiIiiiiiiIIi((String)"sc/c/83") : null;
     }
