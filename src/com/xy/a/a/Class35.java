@@ -72,40 +72,32 @@ public class Class35 extends com.xy.q.Class30 {
       int var2;
       for (int var10000 = var2 = 0; var10000 < this.ajl.length; var10000 = var2) {
          this.ajl[var2] = new Class54(this, var2, this);
-         Class54 var37 = this.ajl[var2];
-         var10004 = "$TxSx\u0003yG9P";
-         var37.dq("sc/d/4.png");
+         this.ajl[var2].dq("sc/d/4.png");
          this.ajl[var2].wp(com.xy.q.Class54.auc);
          this.add(this.ajl[var2++]);
       }
 
       this.dn = new com.xy.w.Class18();
-      String var10006 = "id5c56,)ji}";
       this.dn.mt(com.xy.w.Class16.m("sc/d/16.png", 2, 2, 2, 2, false));
       this.dn.setBounds(163, 31, 108, 149);
       this.add(this.dn);
       this.ajq = new com.xy.i.Class17[4];
 
       for (int var12 = var2 = 0; var12 < this.ajq.length; var12 = var2) {
-         com.xy.i.Class17[] var13 = this.ajq;
+         String var10004;
          if (var2 == 0) {
-            var10004 = "$TxRx\u0006yG9P";
             var10004 = "sc/e/1.png";
          } else if (var2 == 1) {
-            var10004 = "ty(\u007f(()ji}";
             var10004 = "sc/e/2.png";
          } else if (var2 == 2) {
-            var10004 = "$TxRx\u0004yG9P";
             var10004 = "sc/e/3.png";
          } else if (var2 == 3) {
-            var10004 = "ty(\u007f(.)ji}";
             var10004 = "sc/e/4.png";
          } else {
             var10004 = "";
          }
 
-         com.xy.i.Class17 var10001 = new com.xy.i.Class17(var10004, 1, 1 + var2, this);
-         var13[var2] = var10001;
+         this.ajq[var2] = new com.xy.i.Class17(var10004, 1, 1 + var2, this);
          this.ajq[var2].setBounds(179 + 20 * var2, 183, 18, 18);
          this.add(this.ajq[var2++]);
       }
@@ -113,7 +105,6 @@ public class Class35 extends com.xy.q.Class30 {
       this.ajn = new com.xy.i.Class17[5];
 
       for (int var14 = var2 = 0; var14 < this.ajn.length; var14 = var2) {
-         com.xy.i.Class17[] var15 = this.ajn;
          int var48 = var2 == 4 ? 24 : 5 + var2;
          String var50;
          if (var2 == 0) {
@@ -130,8 +121,7 @@ public class Class35 extends com.xy.q.Class30 {
             var50 = "";
          }
 
-         com.xy.i.Class17 var31 = new com.xy.i.Class17("sc/e/6.png", 1, var48, com.xy.q.Class49.bz, null, var50, this);
-         var15[var2] = var31;
+         this.ajn[var2] = new com.xy.i.Class17("sc/e/6.png", 1, var48, com.xy.q.Class49.bz, null, var50, this);
          this.ajn[var2].setOffsetTexts(com.xy.q.Class49.ag);
          if (var2 == 0) {
             this.ajn[var2].setBounds(189, 210, 34, 18);
@@ -196,7 +186,6 @@ public class Class35 extends com.xy.q.Class30 {
       this.ajp = new com.xy.i.Class17[2];
 
       for (int var23 = var2 = 0; var23 < this.ajp.length; var23 = var2) {
-         com.xy.i.Class17[] var24 = this.ajp;
          int var49 = 9 + var2;
          String var56;
          if (var2 == 0) {
@@ -207,19 +196,16 @@ public class Class35 extends com.xy.q.Class30 {
             var56 = "";
          }
 
-         com.xy.i.Class17 var34 = new com.xy.i.Class17("sc/e/7.png", 1, var49, com.xy.q.Class49.ch, com.xy.q.Class49.bv, var56, this);
-         var24[var2] = var34;
+         this.ajp[var2] = new com.xy.i.Class17("sc/e/7.png", 1, var49, com.xy.q.Class49.ch, com.xy.q.Class49.bv, var56, this);
          this.ajp[var2].setBounds(240 + 75 * var2, 230, 59, 25);
          this.add(this.ajp[var2++]);
       }
 
       this.xf = new com.xy.w.Class18();
-      var10004 = "id5c56#)ji}";
       this.xf.mt(com.xy.w.Class16.m("sc/d/19.png", 5, 5, 5, 5, false));
       this.xf.setBounds(45, 260, 309, 207);
       this.add(this.xf);
       this.nz = new com.xy.q.Class21(this, 6, 4, 51, 51, 0, 0, 46, 262);
-      String var10005 = "D4\u00183\u0018f\u000fyG9P";
       this.nz.gt(com.xy.w.Class16.c("sc/d/18.png"));
       this.nz.rm(true);
       this.add(this.nz);
