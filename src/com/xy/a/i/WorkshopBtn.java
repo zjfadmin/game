@@ -55,7 +55,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import javax.swing.JLabel;
 
-public class IIIIIiiiIiIii
+public class WorkshopBtn
 extends IiiiIiiiiIiIi {
     private com.xy.q.IIIiiiiiIiIiI[] iiiiIiiiIiiII;
     private iIIiIiiiIiiIi iiiIiiiiiiiIi;
@@ -147,7 +147,7 @@ extends IiiiIiiiiIiIi {
     /*
      * Unable to fully structure code
      */
-    public IIIIIiiiIiIii(GameView var1_1) {
+    public WorkshopBtn(GameView var1_1) {
         super(-1, -1, IiiiIiiiiIiIi.iIIiIiiiiiiIi, var1_1);
         this.IiIIIiiiiIiiI = new BigDecimal(this.ALLATORIxDEMO().ALLATORIxDEMO(2, 12) != false ? 1000000 : (this.ALLATORIxDEMO().gameType == 2 ? 5000000 : 10000000));
         this.ALLATORIxDEMO(46, 74, 490, 428, IiiiIiiiiIiIi.iIIiIiiiiiiIi);

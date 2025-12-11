@@ -92,7 +92,7 @@ extends IiiiIiiiiIiIi {
     public IiIiIiiiiiIiI(GameView gameView) {
         super(65, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 552, 441, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
-        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u5df2\u6709\u7b26\u5f55");
+        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "已有符录");
         this.iiiiIiiiIIiii = new DefaultListModel();
         this.iIiIiiiiIiIii = new JList();
         this.iIiIiiiiIiIii.setOpaque(false);
@@ -109,7 +109,7 @@ extends IiiiIiiiiIiIi {
         this.iiIiiiiiiiIii = new iiIiIiiiiIiii[6];
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.iiIiiiiiiiIii.length) {
-            this.iiIiiiiiiiIii[IiiiiiiiIIIII] = new iiIiIiiiiIiii("sc/e/6.png", 1, 14 + IiiiiiiiIIIII, iiIIiiiiIiiII.iiiiIiiiIiiII, null, IiiiiiiiIIIII == 0 ? "\u6fc0\u6d3b" : (IiiiiiiiIIIII == 2 ? "\u83b7\u5f97" : (IiiiiiiiIIIII == 3 ? "\u5220\u9664" : (IiiiiiiiIIIII == 4 ? "\u6536\u5f55" : (IiiiiiiiIIIII == 5 ? "\u751f\u6210\u7389\u7b26" : "")))), (IiiiIiiiiIiIi)this);
+            this.iiIiiiiiiiIii[IiiiiiiiIIIII] = new iiIiIiiiiIiii("sc/e/6.png", 1, 14 + IiiiiiiiIIIII, iiIIiiiiIiiII.iiiiIiiiIiiII, null, IiiiiiiiIIIII == 0 ? "激活" : (IiiiiiiiIIIII == 2 ? "获得" : (IiiiiiiiIIIII == 3 ? "删除" : (IiiiiiiiIIIII == 4 ? "收录" : (IiiiiiiiIIIII == 5 ? "生成玉符" : "")))), (IiiiIiiiiIiIi)this);
             this.iiIiiiiiiiIii[IiiiiiiiIIIII].setBounds(430, 193, 34, 18);
             if (IiiiiiiiIIIII == 0) {
                 this.iiIiiiiiiiIii[IiiiiiiiIIIII].setFont(iiIIiiiiIiiII.iiIiiiiiiIIiI);
@@ -177,7 +177,7 @@ extends IiiiIiiiiIiIi {
         this.add((Component)IiiiiiiiIIIII2);
         this.iiIiIiiiiIIIi = new IIiIIiiiIIIiI(15, (JTextField)IiiiiiiiIIIII2, (IiiiIiiiiIiIi)this);
         this.iIiiIiiiiiiII = new MoneyType();
-        this.iIiiIiiiiiiII.setIdAndKey(0, "\u7075\u4fee\u503c");
+        this.iIiiIiiiiiiII.setIdAndKey(0, "灵修值");
         this.iiiiIiiiIiiII = IiIIIiiiiIIiI.ALLATORIxDEMO((int)328, (int)366, (int)144, (int)20, (int)10, (Color)Color.white, (Font)iiIIiiiiIiiII.iIIIiiiiIIIii, (MoneyType)this.iIiiIiiiiiiII, (GameView)gameView);
         this.iiiiIiiiIiiII.ALLATORIxDEMO(2);
         this.iiiiIiiiIiiII.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/17.png", (int)6, (int)6, (int)6, (int)6, (boolean)false));
@@ -369,7 +369,7 @@ extends IiiiIiiiiIiIi {
         if (id == 15) {
             BigDecimal IiiiiiiiIIIII4 = new BigDecimal(this.ALLATORIxDEMO().gameType == 2 ? 20000000 : 100000000);
             if (IiiiiiiiIIIII3.getGold().compareTo(IiiiiiiiIIIII4) < 0) {
-                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u9700\u8981" + IiiiiiiiIIIII4.longValue() / 10000L + "W\u91d1\u5e01\u624d\u80fd\u589e\u52a0\u4e0a\u9650..");
+                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("需要" + IiiiiiiiIIIII4.longValue() / 10000L + "W金币才能增加上限..");
                 return;
             }
             int IiiiiiiiIIIII5 = IiiiiiiiIIIII2.getPackRecord().getSuitNum() + 1;
@@ -385,19 +385,19 @@ extends IiiiIiiiiIiIi {
         }
         if (id == 14) {
             if (this.IIIIiiiiiiiII == -1) {
-                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u8bf7\u9009\u62e9\u4f60\u8981\u6fc0\u6d3b\u7684\u7389\u7b26..");
+                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("请选择你要激活的玉符..");
                 return;
             }
             if (new BigDecimal(500000).compareTo(IiiiiiiiIIIII3.getGold()) > 0) {
-                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u91d1\u5e01\u4e0d\u8db3..");
+                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("金币不足..");
                 return;
             }
-            if (200L > IiiiiiiiIIIII3.getScoretype("\u7075\u4fee\u503c").longValue()) {
-                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u7075\u4fee\u503c\u4e0d\u8db3\uff0c\u5feb\u53bb\u83b7\u53d6\u5427..");
+            if (200L > IiiiiiiiIIIII3.getScoretype("灵修值").longValue()) {
+                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("灵修值不足，快去获取吧..");
                 return;
             }
             if (IiiiiiiiIIIII2.getPackRecord().ALLATORIxDEMO(this.IiIIIiiiiIiiI, this.IIIIiiiiiiiII) != null) {
-                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u6ca1\u6709\u53ef\u6fc0\u6d3b\u7684\u90e8\u4ef6..");
+                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("没有可激活的部件..");
                 return;
             }
             SuitOperBean IiiiiiiiIIIII7 = new SuitOperBean();
@@ -408,8 +408,8 @@ extends IiiiIiiiiIiIi {
             String IiiiiiiiIIIII8 = Agreement.getSendTextAES((String)"suitoperate", (String)iiIiiiiiIIiii.ALLATORIxDEMO().toJson(IiiiiiiiIIIII7));
             this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII8);
             IiiiiiiiIIIII3.setGold(IiiiiiiiIIIII3.getGold().subtract(new BigDecimal(500000)));
-            IiiiiiiiIIIII3.setScore(com.xy.v.IIIiiiiiIiIiI.iIiIiiiiIIiii((String)IiiiiiiiIIIII3.getScore(), (String)"\u7075\u4fee\u503c=200", (int)3));
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u6d88\u8017\u4e86200\u70b9\u7075\u4fee\u503c    \u6263\u9664\u4e8650W\u91d1\u5e01..");
+            IiiiiiiiIIIII3.setScore(com.xy.v.IIIiiiiiIiIiI.iIiIiiiiIIiii((String)IiiiiiiiIIIII3.getScore(), (String)"灵修值=200", (int)3));
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("消耗了200点灵修值    扣除了50W金币..");
             this.iiIiiiiiiiIii[0].setBtn(-1, "sc/e/54.png");
             this.iiIiiiiiiiIii[0].setForeground(Color.GRAY);
             return;
@@ -425,27 +425,27 @@ extends IiiiIiiiiIiIi {
         }
         if (id != 19) return;
         if (this.IIIIiiiiiiiII == -1) {
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u8bf7\u9009\u62e9\u4f60\u8981\u751f\u6210\u7684\u7389\u7b26..");
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("请选择你要生成的玉符..");
             return;
         }
         if (!this.IiIiiiiiIIIII) {
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u4f60\u8fd8\u6ca1\u6536\u5f55\u8fc7\u6b64\u7389\u7b26..");
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("你还没收录过此玉符..");
             return;
         }
         int IiiiiiiiIIIII12 = (int)this.iiIiIiiiiIIIi.ALLATORIxDEMO();
         if (IiiiiiiiIIIII12 <= 0) {
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u8bf7\u8f93\u5165\u4f60\u8981\u751f\u6210\u7684\u7389\u7b26\u6570\u91cf..");
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("请输入你要生成的玉符数量..");
             return;
         }
         long IiiiiiiiIIIII13 = this.ALLATORIxDEMO().ALLATORIxDEMO(2, 12) ? 100000 : 1000000;
         BigDecimal IiiiiiiiIIIII14 = new BigDecimal(IiiiiiiiIIIII13 * (long)IiiiiiiiIIIII12);
         BigDecimal IiiiiiiiIIIII15 = new BigDecimal(10 * IiiiiiiiIIIII12);
         if (IiiiiiiiIIIII14.compareTo(IiiiiiiiIIIII3.getGold()) > 0) {
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u91d1\u5e01\u4e0d\u8db3..");
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("金币不足..");
             return;
         }
-        if (IiiiiiiiIIIII15.compareTo(IiiiiiiiIIIII3.getScoretype("\u7075\u4fee\u503c")) > 0) {
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u7075\u4fee\u503c\u4e0d\u8db3\uff0c\u5feb\u53bb\u83b7\u53d6\u5427..");
+        if (IiiiiiiiIIIII15.compareTo(IiiiiiiiIIIII3.getScoretype("灵修值")) > 0) {
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("灵修值不足，快去获取吧..");
             return;
         }
         PartJade IiiiiiiiIIIII16 = new PartJade((long)this.IiIIIiiiiIiiI, this.IIIIiiiiiiiII);
@@ -456,8 +456,8 @@ extends IiiiIiiiiIiIi {
         String IiiiiiiiIIIII17 = Agreement.getSendTextAES((String)"suitoperate", (String)iiIiiiiiIIiii.ALLATORIxDEMO().toJson(IiiiiiiiIIIII));
         this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII17);
         IiiiiiiiIIIII3.setGold(IiiiiiiiIIIII3.getGold().subtract(IiiiiiiiIIIII14));
-        IiiiiiiiIIIII3.setScore(com.xy.v.IIIiiiiiIiIiI.iIiIiiiiIIiii((String)IiiiiiiiIIIII3.getScore(), (String)("\u7075\u4fee\u503c=" + IiiiiiiiIIIII15), (int)3));
-        this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u6d88\u8017\u4e86" + IiiiiiiiIIIII15 + "\u70b9\u7075\u4fee\u503c    \u6263\u9664\u4e86" + IiiiiiiiIIIII14.longValue() / 10000L + "W\u91d1\u5e01..");
+        IiiiiiiiIIIII3.setScore(com.xy.v.IIIiiiiiIiIiI.iIiIiiiiIIiii((String)IiiiiiiiIIIII3.getScore(), (String)("灵修值=" + IiiiiiiiIIIII15), (int)3));
+        this.iiIIiiiiIiIIi.iIiIiiiiIIiii("消耗了" + IiiiiiiiIIIII15 + "点灵修值    扣除了" + IiiiiiiiIIIII14.longValue() / 10000L + "W金币..");
         this.iiIiIiiiiIIIi.ALLATORIxDEMO().setText("0");
     }
 
