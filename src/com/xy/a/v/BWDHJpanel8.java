@@ -4,7 +4,7 @@
  * Could not load the following classes:
  *  com.xy.a.v.IIIIIiiiIIIiI
  *  com.xy.a.v.BWDHButton1
- *  com.xy.a.v.iiIiIiiiiIiIi
+ *  com.xy.a.v.BWDHJpanel2
  *  com.xy.q.IIIiIiiiiIiII
  *  com.xy.q.IiIIIiiiiIIiI
  *  com.xy.q.iIiIIiiiIiiiI
@@ -55,7 +55,7 @@ extends iIiIIiiiIiiiI {
         return arg0.IIiiIiiiIIiIi;
     }
 
-    public iiIiIiiiIIIiI(iiIiIiiiiIiIi iiIiIiiiiIiIi2) {
+    public BWDHJpanel8(BWDHJpanel2 iiIiIiiiiIiIi2) {
         this.ALLATORIxDEMO = iiIiIiiiiIiIi2;
         this.IIiiIiiiIIiIi = new IIIiIiiiiIiII(2, 100, iiIiIiiiiIiIi2.ALLATORIxDEMO());
         this.IIiiIiiiIIiIi.iIiIiiiiIIiii(true);

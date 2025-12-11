@@ -4,7 +4,7 @@
  * Could not load the following classes:
  *  com.xy.a.v.IiIIIiiiIIiII
  *  com.xy.a.v.IiIiIiiiiiIiI
- *  com.xy.a.v.iiIiIiiiIIIiI
+ *  com.xy.a.v.BWDHJpanel8
  *  com.xy.a.v.BWDHJpanel1
  *  com.xy.q.IiiiIiiiiIiIi
  *  com.xy.readbean.Activity
@@ -22,7 +22,7 @@ package com.xy.a.v;
 
 import com.xy.a.v.IiIIIiiiIIiII;
 import com.xy.a.v.IiIiIiiiiiIiI;
-import com.xy.a.v.iiIiIiiiIIIiI;
+import com.xy.a.v.BWDHJpanel8;
 import com.xy.a.v.BWDHJpanel1;
 import com.xy.q.IiiiIiiiiIiIi;
 import com.xy.readbean.Activity;
@@ -41,7 +41,7 @@ public class BWDHJpanel2
 extends IiiiIiiiiIiIi {
     private long iiiIiiiiiiiIi;
     private IiIiIiiiiiIiI iIiiIiiiiiiII;
-    private iiIiIiiiIIIiI IIiiIiiiIIiIi;
+    private BWDHJpanel8 IIiiIiiiIIiIi;
     private IIIiiiiiIiIiI[] iIiIiiiiIiIii;
     private IIIiiiiiIiIiI IiIIIiiiiIiiI;
     private IiIIIiiiIIiII[] iiIiiiiiiiIii;
@@ -68,7 +68,7 @@ extends IiiiIiiiiIiIi {
             this.IIiiIiiiIIiIi.setVisible(false);
             return;
         }
-        iiIiIiiiIIIiI.ALLATORIxDEMO((iiIiIiiiIIIiI)this.IIiiIiiiIIiIi).setVisible(this.IiiiiiiiIIIII == 1);
+        BWDHJpanel8.ALLATORIxDEMO((BWDHJpanel8)this.IIiiIiiiIIiIi).setVisible(this.IiiiiiiiIIIII == 1);
         this.IIiiIiiiIIiIi.ALLATORIxDEMO((BWDHRuleBattleRecord[])data);
         this.IIiiIiiiIIiIi.setVisible(true);
         this.iIiiIiiiiiiII.setVisible(false);
@@ -98,7 +98,7 @@ extends IiiiIiiiiIiIi {
             this.add((Component)this.iiIiiiiiiiIii[IiiiiiiiIIIII++]);
         }
         this.iIiiIiiiiiiII = new IiIiIiiiiiIiI(this);
-        this.IIiiIiiiIIiIi = new iiIiIiiiIIIiI(this);
+        this.IIiiIiiiIIiIi = new BWDHJpanel8(this);
         this.iIiiIiiiiiiII.setBounds(0, 0, 718, 526);
         this.IIiiIiiiIIiIi.setBounds(0, 0, 718, 526);
         this.add((Component)this.iIiiIiiiiiiII);
@@ -123,7 +123,7 @@ extends IiiiIiiiiIiIi {
 
     public void ALLATORIxDEMO(int ruleFlag, BWDHRuleBattleRecord[] records) {
         this.iIiIiiiiIIiii(1, records);
-        iiIiIiiiIIIiI.ALLATORIxDEMO((iiIiIiiiIIIiI)this.IIiiIiiiIIiIi).ALLATORIxDEMO().setText(ruleFlag == 0 ? "16强抢位赛" : (ruleFlag == 1 ? "8强抢位赛" : "4强抢位赛"));
+        BWDHJpanel8.ALLATORIxDEMO((BWDHJpanel8)this.IIiiIiiiIIiIi).ALLATORIxDEMO().setText(ruleFlag == 0 ? "16强抢位赛" : (ruleFlag == 1 ? "8强抢位赛" : "4强抢位赛"));
     }
 
     public void iiiIiiiiiiIIi() {
