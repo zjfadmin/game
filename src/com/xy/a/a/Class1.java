@@ -166,14 +166,11 @@ public class Class1 extends com.xy.q.Class30 {
          this.add(this.o[var2]);
          if (var2 == 1) {
             this.o[var2].setBounds(47, 290, 57, 19);
-            JLabel var5 = this.o[var2];
-            var7 = "\u0019\u0017\nD\nD\nD";
-            var5.setForeground(com.xy.q.Class49.c("#c000000"));
+            this.o[var2].setForeground(com.xy.q.Class49.c("#c000000"));
          }
       }
 
       this.p = com.xy.q.Class1.i(112, 290, 184, 19, 10, Color.white, com.xy.q.Class49.w);
-      String var10005 = "`\u0005<\u0002<W$Hc\bt";
       this.p.mt(com.xy.w.Class16.m("sc/d/17.png", 6, 6, 6, 6, false));
       this.add(this.p);
       this.j = new com.xy.w.Class18[5];
@@ -182,19 +179,13 @@ public class Class1 extends com.xy.q.Class30 {
          this.j[var2] = new com.xy.w.Class18();
          this.add(this.j[var2]);
          if (var2 == 0) {
-            com.xy.w.Class18 var10 = this.j[var2];
-            String var10002 = "\u0007Y[^[\bA\u0014\u0004T\u0013";
-            var10.mt(com.xy.w.Class16.m("sc/d/25.png", 2, 2, 2, 2, false));
+            this.j[var2].mt(com.xy.w.Class16.m("sc/d/25.png", 2, 2, 2, 2, false));
             this.j[var2].setBounds(47, 32, 250, 21);
          } else if (var2 == 1) {
-            com.xy.w.Class18 var11 = this.j[var2];
-            String var13 = "`\u0005<\u0002<T'Hc\bt";
-            var11.mt(com.xy.w.Class16.m("sc/d/24.png", 2, 2, 2, 2, false));
+            this.j[var2].mt(com.xy.w.Class16.m("sc/d/24.png", 2, 2, 2, 2, false));
             this.j[var2].setBounds(47, 32, 250, 90);
          } else if (var2 == 2) {
-            com.xy.w.Class18 var12 = this.j[var2];
-            String var14 = "\u0007Y[^[\b@\u0014\u0004T\u0013";
-            var12.mt(com.xy.w.Class16.m("sc/d/24.png", 2, 2, 2, 2, false));
+            this.j[var2].mt(com.xy.w.Class16.m("sc/d/24.png", 2, 2, 2, 2, false));
             this.j[var2].setBounds(47, 122, 250, 160);
          }
       }
