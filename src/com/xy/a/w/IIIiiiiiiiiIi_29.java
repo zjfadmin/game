@@ -1220,72 +1220,72 @@ extends IiiiIiiiiIiIi {
                 break;
             }
             case "mfy": {
-                ql.setKey("\u5c01\u5370\u547d\u4e2d");
+                ql.setKey("封印命中");
                 ql.setValue(5.0);
                 break;
             }
             case "mhl": {
-                ql.setKey("\u6df7\u4e71\u547d\u4e2d");
+                ql.setKey("混乱命中");
                 ql.setValue(5.0);
                 break;
             }
             case "mhs": {
-                ql.setKey("\u660f\u7761\u547d\u4e2d");
+                ql.setKey("昏睡命中");
                 ql.setValue(5.0);
                 break;
             }
             case "myw": {
-                ql.setKey("\u9057\u5fd8\u547d\u4e2d");
+                ql.setKey("遗忘命中");
                 ql.setValue(5.0);
                 break;
             }
             case "mgh": {
-                ql.setKey("\u9b3c\u706b\u547d\u4e2d");
+                ql.setKey("鬼火命中");
                 ql.setValue(5.0);
                 break;
             }
             case "msc": {
-                ql.setKey("\u4e09\u5c38\u866b\u547d\u4e2d");
+                ql.setKey("三尸虫命中");
                 ql.setValue(5.0);
                 break;
             }
             case "jlb": {
-                ql.setKey("\u6297\u7075\u5b9d\u4f24\u5bb3");
+                ql.setKey("抗灵宝伤害");
                 ql.setValue(5.0);
                 break;
             }
             case "zsf": {
-                ql.setKey("\u6c34\u6cd5\u4f24\u5bb3\u52a0\u6df1");
+                ql.setKey("水法伤害加深");
                 ql.setValue(5.0);
                 break;
             }
             case "zff": {
-                ql.setKey("\u98ce\u6cd5\u4f24\u5bb3\u52a0\u6df1");
+                ql.setKey("风法伤害加深");
                 ql.setValue(5.0);
                 break;
             }
             case "zlf": {
-                ql.setKey("\u96f7\u6cd5\u4f24\u5bb3\u52a0\u6df1");
+                ql.setKey("雷法伤害加深");
                 ql.setValue(5.0);
                 break;
             }
             case "zhf": {
-                ql.setKey("\u706b\u6cd5\u4f24\u5bb3\u52a0\u6df1");
+                ql.setKey("火法伤害加深");
                 ql.setValue(5.0);
                 break;
             }
             case "zgh": {
-                ql.setKey("\u9b3c\u706b\u4f24\u5bb3\u52a0\u6df1");
+                ql.setKey("鬼火伤害加深");
                 ql.setValue(5.0);
                 break;
             }
             case "zdf": {
-                ql.setKey("\u6bd2\u6cd5\u4f24\u5bb3\u52a0\u6df1");
+                ql.setKey("毒法伤害加深");
                 ql.setValue(5.0);
                 break;
             }
             case "zzsmp": {
-                ql.setKey("\u9707\u6151\u9b54\u6cd5\u4f24\u5bb3\u52a0\u6df1");
+                ql.setKey("震慑魔法伤害加深");
                 ql.setValue(5.0);
                 break;
             }
@@ -1311,38 +1311,38 @@ extends IiiiIiiiiIiIi {
         double IiiiiiiiIIIII6 = iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label);
         if (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("kwl")) {
             IiiiiiiiIIIII5 = 75.0 + (double)IiiiiiiiIIIII4.qhv * 1.5;
-            IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("\u7269\u7406\u5438\u6536");
+            IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("物理吸收");
             d = IiiiiiiiIIIII5;
         } else if (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("kff")) {
             IiiiiiiiIIIII5 = 75.0 + (double)IiiiiiiiIIIII4.qhv * 1.5;
-            IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("\u6297\u98ce");
+            IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("抗风");
             d = IiiiiiiiIIIII5;
         } else if (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("klf")) {
             IiiiiiiiIIIII5 = 75.0 + (double)IiiiiiiiIIIII4.qhv * 1.5;
-            IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("\u6297\u96f7");
+            IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("抗雷");
             d = IiiiiiiiIIIII5;
         } else if (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("ksf")) {
             IiiiiiiiIIIII5 = 75.0 + (double)IiiiiiiiIIIII4.qhv * 1.5;
-            IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("\u6297\u6c34");
+            IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("抗水");
             d = IiiiiiiiIIIII5;
         } else if (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("khf")) {
             IiiiiiiiIIIII5 = 75.0 + (double)IiiiiiiiIIIII4.qhv * 1.5;
-            IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("\u6297\u706b");
+            IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("抗火");
             d = IiiiiiiiIIIII5;
         } else if (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("kgh")) {
             IiiiiiiiIIIII5 = 75.0 + (double)IiiiiiiiIIIII4.qhv * 1.5;
-            IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("\u6297\u9b3c\u706b");
+            IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("抗鬼火");
             d = IiiiiiiiIIIII5;
         } else if (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("khl") || iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("khs") || iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("kfy") || iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("kyw") || iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("kzd")) {
-            String IiiiiiiiIIIII7 = iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("khl") ? "\u6297\u6df7\u4e71" : (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("khs") ? "\u6297\u660f\u7761" : (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("kfy") ? "\u6297\u5c01\u5370" : (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("kyw") ? "\u6297\u9057\u5fd8" : "\u6297\u4e2d\u6bd2")));
+            String IiiiiiiiIIIII7 = iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("khl") ? "抗混乱" : (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("khs") ? "抗昏睡" : (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("kfy") ? "抗封印" : (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("kyw") ? "抗遗忘" : "抗中毒")));
             LoginResult IiiiiiiiIIIII8 = IiiiiiiiIIIII.getLoginResult();
             IiiiiiiiIIIII5 = BaseValue.ALLATORIxDEMO((String)IiiiiiiiIIIII7, (BigDecimal)IiiiiiiiIIIII8.getRace_id()) + (double)IiiiiiiiIIIII4.qhv * 0.4;
             IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getGrade(IiiiiiiiIIIII7) + IiiiiiiiIIIII4.getEquip(IiiiiiiiIIIII7) + IiiiiiiiIIIII4.getBorn(IiiiiiiiIIIII7);
-            d = IiiiiiiiIIIII5 *= 1.0 + IiiiiiiiIIIII4.getValue(String.valueOf(IiiiiiiiIIIII7) + "\u4e0a\u9650") / 100.0;
+            d = IiiiiiiiIIIII5 *= 1.0 + IiiiiiiiIIIII4.getValue(String.valueOf(IiiiiiiiIIIII7) + "上限") / 100.0;
         } else {
             if (iiIiiiiiIIiii.ALLATORIxDEMO((iiIiiiiiIIiii)label).equals("eds")) {
                 IiiiiiiiIIIII5 = 75.0 + (double)IiiiiiiiIIIII4.qhv * 1.5;
-                IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("\u8eb2\u95ea\u7387") + IiiiiiiiIIIII4.getEquip("\u8eb2\u95ea") + IiiiiiiiIIIII4.getEquip("\u7269\u7406\u8eb2\u95ea");
+                IiiiiiiiIIIII6 = IiiiiiiiIIIII4.getEquip("躲闪率") + IiiiiiiiIIIII4.getEquip("躲闪") + IiiiiiiiIIIII4.getEquip("物理躲闪");
             }
             d = IiiiiiiiIIIII5;
         }
