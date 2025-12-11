@@ -21,7 +21,7 @@ import com.xy.formula.BaseMountSH;
 import com.xy.i.IiIiIiiiiIIiI;
 import com.xy.q.IiIIIiiiiIIiI;
 import com.xy.q.iIIiIiiiIiiIi;
-import com.xy.q.iIiIIiiiIiiiI;
+import com.xy.a.a.StarcardJpanel1;
 import com.xy.q.iiIIiiiiIiiII;
 import com.xy.q.iiIiIiiiiIiIi;
 import com.xy.readbean.MoneyType;
@@ -54,7 +54,7 @@ extends StarcardJpanel1 {
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.iiIiiiiiiiIii.length) {
             this.iiIiiiiiiiIii[IiiiiiiiIIIII] = IiIIIiiiiIIiI.ALLATORIxDEMO((int)0, (int)(0 + IiiiiiiiIIIII * 31), (int)90, (int)19, (Color)Color.black, (Font)iiIIiiiiIiiII.iiiiIiiiIiiII);
-            this.iiIiiiiiiiIii[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "\u6240\u9700\u7075\u5143\u6676" : (IiiiiiiiIIIII == 1 ? "\u5f53\u524d\u7075\u5143\u6676" : ""));
+            this.iiIiiiiiiiIii[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "所需灵元晶" : (IiiiiiiiIIIII == 1 ? "当前灵元晶" : ""));
             this.iiIiiiiiiiIii[IiiiiiiiIIIII].setHorizontalAlignment(10);
             this.add(this.iiIiiiiiiiIii[IiiiiiiiIIIII++]);
         }
@@ -66,7 +66,7 @@ extends StarcardJpanel1 {
         this.iIiiIiiiiiiII.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/17.png", (int)6, (int)6, (int)6, (int)6, (boolean)false));
         this.add((Component)this.IIiiIiiiIIiIi);
         this.add((Component)this.iIiiIiiiiiiII);
-        this.IiiiiiiiIIIII = new IiIiIiiiiIIiI("sc/e/7.png", 1, 213, iiIIiiiiIiiII.iiiiIiiiIiiII, null, "\u7a81\u7834", iIIiIiiiiIIiI.ALLATORIxDEMO());
+        this.IiiiiiiiIIIII = new IiIiIiiiiIIiI("sc/e/7.png", 1, 213, iiIIiiiiIiiII.iiiiIiiiIiiII, null, "突破", iIIiIiiiiIIiI.ALLATORIxDEMO());
         this.IiiiiiiiIIIII.setForeground(Color.black);
         this.IiiiiiiiIIIII.setBounds(88, 108, 59, 25);
         this.add((Component)this.IiiiiiiiIIIII);

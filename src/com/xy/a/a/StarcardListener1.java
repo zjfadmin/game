@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.xy.a.a.iIiIIiiiIiiiI
+ *  com.xy.a.a.StarcardJpanel1
  */
 package com.xy.a.a;
 
