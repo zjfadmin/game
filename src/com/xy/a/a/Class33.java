@@ -29,42 +29,29 @@ public class Class33 extends com.xy.q.Class30 {
          if ((var3 = var2.getChoseBao()) != null) {
             if (var1 == 21) {
                String var11 = var3.getBaotype();
-               String var14 = "沱寍";
                if (var11.equals("法宝")) {
-                  var14 = "么肺剥阣沐寚";
                   this.afx._do("不能删除法宝");
                } else if (!com.xy.v.Class12.h(var3.getFushis())) {
-                  var14 = "剄阴利儘匜乛筂瞣";
                   this.afx._do("删除前先卸下符石");
                } else {
-                  GameView var12 = this.afx;
-                  String var17 = var3.getBaoid().toString();
-                  String var18 = "d\u001c砩察视屃订瀰寚剥阣呒ｘｚｘ";
-                  var12.dm(new ConfirmBean(8, var17, "#Y确定要将该灵宝删除吗？？？"));
+                  this.afx.dm(new ConfirmBean(8, var3.getBaoid().toString(), "#Y确定要将该灵宝删除吗？？？"));
                }
             } else if (var1 == 22) {
                int var4 = var3.getLingbaolvl().intValue();
                long var5 = var3.getLingbaoexe().longValue();
                long var7 = ExpUtil.a(var4);
                if (var4 % 30 == 0 && var5 >= var7 && var4 != 0) {
-                  StringBuffer var9;
-                  StringBuffer var10 = var9 = new StringBuffer();
-                  String var13 = "f\u001e伥晨呣视淍聐f\u0015";
-                  var10.append("#Y你是否要消耗#R");
+                  StringBuffer var9 = new StringBuffer();
+                  var9.append("#Y你是否要消耗#R");
                   var9.append(var4 / 5);
-                  String var10003 = "G\t乎瀥对她婥匠辿蠜童硤";
                   var9.append("#Y个灵宝天威印进行突破");
                   this.afx.dm(new ConfirmBean(9, var3.getBaoid().toString(), var9.toString()));
                } else {
-                  String var10001 = "込杺迚剠童硤朅亦";
                   this.afx._do("还未达到突破条件");
                }
             } else {
                if (var1 == 23) {
-                  GameView var10000 = this.afx;
-                  String var10004 = var3.getBaoid().toString();
-                  String var10005 = "d\u001c砩察视屃苶egf\u0000wwuwuwed\u001c钱乡雈板瀲寘阃勥拐恢呐zx";
-                  var10000.dm(new ConfirmBean(10, var10004, "#Y确定要将花  #G200000 #Y银两随机灵宝附加抗性吗??"));
+                  this.afx.dm(new ConfirmBean(10, var3.getBaoid().toString(), "#Y确定要将花  #G200000 #Y银两随机灵宝附加抗性吗??"));
                }
             }
          }
@@ -91,10 +78,7 @@ public class Class33 extends com.xy.q.Class30 {
             Class59.alu(this.aiz).gt(com.xy.w.Class15.b(var1.getSkin()));
             Class59.alt(this.aiz)[0].setText(var1.getBaoname());
             Class59.alt(this.aiz)[8].setText(var1.getBaoquality());
-            com.xy.q.Class14 var10002 = Class59.alv(this.aiz)[0];
-            StringBuilder var10003 = new StringBuilder().append(var1.getLingbaolvl());
-            String var10004 = "绠";
-            var10002.setText(var10003.append("级").toString());
+            Class59.alv(this.aiz)[0].setText(new StringBuilder().append(var1.getLingbaolvl()).append("级").toString());
             Class59.alv(this.aiz)[1].setText(var1.getKangxing());
             Class59.aly(this.aiz)[1].ant(var1.getLingbaoexe().doubleValue() / ExpUtil.a(var1.getLingbaolvl().intValue()), 98);
             String var10000 = var1.getBaotype();
@@ -187,33 +171,20 @@ public class Class33 extends com.xy.q.Class30 {
 
    public Class33(GameView var1) {
       super(43, 2, com.xy.q.Class30.afz, var1);
-      String var10002 = "6$j#jvk7+ ";
       this.yy(-2, 0, 542, 475, com.xy.q.Class30.agh);
-      com.xy.w.Class9 var20 = com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false);
-      String var10003 = "p瀑p对p";
-      this.yu(var20, " 灵 宝 ");
-      var10003 = "4&h hqvk7+ ";
+      this.yu(com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false), " 灵 宝 ");
       Font var10006 = com.xy.q.Class49.k;
       String[] var10008 = new String[4];
-      String var10011 = "瀥";
       var10008[0] = "灵";
-      var10011 = "寚";
       var10008[1] = "宝";
-      var10011 = "袕";
       var10008[2] = "装";
-      var10011 = "奀";
       var10008[3] = "备";
       this.ajd = new com.xy.i.Class7("sc/e/41.png", 2, 1, var10006, null, var10008, this);
-      var10003 = "#\u0007\u007f\u0001\u007fPaJ \n7";
       var10006 = com.xy.q.Class49.k;
       var10008 = new String[4];
-      var10011 = "瀲";
       var10008[0] = "灵";
-      var10011 = "寍";
       var10008[1] = "宝";
-      var10011 = "尙";
       var10008[2] = "属";
-      var10011 = "恷";
       var10008[3] = "性";
       this.km = new com.xy.i.Class7("sc/e/41.png", 2, 2, var10006, null, var10008, this);
       this.ajd.wp(new com.xy.v.Class32(6, 19, 0, 18));
@@ -239,18 +210,15 @@ public class Class33 extends com.xy.q.Class30 {
          if (var2 == 0) {
             var7 = this;
             com.xy.w.Class18 var21 = this.sk[var2];
-            var10003 = "4&h!hqvk7+ ";
             var21.dp("sc/d/41.png");
             this.sk[var2].setBounds(166, 9, 247, 41);
          } else if (var2 == 1) {
             var7 = this;
             com.xy.w.Class18 var10001 = this.sk[var2];
-            var10002 = "#\u0007\u007f\u0000\u007fWgJ \n7";
             var10001.dp("sc/d/37.png");
          } else if (var2 != 2 && var2 != 3) {
             if (var2 == 4) {
                com.xy.w.Class18 var12 = this.sk[var2];
-               var10002 = "#\u0007\u007f\u0000\u007fWfJ \n7";
                var12.mt(com.xy.w.Class16.m("sc/d/36.png", 30, 30, 30, 30, false));
                this.sk[var2].setBounds(72, 35, 440, 295);
             }
@@ -259,7 +227,6 @@ public class Class33 extends com.xy.q.Class30 {
          } else {
             var7 = this;
             com.xy.w.Class18 var23 = this.sk[var2];
-            var10003 = "4&h!ht~k7+ ";
             var23.mt(com.xy.w.Class16.m("sc/d/19.png", 5, 5, 5, 5, false));
             this.sk[var2].setBounds(71 + (var2 - 2) * 233, 329, 207, 105);
          }
@@ -272,27 +239,21 @@ public class Class33 extends com.xy.q.Class30 {
       for (int var8 = var2 = 0; var8 < this.au.length; var8 = var2) {
          int var31 = 50 + var2 % 2 * 234;
          int var10004 = 358 + var2 / 2 * 29;
-         String var42 = "f$uwuwuw";
          this.au[var2] = com.xy.q.Class1.f(var31, var10004, 20, 20, 0, com.xy.q.Class49.c("#c000000"), com.xy.q.Class49.ch);
-         JLabel var9 = this.au[var2];
          String var14;
          if (var2 == 0) {
-            var14 = "瀥";
             var14 = "灵";
          } else if (var2 == 1) {
-            var14 = "沒";
             var14 = "法";
          } else if (var2 == 2) {
-            var14 = "寍";
             var14 = "宝";
          } else if (var2 == 3) {
-            var14 = "寚";
             var14 = "宝";
          } else {
             var14 = "";
          }
 
-         var9.setText(var14);
+         this.au[var2].setText(var14);
          this.add(this.au[var2++]);
       }
 
