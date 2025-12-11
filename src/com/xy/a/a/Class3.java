@@ -25,16 +25,12 @@ public class Class3 extends com.xy.q.Class50 {
 
       int var2;
       for (int var10000 = var2 = 0; var10000 < this.ay.length; var10000 = var2) {
-         int var10003 = 328 + 229 * var2;
-         String var10007 = "({H[H(2^";
-         this.ay[var2] = com.xy.q.Class1.k(var10003, 260, 76, 19, com.xy.q.Class49.c("#cCCC09F"), com.xy.q.Class49.ao);
+         this.ay[var2] = com.xy.q.Class1.k(328 + 229 * var2, 260, 76, 19, com.xy.q.Class49.c("#cCCC09F"), com.xy.q.Class49.ao);
          JLabel var5 = this.ay[var2];
          String var10;
          if (var2 == 0) {
-            var10 = "笀纽尗怽";
             var10 = "等级属性";
          } else if (var2 == 1) {
-            var10 = "劫戈怰觐";
             var10 = "加成总览";
          } else {
             var10 = "";
@@ -49,12 +45,8 @@ public class Class3 extends com.xy.q.Class50 {
       this.am = new RichLabel("", com.xy.q.Class49.w);
       this.ba = com.xy.q.Class1.g(270, 281, 205, 128, this.av, -1);
       this.ab = com.xy.q.Class1.g(500, 281, 205, 128, this.am, -1);
-      JScrollBar var10005 = this.ba.getVerticalScrollBar();
-      String var10008 = ":yf~f+\u007f\"gj'}";
-      var10005.setUI(new com.xy.v.Class13(com.xy.w.Class16.m("sc/d/168.png", 3, 3, 3, 3, false), 6));
-      JScrollBar var10004 = this.ab.getVerticalScrollBar();
-      String var18 = "x{$|$)= %he\u007f";
-      var10004.setUI(new com.xy.v.Class13(com.xy.w.Class16.m("sc/d/168.png", 3, 3, 3, 3, false), 6));
+      this.ba.getVerticalScrollBar().setUI(new com.xy.v.Class13(com.xy.w.Class16.m("sc/d/168.png", 3, 3, 3, 3, false), 6));
+      this.ab.getVerticalScrollBar().setUI(new com.xy.v.Class13(com.xy.w.Class16.m("sc/d/168.png", 3, 3, 3, 3, false), 6));
       this.add(this.ba);
       this.add(this.ab);
       this.az = new Class39[2];
@@ -84,15 +76,11 @@ public class Class3 extends com.xy.q.Class50 {
          Class3 var9;
          if (var2 >= 0 && var2 <= 1) {
             var9 = this;
-            com.xy.w.Class18 var14 = this.aw[var2];
-            String var17 = ":yf~f+\u007f-gj'}";
-            var14.dp("sc/d/167.png");
+            this.aw[var2].dp("sc/d/167.png");
             this.aw[var2].setBounds(264 + var2 * 229, 267, 195, 5);
          } else {
             if (var2 >= 2 && var2 <= 3) {
-               com.xy.w.Class18 var12 = this.aw[var2];
-               String var13 = "x{$|$)=,%he\u007f";
-               var12.dp("sc/d/164.png");
+               this.aw[var2].dp("sc/d/164.png");
                this.aw[var2].setBounds(259 + 229 * (var2 - 2), 255, 220, 172);
             }
 
