@@ -50,39 +50,24 @@ public class Class34 extends com.xy.q.Class30 {
       this.s[1].setText(String.valueOf(this.aa));
       this.s[2].setText(String.valueOf(this.aa == 1 ? 2 : (this.aa == 2 ? 6 : (this.aa == 3 ? 12 : 20))));
       this.ajh.td().removeAllElements();
-      Class34 var10000;
       if (var1.getMountid() == 1) {
-         var10000 = this;
-         String var10003 = "劇桓骏ｦ凨勱釨";
          this.ajh.dq("加根骨，减力量");
-         String var10002 = "勃瀚恄｣冬勴醬";
          this.ajh.dq("加灵性，减力量");
       } else if (var1.getMountid() == 2) {
-         var10000 = this;
-         String var2 = "劇勱釨ｦ凨桓骏";
          this.ajh.dq("加力量，减根骨");
       } else if (var1.getMountid() == 3) {
-         var10000 = this;
-         String var6 = "勃桖髋｣冬瀚恄";
          this.ajh.dq("加根骨，减灵性");
-         String var3 = "劇勱釨ｦ凨瀟怀";
          this.ajh.dq("加力量，减灵性");
       } else if (var1.getMountid() == 4) {
-         var10000 = this;
-         String var4 = "勃桖髋｣冬勴醬";
          this.ajh.dq("加根骨，减力量");
       } else {
          if (var1.getMountid() == 5) {
-            String var5 = "劇勱釨ｦ凨桓骏";
             this.ajh.dq("加力量，减根骨");
-            String var10001 = "勃瀚恄｣冬桖髋";
             this.ajh.dq("加灵性，减根骨");
          }
-
-         var10000 = this;
       }
 
-      var10000.zc().b(this.lj());
+      this.zc().b(this.lj());
    }
 
    public void cp(int var1, String var2) {
@@ -170,12 +155,9 @@ public class Class34 extends com.xy.q.Class30 {
       if (var1 == 151) {
          if (this.sc == 0) {
             GameView var14 = this.ze();
-            String var20 = "场骶泋朮醧塶旓桯";
             var14._do("坐骑没有重塑方案");
          } else {
-            String var25 = " 5\u001f";
             StringBuilder var19 = new StringBuilder("CZ|").append(this.ajf);
-            String var23 = "\u0016\u0017";
             String var7 = Agreement.getSendTextAES("usermount", var19.append("|0").toString());
             this.za().k(var7);
          }
@@ -185,28 +167,19 @@ public class Class34 extends com.xy.q.Class30 {
             Goodstable var9;
             if ((var9 = this.yx().au(721L)) == null || var9.getUsetime() < var6) {
                GameView var13 = this.ze();
-               String var24 = "爆咢攟醬乢跐";
-               StringBuilder var18 = new StringBuilder("物品数量不足").append(var6);
-               String var22 = "不";
-               var13._do(var18.append("个").toString());
+               var13._do(new StringBuilder("物品数量不足").append(var6).append("个").toString());
                return;
             }
 
-            String var10003 = " 5\u001f";
             StringBuilder var16 = new StringBuilder("CZ|").append(this.ajf);
-            String var10002 = "[";
-            var16 = var16.append("|").append(this.eg);
-            var10002 = "\u001f";
-            String var4 = Agreement.getSendTextAES("usermount", var16.append("|").append(var9.getRgid()).toString());
+            String var4 = Agreement.getSendTextAES("usermount", var16.append("|").append(this.eg).append("|").append(var9.getRgid()).toString());
             this.za().k(var4);
          }
       } else {
          Class34 var10000;
          if (var1 == 152) {
             if (this.aa <= 1) {
-               GameView var10 = this.ze();
-               String var10001 = "醢堲符组杯伭乕R";
-               var10._do("重塑等级最低为1");
+               this.ze()._do("重塑等级最低为1");
                return;
             }
 
@@ -214,9 +187,7 @@ public class Class34 extends com.xy.q.Class30 {
             this.aa--;
          } else {
             if (this.aa >= 4) {
-               GameView var12 = this.ze();
-               String var15 = "醧塶笣纀杪髿乐\u0013";
-               var12._do("重塑等级最高为4");
+               this.ze()._do("重塑等级最高为4");
                return;
             }
 
@@ -245,11 +216,8 @@ public class Class34 extends com.xy.q.Class30 {
 
    public Class34(GameView var1) {
       super(171, 2, com.xy.q.Class30.afz, var1);
-      String var10007 = "\u001c\u0000@\u0007@RA\u0013\u0001\u0004";
       this.yy(-1, 0, 542, 514, com.xy.q.Class30.agh);
-      com.xy.w.Class9 var61 = com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false);
-      String var10008 = "场骶醧塶";
-      this.yu(var61, "坐骑重塑");
+      this.yu(com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false), "坐骑重塑");
       this.ajh = new com.xy.q.Class44(0, 100, this);
       this.ajh.rm(true);
       this.ajh.zb(336, 28, 165, 20);
@@ -261,34 +229,23 @@ public class Class34 extends com.xy.q.Class30 {
          Class34 var11;
          if (var2 == 0) {
             var11 = this;
-            String var10006 = "\u001c\u0000@\u0006@UA\u0013\u0001\u0004";
-            int var62 = 151 + var2;
-            String var10011 = "怈太";
-            this.ajg[var2] = new com.xy.i.Class4("sc/e/6.png", 1, var62, com.xy.q.Class49.bz, null, "恢复", this);
+            this.ajg[var2] = new com.xy.i.Class4("sc/e/6.png", 1, 151 + var2, com.xy.q.Class49.bz, null, "恢复", this);
             this.ajg[var2].setBounds(216, 29, 34, 18);
          } else if (var2 == 1) {
             var11 = this;
-            String var57 = "\u0010\fL\nL\\QA\u0013\u0001\u0004";
             this.ajg[var2] = new com.xy.i.Class4("sc/e/32.png", 1, 151 + var2, this);
             this.ajg[var2].setBounds(224, 57, 11, 15);
          } else if (var2 == 2) {
             var11 = this;
-            String var58 = "T\t\b\u000f\bY\u0013DW\u0004@";
             this.ajg[var2] = new com.xy.i.Class4("sc/e/34.png", 1, 151 + var2, this);
             this.ajg[var2].setBounds(235, 57, 11, 15);
          } else if (var2 == 3) {
             var11 = this;
-            String var59 = "\u0010\fL\nL[SA\u0013\u0001\u0004";
-            int var63 = 151 + var2;
-            String var65 = "Ｘ";
-            this.ajg[var2] = new com.xy.i.Class4("sc/e/40.png", 1, var63, com.xy.q.Class49.bz, null, "？", this);
+            this.ajg[var2] = new com.xy.i.Class4("sc/e/40.png", 1, 151 + var2, com.xy.q.Class49.bz, null, "？", this);
             this.ajg[var2].setBounds(502, 56, 18, 18);
          } else {
             if (var2 == 4) {
-               String var60 = "\u001c\u0000@\u0006@TA\u0013\u0001\u0004";
-               int var64 = 151 + var2;
-               String var66 = "砄讃";
-               this.ajg[var2] = new com.xy.i.Class4("sc/e/7.png", 1, var64, com.xy.q.Class49.ch, null, "确认", this);
+               this.ajg[var2] = new com.xy.i.Class4("sc/e/7.png", 1, 151 + var2, com.xy.q.Class49.ch, null, "确认", this);
                this.ajg[var2].setBounds(254, 472, 59, 25);
                this.ajg[var2].setForeground(Color.black);
             }
@@ -306,40 +263,30 @@ public class Class34 extends com.xy.q.Class30 {
          JLabel var13 = this.ew[var2];
          String var33;
          if (var2 == 0) {
-            var33 = "忦醢堲圿髲";
             var33 = "待重塑坐骑";
          } else if (var2 == 1) {
-            var33 = "醧塶旓吶";
             var33 = "重塑方向";
          } else if (var2 == 2) {
-            var33 = "醢堲符组";
             var33 = "重塑等级";
          } else if (var2 == 3) {
-            var33 = "霧觫筬髂揷汾丟";
             var33 = "需要筋骨提气丸";
          } else if (var2 == 4 || var2 == 5) {
-            var33 = "瀚恄";
             var33 = "灵性";
          } else if (var2 == 6 || var2 == 7) {
-            var33 = "勱釨";
             var33 = "力量";
          } else if (var2 == 8 || var2 == 9) {
-            var33 = "桖髋";
             var33 = "根骨";
          } else if (var2 == 10 || var2 == 11) {
-            var33 = "拪胚飮觯";
             var33 = "技能预览";
          } else if (var2 == 12) {
-            var33 = "醮堾刮圿髲";
             var33 = "重塑前坐骑";
          } else if (var2 == 13) {
-            var33 = "釪堻吩场骶";
             var33 = "重塑后坐骑";
          } else {
             var33 = "";
          }
 
-         var13.setText(var33);
+         this.ew[var2].setText(var33);
          this.ew[var2].setHorizontalAlignment(10);
          Class34 var14;
          if (var2 >= 4 && var2 <= 9) {
@@ -448,37 +395,26 @@ public class Class34 extends com.xy.q.Class30 {
       this.ro.addListSelectionListener(new Class26(this));
 
       for (int var8 = 0; var20 < 9; var20 = var8) {
-         String var23;
+         String var10;
          if (var8 == 0) {
-            String var22 = "奐呚辗魥";
-            var23 = "夺命追魂";
+            var10 = "夺命追魂";
          } else if (var8 == 1) {
-            String var24 = "硛醿泦艼";
-            var23 = "破釜沉舟";
+            var10 = "破釜沉舟";
          } else if (var8 == 2) {
-            String var25 = "呤叶剜亝";
-            var23 = "后发制人";
+            var10 = "后发制人";
          } else if (var8 == 3) {
-            String var26 = "奆隔恽瀈";
-            var23 = "天雷怒火";
+            var10 = "天雷怒火";
          } else if (var8 == 4) {
-            String var27 = "儞飩伶浍";
-            var23 = "兴风作浪";
+            var10 = "兴风作浪";
          } else if (var8 == 5) {
-            String var28 = "乨勈乢奮";
-            var23 = "万劫不复";
+            var10 = "万劫不复";
          } else if (var8 == 6) {
-            String var29 = "醻躌乧坨";
-            var23 = "金身不坏";
+            var10 = "金身不坏";
          } else if (var8 == 7) {
-            String var30 = "奆礽拋估";
-            var23 = "天神护体";
+            var10 = "天神护体";
          } else {
-            String var31 = "復妥欈氓";
-            var23 = "心如止水";
+            var10 = "心如止水";
          }
-
-         String var10 = var23;
          this.pk.addElement(var10);
          var8++;
          this.aji.addElement(var10);
@@ -524,34 +460,18 @@ public class Class34 extends com.xy.q.Class30 {
 
    public void ci(String var1) {
       int var2 = 0;
-      String var10001 = "劇桓骏ｦ凨勱釨";
       if (var1.equals("加根骨，减力量")) {
          var2 = 52;
-      } else {
-         var10001 = "勃瀚恄｣冬勴醬";
-         if (var1.equals("加灵性，减力量")) {
-            var2 = 7;
-         } else {
-            var10001 = "劇勱釨ｦ凨桓骏";
-            if (var1.equals("加力量，减根骨")) {
-               var2 = 28;
-            } else {
-               var10001 = "勃桖髋｣冬瀚恄";
-               if (var1.equals("加根骨，减灵性")) {
-                  var2 = 49;
-               } else {
-                  var10001 = "劇勱釨ｦ凨瀟怀";
-                  if (var1.equals("加力量，减灵性")) {
-                     var2 = 13;
-                  } else {
-                     var10001 = "勃瀚恄｣冬桖髋";
-                     if (var1.equals("加灵性，减根骨")) {
-                        var2 = 19;
-                     }
-                  }
-               }
-            }
-         }
+      } else if (var1.equals("加灵性，减力量")) {
+         var2 = 7;
+      } else if (var1.equals("加力量，减根骨")) {
+         var2 = 28;
+      } else if (var1.equals("加根骨，减灵性")) {
+         var2 = 49;
+      } else if (var1.equals("加力量，减灵性")) {
+         var2 = 13;
+      } else if (var1.equals("加灵性，减根骨")) {
+         var2 = 19;
       }
 
       int var3 = 0;
