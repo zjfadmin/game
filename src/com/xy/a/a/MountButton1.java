@@ -2,8 +2,8 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.xy.a.a.IIIiIiiiiIIii
- *  com.xy.a.a.IIiiiiiiIIIii
+ *  com.xy.a.a.MountButton2
+ *  com.xy.a.a.MountButton3
  *  com.xy.a.a.MountJpanel3
  *  com.xy.a.a.iIIiIiiiIiiIi
  *  com.xy.a.iiIiiiiiIIiiI
@@ -26,8 +26,8 @@
  */
 package com.xy.a.a;
 
-import com.xy.a.a.IIIiIiiiiIIii;
-import com.xy.a.a.IIiiiiiiIIIii;
+import com.xy.a.a.MountButton2;
+import com.xy.a.a.MountButton3;
 import com.xy.a.a.MountJpanel3;
 import com.xy.a.a.iIIiIiiiIiiIi;
 import com.xy.a.iiIiiiiiIIiiI;
@@ -56,7 +56,7 @@ import javax.swing.JLabel;
 /*
  * Exception performing whole class analysis ignored.
  */
-static class IiiIiiiiIiIIi
+static class MountButton1
 extends iIiIIiiiIiiiI {
     private JLabel IIiiIiiiIIiIi;
     private com.xy.q.IIIiiiiiIiIiI iIiIiiiiIiIii;
@@ -65,14 +65,14 @@ extends iIiIIiiiIiiiI {
     private IIIiiiiiIiIiI IiiiiiiiIIIII;
     private int ALLATORIxDEMO;
 
-    public IiiIiiiiIiIIi(iIIiIiiiIiiIi iIIiIiiiIiiIi2, int index) {
+    public MountButton1(iIIiIiiiIiiIi iIIiIiiiIiiIi2, int index) {
         this.IiIIIiiiiIiiI = iIIiIiiiIiiIi2;
         this.ALLATORIxDEMO = index;
-        this.iIiIiiiiIiIii = new IIIiIiiiiIIii(this, (IiiiIiiiiIiIi)iIIiIiiiIiiIi.ALLATORIxDEMO((iIIiIiiiIiiIi)iIIiIiiiIiiIi2));
+        this.iIiIiiiiIiIii = new MountButton2(this, (IiiiIiiiiIiIi)iIIiIiiiIiiIi.ALLATORIxDEMO((iIIiIiiiIiiIi)iIIiIiiiIiiIi2));
         this.iIiIiiiiIiIii.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/161.png", (int)10, (int)10, (int)10, (int)10, (boolean)false));
         this.iIiIiiiiIiIii.ALLATORIxDEMO(com.xy.q.IIIiiiiiIiIiI.ALLATORIxDEMO);
         this.iIiIiiiiIiIii.setBounds(28, 0, 58, 58);
-        this.iiIiiiiiiiIii = new IIiiiiiiIIIii(this, (IiiiIiiiiIiIi)iIIiIiiiIiiIi.ALLATORIxDEMO((iIIiIiiiIiiIi)iIIiIiiiIiiIi2));
+        this.iiIiiiiiiiIii = new MountButton3(this, (IiiiIiiiiIiIi)iIIiIiiiIiiIi.ALLATORIxDEMO((iIIiIiiiIiiIi)iIIiIiiiIiiIi2));
         this.iiIiiiiiiiIii.setBounds(66, 38, 32, 32);
         this.IIiiIiiiIIiIi = IiIIIiiiiIIiI.ALLATORIxDEMO((int)0, (int)70, (int)115, (int)22, (Color)Color.white, (Font)iiIIiiiiIiiII.iIIIiiiiIIIii);
         this.IIiiIiiiIIiIi.setHorizontalAlignment(0);
