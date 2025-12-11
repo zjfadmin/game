@@ -110,7 +110,6 @@ class Class36 extends com.xy.q.Class54 {
                   if (var1.getButton() == 1) {
                      if (this.ajs.afx.getMouseIndex() == com.xy.v.Class3.c) {
                         if (var3.getGoodlock() == 1) {
-                           String var7 = "诅牁員巚劀锩";
                            this.ajs.afx.dp("该物品已加锁");
                            return;
                         }
@@ -118,14 +117,12 @@ class Class36 extends com.xy.q.Class54 {
                         var3.setGoodlock(1);
                         ParamTool.j(var3, 0, this.ajs.afx.getClient());
                         this.ajs.afx.setMouseIndex(com.xy.v.Class3.k);
-                        String var6 = "勍锰扽劮";
                         this.ajs.afx.dp("加锁成功");
                         return;
                      }
 
                      if (this.ajs.afx.getMouseIndex() == com.xy.v.Class3.g) {
                         if (var3.getGoodlock() == 0) {
-                           String var5 = "诅牁員朂劀锩";
                            this.ajs.afx.dp("该物品未加锁");
                            return;
                         }
@@ -133,7 +130,6 @@ class Class36 extends com.xy.q.Class54 {
                         var3.setGoodlock(0);
                         ParamTool.j(var3, 0, this.ajs.afx.getClient());
                         this.ajs.afx.setMouseIndex(com.xy.v.Class3.k);
-                        String var10001 = "覎锰扽劮";
                         this.ajs.afx.dp("解锁成功");
                      }
                   }
