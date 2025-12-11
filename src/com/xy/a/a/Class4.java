@@ -94,12 +94,10 @@ public class Class4 extends com.xy.q.Class30 {
          StringBuffer var6 = new StringBuffer();
          if (var5 > 0) {
             var6.append(var5);
-            String var10002 = "岦";
             var6.append("岁");
          }
 
          var6.append(var4);
-         String var10 = "札";
          var6.append("月");
          this.bd.setText(var6.toString());
          var10000 = var5;
@@ -110,13 +108,9 @@ public class Class4 extends com.xy.q.Class30 {
       }
 
       if (var2 == 0) {
-         com.xy.w.Class18 var9 = this.bb[1];
-         String var11 = "\u0019DEE\u000bE\u0013\b\t\u0016[\u0017";
-         var9.dp("sc/baby/c110" + var5 + ".png");
+         this.bb[1].dp("sc/baby/c110" + var5 + ".png");
       } else {
-         com.xy.w.Class18 var8 = this.bb[1];
-         String var10003 = "mF1G\u007fGg\n}\u0014.\u0015";
-         var8.dp("sc/baby/c100" + var5 + ".png");
+         this.bb[1].dp("sc/baby/c100" + var5 + ".png");
       }
    }
 
@@ -191,20 +185,13 @@ public class Class4 extends com.xy.q.Class30 {
          }
 
          BigDecimal var17;
-         Class4 var29;
          if ((var17 = var1.getLoginResult().getBabyId()) != null && var17.compareTo(var2.getBabyid()) == 0) {
-            var29 = this;
-            com.xy.i.Class4 var47 = Class2.q(this.bf)[2];
-            String var50 = "忯朝";
-            var47.setText("待机");
+            Class2.q(this.bf)[2].setText("待机");
          } else {
-            var29 = this;
-            com.xy.i.Class4 var46 = Class2.q(this.bf)[2];
-            String var10002 = "叜戽";
-            var46.setText("参战");
+            Class2.q(this.bf)[2].setText("参战");
          }
 
-         Class2.r(var29.bf).setText(var2.getBabyname());
+         Class2.r(this.bf).setText(var2.getBabyname());
          if (this.za().gameBaby) {
             int var18 = 400;
             BabyResult var21;
@@ -231,7 +218,6 @@ public class Class4 extends com.xy.q.Class30 {
                Class2.s(this.bf)[var24 - 1].setForeground(var26 >= var18 ? Color.white : Color.white);
                com.xy.q.Class14 var33 = Class2.s(this.bf)[var24 - 1];
                StringBuilder var48 = new StringBuilder(String.valueOf(String.valueOf((int)var26)));
-               String var51 = "\n";
                var48 = var48.append("/");
                var24++;
                var33.setText(var48.append(var18).toString());
@@ -255,45 +241,21 @@ public class Class4 extends com.xy.q.Class30 {
                }
             }
 
-            RichLabel var52 = this.bj;
-            String var10005 = "\u00040\u0004=诣剬\u001dI`";
-            StringBuilder var10003 = new StringBuilder("#Z#W评分:#G").append((int)var11);
-            String var10004 = "\u0006I\r";
-            var10003 = var10003.append("#W(").append((int)var25);
-            var10004 = "\u000e";
-            var52.setTextSize(var10003.append(")").toString(), 200);
+            this.bj.setTextSize(new StringBuilder("#Z#W评分:#G").append((int)var11).append("#W(").append((int)var25).append(")").toString(), 200);
             this.bj.setBounds(110 + (200 - this.bj.getWidth()) / 2, 55, this.bj.getWidth(), this.bj.getHeight());
             com.xy.v.Class27.k(var22);
          } else {
             Map var19 = BaseValue.getProperty(var2, var3, var1);
-            com.xy.q.Class14 var35 = Class2.s(this.bf)[0];
-            String var53 = "氊贍";
-            var35.setText(((Integer)var19.get("气质")).toString());
-            com.xy.q.Class14 var36 = Class2.s(this.bf)[1];
-            var53 = "凯劼";
-            var36.setText(((Integer)var19.get("内力")).toString());
-            com.xy.q.Class14 var37 = Class2.s(this.bf)[2];
-            var53 = "晤劾";
-            var37.setText(((Integer)var19.get("智力")).toString());
-            com.xy.q.Class14 var38 = Class2.s(this.bf)[3];
-            var53 = "聺劼";
-            var38.setText(((Integer)var19.get("耐力")).toString());
-            com.xy.q.Class14 var39 = Class2.s(this.bf)[4];
-            var53 = "吓氱";
-            var39.setText(((Integer)var19.get("名气")).toString());
-            com.xy.q.Class14 var40 = Class2.s(this.bf)[5];
-            var53 = "逹徐";
-            var40.setText(((Integer)var19.get("道德")).toString());
-            com.xy.q.Class14 var41 = Class2.s(this.bf)[6];
-            var53 = "叅連";
-            var41.setText(((Integer)var19.get("叛逆")).toString());
-            com.xy.q.Class14 var42 = Class2.s(this.bf)[7];
-            var53 = "珃怀";
-            var42.setText(((Integer)var19.get("玩性")).toString());
+            Class2.s(this.bf)[0].setText(((Integer)var19.get("气质")).toString());
+            Class2.s(this.bf)[1].setText(((Integer)var19.get("内力")).toString());
+            Class2.s(this.bf)[2].setText(((Integer)var19.get("智力")).toString());
+            Class2.s(this.bf)[3].setText(((Integer)var19.get("耐力")).toString());
+            Class2.s(this.bf)[4].setText(((Integer)var19.get("名气")).toString());
+            Class2.s(this.bf)[5].setText(((Integer)var19.get("道德")).toString());
+            Class2.s(this.bf)[6].setText(((Integer)var19.get("叛逆")).toString());
+            Class2.s(this.bf)[7].setText(((Integer)var19.get("玩性")).toString());
             Class2.s(this.bf)[8].setText(var2.getQingmi().toString());
-            com.xy.q.Class14 var43 = Class2.s(this.bf)[9];
-            var53 = "孃忦";
-            var43.setText(((Integer)var19.get("孝心")).toString());
+            Class2.s(this.bf)[9].setText(((Integer)var19.get("孝心")).toString());
             Class2.s(this.bf)[10].setText(var2.getWenbao().toString());
             Class2.s(this.bf)[11].setText(var2.getPilao().toString());
             Class2.s(this.bf)[12].setText(var2.getYangyujin().toString());
@@ -326,7 +288,6 @@ public class Class4 extends com.xy.q.Class30 {
             if ((var4 = var3.getOutcome()) != null && !var4.equals("")) {
                Goodstable var5;
                if ((var5 = var2.bk(new BigDecimal(615))) == null) {
-                  String var12 = "佇肦匢泋朮瑖浡珣涕";
                   this.afx.dp("你背包没有琼浆玉液");
                } else {
                   int var6 = -1;
@@ -357,7 +318,6 @@ public class Class4 extends com.xy.q.Class30 {
                   }
                }
             } else {
-               String var10001 = "戵幪含打胘弤匳択胘";
                this.afx.dp("成年后才能强化技能");
             }
          }
@@ -367,9 +327,7 @@ public class Class4 extends com.xy.q.Class30 {
    public Class4(GameView var1) {
       super(1, 2, com.xy.q.Class30.afz, var1);
       this.yy(-2, 0, 582, 375, com.xy.q.Class30.agh);
-      com.xy.w.Class9 var20 = com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false);
-      String var10004 = "入肗";
-      this.yu(var20, "养育");
+      this.yu(com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false), "养育");
       this.bg = new com.xy.i.Class4[2];
 
       int var2;
@@ -379,11 +337,9 @@ public class Class4 extends com.xy.q.Class30 {
          String var24;
          Class4 var10010;
          if (var2 == 0) {
-            var24 = "局怂";
             var24 = "属性";
             var10010 = this;
          } else if (var2 == 1) {
-            var24 = "奃赣";
             var24 = "天资";
             var10010 = this;
          } else {
@@ -484,43 +440,32 @@ public class Class4 extends com.xy.q.Class30 {
             if (var1 == 3) {
                String var6;
                if (com.xy.v.Class12.h(var6 = Class2.r(this.bf).getText().trim()) || com.xy.v.Class12.am(var3.getBabyname(), var6)) {
-                  String var11 = "诐迹兂嬃孷目斗呧秗";
                   this.afx._do("请输入孩子的新名称");
                } else if (var6.length() > 9) {
-                  String var10 = "吓秕头镚";
                   this.afx._do("名称太长");
                } else if (!com.xy.v.Class0.j(var6)) {
-                  String var9 = "俉敓吩目吪嬽个肗朮爓殭筌叐";
                   this.afx.dp("修改后的名字不能有特殊符号");
                } else if (!com.xy.v.Class0.b(var6)) {
-                  String var8 = "吨秮丈匛后靀泰孉笃？Ｄ";
                   this.afx.dp("名称中包含非法字符！！");
                } else {
                   var3.setBabyname(var6);
                   ParamTool.c(var3, this.za());
-                  String var10001 = "嬃孷呧秗侄攞扺劸";
                   this.afx.dp("孩子名称修改成功");
                }
             } else {
                if (var1 == 5) {
                   BigDecimal var4;
                   if ((var4 = var2.getLoginResult().getBabyId()) == null || var4.compareTo(var3.getBabyid()) != 0) {
-                     com.xy.i.Class4 var12 = Class2.q(this.bf)[2];
-                     String var13 = "徛期";
-                     var12.setText("待机");
+                     Class2.q(this.bf)[2].setText("待机");
                      var2.getLoginResult().setBabyId(var3.getBabyid());
-                     var13 = "e";
                      String var7 = Agreement.getSendTextAES("rolechange", "B" + var3.getBabyid());
                      this.za().k(var7);
                      var2.getRoleProperty().s(var3);
                      return;
                   }
 
-                  com.xy.i.Class4 var10003 = Class2.q(this.bf)[2];
-                  String var10004 = "叜戽";
-                  var10003.setText("参战");
+                  Class2.q(this.bf)[2].setText("参战");
                   var2.getLoginResult().setBabyId(null);
-                  String var10002 = "e";
                   String var5 = Agreement.getSendTextAES("rolechange", "B");
                   this.za().k(var5);
                   var2.getRoleProperty().s(null);
