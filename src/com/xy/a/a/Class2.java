@@ -22,10 +22,8 @@ class Class2 extends JComponent {
          com.xy.i.Class4[] var5 = this.v;
          String var30;
          if (var2 == 0) {
-            var30 = "ou3s3\",8lx{";
             var30 = "sc/e/40.png";
          } else {
-            var30 = "\u007fs#u#'\"`bw";
             var30 = "sc/e/7.png";
          }
 
@@ -34,15 +32,12 @@ class Class2 extends JComponent {
          String var33;
          Class4 var10010;
          if (var2 == 0) {
-            var33 = "攥";
             var33 = "改";
             var10010 = var1;
          } else if (var2 == 1) {
-            var33 = "跓隟";
             var33 = "跟随";
             var10010 = var1;
          } else if (var2 == 2) {
-            var33 = "叔戄";
             var33 = "参战";
             var10010 = var1;
          } else {
@@ -87,46 +82,32 @@ class Class2 extends JComponent {
          JLabel var9 = var8.r[var2];
          String var13;
          if (var2 == 0) {
-            var13 = "乿吝";
             var13 = "乳名";
          } else if (var2 == 1) {
-            var13 = "氂贴";
             var13 = "气质";
          } else if (var2 == 2) {
-            var13 = "冉劋";
             var13 = "内力";
          } else if (var2 == 3) {
-            var13 = "晬劇";
             var13 = "智力";
          } else if (var2 == 4) {
-            var13 = "耜劋";
             var13 = "耐力";
          } else if (var2 == 5) {
-            var13 = "君氈";
             var13 = "名气";
          } else if (var2 == 6) {
-            var13 = "遟徧";
             var13 = "道德";
          } else if (var2 == 7) {
-            var13 = "反通";
             var13 = "叛逆";
          } else if (var2 == 8) {
-            var13 = "玥怷";
             var13 = "玩性";
          } else if (var2 == 9) {
-            var13 = "交寚";
             var13 = "亲密";
          } else if (var2 == 10) {
-            var13 = "孑忓";
             var13 = "孝心";
          } else if (var2 == 11) {
-            var13 = "渿饭";
             var13 = "温饱";
          } else if (var2 == 12) {
-            var13 = "疾劣";
             var13 = "疲劳";
          } else if (var2 == 13) {
-            var13 = "內肤重";
             var13 = "养育金";
          } else {
             var13 = "";
@@ -136,7 +117,6 @@ class Class2 extends JComponent {
          this.add(this.r[var2++]);
       }
 
-      String var32 = "co?h?='\"`bw";
       this.t = com.xy.q.Class1.j(com.xy.w.Class16.m("sc/d/17.png", 3, 3, 3, 3, false), com.xy.q.Class49.w, Color.white);
       this.t.setBounds(52, 10, 172, 19);
       this.add(this.t);
@@ -144,9 +124,7 @@ class Class2 extends JComponent {
 
       for (int var10 = var2 = 0; var10 < this.s.length; var10 = var2) {
          this.s[var2] = com.xy.q.Class1.i(52 + var2 % 2 * 108, 31 + var2 / 2 * 21, 64, 19, 10, Color.white, com.xy.q.Class49.w);
-         com.xy.q.Class14 var11 = this.s[var2];
-         String var27 = "ou3r3'+8lx{";
-         var11.mt(com.xy.w.Class16.m("sc/d/17.png", 3, 3, 3, 3, false));
+         this.s[var2].mt(com.xy.w.Class16.m("sc/d/17.png", 3, 3, 3, 3, false));
          if (var2 == 12) {
             this.s[var2].setBounds(52, 157, 172, 19);
          }
@@ -178,8 +156,6 @@ class Class2 extends JComponent {
          this.s[var1++].setText(null);
       }
 
-      com.xy.i.Class4 var2 = this.v[2];
-      String var3 = "収戈";
-      var2.setText("参战");
+      this.v[2].setText("参战");
    }
 }
