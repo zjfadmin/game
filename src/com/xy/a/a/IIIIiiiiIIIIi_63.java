@@ -3,7 +3,7 @@
  * 
  * Could not load the following classes:
  *  com.xy.a.a.IiiIIiiiiIiii
- *  com.xy.a.a.IiiiIiiiiIIII
+ *  com.xy.a.a.MountJpanel2
  *  com.xy.entity.Mount
  *  com.xy.entity.RoleSummoning
  *  com.xy.formula.ExpUtil
@@ -28,7 +28,7 @@
 package com.xy.a.a;
 
 import com.xy.a.a.IiiIIiiiiIiii;
-import com.xy.a.a.IiiiIiiiiIIII;
+import com.xy.a.a.MountJpanel2;
 import com.xy.entity.Mount;
 import com.xy.entity.RoleSummoning;
 import com.xy.formula.ExpUtil;

@@ -28,14 +28,14 @@ import java.awt.Component;
 /*
  * Duplicate member names - consider using --renamedupmembers true
  */
-public class iIIiiiiiIIIIi
+public class MountJpanel1
 extends IiiiIiiiiIiIi {
     private int IiIIIiiiiIiiI;
     private IiIiIiiiiIIiI[] iiIiiiiiiiIii;
     private IiiiIiiiiIiIi[] IiiiiiiiIIIII;
     private IIIiiiiiIiIiI ALLATORIxDEMO;
 
-    public iIIiiiiiIIIIi(GameView gameView) {
+    public MountJpanel1(GameView gameView) {
         super(172, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 743, 519, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), " 坐骑 ");

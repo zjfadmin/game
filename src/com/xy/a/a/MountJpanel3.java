@@ -33,7 +33,7 @@ import javax.swing.DefaultListModel;
 import javax.swing.JList;
 import javax.swing.JScrollPane;
 
-public class IiiiIiiiiIiII
+public class MountJpanel3
 extends IiiiIiiiiIiIi {
     private int iIiiIiiiiiiII;
     private JScrollPane IIiiIiiiIIiIi;
@@ -50,7 +50,7 @@ extends IiiiIiiiiIiIi {
         this.ALLATORIxDEMO().iIiIiiiiIIiIi(this.iIiIiiiiIIiii());
     }
 
-    public IiiiIiiiiIiII(GameView gameView) {
+    public MountJpanel3(GameView gameView) {
         super(173, 3, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 282, 345, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u9009\u62e9\u5750\u9a91");

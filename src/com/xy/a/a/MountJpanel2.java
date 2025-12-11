@@ -41,7 +41,7 @@ import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.event.ListSelectionListener;
 
-public class IiiiIiiiiIIII
+public class MountJpanel2
 extends IiiiIiiiiIiIi {
     private JList<String> IIiiIiiiIIiIi;
     private RichLabel iIiIiiiiIiIii;
@@ -101,7 +101,7 @@ lbl32:
         this.ALLATORIxDEMO(mount, ((MountSkill)mount.getMountskill().get(0)).getSkillname());
     }
 
-    static /* synthetic */ JList ALLATORIxDEMO(IiiiIiiiiIIII arg0) {
+    static /* synthetic */ JList ALLATORIxDEMO(MountJpanel2 arg0) {
         return arg0.IIiiIiiiIIiIi;
     }
 
@@ -157,7 +157,7 @@ lbl32:
         this.iIiIiiiiIiIii.setTextSize(IiiiiiiiIIIII2.toString(), 235);
     }
 
-    public IiiiIiiiiIIII(GameView gameView) {
+    public MountJpanel2(GameView gameView) {
         super(20, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-3, 0, 322, 330, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u5750\u9a91\u6280\u80fd");
