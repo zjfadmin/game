@@ -275,9 +275,9 @@ implements MouseListener {
             String[] IiiiiiiiIIIII5 = (String[])this.IiiIIiiiiiiiI;
             long IiiiiiiiIIIII6 = new BigDecimal(IiiiiiiiIIIII5[3]).longValue();
             StringBuffer IiiiiiiiIIIII7 = new StringBuffer();
-            IiiiiiiiIIIII7.append("#cFFFF00\u3010\u6280\u80fd\u7b49\u7ea7\u3011 ");
+            IiiiiiiiIIIII7.append("#cFFFF00【技能等级】 ");
             IiiiiiiiIIIII7.append(ExpUtil.ALLATORIxDEMO((long)IiiiiiiiIIIII6));
-            IiiiiiiiIIIII7.append("#r\u3010\u7c7b\u578b\u3011 \u901a\u7528#r#G");
+            IiiiiiiiIIIII7.append("#r【类型】 通用#r#G");
             IiiiiiiiIIIII7.append(iiIiiiiiIIiiI.ALLATORIxDEMO((String)IiiiiiiiIIIII.getRemark(), (Skill)IiiiiiiiIIIII, (String)IiiiiiiiIIIII5[2], (String)String.valueOf(ExpUtil.ALLATORIxDEMO((long)IiiiiiiiIIIII6))));
             ((iiIiiiiiIIiiI)this.iIIIIiiiiiIIi.ALLATORIxDEMO().iiiIiiiiiiIIi(46)).ALLATORIxDEMO(IiiiiiiiIIIII.getSkillname(), IiiiiiiiIIIII7.toString());
             return;
@@ -344,7 +344,7 @@ implements MouseListener {
             if (this.IIiIiiiiIIiII == 1L) {
                 LoginResult IiiiiiiiIIIII = this.iIIIIiiiiiIIi.ALLATORIxDEMO().getLoginResult();
                 iiIiiiiiIIiiI IiiiiiiiIIIII15 = (iiIiiiiiIIiiI)this.iIIIIiiiiiIIi.ALLATORIxDEMO().iiiIiiiiiiIIi(46);
-                IiiiiiiiIIIII15.IiiIiiiiiiIiI(String.valueOf(IiiiiiiiIIIII.getRolename()) + " " + IiiiIiiiiIIII.iIiIiiiiIIiii((int)IiiiiiiiIIIII.getGrade()) + "\u7ea7");
+                IiiiiiiiIIIII15.IiiIiiiiiiIiI(String.valueOf(IiiiiiiiIIIII.getRolename()) + " " + IiiiIiiiiIIII.iIiIiiiiIIiii((int)IiiiiiiiIIIII.getGrade()) + "级");
                 return;
             }
             if (this.IIiIiiiiIIiII != 2L) return;
@@ -353,7 +353,7 @@ implements MouseListener {
                 return;
             }
             iiIiiiiiIIiiI IiiiiiiiIIIII16 = (iiIiiiiiIIiiI)this.iIIIIiiiiiIIi.ALLATORIxDEMO().iiiIiiiiiiIIi(46);
-            IiiiiiiiIIIII16.IiiIiiiiiiIiI(String.valueOf(IiiiiiiiIIIII.getSummoningname()) + " \u5fe0\u8bda:" + IiiiiiiiIIIII.getFaithful());
+            IiiiiiiiIIIII16.IiiIiiiiiiIiI(String.valueOf(IiiiiiiiIIIII.getSummoningname()) + " 忠诚:" + IiiiiiiiIIIII.getFaithful());
             return;
         }
         if (this.IiiiiiiiIIIII == 24) {
