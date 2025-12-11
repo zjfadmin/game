@@ -41,16 +41,13 @@ public class Class15 extends JComponent {
       int var2;
       for (int var10000 = var2 = 0; var10000 < this.oc.length; var10000 = var2) {
          com.xy.i.Class4[] var5 = this.oc;
-         String var10004 = "\u007f\u000b#\r#Z:F|\u0006k";
          int var10006 = 129 + var2;
          String var24;
          Class38 var10010;
          if (var2 == 0) {
-            var24 = "刞阙抾肀";
             var24 = "删除技能";
             var10010 = var1;
          } else if (var2 == 1) {
-            var24 = "众甤爁响";
             var24 = "使用物品";
             var10010 = var1;
          } else {
@@ -71,10 +68,8 @@ public class Class15 extends JComponent {
          JLabel var7 = this.o[var2];
          String var10;
          if (var2 == 0) {
-            var10 = "抾肀吳禍";
             var10 = "技能名称";
          } else if (var2 == 1) {
-            var10 = "拨胱亣绁";
             var10 = "技能介绍";
          } else {
             var10 = "";
@@ -112,33 +107,23 @@ public class Class15 extends JComponent {
          Class15 var9;
          if (var2 == 0) {
             var9 = this;
-            com.xy.w.Class18 var15 = this.aw[var2];
-            String var10003 = "\u000e]RZR\tD\u0010\rP\u001a";
-            var15.dp("sc/d/79.png");
+            this.aw[var2].dp("sc/d/79.png");
             this.aw[var2].setBounds(205, 70, 204, 243);
          } else if (var2 == 1) {
             var9 = this;
-            com.xy.w.Class18 var16 = this.aw[var2];
-            String var21 = "\u007f\u000b#\f#Z9F|\u0006k";
-            var16.mt(com.xy.w.Class16.m("sc/d/25.png", 2, 2, 2, 2, false));
+            this.aw[var2].mt(com.xy.w.Class16.m("sc/d/25.png", 2, 2, 2, 2, false));
             this.aw[var2].setBounds(413, 70, 127, 21);
          } else if (var2 == 2) {
             var9 = this;
-            com.xy.w.Class18 var17 = this.aw[var2];
-            String var22 = "\u000e]RZR\fH\u0010\rP\u001a";
-            var17.mt(com.xy.w.Class16.m("sc/d/25.png", 2, 2, 2, 2, false));
+            this.aw[var2].mt(com.xy.w.Class16.m("sc/d/25.png", 2, 2, 2, 2, false));
             this.aw[var2].setBounds(413, 171, 127, 21);
          } else if (var2 == 3) {
             var9 = this;
-            com.xy.w.Class18 var18 = this.aw[var2];
-            String var23 = "\u007f\u000b#\f#Z8F|\u0006k";
-            var18.mt(com.xy.w.Class16.m("sc/d/24.png", 2, 2, 2, 2, false));
+            this.aw[var2].mt(com.xy.w.Class16.m("sc/d/24.png", 2, 2, 2, 2, false));
             this.aw[var2].setBounds(413, 70, 127, 101);
          } else {
             if (var2 == 4) {
-               com.xy.w.Class18 var12 = this.aw[var2];
-               String var19 = "\u000e]RZR\fI\u0010\rP\u001a";
-               var12.mt(com.xy.w.Class16.m("sc/d/24.png", 2, 2, 2, 2, false));
+               this.aw[var2].mt(com.xy.w.Class16.m("sc/d/24.png", 2, 2, 2, 2, false));
                this.aw[var2].setBounds(413, 171, 127, 187);
             }
 
@@ -171,9 +156,7 @@ public class Class15 extends JComponent {
       this.od.removeAllElements();
       this.kn(null, false);
       if (var2.getSkill() != null && !var2.getSkill().equals("")) {
-         String var10000 = var2.getSkill();
-         String var10001 = "4p";
-         String[] var3 = var10000.split("\\|");
+         String[] var3 = var2.getSkill().split("\\|");
 
          int var4;
          for (int var6 = var4 = 0; var6 < var3.length; var6 = ++var4) {
