@@ -61,8 +61,8 @@ extends IiiiIiiiiIiIi {
     public iiiiiiiiiiIiI(GameView gameView) {
         super(97, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 562, 435, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
-        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u6597\u8f6c\u661f\u79fb");
-        this.IiIIIiiiiIiiI = new IiIiIiiiiIIiI("sc/e/26.png", 1, 118, iiIIiiiiIiiII.iiiiIiiiIiiII, iiIIiiiiIiiII.IIiiiiiiIiiII, "\u786e\u8ba4\u8f6c\u79fb", (IiiiIiiiiIiIi)this);
+        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "斗转星移");
+        this.IiIIIiiiiIiiI = new IiIiIiiiiIIiI("sc/e/26.png", 1, 118, iiIIiiiiIiiII.iiiiIiiiIiiII, iiIIiiiiIiiII.IIiiiiiiIiiII, "确认转移", (IiiiIiiiiIiIi)this);
         this.IiIIIiiiiIiiI.setBounds(242, 304, 99, 25);
         this.add((Component)this.IiIIIiiiiIiiI);
         this.iIiiIiiiiiiII = new JLabel[13];
@@ -70,7 +70,7 @@ extends IiiiIiiiiIiIi {
         while (IiiiiiiiIIIII < this.iIiiIiiiiiiII.length) {
             this.iIiiIiiiiiiII[IiiiiiiiIIIII] = IiIIIiiiiIIiI.ALLATORIxDEMO((int)(194 + IiiiiiiiIIIII * 248), (int)111, (int)80, (int)16, (Color)Color.black, (Font)iiIIiiiiIiiII.iIiIIiiiiIIiI);
             this.iIiiIiiiiiiII[IiiiiiiiIIIII].setHorizontalAlignment(10);
-            this.iIiiIiiiiiiII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "\u9752\u9f99" : (IiiiiiiiIIIII == 1 ? "\u767d\u864e" : (IiiiiiiiIIIII == 10 ? "\u53ef\u5c06\u526f\u5730\u715e\u661f\u661f\u9635\u4e2d\u7684\u9752\u9ec4\u767d\u9ed1\u5bab\u5176\u4e2d\u4e00\u4e2a\u8f6c\u79fb\u5230\u4e3b\u5730\u715e\u661f\u4e0a" : (IiiiiiiiIIIII == 11 ? "\u53bb\uff0c\u8f6c\u79fb\u540e\u526f\u5730\u715e\u661f\u5c06\u6d88\u5931\u3002" : (IiiiiiiiIIIII == 12 ? "\u6e29\u99a8\u63d0\u793a\uff1a\u5e26\u6709\u6731\u96c0\u3001\u7384\u6b66\u3001\u767d\u864e\u3001\u9752\u9f99\u56db\u79cd\u661f\u9635\u7684\u5730\u715e\u661f\u624d\u53ef\u4ee5\u6597\u8f6c\u661f\u79fb\u3002" : "\u5b66\u4e60\u4ea4\u6d41 \u5b66\u4e60\u7ec3\u4e60\u4e34\u6479\u81ea\u5b66")))));
+            this.iIiiIiiiiiiII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "青龙" : (IiiiiiiiIIIII == 1 ? "白虎" : (IiiiiiiiIIIII == 10 ? "可将副地煞星星阵中的青黄白黑宫其中一个转移到主地煞星上" : (IiiiiiiiIIIII == 11 ? "去，转移后副地煞星将消失。" : (IiiiiiiiIIIII == 12 ? "温馨提示：带有朱雀、玄武、白虎、青龙四种星阵的地煞星才可以斗转星移。" : "学习交流 学习练习临摹自学")))));
             this.add(this.iIiiIiiiiiiII[IiiiiiiiIIIII]);
             if (IiiiiiiiIIIII >= 2 && IiiiiiiiIIIII <= 9) {
                 this.iIiiIiiiiiiII[IiiiiiiiIIIII].setForeground(Color.white);
@@ -150,7 +150,7 @@ extends IiiiIiiiiIiIi {
                     return;
                 }
                 if (good.getRgid().compareTo(IiiiiiiiIIIII.getRgid()) == 0) {
-                    this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u4e0d\u80fd\u9009\u62e9\u4e3b\u5361");
+                    this.iiIIiiiiIiIIi.iIiIiiiiIIiii("不能选择主卡");
                     return;
                 }
                 if (values != null || (IiiiiiiiIIIII = good.getValue().split("\\|")).length < 4) break block13;
@@ -158,7 +158,7 @@ extends IiiiIiiiiIiIi {
                 IiiiiiiiIIIII = IiiiiiiiIIIII.length - 1;
                 if (true) ** GOTO lbl50
                 do {
-                    if (IiiiiiiiIIIII[IiiiiiiiIIIII].startsWith("\u661f\u9635\u5c5e\u6027")) {
+                    if (IiiiiiiiIIIII[IiiiiiiiIIIII].startsWith("星阵属性")) {
                         values = IiiiiiiiIIIII[IiiiiiiiIIIII].split("=");
                         break;
                     }
@@ -185,7 +185,7 @@ lbl27:
             this.ALLATORIxDEMO().iIiIiiiiIIiIi(this.iIiIiiiiIIiii());
             return;
             do {
-                if (IiiiiiiiIIIII[IiiiiiiiIIIII].startsWith("\u661f\u9635\u5c5e\u6027")) {
+                if (IiiiiiiiIIIII[IiiiiiiiIIIII].startsWith("星阵属性")) {
                     values = IiiiiiiiIIIII[IiiiiiiiIIIII].split("=");
                     break;
                 }
@@ -196,7 +196,7 @@ lbl50:
             } while (IiiiiiiiIIIII >= 1);
         }
         if (values == null || !MsgUntil.ALLATORIxDEMO((String)values[1])) {
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u8be5\u661f\u5361\u6ca1\u6709\u56db\u795e\u517d\u661f\u9635");
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("该星卡没有四神兽星阵");
             return;
         }
         this.IiiiiiiiIIIII[1].ALLATORIxDEMO(1, (Object)good);
@@ -233,11 +233,11 @@ lbl50:
             IiiiiiiiIIIII3 = IiiiiiiiIIIII.getGood(IiiiiiiiIIIII3.getRgid());
         }
         if (IiiiiiiiIIIII2 == null || IiiiiiiiIIIII3 == null || IiiiiiiiIIIII2.getRgid().compareTo(IiiiiiiiIIIII3.getRgid()) == 0) {
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u8bf7\u9009\u597d\u4e3b\u5361\u548c\u526f\u5361");
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("请选好主卡和副卡");
             return;
         }
         if (IiiiiiiiIIIII3.getStatus() == 1) {
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u526f\u5361\u5904\u4e8e\u53c2\u6218\u72b6\u6001");
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("副卡处于参战状态");
             return;
         }
         int IiiiiiiiIIIII4 = this.ALLATORIxDEMO;
@@ -259,7 +259,7 @@ lbl50:
             IiiiiiiiIIIII10.iiiIiiiiiiIIi(IiiiiiiiIIIII3);
             return;
         }
-        this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u8bf7\u9009\u62e9\u4e3b\u5361\u6216\u8005\u526f\u5361\u8981\u66ff\u6362\u7684\u661f\u9635\u5bab");
+        this.iiIIiiiiIiIIi.iIiIiiiiIIiii("请选择主卡或者副卡要替换的星阵宫");
     }
 
     static /* synthetic */ IIIiiiiiIiIiI[] ALLATORIxDEMO(iiiiiiiiiiIiI arg0) {
