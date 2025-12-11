@@ -54,7 +54,7 @@ extends iIiIIiiiIiiiI {
         this.IiIIIiiiiIiiI = IiIIIiiiiIIiI.ALLATORIxDEMO((int)11, (int)9, (int)120, (int)24, (Color)com.xy.q.iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c484333"), (Font)com.xy.q.iiIIiiiiIiiII.IIiiIiiiIiiii);
         this.iIiIiiiiIiIii = IiIIIiiiiIIiI.ALLATORIxDEMO((int)14, (int)38, (int)50, (int)16, (Color)com.xy.q.iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c6F6957"), (Font)com.xy.q.iiIIiiiiIiiII.iIiIIiiiiIIiI);
         this.IIiiIiiiIIiIi = IiIIIiiiiIIiI.ALLATORIxDEMO((int)54, (int)38, (int)70, (int)16, (Color)Color.red, (Font)com.xy.q.iiIIiiiiIiiII.ALLATORIxDEMO);
-        this.iIiIiiiiIiIii.setText("\u79ef\u5206\uff1a");
+        this.iIiIiiiiIiIii.setText("积分：");
         this.IIiiIiiiIIiIi.setText("6");
         this.iiIiiiiiiiIii = new IIIiiiiiIiIiI("sc/d/198.png");
         this.iiIiiiiiiiIii.setBounds(0, 0, 156, 66);

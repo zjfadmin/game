@@ -109,9 +109,9 @@ extends iIiIIiiiIiiiI {
                 IiiiiiiiIIIII = this.iiiIiiiiiiiIi.ALLATORIxDEMO();
                 IiiiiiiiIIIII = IiiiiiiiIIIII.getActivity(activity.getId());
                 if (menuSet2.getId() != 1) break block15;
-                this.ALLATORIxDEMO[0].setText("\u793c\u5305");
-                this.ALLATORIxDEMO[1].setText("\u9884\u89c8");
-                this.ALLATORIxDEMO[2].setText("\u552e\u4ef7");
+                this.ALLATORIxDEMO[0].setText("礼包");
+                this.ALLATORIxDEMO[1].setText("预览");
+                this.ALLATORIxDEMO[2].setText("售价");
                 var13_10 = menuSet2.getBases();
                 var12_11 = var13_10.length;
                 var11_15 = 0;
@@ -119,8 +119,8 @@ extends iIiIIiiiIiiiI {
             }
             if (menuSet2.getId() != 3 && menuSet2.getId() != 4) break block16;
             this.ALLATORIxDEMO[0].setText("条件");
-            this.ALLATORIxDEMO[1].setText("\u9884\u89c8");
-            this.ALLATORIxDEMO[2].setText("\u5b8c\u6210\u72b6\u6001");
+            this.ALLATORIxDEMO[1].setText("预览");
+            this.ALLATORIxDEMO[2].setText("完成状态");
             IiiiiiiiIIIII = menuSet2.getBases();
             IiiiiiiiIIIII = ((FormulaNum[])IiiiiiiiIIIII).length;
             IiiiiiiiIIIII = 0;
@@ -243,9 +243,9 @@ lbl97:
                     this.iIiiIiiiiiiII = null;
                     this.IIiiIiiiIIiIi = null;
                     if (menuType != 21) break block19;
-                    this.ALLATORIxDEMO[0].setText("\u76ee\u6807\u7b49\u7ea7");
-                    this.ALLATORIxDEMO[1].setText("\u9884\u89c8");
-                    this.ALLATORIxDEMO[2].setText("\u5b8c\u6210\u72b6\u6001");
+                    this.ALLATORIxDEMO[0].setText("目标等级");
+                    this.ALLATORIxDEMO[1].setText("预览");
+                    this.ALLATORIxDEMO[2].setText("完成状态");
                     if (this.iiiIiiiiiiiIi instanceof IiiIiiiiIIIiI) {
                         ((IiiIiiiiIIIiI)this.iiiIiiiiiiiIi).ALLATORIxDEMO().setTextSize("", 498);
                     }
@@ -260,14 +260,14 @@ lbl97:
                     IiiiiiiiIIIII = IiiiiiiiIIIII != null ? IiiiiiiiIIIII.size() : 0;
                     if (true) ** GOTO lbl52
                 }
-                this.ALLATORIxDEMO[0].setText("\u793c\u5305");
-                this.ALLATORIxDEMO[1].setText("\u9884\u89c8");
-                this.ALLATORIxDEMO[2].setText("\u552e\u4ef7");
+                this.ALLATORIxDEMO[0].setText("礼包");
+                this.ALLATORIxDEMO[1].setText("预览");
+                this.ALLATORIxDEMO[2].setText("售价");
                 IiiiiiiiIIIII = this.iiiIiiiiiiiIi.ALLATORIxDEMO();
                 IiiiiiiiIIIII = IiiiiiiiIIIII.ALLATORIxDEMO(menuType);
                 IiiiiiiiIIIII = null;
                 if (IiiiiiiiIIIII == null) break block20;
-                IiiiiiiiIIIII = this.iiiIiiiiiiiIi.ALLATORIxDEMO().getLimit("\u9650\u65f6\u793c\u5305");
+                IiiiiiiiIIIII = this.iiiIiiiiiiiIi.ALLATORIxDEMO().getLimit("限时礼包");
                 IiiiiiiiIIIII = IiiiiiiiIIIII != null ? IiiiiiiiIIIII.getKeysByActivity() : null;
                 IiiiiiiiIIIII = 0;
                 IiiiiiiiIIIII = IiiiiiiiIIIII != null ? IiiiiiiiIIIII.size() : 0;
@@ -382,22 +382,22 @@ lbl74:
         if (this.iIiiIiiiiiiII == null) return;
         int IiiiiiiiIIIII = UseCardBean.getUseTime((long)this.iIiiIiiiiiiII.ALLATORIxDEMO);
         StringBuffer IiiiiiiiIIIII2 = new StringBuffer();
-        IiiiiiiiIIIII2.append("#Z#W\u6d3b\u52a8\u65f6\u95f4\uff1a\u4ec5\u5269");
+        IiiiiiiiIIIII2.append("#Z#W活动时间：仅剩");
         if (IiiiiiiiIIIII > 1440) {
             IiiiiiiiIIIII2.append("#Y");
             IiiiiiiiIIIII2.append(IiiiiiiiIIIII / 1440);
-            IiiiiiiiIIIII2.append("#W\u5929");
+            IiiiiiiiIIIII2.append("#W天");
             IiiiiiiiIIIII %= 1440;
         }
         if (IiiiiiiiIIIII > 60) {
             IiiiiiiiIIIII2.append("#Y");
             IiiiiiiiIIIII2.append(IiiiiiiiIIIII / 60);
-            IiiiiiiiIIIII2.append("#W\u5c0f\u65f6");
+            IiiiiiiiIIIII2.append("#W小时");
             IiiiiiiiIIIII %= 60;
         }
         IiiiiiiiIIIII2.append("#Y");
         IiiiiiiiIIIII2.append(IiiiiiiiIIIII);
-        IiiiiiiiIIIII2.append("#W\u5206\u949f");
+        IiiiiiiiIIIII2.append("#W分钟");
         if (!(this.iiiIiiiiiiiIi instanceof IiiIiiiiIIIiI)) return;
         if (!((IiiIiiiiIIIiI)this.iiiIiiiiiiiIi).ALLATORIxDEMO().isTextSize(IiiiiiiiIIIII2.toString(), 498)) return;
         RichLabel IiiiiiiiIIIII3 = ((IiiIiiiiIIIiI)this.iiiIiiiiiiiIi).ALLATORIxDEMO();

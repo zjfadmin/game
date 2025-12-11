@@ -146,22 +146,22 @@ extends IiiiIiiiiIiIi {
     public void iIiIiiiiIIiIi() {
         int IiiiiiiiIIIII = (int)Math.max(0L, (this.ALLATORIxDEMO.getTimeEnd() - iIiIIiiiIiiiI.iIiIiiiiIIiii()) / 60000L);
         StringBuffer IiiiiiiiIIIII2 = new StringBuffer();
-        IiiiiiiiIIIII2.append("#Z#W\u6d3b\u52a8\u65f6\u95f4\uff1a\u4ec5\u5269");
+        IiiiiiiiIIIII2.append("#Z#W活动时间：仅剩");
         if (IiiiiiiiIIIII > 1440) {
             IiiiiiiiIIIII2.append("#Y");
             IiiiiiiiIIIII2.append(IiiiiiiiIIIII / 1440);
-            IiiiiiiiIIIII2.append("#W\u5929");
+            IiiiiiiiIIIII2.append("#W天");
             IiiiiiiiIIIII %= 1440;
         }
         if (IiiiiiiiIIIII > 60) {
             IiiiiiiiIIIII2.append("#Y");
             IiiiiiiiIIIII2.append(IiiiiiiiIIIII / 60);
-            IiiiiiiiIIIII2.append("#W\u5c0f\u65f6");
+            IiiiiiiiIIIII2.append("#W小时");
             IiiiiiiiIIIII %= 60;
         }
         IiiiiiiiIIIII2.append("#Y");
         IiiiiiiiIIIII2.append(IiiiiiiiIIIII);
-        IiiiiiiiIIIII2.append("#W\u5206\u949f");
+        IiiiiiiiIIIII2.append("#W分钟");
         if (!this.IiiiiiiiIIIII.isTextSize(IiiiiiiiIIIII2.toString(), 498)) return;
         this.IiiiiiiiIIIII.setBounds(204 + (498 - this.IiiiiiiiIIIII.getWidth()) / 2, 120, this.IiiiiiiiIIIII.getWidth(), this.IiiiiiiiIIIII.getHeight());
     }

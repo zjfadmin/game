@@ -59,7 +59,7 @@ extends IiiiIiiiiIiIi {
 
     public void iIiIiiiiIIiii(int ruleFlag) {
         if (com.xy.v.iIiIIiiiIiiiI.iIiIiiiiIIiii() - this.iIiIiiiiIiIii < (long)(com.xy.v.iIiIIiiiIiiiI.IIIIiiiiiiiII * 5)) {
-            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4f60\u70b9\u51fb\u7684\u592a\u5feb\u4e86");
+            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("你点击的太快了");
             return;
         }
         this.iIiIiiiiIiIii = com.xy.v.iIiIIiiiIiiiI.iIiIiiiiIIiii();
@@ -120,7 +120,7 @@ extends IiiiIiiiiIiIi {
         }
         this.iIiIiiiiIiIii = com.xy.v.iIiIIiiiIiiiI.iIiIiiiiIIiii();
         Activity IiiiiiiiIIIII = this.iIiiIiiiiiiII.ALLATORIxDEMO();
-        int IiiiiiiiIIIII2 = IIiiIiiiiIIiI.ALLATORIxDEMO((String)IiiiiiiiIIIII.getActivitySet(), (String)"\u8d5b\u5236\u8bbe\u7f6e=", (String)"|");
+        int IiiiiiiiIIIII2 = IIiiIiiiiIIiI.ALLATORIxDEMO((String)IiiiiiiiIIIII.getActivitySet(), (String)"赛制设置=", (String)"|");
         ActivityFC IiiiiiiiIIIII3 = IiiiiiiiIIIII2 > 0 ? this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII2) : null;
         BWDHRule IiiiiiiiIIIII4 = IiiiiiiiIIIII3 != null && IiiiiiiiIIIII3.getType() == 5 ? (BWDHRule)IiiiiiiiIIIII3.getData() : null;
         int IiiiiiiiIIIII5 = 0;
@@ -169,7 +169,7 @@ extends IiiiIiiiiIiIi {
 
     public void ALLATORIxDEMO(int ruleFlag, BWDHRuleBattle[] ruleBattles) {
         this.iIiIiiiiIIiii(1, ruleBattles);
-        IIiIiiiiIIiii.ALLATORIxDEMO((IIiIiiiiIIiii)((IIiIiiiiIIiii)this.ALLATORIxDEMO[1])).ALLATORIxDEMO().setText(ruleFlag == 0 ? "A\u7ec4" : (ruleFlag == 1 ? "B\u7ec4" : (ruleFlag == 2 ? "C\u7ec4" : "D\u7ec4")));
+        IIiIiiiiIIiii.ALLATORIxDEMO((IIiIiiiiIIiii)((IIiIiiiiIIiii)this.ALLATORIxDEMO[1])).ALLATORIxDEMO().setText(ruleFlag == 0 ? "A组" : (ruleFlag == 1 ? "B组" : (ruleFlag == 2 ? "C组" : "D组")));
     }
 
     static /* synthetic */ void ALLATORIxDEMO(iiIiIiiiiiIIi arg0, IIIIIiiiIiIii arg1) {

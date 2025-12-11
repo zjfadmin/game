@@ -60,8 +60,8 @@ extends IiiiIiiiiIiIi {
     public iIIIIiiiIiiIi(GameView gameView) {
         super(106, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 362, 315, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
-        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u4fee\u70bc");
-        this.iIiIiiiiIiIii = new IIiIiiiiIiIII("sc/e/26.png", 1, 349, iiIIiiiiIiiII.iiiiIiiiIiiII, iiIIiiiiIiiII.IIiiiiiiIiiII, "\u5c0f\u6210\u4fee\u70bc", (IiiiIiiiiIiIi)this);
+        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "修炼");
+        this.iIiIiiiiIiIii = new IIiIiiiiIiIII("sc/e/26.png", 1, 349, iiIIiiiiIiiII.iiiiIiiiIiiII, iiIIiiiiIiiII.IIiiiiiiIiiII, "小成修炼", (IiiiIiiiiIiIi)this);
         this.iIiIiiiiIiIii.setBounds(142, 265, 99, 25);
         this.add((Component)this.iIiIiiiiIiIii);
         this.IiiiiiiiIIIII = new iIIiIiiiIiiIi[5];
@@ -122,13 +122,13 @@ extends IiiiIiiiiIiIi {
     public void iIiIiiiiIIiii(int type) {
         this.IiIIIiiiiIiiI = type;
         if (this.IiIIIiiiiIiiI == 1) {
-            this.iIiIiiiiIiIii.setText("\u5c0f\u6210\u4fee\u70bc");
+            this.iIiIiiiiIiIii.setText("小成修炼");
             this.IIiiIiiiIIiIi = new BigDecimal(this.ALLATORIxDEMO().ALLATORIxDEMO(2, 12) ? 1000000 : 2000000);
             iiIIiiiiIiiII.ALLATORIxDEMO((JLabel)this.IiiiiiiiIIIII[2], (long)2000000L);
             iiIIiiiiIiiII.ALLATORIxDEMO((JLabel)this.IiiiiiiiIIIII[3], (long)300L);
             iiIIiiiiIiiII.ALLATORIxDEMO((JLabel)this.IiiiiiiiIIIII[4], (long)this.IIiiIiiiIIiIi.longValue());
         } else if (this.IiIIIiiiiIiiI == 2) {
-            this.iIiIiiiiIiIii.setText("\u5927\u6210\u4fee\u70bc");
+            this.iIiIiiiiIiIii.setText("大成修炼");
             this.IIiiIiiiIIiIi = new BigDecimal(this.ALLATORIxDEMO().ALLATORIxDEMO(2, 12) ? 2000000 : 5000000);
             iiIIiiiiIiiII.ALLATORIxDEMO((JLabel)this.IiiiiiiiIIIII[2], (long)5000000L);
             iiIIiiiiIiiII.ALLATORIxDEMO((JLabel)this.IiiiiiiiIIIII[3], (long)1500L);
@@ -156,24 +156,24 @@ extends IiiiIiiiiIiIi {
         if (this.IiIIIiiiiIiiI == 2) {
             int IiiiiiiiIIIII2 = IiiiiiiiIIIII.getExtraPointInt("X");
             if (IiiiiiiiIIIII2 < 30) {
-                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u5c0f\u6210\u4fee\u70bc\u5c1a\u672a\u7ed3\u675f");
+                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("小成修炼尚未结束");
                 return;
             }
             int IiiiiiiiIIIII3 = IiiiiiiiIIIII.getExtraPointInt("D");
             if (IiiiiiiiIIIII3 >= 60) {
-                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u5927\u6210\u4fee\u70bc\u5df2\u7ecf\u7ed3\u675f");
+                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("大成修炼已经结束");
                 return;
             }
             if (IiiiiiiiIIIII.getExperience().compareTo(new BigDecimal(5000000)) < 0) {
-                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u7ecf\u9a8c\u4e0d\u8db3");
+                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("经验不足");
                 return;
             }
             if (IiiiiiiiIIIII.getContribution().compareTo(new BigDecimal(1500)) < 0) {
-                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u5e2e\u8d21\u4e0d\u8db3");
+                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("帮贡不足");
                 return;
             }
             if (IiiiiiiiIIIII.getGold().compareTo(this.IIiiIiiiIIiIi) < 0) {
-                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u91d1\u94b1\u4e0d\u8db3");
+                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("金钱不足");
                 return;
             }
             String IiiiiiiiIIIII4 = Agreement.getSendTextAES((String)"rolechange", (String)"6D");
@@ -183,19 +183,19 @@ extends IiiiIiiiiIiIi {
         if (this.IiIIIiiiiIiiI != 1) return;
         int IiiiiiiiIIIII5 = IiiiiiiiIIIII.getExtraPointInt("X");
         if (IiiiiiiiIIIII5 >= 30) {
-            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u5c0f\u6210\u4fee\u70bc\u5df2\u7ecf\u4fee\u70bc\u5b8c\u6bd5");
+            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("小成修炼已经修炼完毕");
             return;
         }
         if (IiiiiiiiIIIII.getExperience().compareTo(new BigDecimal(2000000)) < 0) {
-            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u7ecf\u9a8c\u4e0d\u8db3");
+            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("经验不足");
             return;
         }
         if (IiiiiiiiIIIII.getContribution().compareTo(new BigDecimal(300)) < 0) {
-            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u5e2e\u8d21\u4e0d\u8db3");
+            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("帮贡不足");
             return;
         }
         if (IiiiiiiiIIIII.getGold().compareTo(this.IIiiIiiiIIiIi) < 0) {
-            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u91d1\u94b1\u4e0d\u8db3");
+            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("金钱不足");
             return;
         }
         String IiiiiiiiIIIII6 = Agreement.getSendTextAES((String)"rolechange", (String)"6X");

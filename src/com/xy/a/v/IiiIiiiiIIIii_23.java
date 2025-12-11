@@ -43,7 +43,7 @@ extends IiiiIiiiiIiIi {
         int IiiiiiiiIIIII2 = 0;
         while (IiiiiiiiIIIII2 < 4) {
             RichLabel IiiiiiiiIIIII3 = IiiiiiiiIIIII2 == 0 ? this.iiIiiiiiiiIii : (IiiiiiiiIIIII2 == 1 ? this.IiiiiiiiIIIII : (IiiiiiiiIIIII2 == 2 ? this.iIiIiiiiIiIii : this.IiIIIiiiiIiiI));
-            int IiiiiiiiIIIII4 = IIiiIiiiiIIiI.ALLATORIxDEMO((String)IiiiiiiiIIIII.getActivitySet(), (String)(IiiiiiiiIIIII2 == 0 ? "\u51a0\u519b\u5956\u52b1\u5c55\u793a=" : (IiiiiiiiIIIII2 == 1 ? "\u4e9a\u519b\u5956\u52b1\u5c55\u793a=" : (IiiiiiiiIIIII2 == 2 ? "\u5b63\u519b\u5956\u52b1\u5c55\u793a=" : "\u6bbf\u519b\u5956\u52b1\u5c55\u793a="))), (String)"|");
+            int IiiiiiiiIIIII4 = IIiiIiiiiIIiI.ALLATORIxDEMO((String)IiiiiiiiIIIII.getActivitySet(), (String)(IiiiiiiiIIIII2 == 0 ? "冠军奖励展示=" : (IiiiiiiiIIIII2 == 1 ? "亚军奖励展示=" : (IiiiiiiiIIIII2 == 2 ? "季军奖励展示=" : "殿军奖励展示="))), (String)"|");
             ActivityFC IiiiiiiiIIIII5 = IiiiiiiiIIIII4 > 0 ? this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII4) : null;
             IiiiiiiiIIIII3.setTextSize(IiiiiiiiIIIII5 != null ? IiiiiiiiIIIII5.getValue() : "", 168);
             if (IiiiiiiiIIIII2 == 0) {
@@ -67,7 +67,7 @@ extends IiiiIiiiiIiIi {
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.iIiiIiiiiiiII.length) {
             this.iIiiIiiiiiiII[IiiiiiiiIIIII] = IiIIIiiiiIIiI.ALLATORIxDEMO((int)318, (int)318, (int)178, (int)20, (Color)Color.YELLOW, (Font)iiIIiiiiIiiII.iIIIiiiiIIIii);
-            this.iIiiIiiiiiiII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "\u51a0\u519b\u5956\u52b1\u7269\u54c1" : (IiiiiiiiIIIII == 1 ? "\u4e9a\u519b\u5956\u52b1\u7269\u54c1" : (IiiiiiiiIIIII == 2 ? "\u5b63\u519b\u5956\u52b1\u7269\u54c1" : (IiiiiiiiIIIII == 3 ? "\u6bbf\u519b\u5956\u52b1\u7269\u54c1" : ""))));
+            this.iIiiIiiiiiiII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "冠军奖励物品" : (IiiiiiiiIIIII == 1 ? "亚军奖励物品" : (IiiiiiiiIIIII == 2 ? "季军奖励物品" : (IiiiiiiiIIIII == 3 ? "殿军奖励物品" : ""))));
             this.iIiiIiiiiiiII[IiiiiiiiIIIII].setHorizontalAlignment(0);
             if (IiiiiiiiIIIII == 1) {
                 this.iIiiIiiiiiiII[IiiiiiiiIIIII].setBounds(496, 338, 141, 20);

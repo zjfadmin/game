@@ -63,7 +63,7 @@ extends IiiiIiiiiIiIi {
     public iIIiIiiiIiiIi(GameView gameView) {
         super(168, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 483, 526, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
-        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u9650\u65f6\u6d3b\u52a8");
+        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "限时活动");
         this.iIiIiiiiIIiii(false);
         this.ALLATORIxDEMO(new iiiiiiiiIIIII(14, 8, 0, 0));
         this.iiIiiiiiiiIii = new IIIiiiiiIiIiI(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/35.png", (int)80, (int)10, (int)80, (int)10, (boolean)false));

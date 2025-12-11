@@ -61,7 +61,7 @@ lbl11:
             // 2 sources
 
         } while (IiiiiiiiIIIII < this.iIiIiiiiIiIii.length);
-        this.IiiiiiiiIIIII.ALLATORIxDEMO(new String[]{"\u961f", "\u4f0d", "\u540d", "\u79f0"});
+        this.IiiiiiiiIIIII.ALLATORIxDEMO(new String[]{"队", "伍", "名", "称"});
         return;
         do {
             IiiiiiiiIIIII = IiiiiiiiIIIII < IiiiiiiiIIIII.length ? IiiiiiiiIIIII[IiiiiiiiIIIII] : null;
@@ -87,7 +87,7 @@ lbl17:
         this.ALLATORIxDEMO(com.xy.w.IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/145.png", (int)60, (int)60, (int)200, (int)100, (boolean)false), null);
         this.IiIiiiiiIIIII.setImage("sc/e/162.png");
         this.IiIiiiiiIIIII.setBounds(590, 10, 27, 27);
-        this.IiiiiiiiIIIII = new IIiIiiiiIiiIi(null, -1, 0, iiIIiiiiIiiII.IiIiiiiiIiIiI, null, new String[]{"\u961f", "\u4f0d", "\u540d", "\u79f0"}, this.ALLATORIxDEMO());
+        this.IiiiiiiiIIIII = new IIiIiiiiIiiIi(null, -1, 0, iiIIiiiiIiiII.IiIiiiiiIiIiI, null, new String[]{"队", "伍", "名", "称"}, this.ALLATORIxDEMO());
         this.IiiiiiiiIIIII.setForeground(iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c7D6120"));
         this.IiiiiiiiIIIII.setBounds(25, 59, 20, 120);
         this.IiiiiiiiIIIII.ALLATORIxDEMO(new iiiiiiiiIIIII(1, 20, 0, 0));

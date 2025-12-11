@@ -60,9 +60,9 @@ extends IiiiIiiiiIiIi {
 
     public void iiiIiiiiiiIIi() {
         Object IiiiiiiiIIIII;
-        int IiiiiiiiIIIII2 = IIiiIiiiiIIiI.ALLATORIxDEMO((String)this.iiIiiiiiiiIii.getActivitySet(), (String)"\u89c4\u5219\u8bf4\u660e=", (String)"|");
+        int IiiiiiiiIIIII2 = IIiiIiiiiIIiI.ALLATORIxDEMO((String)this.iiIiiiiiiiIii.getActivitySet(), (String)"规则说明=", (String)"|");
         ActivityFC IiiiiiiiIIIII3 = IiiiiiiiIIIII2 > 0 ? this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII2) : null;
-        String IiiiiiiiIIIII4 = IiiiiiiiIIIII3 != null ? IiiiiiiiIIIII3.getValue() : "\u8fd8\u672a\u8bbe\u7f6e\u8bf4\u660e\u6587\u672c";
+        String IiiiiiiiIIIII4 = IiiiiiiiIIIII3 != null ? IiiiiiiiIIIII3.getValue() : "还未设置说明文本";
         StringBuffer IiiiiiiiIIIII5 = new StringBuffer(IiiiiiiiIIIII4.length());
         int IiiiiiiiIIIII6 = 0;
         int IiiiiiiiIIIII7 = 0;
@@ -77,7 +77,7 @@ extends IiiiIiiiiIiIi {
             IiiiiiiiIIIII7 += IiiiiiiiIIIII4.length() - IiiiiiiiIIIII8;
         }
         IiiiiiiiIIIII = (iiiIiiiiIiiiI)this.ALLATORIxDEMO().iiiIiiiiiiIIi(180);
-        IiiiiiiiIIIII.ALLATORIxDEMO("\u6bd4\u6b66\u5927\u4f1a\u89c4\u5219", IiiiiiiiIIIII4);
+        IiiiiiiiIIIII.ALLATORIxDEMO("比武大会规则", IiiiiiiiIIIII4);
     }
 
     public iiIiIiiiiIiii(GameView gameView) {
@@ -96,32 +96,32 @@ extends IiiiIiiiiIiIi {
             String[] stringArray;
             if (IiiiiiiiIIIII == 0) {
                 String[] stringArray2 = new String[4];
-                stringArray2[0] = "\u961f";
-                stringArray2[1] = "\u4f0d";
-                stringArray2[2] = "\u4ecb";
+                stringArray2[0] = "队";
+                stringArray2[1] = "伍";
+                stringArray2[2] = "介";
                 stringArray = stringArray2;
-                stringArray2[3] = "\u7ecd";
+                stringArray2[3] = "绍";
             } else if (IiiiiiiiIIIII == 1) {
                 String[] stringArray3 = new String[4];
-                stringArray3[0] = "\u7cbe";
-                stringArray3[1] = "\u5f69";
-                stringArray3[2] = "\u6bd4";
+                stringArray3[0] = "精";
+                stringArray3[1] = "彩";
+                stringArray3[2] = "比";
                 stringArray = stringArray3;
-                stringArray3[3] = "\u8d5b";
+                stringArray3[3] = "赛";
             } else if (IiiiiiiiIIIII == 2) {
                 String[] stringArray4 = new String[4];
-                stringArray4[0] = "\u8d5b";
-                stringArray4[1] = "\u5b63";
-                stringArray4[2] = "\u540d";
+                stringArray4[0] = "赛";
+                stringArray4[1] = "季";
+                stringArray4[2] = "名";
                 stringArray = stringArray4;
-                stringArray4[3] = "\u6b21";
+                stringArray4[3] = "次";
             } else {
                 String[] stringArray5 = new String[4];
-                stringArray5[0] = "\u5956";
-                stringArray5[1] = "\u54c1";
-                stringArray5[2] = "\u5c55";
+                stringArray5[0] = "奖";
+                stringArray5[1] = "品";
+                stringArray5[2] = "展";
                 stringArray = stringArray5;
-                stringArray5[3] = "\u793a";
+                stringArray5[3] = "示";
             }
             String[] IiiiiiiiIIIII2 = stringArray;
             this.IiiiiiiiIIIII[IiiiiiiiIIIII] = new IIiIiiiiIiiIi("sc/e/164.png", 2, 7 + IiiiiiiiIIIII, iiIIiiiiIiiII.iiiIIiiiIiiII, null, IiiiiiiiIIIII2, (IiiiIiiiiIiIi)this);
@@ -197,9 +197,9 @@ extends IiiiIiiiiIiIi {
 
     public static String ALLATORIxDEMO(String key, String text, long timeStart) {
         String IiiiiiiiIIIII = null;
-        if (key.startsWith("\u65f6\u95f4:")) {
+        if (key.startsWith("时间:")) {
             IiiiiiiiIIIII = iIiIIiiiIiiiI.iIiIiiiiIIiii((long)(timeStart + (long)BWDHRule.ALLATORIxDEMO((String)key, (int)3, (int)key.length()) * 1000L));
-        } else if (key.startsWith("\u65e5\u671f:")) {
+        } else if (key.startsWith("日期:")) {
             IiiiiiiiIIIII = iIiIIiiiIiiiI.ALLATORIxDEMO((long)(timeStart + (long)BWDHRule.ALLATORIxDEMO((String)key, (int)3, (int)key.length()) * 1000L), (String)"yyyy-MM-dd");
         }
         if (IiiiiiiiIIIII != null) return text.replace("{" + key + "}", IiiiiiiiIIIII);

@@ -44,7 +44,7 @@ extends IiiiIiiiiIiIi {
         super(-1, -1, IiiiIiiiiIiIi.iIIiIiiiiiiIi, gameView);
         this.ALLATORIxDEMO(0, 0, 745, 452, IiiiIiiiiIiIi.iIIiIiiiiiiIi);
         this.IiIIIiiiiIiiI = new ArrayList<iiIiIiiiIIIiI>();
-        iiIiIiiiIIIiI IiiiiiiiIIIII = new iiIiIiiiIIIiI("sc/e/153.png", 2, 21, iiIIiiiiIiiII.iiiiIiiiIiiII, null, "\u7b49\u7ea7\u793c\u5305", (IiiiIiiiiIiIi)this);
+        iiIiIiiiIIIiI IiiiiiiiIIIII = new iiIiIiiiIIIiI("sc/e/153.png", 2, 21, iiIIiiiiIiiII.iiiiIiiiIiiII, null, "等级礼包", (IiiiIiiiiIiIi)this);
         IiiiiiiiIIIII.setBounds(91, 72, 104, 28);
         IiiiiiiiIIIII.setForeground(iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c523425"));
         this.IiIIIiiiiIiiI.add(IiiiiiiiIIIII);
@@ -82,7 +82,7 @@ extends IiiiIiiiiIiIi {
      */
     public int ALLATORIxDEMO(int id) {
         boolean IiiiiiiiIIIII = false;
-        UseCardBean IiiiiiiiIIIII2 = this.ALLATORIxDEMO().getLimit("\u9650\u65f6\u793c\u5305");
+        UseCardBean IiiiiiiiIIIII2 = this.ALLATORIxDEMO().getLimit("限时礼包");
         List IiiiiiiiIIIII3 = IiiiiiiiIIIII2 != null ? IiiiiiiiIIIII2.getKeysByActivity() : null;
         int IiiiiiiiIIIII4 = this.IiIIIiiiiIiiI.size() - 1;
         while (IiiiiiiiIIIII4 >= 0) {

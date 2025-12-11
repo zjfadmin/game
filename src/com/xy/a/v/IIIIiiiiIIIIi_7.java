@@ -50,7 +50,7 @@ extends IiiiIiiiiIiIi {
         this.IiIiiiiiIIIII.setImage("sc/e/157.png");
         this.IiIiiiiiIIIII.setBounds(704, 25, 33, 32);
         this.IiIIIiiiiIiiI = new ArrayList<iiIiIiiiIIIiI>();
-        iiIiIiiiIIIiI IiiiiiiiIIIII = new iiIiIiiiIIIiI("sc/e/152.png", 2, 1, iiIIiiiiIiiII.IIiIiiiiiIiII, null, "\u65b0\u4eba\u798f\u5229", (IiiiIiiiiIiIi)this);
+        iiIiIiiiIIIiI IiiiiiiiIIIII = new iiIiIiiiIIIiI("sc/e/152.png", 2, 1, iiIIiiiiIiiII.IIiIiiiiiIiII, null, "新人福利", (IiiiIiiiiIiIi)this);
         IiiiiiiiIIIII.setBounds(88, 0, 107, 33);
         IiiiiiiiIIIII.setForeground(iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c513B32"));
         this.IiIIIiiiiIiiI.add(IiiiiiiiIIIII);
@@ -154,7 +154,7 @@ extends IiiiIiiiiIiIi {
             IiiiiiiiIIIII22 = (IIIIIiiiIiIii)IiiiiiiiIIIII4.get(IiiiiiiiIIIII5);
             if (IiiiiiiiIIIII22.ALLATORIxDEMO() > 100 && IiiiiiiiIIIII22.ALLATORIxDEMO() < 200 && (IiiiiiiiIIIII = this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII22.ALLATORIxDEMO())) != null && IiiiiiiiIIIII.getModelId() == 2 && !this.ALLATORIxDEMO(2, IiiiiiiiIIIII.getId())) {
                 void IiiiiiiiIIIII6;
-                iiIiIiiiIIIiI iiIiIiiiIIIiI2 = new iiIiIiiiIIIiI("sc/e/152.png", 2, 2, iiIIiiiiIiiII.IIiIiiiiiIiII, null, IIiiIiiiiIIiI.iIiIiiiiIIiii((String)IiiiiiiiIIIII.getBaseSet(), (String)"\u540d\u79f0=", (String)"|"), (IiiiIiiiiIiIi)this);
+                iiIiIiiiIIIiI iiIiIiiiIIIiI2 = new iiIiIiiiIIIiI("sc/e/152.png", 2, 2, iiIIiiiiIiiII.IIiIiiiiiIiII, null, IIiiIiiiiIIiI.iIiIiiiiIIiii((String)IiiiiiiiIIIII.getBaseSet(), (String)"名称=", (String)"|"), (IiiiIiiiiIiIi)this);
                 IiiiiiiiIIIII6.iIiIiiiiIIiii(IiiiiiiiIIIII.getId());
                 IiiiiiiiIIIII6.setForeground(iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c513B32"));
                 this.IiIIIiiiiIiiI.add((iiIiIiiiIIIiI)IiiiiiiiIIIII6);

@@ -73,10 +73,10 @@ extends IiiiIiiiiIiIi {
     private JTable ALLATORIxDEMO;
 
     public Color ALLATORIxDEMO(String cardGn) {
-        if (cardGn.equals("\u5f3a\u6cd5")) {
+        if (cardGn.equals("强法")) {
             return Color.red;
         }
-        if (!cardGn.equals("\u6297\u6027")) return Color.green;
+        if (!cardGn.equals("抗性")) return Color.green;
         return iiIIiiiiIiiII.IIiIIiiiiiIII;
     }
 
@@ -141,8 +141,8 @@ extends IiiiIiiiiIiIi {
         String IiiiiiiiIIIII6 = null;
         String IiiiiiiiIIIII7 = null;
         StringBuffer stringBuffer = new StringBuffer();
-        stringBuffer.append("#cffffff\u540d\u79f0:" + this.IIIIiiiiiiiII.getName() + "#r");
-        stringBuffer.append("#cff0000\u6d88\u8017:" + this.IIIIiiiiiiiII.getMoney() + (this.IIIIiiiiiiiII.getType() == 0 ? "\u5927\u8bdd\u5e01" : "\u4ed9\u7389") + "#r");
+        stringBuffer.append("#cffffff名称:" + this.IIIIiiiiiiiII.getName() + "#r");
+        stringBuffer.append("#cff0000消耗:" + this.IIIIiiiiiiiII.getMoney() + (this.IIIIiiiiiiiII.getType() == 0 ? "大话币" : "仙玉") + "#r");
         String IiiiiiiiIIIII8 = this.IIIIiiiiiiiII.getValue();
         if (IiiiiiiiIIIII8 != null && !"".equals(IiiiiiiiIIIII8)) {
             String[] IiiiiiiiIIIII9 = this.IIIIiiiiiiiII.getValue().split("\\|");

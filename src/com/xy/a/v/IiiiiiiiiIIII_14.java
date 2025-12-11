@@ -121,7 +121,7 @@ lbl16:
             // 2 sources
 
         } while (IiiiiiiiIIIII < this.iIiiIiiiiiiII.length);
-        this.iiiIiiiiiiiIi[1].ALLATORIxDEMO(new String[]{"\u961f", "\u4f0d", "\u540d", "\u79f0"});
+        this.iiiIiiiiiiiIi[1].ALLATORIxDEMO(new String[]{"队", "伍", "名", "称"});
         this.ALLATORIxDEMO();
         return;
         do {
@@ -163,18 +163,18 @@ lbl23:
             String[] stringArray;
             if (IiiiiiiiIIIII == 0) {
                 String[] stringArray2 = new String[4];
-                stringArray2[0] = "\u70b9";
-                stringArray2[1] = "\u51fb";
-                stringArray2[2] = "\u67e5";
+                stringArray2[0] = "点";
+                stringArray2[1] = "击";
+                stringArray2[2] = "查";
                 stringArray = stringArray2;
-                stringArray2[3] = "\u770b";
+                stringArray2[3] = "看";
             } else {
                 String[] stringArray3 = new String[4];
-                stringArray3[0] = "\u961f";
-                stringArray3[1] = "\u4f0d";
-                stringArray3[2] = "\u540d";
+                stringArray3[0] = "队";
+                stringArray3[1] = "伍";
+                stringArray3[2] = "名";
                 stringArray = stringArray3;
-                stringArray3[3] = "\u79f0";
+                stringArray3[3] = "称";
             }
             String[] IiiiiiiiIIIII2 = stringArray;
             this.iiiIiiiiiiiIi[IiiiiiiiIIIII] = new IIiIiiiiIiiIi(null, -1, 0, iiIIiiiiIiiII.IiIiiiiiIiIiI, null, IiiiiiiiIIIII2, iiIiIiiiiiIIi2.ALLATORIxDEMO());

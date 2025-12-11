@@ -68,11 +68,11 @@ extends IiiiIiiiiIiIi {
     public IiiIiiiiIIIii(GameView gameView) {
         super(54, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 432, 395, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
-        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u5e2e\u6d3e\u5b88\u62a4\u795e");
+        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "帮派守护神");
         this.IiIiiiiiIIIII = new IIiIiiiiIiIII[2];
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.IiIiiiiiIIIII.length) {
-            this.IiIiiiiiIIIII[IiiiiiiiIIIII] = new IIiIiiiiIiIII("sc/e/53.png", 2, 341 + IiiiiiiiIIIII, iiIIiiiiIiiII.IIiiIiiiIIiIi, null, IiiiiiiiIIIII == 0 ? "\u5c0f\u6210\u4fee\u70bc" : (IiiiiiiiIIIII == 1 ? "\u5927\u6210\u4fee\u70bc" : ""), (IiiiIiiiiIiIi)this);
+            this.IiIiiiiiIIIII[IiiiiiiiIIIII] = new IIiIiiiiIiIII("sc/e/53.png", 2, 341 + IiiiiiiiIIIII, iiIIiiiiIiiII.IIiiIiiiIIiIi, null, IiiiiiiiIIIII == 0 ? "小成修炼" : (IiiiiiiiIIIII == 1 ? "大成修炼" : ""), (IiiiIiiiiIiIi)this);
             this.IiIiiiiiIIIII[IiiiiiiiIIIII].setOffsetTexts(iiIIiiiiIiiII.IiIIIiiiiiiiI);
             this.IiIiiiiiIIIII[IiiiiiiiIIIII].setBounds(53 + 111 * IiiiiiiiIIIII, 35, 109, 24);
             this.add((Component)this.IiIiiiiiIIIII[IiiiiiiiIIIII++]);
@@ -93,7 +93,7 @@ extends IiiiIiiiiIiIi {
         this.IiiiiiiiIIIII = new IIiIiiiiIiIII[4];
         IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.IiiiiiiiIIIII.length) {
-            this.IiiiiiiiIIIII[IiiiiiiiIIIII] = new IIiIiiiiIiIII(IiiiiiiiIIIII == 3 ? "sc/e/7.png" : "sc/e/6.png", 1, 343 + IiiiiiiiIIIII, IiiiiiiiIIIII == 3 ? iiIIiiiiIiiII.iiiiIiiiIiiII : iiIIiiiiIiiII.iiIiiiiiiIIiI, null, IiiiiiiiIIIII == 0 ? "\u4fee\u70bc" : (IiiiiiiiIIIII == 1 ? "\u6d17\u70b9" : (IiiiiiiiIIIII == 2 ? "\u5151\u6362" : (IiiiiiiiIIIII == 3 ? "\u786e\u5b9a" : ""))), (IiiiIiiiiIiIi)this);
+            this.IiiiiiiiIIIII[IiiiiiiiIIIII] = new IIiIiiiiIiIII(IiiiiiiiIIIII == 3 ? "sc/e/7.png" : "sc/e/6.png", 1, 343 + IiiiiiiiIIIII, IiiiiiiiIIIII == 3 ? iiIIiiiiIiiII.iiiiIiiiIiiII : iiIIiiiiIiiII.iiIiiiiiiIIiI, null, IiiiiiiiIIIII == 0 ? "修炼" : (IiiiiiiiIIIII == 1 ? "洗点" : (IiiiiiiiIIIII == 2 ? "兑换" : (IiiiiiiiIIIII == 3 ? "确定" : ""))), (IiiiIiiiiIiIi)this);
             if (IiiiiiiiIIIII == 3) {
                 this.IiiiiiiiIIIII[IiiiiiiiIIIII].setBounds(342, 348, 59, 25);
                 this.IiiiiiiiIIIII[IiiiiiiiIIIII].setForeground(Color.black);
@@ -108,7 +108,7 @@ extends IiiiIiiiiIiIi {
         this.IIiiIiiiIIiIi.setBounds(122, 352, 83, 17);
         this.add((Component)this.IIiiIiiiIIiIi);
         this.iIiIiiiiIiIii = IiIIIiiiiIIiI.ALLATORIxDEMO((int)53, (int)352, (int)70, (int)17, (int)10, (Color)iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c000000"), (Font)iiIIiiiiIiiII.iiiiIiiiIiiII);
-        this.iIiIiiiiIiIii.setText("\u4fee\u70bc\u7b49\u7ea7");
+        this.iIiIiiiiIiIii.setText("修炼等级");
         this.add(this.iIiIiiiiIiIii);
         this.iiIiiiiiiiIii = new IIIiiiiiIiIiI();
         this.iiIiiiiiiiIii.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/24.png", (int)2, (int)2, (int)2, (int)2, (boolean)false));
@@ -121,12 +121,12 @@ extends IiiiIiiiiIiIi {
         if (b) {
             int IiiiiiiiIIIII2;
             if (this.iiiiIiiiIiiII <= 0) {
-                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u5269\u4f59\u70b9\u6570\u4e0d\u8db3");
+                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("剩余点数不足");
                 return;
             }
             int n = IiiiiiiiIIIII2 = this.ALLATORIxDEMO == 2 ? 30 : 20;
             if (iiIiIiiiiiIIi.ALLATORIxDEMO((iiIiIiiiiiIIi)IiiiiiiiIIIII) >= IiiiiiiiIIIII2) {
-                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4e0d\u53ef\u4ee5\u518d\u589e\u52a0\u70b9\u6570\u4e86");
+                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("不可以再增加点数了");
                 return;
             }
             iiIiIiiiiiIIi.ALLATORIxDEMO((iiIiIiiiiiIIi)IiiiiiiiIIIII, (int)(iiIiIiiiiiIIi.ALLATORIxDEMO((iiIiIiiiiiIIi)IiiiiiiiIIIII) + 1));
@@ -138,7 +138,7 @@ extends IiiiIiiiiIiIi {
             return;
         }
         if (iiIiIiiiiiIIi.ALLATORIxDEMO((iiIiIiiiiiIIi)IiiiiiiiIIIII) <= iiIiIiiiiiIIi.iIiIiiiiIIiii((iiIiIiiiiiIIi)IiiiiiiiIIIII)) {
-            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4e0d\u53ef\u4ee5\u518d\u51cf\u5c11\u70b9\u6570\u4e86");
+            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("不可以再减少点数了");
             return;
         }
         iiIiIiiiiiIIi.ALLATORIxDEMO((iiIiIiiiiiIIi)IiiiiiiiIIIII, (int)(iiIiIiiiiiIIi.ALLATORIxDEMO((iiIiIiiiiiIIi)IiiiiiiiIIIII) - 1));
@@ -238,10 +238,10 @@ lbl48:
             RoleData IiiiiiiiIIIII = this.ALLATORIxDEMO();
             String[] IiiiiiiiIIIII2 = IiiiiiiiIIIII.getLoginResult().getResistance(this.ALLATORIxDEMO == 1 ? "X" : "D");
             if (IiiiiiiiIIIII2 == null) {
-                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4f60\u8fd8\u6ca1\u52a0\u70b9\u600e\u4e48\u6d17\u70b9");
+                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("你还没加点怎么洗点");
                 return;
             }
-            this.iiIIiiiiIiIIi.ALLATORIxDEMO(new ConfirmBean(16, String.valueOf(7) + (this.ALLATORIxDEMO == 1 ? "X" : "D"), "#W\u786e\u5b9a\u8981\u82b150W\u94f6\u4e24\u91cd\u7f6e#G" + (this.ALLATORIxDEMO == 1 ? "\u5c0f\u6210\u4fee\u70bc" : "\u5927\u6210\u4fee\u70bc") + "\uff1f"));
+            this.iiIIiiiiIiIIi.ALLATORIxDEMO(new ConfirmBean(16, String.valueOf(7) + (this.ALLATORIxDEMO == 1 ? "X" : "D"), "#W确定要花50W银两重置#G" + (this.ALLATORIxDEMO == 1 ? "小成修炼" : "大成修炼") + "？"));
             return;
         }
         if (id == 345) return;
@@ -268,7 +268,7 @@ lbl48:
             ++IiiiiiiiIIIII4;
         }
         if (IiiiiiiiIIIII3) {
-            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4f60\u8fd8\u672a\u4fee\u6539");
+            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("你还未修改");
             return;
         }
         String IiiiiiiiIIIII2 = Agreement.getSendTextAES((String)"rolechange", (String)IiiiiiiiIIIII.toString());

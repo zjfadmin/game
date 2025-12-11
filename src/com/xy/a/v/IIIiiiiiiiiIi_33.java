@@ -53,9 +53,9 @@ extends iIiIIiiiIiiiI {
             this.setVisible(false);
             return;
         }
-        this.IiIIIiiiiIiiI.setText(String.valueOf(IiiiIiiiiIIII.iIiIiiiiIIiii((int)roleShow.getGrade())) + "\u7ea7");
+        this.IiIIIiiiiIiiI.setText(String.valueOf(IiiiIiiiiIIII.iIiIiiiiIIiii((int)roleShow.getGrade())) + "级");
         if (captain) {
-            this.IiiiiiiiIIIII.setText("\u961f\u957f:" + roleShow.getRolename());
+            this.IiiiiiiiIIIII.setText("队长:" + roleShow.getRolename());
         } else {
             this.IiiiiiiiIIIII.setText(roleShow.getRolename());
         }

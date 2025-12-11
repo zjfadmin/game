@@ -73,13 +73,13 @@ extends iIiIIiiiIiiiI {
         this.IiIIIiiiiIiiI.setText(String.valueOf(num) + "/" + IiiiiiiiIIIII2.getTarget().getNum());
         if (isGet) {
             this.IIiiIiiiIIiIi.setBtn(-1, "sc/e/58.png");
-            this.IIiiIiiiIIiIi.setText("\u5df2\u9886\u53d6");
+            this.IIiiIiiiIIiIi.setText("已领取");
         } else if (num >= IiiiiiiiIIIII2.getTarget().getNum()) {
             this.IIiiIiiiIIiIi.setBtn(1, "sc/e/31.png");
-            this.IIiiIiiiIIiIi.setText("\u9886\u53d6");
+            this.IIiiIiiiIIiIi.setText("领取");
         } else {
             this.IIiiIiiiIIiIi.setBtn(-1, "sc/e/58.png");
-            this.IIiiIiiiIIiIi.setText("\u672a\u8fbe\u6210");
+            this.IIiiIiiiIIiIi.setText("未达成");
         }
         StringBuffer IiiiiiiiIIIII5 = new StringBuffer();
         ActivityFCBase[] IiiiiiiiIIIII6 = IiiiiiiiIIIII2.getGains();
@@ -92,7 +92,7 @@ extends iIiIIiiiIiiiI {
                     IiiiiiiiIIIII5.append("#r");
                 }
                 iiIiIiiiiIiii iiIiIiiiiIiii2 = iiIIiiiiIiIiI.ALLATORIxDEMO((iiIIiiiiIiIiI)this.iIiIiiiiIiIii).getPointKey(IiiiiiiiIIIII9.getId());
-                IiiiiiiiIIIII5.append(String.valueOf(IiiiiiiiIIIII9.getNum()) + (IiiiiiiiIIIII8 != null ? IiiiiiiiIIIII8.IiiiiiiiIIIII : "\u672a\u77e5\u79ef\u5206"));
+                IiiiiiiiIIIII5.append(String.valueOf(IiiiiiiiIIIII9.getNum()) + (IiiiiiiiIIIII8 != null ? IiiiiiiiIIIII8.IiiiiiiiIIIII : "未知积分"));
             } else if (IiiiiiiiIIIII9.getType() == 2) {
                 IiiiiiiiIIIII8 = IiiiiiiiIIIII.ALLATORIxDEMO(new BigDecimal(IiiiiiiiIIIII9.getId()));
                 if (IiiiiiiiIIIII8 != null) {
@@ -100,14 +100,14 @@ extends iIiIIiiiIiiiI {
                         IiiiiiiiIIIII5.append("#r");
                     }
                     IiiiiiiiIIIII5.append(IiiiiiiiIIIII9.getNum());
-                    IiiiiiiiIIIII5.append("\u4e2a");
+                    IiiiiiiiIIIII5.append("个");
                     IiiiiiiiIIIII5.append(IiiiiiiiIIIII8.getGoodsname());
                 }
             } else if (IiiiiiiiIIIII9.getType() == 3) {
                 if (IiiiiiiiIIIII5.length() != 0) {
                     IiiiiiiiIIIII5.append("#r");
                 }
-                IiiiiiiiIIIII5.append("1\u6b21\u968f\u673a\u5956\u52b1");
+                IiiiiiiiIIIII5.append("1次随机奖励");
             } else if (IiiiiiiiIIIII9.getType() == 4) {
                 if (IiiiiiiiIIIII5.length() != 0) {
                     IiiiiiiiIIIII5.append("#r");
@@ -138,7 +138,7 @@ extends iIiIIiiiIiiiI {
         this.IiIIIiiiiIiiI.setHorizontalAlignment(0);
         this.ALLATORIxDEMO = new RichLabel("", iiIIiiiiIiiII.iIIIiiiiIIIii);
         this.iIiiIiiiiiiII = new RichLabel("", iiIIiiiiIiiII.iIIiiiiiiIIII);
-        this.IIiiIiiiIIiIi = new iiIiIiiiIIIiI("sc/e/31.png", 1, 112, iiIIiiiiIiiII.iiiiIiiiIiiII, iiIIiiiiIiiII.IIiiiiiiIiiII, "\u9886\u53d6", form, (JComponent)oneView);
+        this.IIiiIiiiIIiIi = new iiIiIiiiIIIiI("sc/e/31.png", 1, 112, iiIIiiiiIiiII.iiiiIiiiIiiII, iiIIiiiiIiiII.IIiiiiiiIiiII, "领取", form, (JComponent)oneView);
         this.IIiiIiiiIIiIi.setFont(iiIIiiiiIiiII.iiiiIiiiIiiII);
         this.IIiiIiiiIIiIi.setBounds(278, 14, 79, 25);
         this.IiiiiiiiIIIII = new IIIiiiiiIiIiI(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/66.png", (int)80, (int)1, (int)80, (int)1, (boolean)false));

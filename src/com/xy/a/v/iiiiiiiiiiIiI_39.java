@@ -77,7 +77,7 @@ extends IiiiIiiiiIiIi {
         this.iIiiIiiiIiIIi = new iiIiIiiiIIIiI[3];
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.iIiiIiiiIiIIi.length) {
-            this.iIiiIiiiIiIIi[IiiiiiiiIIIII] = IiiiiiiiIIIII == 0 ? new iiIiIiiiIIIiI("sc/e/186.png", 1, 191 + IiiiiiiiIIIII, iiIIiiiiIiiII.IIiiiiiiiIIIi, null, "\u6211\u7684\u7ade\u62cd", (IiiiIiiiiIiIi)this) : new iiIiIiiiIIIiI(IiiiiiiiIIIII == 1 ? "sc/e/156.png" : "sc/e/155.png", 1, 191 + IiiiiiiiIIIII, (IiiiIiiiiIiIi)this);
+            this.iIiiIiiiIiIIi[IiiiiiiiIIIII] = IiiiiiiiIIIII == 0 ? new iiIiIiiiIIIiI("sc/e/186.png", 1, 191 + IiiiiiiiIIIII, iiIIiiiiIiiII.IIiiiiiiiIIIi, null, "我的竞拍", (IiiiIiiiiIiIi)this) : new iiIiIiiiIIIiI(IiiiiiiiIIIII == 1 ? "sc/e/156.png" : "sc/e/155.png", 1, 191 + IiiiiiiiIIIII, (IiiiIiiiiIiIi)this);
             if (IiiiiiiiIIIII == 0) {
                 this.iIiiIiiiIiIIi[IiiiiiiiIIIII].setBounds(543, 71, 112, 43);
             } else {
@@ -118,7 +118,7 @@ extends IiiiIiiiiIiIi {
         IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.IIIiiiiiIIiII.length) {
             this.IIIiiiiiIIiII[IiiiiiiiIIIII] = IiIIIiiiiIIiI.ALLATORIxDEMO((int)7, (int)0, (int)150, (int)24, (Color)iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c86745C"), (Font)iiIIiiiiIiiII.iiiiIiiiIiiII);
-            this.IIIiiiiiIIiII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "\u6781\u54c1ID\u9753\u53f7" : (IiiiiiiiIIIII == 1 ? "\u7ade\u62cd\u4ef7" : (IiiiiiiiIIIII == 2 ? "\u72b6\u6001" : (IiiiiiiiIIIII == 3 ? "\u64cd\u4f5c" : ""))));
+            this.IIIiiiiiIIiII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "极品ID靓号" : (IiiiiiiiIIIII == 1 ? "竞拍价" : (IiiiiiiiIIIII == 2 ? "状态" : (IiiiiiiiIIIII == 3 ? "操作" : ""))));
             this.IIIiiiiiIIiII[IiiiiiiiIIIII].setHorizontalAlignment(0);
             if (IiiiiiiiIIIII == 1) {
                 this.IIIiiiiiIIiII[IiiiiiiiIIIII].setBounds(170, 0, 150, 24);
@@ -204,14 +204,14 @@ lbl31:
         this.iIiiIiiiiiiII = data[0];
         this.iiiiIiiiIiiII = data[1];
         this.IIIIiiiiiiiII = this.ALLATORIxDEMO().ALLATORIxDEMO();
-        int IiiiiiiiIIIII = this.IIIIiiiiiiiII != null ? com.xy.v.IIiiIiiiiIIiI.ALLATORIxDEMO((String)this.IIIIiiiiiiiII.getActivitySet(), (String)"\u62a2\u9753\u53f7\u8bbe\u7f6e=", (String)"|") : 0;
+        int IiiiiiiiIIIII = this.IIIIiiiiiiiII != null ? com.xy.v.IIiiIiiiiIIiI.ALLATORIxDEMO((String)this.IIIIiiiiiiiII.getActivitySet(), (String)"抢靓号设置=", (String)"|") : 0;
         ActivityFC IiiiiiiiIIIII2 = IiiiiiiiIIIII > 0 ? this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII) : null;
         ActivityFCBeau IiiiiiiiIIIII3 = IiiiiiiiIIIII2 != null ? (ActivityFCBeau)IiiiiiiiIIIII2.getData() : null;
         iiiiiiiiiiIiI iiiiiiiiiiIiI2 = this;
         if (IiiiiiiiIIIII3 != null) {
             long IiiiiiiiIIIII4 = iiiiiiiiiiIiI2.IIIIiiiiiiiII.getTimeOpen() + (long)(this.iIiiIiiiiiiII - 1) * IiiiiiiiIIIII3.getCycleTime() * 1000L + (long)IiiiiiiiIIIII3.getPointTime().x * 1000L;
             long IiiiiiiiIIIII5 = this.IIIIiiiiiiiII.getTimeOpen() + (long)(this.iIiiIiiiiiiII - 1) * IiiiiiiiIIIII3.getCycleTime() * 1000L + (long)IiiiiiiiIIIII3.getPointTime().y * 1000L;
-            this.iiiiIiiiIIiii.setTextSize("#c484333\u7ade\u62cd\u65f6\u95f4\u4e3a#cFF0000  " + com.xy.v.iIiIIiiiIiiiI.iIiIiiiiIIiii((long)IiiiiiiiIIIII4) + " ~ " + com.xy.v.iIiIIiiiIiiiI.iIiIiiiiIIiii((long)IiiiiiiiIIIII5), 500);
+            this.iiiiIiiiIIiii.setTextSize("#c484333竞拍时间为#cFF0000  " + com.xy.v.iIiIIiiiIiiiI.iIiIiiiiIIiii((long)IiiiiiiiIIIII4) + " ~ " + com.xy.v.iIiIIiiiIiiiI.iIiIiiiiIIiii((long)IiiiiiiiIIIII5), 500);
         } else {
             iiiiiiiiiiIiI2.iiiiIiiiIIiii.setTextSize("", 500);
         }
@@ -233,7 +233,7 @@ lbl31:
             block17: {
                 if (id != 191) break block17;
                 this.ALLATORIxDEMO = this.ALLATORIxDEMO == 0 ? 1 : 0;
-                this.iIiiIiiiIiIIi[0].setText(this.ALLATORIxDEMO == 0 ? "\u6211\u7684\u7ade\u62cd" : "\u8fd4\u56de\u7ade\u62cd");
+                this.iIiiIiiiIiIIi[0].setText(this.ALLATORIxDEMO == 0 ? "我的竞拍" : "返回竞拍");
                 if (this.ALLATORIxDEMO == 0) {
                     this.iIiIiiiiIiIii.setVisible(false);
                     this.IiiiiiiiIIIII.setVisible(true);
@@ -256,7 +256,7 @@ lbl31:
             }
             if (id == 192) {
                 if (this.iIIiIiiiiiiIi <= 1) {
-                    this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u8fd9\u662f\u9996\u9875");
+                    this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("这是首页");
                     return;
                 }
                 this.iIiIiiiiIIiii(this.iIIiIiiiiiiIi - 1);
@@ -264,7 +264,7 @@ lbl31:
             }
             if (id == 193) {
                 if (this.iIIiIiiiiiiIi >= this.IiIiiiiiIIIII) {
-                    this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u8fd9\u662f\u5c3e\u9875");
+                    this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("这是尾页");
                     return;
                 }
                 this.iIiIiiiiIIiii(this.iIIiIiiiiiiIi + 1);

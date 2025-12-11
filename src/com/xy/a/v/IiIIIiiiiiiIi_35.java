@@ -59,7 +59,7 @@ implements MouseListener {
         this.IiIIIiiiiIiiI = IiIIIiiiiIIiI.ALLATORIxDEMO((int)40, (int)17, (int)93, (int)20, (Color)iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c462803"), (Font)iiIIiiiiIiiII.iiIiiiiiiIIiI);
         this.iiIiiiiiiiIii.setHorizontalAlignment(0);
         this.IiIIIiiiiIiiI.setHorizontalAlignment(0);
-        this.iiIiiiiiiiIii.setText(index == 0 ? "\u79ef\u5206\u8d5b" : (index == 1 ? "\u5165\u56f4\u8d5b" : (index == 2 ? "\u534a\u51b3\u8d5b" : "\u603b\u51b3\u8d5b")));
+        this.iiIiiiiiiiIii.setText(index == 0 ? "积分赛" : (index == 1 ? "入围赛" : (index == 2 ? "半决赛" : "总决赛")));
         this.add(this.iiIiiiiiiiIii);
         this.add(this.IiIIIiiiiIiiI);
         this.addMouseListener(this);

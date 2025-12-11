@@ -30,7 +30,7 @@ extends iIiIIiiiIiiiI {
     final /* synthetic */ iIiIiiiiIiIII ALLATORIxDEMO;
 
     public void ALLATORIxDEMO(int place, int height) {
-        this.iiIiiiiiiiIii.setText(place == 8 ? "\u51a0\u519b" : (place == 7 ? "\u4e9a\u519b" : (place == 6 ? "\u5b63\u519b" : (place == 5 ? "\u6bbf\u519b" : (place == 4 ? "\u56db\u5f3a\u664b\u7ea7\u540d\u5355" : (place == 3 ? "\u516b\u5f3a\u664b\u7ea7\u540d\u5355" : (place == 2 ? "\u5341\u516d\u5f3a\u664b\u7ea7\u540d\u5355" : "\u4e09\u5341\u4e8c\u5f3a\u664b\u7ea7\u540d\u5355")))))));
+        this.iiIiiiiiiiIii.setText(place == 8 ? "冠军" : (place == 7 ? "亚军" : (place == 6 ? "季军" : (place == 5 ? "殿军" : (place == 4 ? "四强晋级名单" : (place == 3 ? "八强晋级名单" : (place == 2 ? "十六强晋级名单" : "三十二强晋级名单")))))));
         this.setBounds(123, height, 289, 30);
     }
 

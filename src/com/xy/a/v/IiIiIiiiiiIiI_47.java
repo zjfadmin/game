@@ -44,14 +44,14 @@ extends iIiIIiiiIiiiI {
     public IiIiIiiiiiIiI(iiIiIiiiiIiIi iiIiIiiiiIiIi2) {
         this.IiIIIiiiiIiiI = iiIiIiiiiIiIi2;
         Vector<String> IiiiiiiiIIIII = new Vector<String>();
-        IiiiiiiiIIIII.addElement("\u6392\u540d");
-        IiiiiiiiIIIII.addElement("\u961f\u4f0d\u540d");
-        IiiiiiiiIIIII.addElement("\u79ef\u5206");
-        IiiiiiiiIIIII.addElement("\u80dc\u573a");
-        IiiiiiiiIIIII.addElement("\u8d1f\u573a");
-        IiiiiiiiIIIII.addElement("\u56de\u5408\u6570");
-        IiiiiiiiIIIII.addElement("\u53ec\u5524\u517d\u6d88\u8017");
-        IiiiiiiiIIIII.addElement("\u7075\u5b9d\u6d88\u8017");
+        IiiiiiiiIIIII.addElement("排名");
+        IiiiiiiiIIIII.addElement("队伍名");
+        IiiiiiiiIIIII.addElement("积分");
+        IiiiiiiiIIIII.addElement("胜场");
+        IiiiiiiiIIIII.addElement("负场");
+        IiiiiiiiIIIII.addElement("回合数");
+        IiiiiiiiIIIII.addElement("召唤兽消耗");
+        IiiiiiiiIIIII.addElement("灵宝消耗");
         this.iiIiiiiiiiIii = new Vector();
         this.ALLATORIxDEMO = IiIIIiiiiIIiI.ALLATORIxDEMO(this.iiIiiiiiiiIii, IiiiiiiiIIIII, (Font)iiIIiiiiIiiII.iIiIIiiiiIIiI, (Color)Color.white, (int[])new int[]{68, 80, 60, 60, 60, 90, 90});
         iiiIiiiiIiiiI IiiiiiiiIIIII2 = new iiiIiiiiIiiiI(this);

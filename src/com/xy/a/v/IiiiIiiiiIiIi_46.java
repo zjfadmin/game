@@ -34,11 +34,11 @@ extends com.xy.q.IiiiIiiiiIiIi {
     public IiiiIiiiiIiIi(GameView gameView) {
         super(186, 2, com.xy.q.IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 703, 542, com.xy.q.IiiiIiiiiIiIi.iiIIIiiiiiiiI);
-        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), " \u9753 \u53f7 ");
+        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), " 靓 号 ");
         this.ALLATORIxDEMO = new iiIiIiiiIIIiI[3];
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.ALLATORIxDEMO.length) {
-            this.ALLATORIxDEMO[IiiiiiiiIIIII] = new iiIiIiiiIIIiI("sc/e/38.png", 2, 171 + IiiiiiiiIIIII, com.xy.q.iiIIiiiiIiiII.IIiiiiiiiIIIi, com.xy.q.iiIIiiiiIiiII.IIiiiiiiIiiII, IiiiiiiiIIIII == 0 ? "\u9009\u9753\u53f7" : (IiiiiiiiIIIII == 1 ? "\u62a2\u9753\u53f7" : (IiiiiiiiIIIII == 2 ? "\u9753\u53f7\u4fe1\u7b4f" : "")), (com.xy.q.IiiiIiiiiIiIi)this);
+            this.ALLATORIxDEMO[IiiiiiiiIIIII] = new iiIiIiiiIIIiI("sc/e/38.png", 2, 171 + IiiiiiiiIIIII, com.xy.q.iiIIiiiiIiiII.IIiiiiiiiIIIi, com.xy.q.iiIIiiiiIiiII.IIiiiiiiIiiII, IiiiiiiiIIIII == 0 ? "选靓号" : (IiiiiiiiIIIII == 1 ? "抢靓号" : (IiiiiiiiIIIII == 2 ? "靓号信筏" : "")), (com.xy.q.IiiiIiiiiIiIi)this);
             this.ALLATORIxDEMO[IiiiiiiiIIIII].setOffsetTexts(com.xy.q.iiIIiiiiIiiII.IIiiiiiiiIIII);
             this.ALLATORIxDEMO[IiiiiiiiIIIII].setBounds(60 + 102 * IiiiiiiiIIIII, 18, 95, 33);
             this.add((Component)this.ALLATORIxDEMO[IiiiiiiiIIIII++]);

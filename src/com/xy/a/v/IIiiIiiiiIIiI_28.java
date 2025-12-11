@@ -40,8 +40,8 @@ extends iIiIIiiiIiiiI {
 
     public IIiiIiiiiIIiI(iiiiiiiiiiIiI iiiiiiiiiiIiI2, int index, iiiiiiiiiiIiI beauBuy2View) {
         this.IiiiiiiiIIIII = iiiiiiiiiiIiI2;
-        this.iIiIiiiiIiIii = new iiIiIiiiIIIiI("sc/e/190.png", 1, 194, iiIIiiiiIiiII.IIiiiiiiiIIIi, null, "\u9884\u89c8", (IiiiIiiiiIiIi)beauBuy2View);
-        this.ALLATORIxDEMO = new iiIiIiiiIIIiI("sc/e/187.png", 1, 195, iiIIiiiiIiiII.IIiiiiiiiIIIi, null, "\u7ade\u62cd", (IiiiIiiiiIiIi)beauBuy2View);
+        this.iIiIiiiiIiIii = new iiIiIiiiIIIiI("sc/e/190.png", 1, 194, iiIIiiiiIiiII.IIiiiiiiiIIIi, null, "预览", (IiiiIiiiiIiIi)beauBuy2View);
+        this.ALLATORIxDEMO = new iiIiIiiiIIIiI("sc/e/187.png", 1, 195, iiIIiiiiIiiII.IIiiiiiiiIIIi, null, "竞拍", (IiiiIiiiiIiIi)beauBuy2View);
         this.iIiIiiiiIiIii.setForeground(iiIIiiiiIiiII.ALLATORIxDEMO((String)"#cB58754"));
         this.iIiIiiiiIiIii.setBounds(170, 43, 49, 24);
         this.ALLATORIxDEMO.setBounds(228, 38, 67, 35);
@@ -63,7 +63,7 @@ extends iIiIIiiiIiiiI {
             } else if (IiiiiiiiIIIII == 4) {
                 this.IiIIIiiiiIiiI[IiiiiiiiIIIII] = IiIIIiiiiIIiI.ALLATORIxDEMO((int)86, (int)79, (int)80, (int)16, (Color)Color.red, (Font)iiIIiiiiIiiII.iIiIIiiiiIIiI);
             }
-            this.IiIIIiiiiIiiI[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 1 ? "\u9884\u8d2d\u6570:" : (IiiiiiiiIIIII == 2 ? "\u7ade\u62cd\u4ef7:" : ""));
+            this.IiLIIiiiiIiiI[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 1 ? "预购数:" : (IiiiiiiiIIIII == 2 ? "竞拍价:" : ""));
             this.add(this.IiIIIiiiiIiiI[IiiiiiiiIIIII++]);
         }
         this.iiIiiiiiiiIii = new IIIiiiiiIiIiI("sc/d/199.png");

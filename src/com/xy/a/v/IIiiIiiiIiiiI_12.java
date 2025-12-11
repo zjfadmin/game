@@ -53,15 +53,15 @@ extends iIiIIiiiIiiiI {
                     this.IiiiiiiiIIIII.iIiIiiiiIIiii("sc/d/186.png");
                 }
                 if (IiiiiiiiIIIII == 1 && menuType == 3) {
-                    this.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"\u51a0", "\u4e9a", "\u8d5b"});
+                    this.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"冠", "亚", "赛"});
                 } else if (IiiiiiiiIIIII == 0 && menuType == 3) {
-                    this.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"\u5b63", "\u6bbf", "\u8d5b"});
+                    this.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"季", "殿", "赛"});
                 } else {
                     IIiiIiiiIiiiI iIiiIiiiIiiiI = this;
                     if (IiiiiiiiIIIII == 0) {
-                        iIiiIiiiIiiiI.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"\u4e0a", "\u534a", "\u573a"});
+                        iIiiIiiiIiiiI.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"上", "半", "场"});
                     } else {
-                        iIiiIiiiIiiiI.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"\u4e0b", "\u534a", "\u573a"});
+                        iIiiIiiiIiiiI.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"下", "半", "场"});
                     }
                 }
                 this.iIiIiiiiIiIii[2 * IiiiiiiiIIIII].ALLATORIxDEMO(false, null);
@@ -73,15 +73,15 @@ extends iIiIIiiiIiiiI {
                     this.IiiiiiiiIIIII.iIiIiiiiIIiii(IiiiiiiiIIIII2.getType() == 5 ? "sc/d/141.png" : (IiiiiiiiIIIII2.getType() == 5 ? "sc/d/185.png" : "sc/d/186.png"));
                 }
                 if (IiiiiiiiIIIII2.getType() == 5) {
-                    this.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"\u51a0", "\u4e9a", "\u8d5b"});
+                    this.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"冠", "亚", "赛"});
                 } else if (IiiiiiiiIIIII2.getType() == 4) {
-                    this.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"\u5b63", "\u6bbf", "\u8d5b"});
+                    this.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"季", "殿", "赛"});
                 } else {
                     IIiiIiiiIiiiI iIiiIiiiIiiiI = this;
                     if (IiiiiiiiIIIII == 0) {
-                        iIiiIiiiIiiiI.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"\u4e0a", "\u534a", "\u573a"});
+                        iIiiIiiiIiiiI.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"上", "半", "场"});
                     } else {
-                        iIiiIiiiIiiiI.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"\u4e0b", "\u534a", "\u573a"});
+                        iIiiIiiiIiiiI.iiIiiiiiiiIii[IiiiiiiiIIIII].ALLATORIxDEMO(new String[]{"下", "半", "场"});
                     }
                 }
                 this.iIiIiiiiIiIii[2 * IiiiiiiiIIIII].ALLATORIxDEMO(IiiiiiiiIIIII2.getWin() == 1, IiiiiiiiIIIII2.getBwdhTeam1());
@@ -100,16 +100,16 @@ extends iIiIIiiiIiiiI {
             String[] stringArray;
             if (IiiiiiiiIIIII == 0) {
                 String[] stringArray2 = new String[3];
-                stringArray2[0] = "\u4e0a";
-                stringArray2[1] = "\u534a";
+                stringArray2[0] = "上";
+                stringArray2[1] = "半";
                 stringArray = stringArray2;
-                stringArray2[2] = "\u573a";
+                stringArray2[2] = "场";
             } else {
                 String[] stringArray3 = new String[3];
-                stringArray3[0] = "\u4e0b";
-                stringArray3[1] = "\u534a";
+                stringArray3[0] = "下";
+                stringArray3[1] = "半";
                 stringArray = stringArray3;
-                stringArray3[2] = "\u573a";
+                stringArray3[2] = "场";
             }
             String[] IiiiiiiiIIIII2 = stringArray;
             this.iiIiiiiiiiIii[IiiiiiiiIIIII] = new com.xy.i.IIiIiiiiIiiIi(null, -1, 0, iiIIiiiiIiiII.IiIiiiiiIiIiI, null, IiiiiiiiIIIII2, iiIiIiiiiiIIi2.ALLATORIxDEMO());

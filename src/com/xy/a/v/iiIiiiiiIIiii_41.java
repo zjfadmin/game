@@ -48,7 +48,7 @@ extends IiiiIiiiiIiIi {
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.ALLATORIxDEMO.length) {
             this.ALLATORIxDEMO[IiiiiiiiIIIII] = IiIIIiiiiIIiI.ALLATORIxDEMO((int)194, (int)19, (int)360, (int)30, (Color)iiIIiiiiIiiII.ALLATORIxDEMO((String)"#cFFF28B"), (Font)iiIIiiiiIiiII.IiIiiiiiIiIiI);
-            this.ALLATORIxDEMO[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "\u6218\u6597\u56de\u5408\u6570\uff1a99" : (IiiiiiiiIIIII == 1 ? "\u961f\u4f0d\u540d\u79f01" : (IiiiiiiiIIIII == 2 ? "\u961f\u4f0d\u540d\u79f02" : (IiiiiiiiIIIII == 3 ? "\u6bd4\u6b66\u5927\u4f1a\u79ef\u5206\u6570" : (IiiiiiiiIIIII == 4 ? "\u6218\u6597\u7ed3\u675f\u65f6\u5b58\u6d3b\u5355\u4f4d\u6570" : (IiiiiiiiIIIII == 5 ? "\u5168\u573a\u79bb\u573a\u53ec\u5524\u517d" : (IiiiiiiiIIIII == 6 ? "\u6218\u6597\u7ed3\u675f\u65f6\u5728\u573a\u7075\u5b9d\u6570" : (IiiiiiiiIIIII == 7 ? "\u5168\u573a\u79bb\u573a\u7075\u5b9d\u6570" : ""))))))));
+            this.ALLATORIxDEMO[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "战斗回合数：99" : (IiiiiiiiIIIII == 1 ? "队伍名称1" : (IiiiiiiiIIIII == 2 ? "队伍名称2" : (IiiiiiiiIIIII == 3 ? "比武大会积分数" : (IiiiiiiiIIIII == 4 ? "战斗结束时存活单位数" : (IiiiiiiiIIIII == 5 ? "全场离场召唤兽" : (IiiiiiiiIIIII == 6 ? "战斗结束时在场灵宝数" : (IiiiiiiiIIIII == 7 ? "全场离场灵宝数" : ""))))))));
             this.ALLATORIxDEMO[IiiiiiiiIIIII].setHorizontalAlignment(0);
             if (IiiiiiiiIIIII == 1 || IiiiiiiiIIIII == 2) {
                 this.ALLATORIxDEMO[IiiiiiiiIIIII].setFont(iiIIiiiiIiiII.iiiIIiiiIiiII);
@@ -104,7 +104,7 @@ extends IiiiIiiiiIiIi {
     }
 
     public void ALLATORIxDEMO(boolean win, int matchType, int battleRound, BWDHTeam bwdhTeam1, BWDHTeam bwdhTeam2, String tip) {
-        this.ALLATORIxDEMO[0].setText("\u6218\u6597\u56de\u5408\u6570\uff1a" + battleRound);
+        this.ALLATORIxDEMO[0].setText("战斗回合数：" + battleRound);
         this.ALLATORIxDEMO[1].setText(bwdhTeam1.getName());
         this.ALLATORIxDEMO[2].setText(bwdhTeam2.getName());
         if (bwdhTeam1.getData2()[1] != 0) {

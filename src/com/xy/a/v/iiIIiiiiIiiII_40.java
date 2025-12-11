@@ -69,10 +69,10 @@ extends IiiiIiiiiIiIi {
             this.add((Component)this.iiiIiiiiiiiIi[IiiiiiiiIIIII++]);
         }
         this.ALLATORIxDEMO = IiIIIiiiiIIiI.ALLATORIxDEMO((int)172, (int)69, (int)46, (int)19, (Color)Color.black, (Font)com.xy.q.iiIIiiiiIiiII.iiiiIiiiIiiII);
-        this.ALLATORIxDEMO.setText("\u641c\u7d22");
+        this.ALLATORIxDEMO.setText("搜索");
         this.add(this.ALLATORIxDEMO);
         this.iIiiIiiiiiiII = new RichLabel("", com.xy.q.iiIIiiiiIiiII.iIIiiiiiiIIII);
-        this.iIiiIiiiiiiII.setTextSize("#c484333\u3010\u89c4\u5219\u8bf4\u660e\u3011#r\u53ef\u4ee5\u81ea\u9009\u975e5A\u76846\u4f4d\u6570\u9753\u53f7", 480);
+        this.iIiiIiiiiiiII.setTextSize("#c484333【规则说明】#r可以自选非5A的6位数靓号", 480);
         this.iIiiIiiiiiiII.setBounds(172, 94, this.iIiiIiiiiiiII.getWidth(), this.iIiiIiiiiiiII.getHeight());
         this.add((Component)this.iIiiIiiiiiiII);
         this.IIiiIiiiIIiIi = IiIIIiiiiIIiI.ALLATORIxDEMO((IIiIiiiiIIiii)IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/17.png", (int)6, (int)6, (int)6, (int)6, (boolean)false), (Font)com.xy.q.iiIIiiiiIiiII.iIIIiiiiIIIii, (Color)Color.white);
@@ -118,7 +118,7 @@ extends IiiiIiiiiIiIi {
             return;
         }
         if (iIiIIiiiIiiiI.iIiIiiiiIIiii() - this.iiIiiiiiiiIii < (long)(iIiIIiiiIiiiI.IIIIiiiiiiiII * 10)) {
-            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4f60\u70b9\u7684\u592a\u5feb\u4e86");
+            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("你点的太快了");
             return;
         }
         this.iiIiiiiiiiIii = iIiIIiiiIiiiI.iIiIiiiiIIiii();
@@ -128,9 +128,9 @@ extends IiiiIiiiiIiIi {
 
     public void ALLATORIxDEMO(int[] data) {
         Activity IiiiiiiiIIIII = this.ALLATORIxDEMO().ALLATORIxDEMO();
-        int IiiiiiiiIIIII2 = IiiiiiiiIIIII != null ? IIiiIiiiiIIiI.ALLATORIxDEMO((String)IiiiiiiiIIIII.getActivitySet(), (String)"\u9009\u9753\u53f7\u8bf4\u660e=", (String)"|") : 0;
+        int IiiiiiiiIIIII2 = IiiiiiiiIIIII != null ? IIiiIiiiiIIiI.ALLATORIxDEMO((String)IiiiiiiiIIIII.getActivitySet(), (String)"选靓号说明=", (String)"|") : 0;
         ActivityFC IiiiiiiiIIIII3 = IiiiiiiiIIIII2 > 0 ? this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII2) : null;
-        this.iIiiIiiiiiiII.setTextSize(IiiiiiiiIIIII3 != null ? IiiiiiiiIIIII3.getValue() : "\u8fd8\u672a\u8bbe\u7f6e\u8bf4\u660e\u6587\u672c", 480);
+        this.iIiiIiiiiiiII.setTextSize(IiiiiiiiIIIII3 != null ? IiiiiiiiIIIII3.getValue() : "还未设置说明文本", 480);
         this.iIiiIiiiiiiII.setBounds(172, 94, this.iIiiIiiiiiiII.getWidth(), this.iIiiIiiiiiiII.getHeight());
         int IiiiiiiiIIIII4 = data[0];
         int IiiiiiiiIIIII5 = 0;

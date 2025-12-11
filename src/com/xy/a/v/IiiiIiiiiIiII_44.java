@@ -86,9 +86,9 @@ extends IiiiIiiiiIiIi {
         this.IiIiiiiiIIIII.setBounds(319, 0, 21, 21);
         this.add((Component)this.IiIiiiiiIIIII);
         Vector<String> IiiiiiiiIIIII = new Vector<String>();
-        IiiiiiiiIIIII.addElement("\u540d\u79f0");
-        IiiiiiiiIIIII.addElement("\u5956\u54c1");
-        IiiiiiiiIIIII.addElement("\u65f6\u95f4");
+        IiiiiiiiIIIII.addElement("名称");
+        IiiiiiiiIIIII.addElement("奖品");
+        IiiiiiiiIIIII.addElement("时间");
         this.IiIIIiiiiIiiI = new Vector();
         this.iiIiiiiiiiIii = com.xy.q.IiIIIiiiiIIiI.ALLATORIxDEMO(this.IiIIIiiiiIiiI, IiiiiiiiIIIII, (Font)iiIIiiiiIiiII.iIIiiiiiiIIII, (Color)iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c6E3D2C"), (int[])new int[]{100, 80, 140});
         this.iiIiiiiiiiIii.getSelectionModel().addListSelectionListener((ListSelectionListener)new IiIIIiiiiIIiI(this));

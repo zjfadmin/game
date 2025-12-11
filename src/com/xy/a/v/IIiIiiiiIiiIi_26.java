@@ -92,7 +92,7 @@ implements MouseListener {
         this.ALLATORIxDEMO.setText(bwdhTeam != null ? bwdhTeam.getName() : "");
         this.iIiIiiiiIiIii = IIIIIiiiIiiII.iiiIiiiiiiIIi((String)(win ? "sc/d/147.png" : "sc/d/196.png"));
         if (bwdhTeam != null && bwdhTeam.getRoleShows() != null) {
-            this.IiIIIiiiiIiiI.setText("\u961f\u957f:" + bwdhTeam.getRoleShows()[0].getRolename());
+            this.IiIIIiiiiIiiI.setText("队长:" + bwdhTeam.getRoleShows()[0].getRolename());
             this.IiiiiiiiIIIII = IIIIIiiiIiiII.iiiIiiiiiiIIi((String)com.xy.w.IIiIiiiiIiiIi.iiiIiiiiiiIIi((String)("bwdh" + bwdhTeam.getRoleShows()[0].getSpecies_id().intValue())));
         } else {
             this.IiIIIiiiiIiiI.setText(null);

@@ -60,16 +60,16 @@ extends iIiIIiiiIiiiI {
         this.IIiiIiiiIIiIi = new IIIiIiiiiIiII(2, 100, iiIiIiiiiIiIi2.ALLATORIxDEMO());
         this.IIiiIiiiIIiIi.iIiIiiiiIIiii(true);
         this.IIiiIiiiIIiIi.ALLATORIxDEMO(550, 71, 100, 19);
-        this.IIiiIiiiIIiIi.iiiIiiiiiiIIi(new iiiIIiiiIIIii("16\u5f3a\u62a2\u4f4d\u8d5b", (Object)0));
-        this.IIiiIiiiIIiIi.iiiIiiiiiiIIi(new iiiIIiiiIIIii("8\u5f3a\u62a2\u4f4d\u8d5b", (Object)1));
-        this.IIiiIiiiIIiIi.iiiIiiiiiiIIi(new iiiIIiiiIIIii("4\u5f3a\u62a2\u4f4d\u8d5b", (Object)2));
-        this.IIiiIiiiIIiIi.ALLATORIxDEMO().setText("16\u5f3a\u62a2\u4f4d\u8d5b");
+        this.IIiiIiiiIIiIi.iiiIiiiiiiIIi(new iiiIIiiiIIIii("16强抢位赛", (Object)0));
+        this.IIiiIiiiIIiIi.iiiIiiiiiiIIi(new iiiIIiiiIIIii("8强抢位赛", (Object)1));
+        this.IIiiIiiiIIiIi.iiiIiiiiiiIIi(new iiiIIiiiIIIii("4强抢位赛", (Object)2));
+        this.IIiiIiiiIIiIi.ALLATORIxDEMO().setText("16强抢位赛");
         this.add((Component)this.IIiiIiiiIIiIi);
         this.iIiIiiiiIiIii = new JLabel[4];
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.iIiIiiiiIiIii.length) {
             this.iIiIiiiiIiIii[IiiiiiiiIIIII] = IiIIIiiiiIIiI.ALLATORIxDEMO((int)48, (int)95, (int)145, (int)21, (Color)Color.white, (Font)iiIIiiiiIiiII.iiiiIiiiIiiII);
-            this.iIiIiiiiIiIii[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "\u6bd4\u8d5b" : (IiiiiiiiIIIII == 1 ? "\u5bf9\u9635" : (IiiiiiiiIIIII == 2 ? "\u961f\u4f0d" : (IiiiiiiiIIIII == 3 ? "\u89c2\u770b" : ""))));
+            this.iIiIiiiiIiIii[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "比赛" : (IiiiiiiiIIIII == 1 ? "对阵" : (IiiiiiiiIIIII == 2 ? "队伍" : (IiiiiiiiIIIII == 3 ? "观看" : ""))));
             this.iIiIiiiiIiIii[IiiiiiiiIIIII].setHorizontalAlignment(0);
             if (IiiiiiiiIIIII == 1) {
                 this.iIiIiiiiIiIii[IiiiiiiiIIIII].setBounds(193, 95, 245, 21);

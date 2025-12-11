@@ -79,7 +79,7 @@ extends iIiIIiiiIiiiI {
         this.IiIIIiiiiIiiI = form;
         this.iiIiIiiiiIIIi = new RichLabel("", iiIIiiiiIiiII.iIIiiiiiiIIII);
         this.add((Component)this.iiIiIiiiiIIIi);
-        this.iiIiiiiiiiIii = new iiIiIiiiIIIiI("sc/e/26.png", 1, 111, iiIIiiiiIiiII.iiiiIiiiIiiII, iiIIiiiiIiiII.IIiiiiiiIiiII, "\u4e00\u952e\u9886\u53d6", form, (JComponent)((Object)this));
+        this.iiIiiiiiiiIii = new iiIiIiiiIIIiI("sc/e/26.png", 1, 111, iiIIiiiiIiiII.iiiiIiiiIiiII, iiIIiiiiIiiII.IIiiiiiiIiiII, "一键领取", form, (JComponent)((Object)this));
         this.iiIiiiiiiiIii.setFont(iiIIiiiiIiiII.iiiiIiiiIiiII);
         this.iiIiiiiiiiIii.setBounds(338, 146, 99, 25);
         this.add((Component)this.iiIiiiiiiiIii);
@@ -96,7 +96,7 @@ extends iIiIIiiiIiiiI {
         IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.iIiiIiiiiiiII.length) {
             this.iIiiIiiiiiiII[IiiiiiiiIIIII] = IiIIIiiiiIIiI.ALLATORIxDEMO((int)231, (int)140, (int)124, (int)19, (Color)Color.white, (Font)iiIIiiiiIiiII.iiiiIiiiIiiII);
-            this.iIiiIiiiiiiII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "\u4eca\u65e5\u4efb\u52a1" : (IiiiiiiiIIIII == 1 ? "\u4eca\u65e5\u8fdb\u5ea6" : (IiiiiiiiIIIII == 2 ? "\u5b8c\u6210\u72b6\u6001" : "")));
+            this.iIiiIiiiiiiII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "今日任务" : (IiiiiiiiIIIII == 1 ? "今日进度" : (IiiiiiiiIIIII == 2 ? "完成状态" : "")));
             this.iIiiIiiiiiiII[IiiiiiiiIIIII].setHorizontalAlignment(0);
             if (IiiiiiiiIIIII == 0) {
                 this.iIiiIiiiiiiII[IiiiiiiiIIIII].setBounds(106, 192, 106, 21);
@@ -209,7 +209,7 @@ extends iIiIIiiiIiiiI {
                         }
                         if (IiiiiiiiIIIII < 0) {
                             if (IiiiiiiiIIIII != null) break;
-                            this.IiIIIiiiiIiiI.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4f60\u7684\u80cc\u5305\u4e0d\u591f");
+                            this.IiIIIiiiiIiiI.iiIIiiiiIiIIi.iiiIiiiiiiIIi("你的背包不够");
                             return;
                         }
                         if (IiiiiiiiIIIII == null) {
@@ -228,7 +228,7 @@ lbl70:
 
         } while (var10_16 < var11_15);
         if (IiiiiiiiIIIII == null) {
-            this.IiIIIiiiiIiiI.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u6ca1\u6709\u53ef\u9886\u53d6\u7684\u5956\u52b1");
+            this.IiIIIiiiiIiiI.iiIIiiiiIiIIi.iiiIiiiiiiIIi("没有可领取的奖励");
             return;
         }
         IiiiiiiiIIIII /* !! */  = Agreement.getSendTextAES((String)"activity", (String)IiiiiiiiIIIII.toString());
@@ -251,7 +251,7 @@ lbl89:
 
         } while (IiiiiiiiIIIII < IiiiiiiiIIIII.length);
         if (IiiiiiiiIIIII.getGoodPackSum(-1L, new BigDecimal(-1), IiiiiiiiIIIII) < IiiiiiiiIIIII) {
-            this.IiIIIiiiiIiiI.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4f60\u7684\u80cc\u5305\u4e0d\u591f");
+            this.IiIIIiiiiIiiI.iiIIiiiiIiIIi.iiiIiiiiiiIIi("你的背包不够");
             return;
         }
         IiiiiiiiIIIII = Agreement.getSendTextAES((String)"activity", (String)(String.valueOf(this.ALLATORIxDEMO.getId()) + "|" + IiiiiiiiIIIII.getId()));

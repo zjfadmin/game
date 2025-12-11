@@ -58,9 +58,9 @@ extends IIIiiiiiIiIiI {
             }
             this.add(this.ALLATORIxDEMO[IiiiiiiiIIIII++]);
         }
-        this.iIiIiiiiIiIii = new iiIiIiiiIIIiI("sc/e/167.png", 1, 161, iiIIiiiiIiiII.iIIiiiiiiIIII, null, "\u67e5\u770b", iiIiIiiiiIiIi2.ALLATORIxDEMO());
+        this.iIiIiiiiIiIii = new iiIiIiiiIIIiI("sc/e/167.png", 1, 161, iiIIiiiiIiiII.iIIiiiiiiIIII, null, "查看", iiIiIiiiiIiIi2.ALLATORIxDEMO());
         this.iIiIiiiiIiIii.setBounds(417, 12, 61, 18);
-        this.iiIiiiiiiiIii = new iiIiIiiiIIIiI("sc/e/167.png", 1, 162, iiIIiiiiIiiII.iIIiiiiiiIIII, null, "\u672a\u5f00\u59cb", iiIiIiiiiIiIi2.ALLATORIxDEMO());
+        this.iiIiiiiiiiIii = new iiIiIiiiIIIiI("sc/e/167.png", 1, 162, iiIIiiiiIiiII.iIIiiiiiiIIII, null, "未开始", iiIiIiiiiIiIi2.ALLATORIxDEMO());
         this.iiIiiiiiiiIii.setBounds(505, 12, 61, 18);
         this.add((Component)this.iIiIiiiiIiIii);
         this.add((Component)this.iiIiiiiiiiIii);
@@ -69,32 +69,32 @@ extends IIIiiiiiIiIiI {
     public void ALLATORIxDEMO(BWDHRuleBattleRecord battleRecord) {
         BWDHRuleBattle IiiiiiiiIIIII = battleRecord.getBwdhRuleBattle();
         if (IiiiiiiiIIIII.getType() == 0) {
-            this.ALLATORIxDEMO[0].setText("16\u5f3a\u62a2\u4f4d\u8d5b\u7b2c" + battleRecord.getIndex() + "\u8f6e");
+            this.ALLATORIxDEMO[0].setText("16强抢位赛第" + battleRecord.getIndex() + "轮");
         } else if (IiiiiiiiIIIII.getType() == 1) {
-            this.ALLATORIxDEMO[0].setText("8\u5f3a\u62a2\u4f4d\u8d5b\u7b2c" + battleRecord.getIndex() + "\u8f6e");
+            this.ALLATORIxDEMO[0].setText("8强抢位赛第" + battleRecord.getIndex() + "轮");
         } else if (IiiiiiiiIIIII.getType() == 2) {
-            this.ALLATORIxDEMO[0].setText("4\u5f3a\u62a2\u4f4d\u8d5b\u7b2c" + battleRecord.getIndex() + "\u8f6e");
+            this.ALLATORIxDEMO[0].setText("4强抢位赛第" + battleRecord.getIndex() + "轮");
         } else if (IiiiiiiiIIIII.getType() == 3) {
-            this.ALLATORIxDEMO[0].setText("\u534a\u51b3\u8d5b\u7b2c" + battleRecord.getIndex() + "\u8f6e");
+            this.ALLATORIxDEMO[0].setText("半决赛第" + battleRecord.getIndex() + "轮");
         } else if (IiiiiiiiIIIII.getType() == 4) {
-            this.ALLATORIxDEMO[0].setText("\u5b63\u6bbf\u4e89\u593a\u8d5b\u7b2c" + battleRecord.getIndex() + "\u8f6e");
+            this.ALLATORIxDEMO[0].setText("季殿争夺赛第" + battleRecord.getIndex() + "轮");
         } else if (IiiiiiiiIIIII.getType() == 5) {
-            this.ALLATORIxDEMO[0].setText("\u51a0\u4e9a\u4e89\u593a\u8d5b\u7b2c" + battleRecord.getIndex() + "\u8f6e");
+            this.ALLATORIxDEMO[0].setText("冠亚争夺赛第" + battleRecord.getIndex() + "轮");
         }
         this.ALLATORIxDEMO[1].setText(IiiiiiiiIIIII.getBwdhTeam1().getName());
         this.ALLATORIxDEMO[3].setText(IiiiiiiiIIIII.getBwdhTeam2().getName());
         this.iIiIiiiiIiIii.setName(String.valueOf(battleRecord.getId()));
         this.iiIiiiiiiiIii.setName(String.valueOf(battleRecord.getId()));
         if (battleRecord.getType() == 0) {
-            this.iiIiiiiiiiIii.setText("\u672a\u5f00\u59cb");
+            this.iiIiiiiiiiIii.setText("未开始");
         } else if (battleRecord.getType() == 1) {
-            this.iiIiiiiiiiIii.setText("\u76f4\u64ad");
+            this.iiIiiiiiiiIii.setText("直播");
         } else if (battleRecord.getWin() == 1 || battleRecord.getWin() == 2) {
-            this.iiIiiiiiiiIii.setText("\u5f55\u50cf");
+            this.iiIiiiiiiiIii.setText("录像");
         } else if (battleRecord.getWin() == 5) {
-            this.iiIiiiiiiiIii.setText("\u65e0\u6548");
+            this.iiIiiiiiiiIii.setText("无效");
         } else {
-            this.iiIiiiiiiiIii.setText("\u5df2\u7ed3\u675f");
+            this.iiIiiiiiiiIii.setText("已结束");
         }
         if (battleRecord.getType() != 2) return;
         if (battleRecord.getWin() == 1) {

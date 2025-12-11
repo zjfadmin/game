@@ -36,25 +36,25 @@ extends com.xy.q.iIiIIiiiIiiiI {
         if (zhi == 2) {
             this.iiIiiiiiiiIii.ALLATORIxDEMO(198);
             this.iiIiiiiiiiIii.iIiIiiiiIIiii(beau);
-            this.iiIiiiiiiiIii.setText("\u9886\u53d6");
-            this.ALLATORIxDEMO[2].setText(String.valueOf("\u4e2d\u6807"));
+            this.iiIiiiiiiiIii.setText("领取");
+            this.ALLATORIxDEMO[2].setText(String.valueOf("中标"));
         } else if (zhi == 1 && (beau < 0 || iiiiiiiiiiIiI.ALLATORIxDEMO((iiiiiiiiiiIiI)this.IiiiiiiiIIIII) == 2)) {
             this.iiIiiiiiiiIii.ALLATORIxDEMO(197);
             this.iiIiiiiiiiIii.iIiIiiiiIIiii(beau);
-            this.iiIiiiiiiiIii.setText("\u9000\u6b3e");
-            this.ALLATORIxDEMO[2].setText(String.valueOf("\u672a\u4e2d\u6807"));
+            this.iiIiiiiiiiIii.setText("退款");
+            this.ALLATORIxDEMO[2].setText(String.valueOf("未中标"));
         } else {
             this.iiIiiiiiiiIii.ALLATORIxDEMO(196);
             this.iiIiiiiiiiIii.iIiIiiiiIIiii(beau);
-            this.iiIiiiiiiiIii.setText("\u6094\u62cd");
-            this.ALLATORIxDEMO[2].setText(String.valueOf("\u7ade\u62cd\u4e2d"));
+            this.iiIiiiiiiiIii.setText("悔拍");
+            this.ALLATORIxDEMO[2].setText(String.valueOf("竞拍中"));
         }
         this.setVisible(beau != 0);
     }
 
     public iIiIIiiiIiiiI(iiiiiiiiiiIiI iiiiiiiiiiIiI2, int index, iiiiiiiiiiIiI beauBuy2View) {
         this.IiiiiiiiIIIII = iiiiiiiiiiIiI2;
-        this.iiIiiiiiiiIii = new iiIiIiiiIIIiI("sc/e/191.png", 1, 196, iiIIiiiiIiiII.IIiiiiiiiIIIi, null, "\u6094\u62cd", (IiiiIiiiiIiIi)beauBuy2View);
+        this.iiIiiiiiiiIii = new iiIiIiiiIIIiI("sc/e/191.png", 1, 196, iiIIiiiiIiiII.IIiiiiiiiIIIi, null, "悔拍", (IiiiIiiiiIiIi)beauBuy2View);
         this.iiIiiiiiiiIii.setForeground(iiIIiiiiIiiII.ALLATORIxDEMO((String)"#cB58754"));
         this.iiIiiiiiiiIii.setBounds(512, 0, 79, 24);
         this.add((Component)this.iiIiiiiiiiIii);

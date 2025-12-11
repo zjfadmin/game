@@ -90,7 +90,7 @@ extends iIiIIiiiIiiiI {
             this.ALLATORIxDEMO.setTextSize("#c560202" + bean.getPackgrade(), 104);
             this.ALLATORIxDEMO.setBounds(1 + (104 - this.ALLATORIxDEMO.getWidth()) / 2, 14, this.ALLATORIxDEMO.getWidth(), this.ALLATORIxDEMO.getHeight());
             if (isGet != false) {
-                this.iiIIIiiiiiiiI.setTextSize("#Z#c523425\u5df2\u9886\u53d6", 88);
+                this.iiIIIiiiiiiiI.setTextSize("#Z#c523425已领取", 88);
                 this.iiIIIiiiiiiiI.setBounds(385 + (88 - this.iiIIIiiiiiiiI.getWidth()) / 2, 14, this.iiIIIiiiiiiiI.getWidth(), this.iiIIIiiiiiiiI.getHeight());
                 this.iiiiIiiiIIiii.iIiIiiiiIIiii();
                 this.iiiIiiiiiiiIi.setVisible(false);
@@ -103,7 +103,7 @@ extends iIiIIiiiIiiiI {
                     this.iiiiIiiiIIiii.iIiIiiiiIIiii();
                     this.iiiIiiiiiiiIi.setVisible(true);
                 } else {
-                    iiIiiiiiIIIiI.iiIIIiiiiiiiI.setTextSize("#Z#c523425\u7b49\u7ea7\u672a\u8fbe\u5230", 88);
+                    iiIiiiiiIIIiI.iiIIIiiiiiiiI.setTextSize("#Z#c523425等级未达到", 88);
                     this.iiIIIiiiiiiiI.setBounds(385 + (88 - this.iiIIIiiiiiiiI.getWidth()) / 2, 28, this.iiIIIiiiiiiiI.getWidth(), this.iiIIIiiiiiiiI.getHeight());
                     this.iiiiIiiiIIiii.iIiIiiiiIIiii("sc/d/99.png");
                     this.iiiIiiiiiiiIi.setVisible(false);
@@ -112,15 +112,15 @@ extends iIiIIiiiIiiiI {
         } else if (style == 2) {
             void buyNum;
             StringBuffer IiiiiiiiIIIII = new StringBuffer(this.iiIIIiiiiiiiI.getText() != null ? this.iiIIIiiiiiiiI.getText().length() : 32);
-            IiiiiiiiIIIII.append("#Z#c523425\u6d88\u8d39");
+            IiiiiiiiIIIII.append("#Z#c523425消费");
             IiiiiiiiIIIII.append(bean.getCanpaymoney());
-            IiiiiiiiIIIII.append("\u79ef\u5206\u53ef\u8d2d\u4e70\u4ee5\u4e0b\u5956\u52b1:");
+            IiiiiiiiIIIII.append("积分可购买以下奖励:");
             this.iiIIIiiiiiiiI.setTextSize(IiiiiiiiIIIII.toString(), 430);
             this.iiIIIiiiiiiiI.setBounds(22, 0, this.iiIIIiiiiiiiI.getWidth(), this.iiIIIiiiiiiiI.getHeight());
-            this.ALLATORIxDEMO.setTextSize("#Z#c523425\u9650\u8d2d:" + (int)buyNum + "/" + bean.getPointLvl().y, 115);
+            this.ALLATORIxDEMO.setTextSize("#Z#c523425限购:" + (int)buyNum + "/" + bean.getPointLvl().y, 115);
             if (buyNum < bean.getPointLvl().y) {
                 this.ALLATORIxDEMO.setBounds(370 + (115 - this.ALLATORIxDEMO.getWidth()) / 2, 46, this.ALLATORIxDEMO.getWidth(), this.ALLATORIxDEMO.getHeight());
-                this.iiiIiiiiiiiIi.setText("\uffe5" + bean.getCanpaymoney());
+                this.iiiIiiiiiiiIi.setText("¥" + bean.getCanpaymoney());
                 this.iiiIiiiiiiiIi.setVisible(true);
             } else {
                 this.ALLATORIxDEMO.setBounds(370 + (115 - this.ALLATORIxDEMO.getWidth()) / 2, 24, this.ALLATORIxDEMO.getWidth(), this.ALLATORIxDEMO.getHeight());
@@ -147,7 +147,7 @@ extends iIiIIiiiIiiiI {
                 IiiiiiiiIIIII = 0L;
                 IiiiiiiiIIIII = (ActivityFCBuy)activityFC.getData();
                 IiiiiiiiIIIII = new StringBuffer(this.iiIIIiiiiiiiI.getText() != null ? this.iiIIIiiiiiiiI.getText().length() : 32);
-                IiiiiiiiIIIII.append("#Z#c523425\u6d88\u8d39");
+                IiiiiiiiIIIII.append("#Z#c523425消费");
                 IiiiiiiiIIIII = 0;
                 if (true) ** GOTO lbl119
             }
@@ -161,29 +161,29 @@ extends iIiIIiiiIiiiI {
                         IiiiiiiiIIIII = activity.getActivityKey(IiiiiiiiIIIII.getTarget().getId());
                         if (IiiiiiiiIIIII instanceof iiIiIiiiiIiii) {
                             IiiiiiiiIIIII = (iiIiIiiiiIiii)IiiiiiiiIIIII;
-                            IiiiiiiiIIIII.append(IiiiiiiiIIIII.getTarget().getId() > 0 ? "\u83b7\u53d6" : "\u6d88\u8017");
+                            IiiiiiiiIIIII.append(IiiiiiiiIIIII.getTarget().getId() > 0 ? "获取" : "消耗");
                             IiiiiiiiIIIII.append(IiiiiiiiIIIII.getTarget().getNum());
-                            IiiiiiiiIIIII.append(IiiiiiiiIIIII != null ? IiiiiiiiIIIII.IiiiiiiiIIIII : "\u672a\u77e5\u79ef\u5206");
+                            IiiiiiiiIIIII.append(IiiiiiiiIIIII != null ? IiiiiiiiIIIII.IiiiiiiiIIIII : "未知积分");
                         } else if (IiiiiiiiIIIII instanceof ActivityFCRecord) {
                             IiiiiiiiIIIII = (ActivityFCRecord)IiiiiiiiIIIII;
                             if (IiiiiiiiIIIII.getType() == 1 || IiiiiiiiIIIII.getType() == 2) {
-                                IiiiiiiiIIIII.append(IiiiiiiiIIIII.getType() == 1 ? "\u83b7\u53d6" : "\u6d88\u8017");
+                                IiiiiiiiIIIII.append(IiiiiiiiIIIII.getType() == 1 ? "获取" : "消耗");
                                 IiiiiiiiIIIII.append(IiiiiiiiIIIII.getTarget().getNum());
                                 IiiiiiiiIIIII.append(IiiiiiiiIIIII.getKey2());
                             } else if (IiiiiiiiIIIII.getType() == 3) {
                                 IiiiiiiiIIIII = this.iiIiiiiiiiIii.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII.getKey1());
-                                IiiiiiiiIIIII.append("\u5b8c\u6210");
+                                IiiiiiiiIIIII.append("完成");
                                 IiiiiiiiIIIII.append(IiiiiiiiIIIII.getTarget().getNum());
-                                IiiiiiiiIIIII.append("\u6b21");
-                                IiiiiiiiIIIII.append(IiiiiiiiIIIII != null ? IiiiiiiiIIIII.getTaskType() : "\u672a\u77e5\u4efb\u52a1");
+                                IiiiiiiiIIIII.append("次");
+                                IiiiiiiiIIIII.append(IiiiiiiiIIIII != null ? IiiiiiiiIIIII.getTaskType() : "未知任务");
                             }
                         }
                     } else if (IiiiiiiiIIIII.getTarget().getType() == 2) {
                         IiiiiiiiIIIII = this.iiIiiiiiiiIii.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII.getTarget().getId());
-                        IiiiiiiiIIIII.append("\u5b8c\u6210");
+                        IiiiiiiiIIIII.append("完成");
                         IiiiiiiiIIIII.append(IiiiiiiiIIIII.getTarget().getNum());
-                        IiiiiiiiIIIII.append("\u6b21");
-                        IiiiiiiiIIIII.append(IiiiiiiiIIIII != null ? IiiiiiiiIIIII.getTaskType() : "\u672a\u77e5\u4efb\u52a1");
+                        IiiiiiiiIIIII.append("次");
+                        IiiiiiiiIIIII.append(IiiiiiiiIIIII != null ? IiiiiiiiIIIII.getTaskType() : "未知任务");
                     }
                 } else {
                     IiiiiiiiIIIII.append(IiiiiiiiIIIII);
@@ -196,7 +196,7 @@ extends iIiIIiiiIiiiI {
                 this.ALLATORIxDEMO.setTextSize(IiiiiiiiIIIII.toString(), 430);
                 this.ALLATORIxDEMO.setBounds(22, 0, this.ALLATORIxDEMO.getWidth(), this.ALLATORIxDEMO.getHeight());
                 if (isGet) {
-                    this.iiIIIiiiiiiiI.setTextSize("#Z#c523425\u5df2\u9886\u53d6", 88);
+                    this.iiIIIiiiiiiiI.setTextSize("#Z#c523425已领取", 88);
                     this.iiIIIiiiiiiiI.setBounds(385 + (88 - this.iiIIIiiiiiiiI.getWidth()) / 2, 20, this.iiIIIiiiiiiiI.getWidth(), this.iiIIIiiiiiiiI.getHeight());
                     this.iiiiIiiiIIiii.iIiIiiiiIIiii();
                     this.iiiIiiiiiiiIi.setVisible(false);
@@ -206,7 +206,7 @@ extends iIiIIiiiIiiiI {
                     this.iiiiIiiiIIiii.iIiIiiiiIIiii();
                     this.iiiIiiiiiiiIi.setVisible(true);
                 } else {
-                    this.iiIIIiiiiiiiI.setTextSize("#Z#c523425\u672a\u8fbe\u6210\u6761\u4ef6", 88);
+                    this.iiIIIiiiiiiiI.setTextSize("#Z#c523425未达成条件", 88);
                     this.iiIIIiiiiiiiI.setBounds(385 + (88 - this.iiIIIiiiiiiiI.getWidth()) / 2, 34, this.iiIIIiiiiiiiI.getWidth(), this.iiIIIiiiiiiiI.getHeight());
                     this.iiiiIiiiIIiii.iIiIiiiiIIiii("sc/d/99.png");
                     this.iiiIiiiiiiiIi.setVisible(false);
@@ -218,14 +218,14 @@ extends iIiIIiiiIiiiI {
                     IiiiiiiiIIIII = Math.max(IiiiiiiiIIIII.getNum(), 0L);
                     IiiiiiiiIIIII = activity.getPointKey(IiiiiiiiIIIII.getId());
                     if (IiiiiiiiIIIII != 0) {
-                        IiiiiiiiIIIII.append("\u548c");
+                        IiiiiiiiIIIII.append("和");
                     }
                     IiiiiiiiIIIII.append(IiiiiiiiIIIII.getNum());
-                    IiiiiiiiIIIII.append(IiiiiiiiIIIII != null ? IiiiiiiiIIIII.IiiiiiiiIIIII : "\u672a\u77e5\u79ef\u5206");
+                    IiiiiiiiIIIII.append(IiiiiiiiIIIII != null ? IiiiiiiiIIIII.IiiiiiiiIIIII : "未知积分");
                 } else if (IiiiiiiiIIIII.getType() == 4) {
                     IiiiiiiiIIIII = Math.max(IiiiiiiiIIIII.getNum(), 0L);
                     if (IiiiiiiiIIIII != 0) {
-                        IiiiiiiiIIIII.append("\u548c");
+                        IiiiiiiiIIIII.append("和");
                     }
                     IiiiiiiiIIIII.append(IiiiiiiiIIIII.getNum());
                     IiiiiiiiIIIII.append(IiiiiiiiIIIII.getKey());
@@ -235,15 +235,15 @@ lbl119:
                 // 2 sources
 
             } while (IiiiiiiiIIIII < IiiiiiiiIIIII.getUses().length);
-            IiiiiiiiIIIII.append("\u53ef\u8d2d\u4e70\u4ee5\u4e0b\u5956\u52b1:");
+            IiiiiiiiIIIII.append("可购买以下奖励:");
             this.iiIIIiiiiiiiI.setTextSize(IiiiiiiiIIIII.toString(), 430);
             this.iiIIIiiiiiiiI.setBounds(22, 0, this.iiIIIiiiiiiiI.getWidth(), this.iiIIIiiiiiiiI.getHeight());
             if (IiiiiiiiIIIII.getBuyMax() > 0) {
-                this.ALLATORIxDEMO.setTextSize(IiiiiiiiIIIII.getBuyMax() > 0 ? "#Z#c523425\u9650\u8d2d:" + num + "/" + IiiiiiiiIIIII.getBuyMax() : "", 115);
+                this.ALLATORIxDEMO.setTextSize(IiiiiiiiIIIII.getBuyMax() > 0 ? "#Z#c523425限购:" + num + "/" + IiiiiiiiIIIII.getBuyMax() : "", 115);
             }
             if (IiiiiiiiIIIII.getBuyMax() > 0 && (long)IiiiiiiiIIIII.getBuyMax() > num) {
                 this.ALLATORIxDEMO.setBounds(370 + (115 - this.ALLATORIxDEMO.getWidth()) / 2, 46, this.ALLATORIxDEMO.getWidth(), this.ALLATORIxDEMO.getHeight());
-                this.iiiIiiiiiiiIi.setText("\uffe5" + IiiiiiiiIIIII);
+                this.iiiIiiiiiiiIi.setText("¥" + IiiiiiiiIIIII);
                 this.iiiIiiiiiiiIi.setVisible(true);
             } else {
                 this.ALLATORIxDEMO.setBounds(370 + (115 - this.ALLATORIxDEMO.getWidth()) / 2, 24, this.ALLATORIxDEMO.getWidth(), this.ALLATORIxDEMO.getHeight());
@@ -293,13 +293,13 @@ lbl119:
                 this.iiIiIiiiiIIIi[IiiiiiiiIIIII - this.IiIIIiiiiIiiI].ALLATORIxDEMO(0, null, 1);
             } else if (IiiiiiiiIIIII.getType() == 1) {
                 IiiiiiiiIIIII = this.iIiiIiiiIiIIi.getPointKey(IiiiiiiiIIIII.getId());
-                this.iiIiIiiiiIIIi[IiiiiiiiIIIII - this.IiIIIiiiiIiiI].ALLATORIxDEMO(22, (Object)(String.valueOf(IiiiiiiiIIIII.getNum()) + (IiiiiiiiIIIII != null ? IiiiiiiiIIIII.IiiiiiiiIIIII : "\u672a\u77e5\u79ef\u5206")), 1);
+                this.iiIiIiiiiIIIi[IiiiiiiiIIIII - this.IiIIIiiiiIiiI].ALLATORIxDEMO(22, (Object)(String.valueOf(IiiiiiiiIIIII.getNum()) + (IiiiiiiiIIIII != null ? IiiiiiiiIIIII.IiiiiiiiIIIII : "未知积分")), 1);
                 this.iiIiIiiiiIIIi[IiiiiiiiIIIII - this.IiIIIiiiiIiiI].ALLATORIxDEMO(IIiIiiiiIiiIi.iiiiiiiiIIiii((String)"903"));
             } else if (IiiiiiiiIIIII.getType() == 2) {
                 IiiiiiiiIIIII = IiiiiiiiIIIII.ALLATORIxDEMO(new BigDecimal(IiiiiiiiIIIII.getId()));
                 this.iiIiIiiiiIIIi[IiiiiiiiIIIII - this.IiIIIiiiiIiiI].ALLATORIxDEMO(IiiiiiiiIIIII != null ? 1 : 0, (Object)IiiiiiiiIIIII, (int)IiiiiiiiIIIII.getNum());
             } else if (IiiiiiiiIIIII.getType() == 3) {
-                this.iiIiIiiiiIIIi[IiiiiiiiIIIII - this.IiIIIiiiiIiiI].ALLATORIxDEMO(22, (Object)"\u968f\u673a\u5956\u52b1", 1);
+                this.iiIiIiiiiIIIi[IiiiiiiiIIIII - this.IiIIIiiiiIiiI].ALLATORIxDEMO(22, (Object)"随机奖励", 1);
                 this.iiIiIiiiiIIIi[IiiiiiiiIIIII - this.IiIIIiiiiIiiI].ALLATORIxDEMO(IIiIiiiiIiiIi.iiiiiiiiIIiii((String)"903"));
             } else if (IiiiiiiiIIIII.getType() == 4) {
                 this.iiIiIiiiiIIIi[IiiiiiiiIIIII - this.IiIIIiiiiIiiI].ALLATORIxDEMO(22, (Object)(String.valueOf(IiiiiiiiIIIII.getNum()) + IiiiiiiiIIIII.getKey()), 1);
@@ -357,7 +357,7 @@ lbl60:
                 this.iiiIiiiiiiiIi = new iiIiIiiiIIIiI("sc/e/154.png", 1, 101, this.iiIiiiiiiiIii, (JComponent)((Object)this));
             }
             this.iiiIiiiiiiiIi.setFont(iiIIiiiiIiiII.iiiiIiiiIiiII);
-            this.iiiIiiiiiiiIi.setText("\u9886\u53d6");
+            this.iiiIiiiiiiiIi.setText("领取");
             this.iiiIiiiiiiiIi.setForeground(iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c523425"));
             this.iiiIiiiiiiiIi.setBounds(396, 10, 75, 35);
             this.ALLATORIxDEMO(6);
@@ -420,7 +420,7 @@ lbl60:
             this.iiiIiiiiiiiIi = new iiIiIiiiIIIiI("sc/e/154.png", 1, 101, this.iiIiiiiiiiIii, (JComponent)((Object)this));
         }
         this.iiiIiiiiiiiIi.setFont(iiIIiiiiIiiII.iiiiIiiiIiiII);
-        this.iiiIiiiiiiiIi.setText("\u9886\u53d6");
+        this.iiiIiiiiiiiIi.setText("领取");
         this.iiiIiiiiiiiIi.setForeground(iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c523425"));
         this.iiiIiiiiiiiIi.setBounds(396, 16, 75, 35);
         this.ALLATORIxDEMO(8);
@@ -441,13 +441,13 @@ lbl60:
                 if (this.IiiiiiiiIIIII == null) break block31;
                 if (this.iIiiIiiiiiiII == 2) {
                     IiiiiiiiIIIII = new StringBuffer();
-                    IiiiiiiiIIIII.append("\u4f60\u786e\u5b9a\u82b1\u8d39#G");
+                    IiiiiiiiIIIII.append("你确定花费#G");
                     IiiiiiiiIIIII.append(this.IiiiiiiiIIIII.getCanpaymoney());
-                    IiiiiiiiIIIII.append("#W\u79ef\u5206\u8d2d\u4e70#Y");
+                    IiiiiiiiIIIII.append("#W积分购买#Y");
                     IiiiiiiiIIIII.append(this.IiiiiiiiIIIII.getPackname());
-                    IiiiiiiiIIIII.append("#W\u3002\u4f60\u5f53\u524d\u62e5\u6709#G");
+                    IiiiiiiiIIIII.append("#W。你当前拥有#G");
                     IiiiiiiiIIIII.append(this.iiIiiiiiiiIii.ALLATORIxDEMO().getLoginResult().getMoney());
-                    IiiiiiiiIIIII.append("#W\u79ef\u5206");
+                    IiiiiiiiIIIII.append("#W积分");
                     this.iiIiiiiiiiIii.iiIIiiiiIiIIi.ALLATORIxDEMO(new ConfirmBean(87, this.IiiiiiiiIIIII.getPacktype() + "|" + this.IiiiiiiiIIIII.getPackgradetype(), IiiiiiiiIIIII.toString()));
                     return;
                 }
@@ -505,7 +505,7 @@ lbl65:
         } while (IiiiiiiiIIIII < IiiiiiiiIIIII);
         IiiiiiiiIIIII = this.iiIiiiiiiiIii.ALLATORIxDEMO();
         if (IiiiiiiiIIIII.getGoodPackSum(-1L, new BigDecimal(-1), IiiiiiiiIIIII) < IiiiiiiiIIIII) {
-            this.iiIiiiiiiiIii.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4f60\u7684\u80cc\u5305\u4e0d\u591f");
+            this.iiIiiiiiiiIii.iiIIiiiiIiIIi.iiiIiiiiiiIIi("你的背包不够");
             return;
         }
         IiiiiiiiIIIII = Agreement.getSendTextAES((String)"Chongjipacksure", (String)(this.IiiiiiiiIIIII.getPacktype() + "|" + this.IiiiiiiiIIIII.getPackgradetype()));
@@ -528,7 +528,7 @@ lbl85:
 
         } while (IiiiiiiiIIIII < IiiiiiiiIIIII.length);
         if (IiiiiiiiIIIII.getGoodPackSum(-1L, new BigDecimal(-1), IiiiiiiiIIIII) < IiiiiiiiIIIII) {
-            this.iiIiiiiiiiIii.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4f60\u7684\u80cc\u5305\u4e0d\u591f");
+            this.iiIiiiiiiiIii.iiIIiiiiIiIIi.iiiIiiiiiiIIi("你的背包不够");
             return;
         }
         if (this.IIIIiiiiiiiII.getType() != 1) {
@@ -540,7 +540,7 @@ lbl85:
         IiiiiiiiIIIII = 0;
         IiiiiiiiIIIII = (ActivityFCBuy)this.IIIIiiiiiiiII.getData();
         IiiiiiiiIIIII = new StringBuffer();
-        IiiiiiiiIIIII.append("\u4f60\u786e\u5b9a\u82b1\u8d39");
+        IiiiiiiiIIIII.append("你确定花费");
         IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < IiiiiiiiIIIII.getUses().length) {
             IiiiiiiiIIIII = IiiiiiiiIIIII.getUses()[IiiiiiiiIIIII];
@@ -552,10 +552,10 @@ lbl85:
                 IiiiiiiiIIIII.append("#G");
                 IiiiiiiiIIIII.append(IiiiiiiiIIIII.getNum());
                 IiiiiiiiIIIII.append("#W");
-                IiiiiiiiIIIII.append(IiiiiiiiIIIII != null ? IiiiiiiiIIIII.IiiiiiiiIIIII : "\u672a\u77e5\u79ef\u5206");
+                IiiiiiiiIIIII.append(IiiiiiiiIIIII != null ? IiiiiiiiIIIII.IiiiiiiiIIIII : "未知积分");
             } else if (IiiiiiiiIIIII.getType() == 4) {
                 if (IiiiiiiiIIIII != 0) {
-                    IiiiiiiiIIIII.append("\u548c");
+                    IiiiiiiiIIIII.append("和");
                 }
                 IiiiiiiiIIIII.append("#G");
                 IiiiiiiiIIIII.append(IiiiiiiiIIIII.getNum());
@@ -567,11 +567,11 @@ lbl85:
             }
             ++IiiiiiiiIIIII;
         }
-        IiiiiiiiIIIII.append("\u8d2d\u4e70\u8be5\u793c\u5305\u3002");
+        IiiiiiiiIIIII.append("购买该礼包。");
         if (IiiiiiiiIIIII != 0) {
-            IiiiiiiiIIIII.append("#W\u4f60\u5f53\u524d\u62e5\u6709#G");
+            IiiiiiiiIIIII.append("#W你当前拥有#G");
             IiiiiiiiIIIII.append(this.iiIiiiiiiiIii.ALLATORIxDEMO().getLoginResult().getMoney());
-            IiiiiiiiIIIII.append("#W\u79ef\u5206");
+            IiiiiiiiIIIII.append("#W积分");
         }
         this.iiIiiiiiiiIii.iiIIiiiiIiIIi.ALLATORIxDEMO(new ConfirmBean(88, String.valueOf(this.iIiiIiiiIiIIi.getId()) + "|" + this.IIIIiiiiiiiII.getId(), IiiiiiiiIIIII.toString()));
     }

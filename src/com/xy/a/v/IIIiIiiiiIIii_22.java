@@ -63,7 +63,7 @@ extends IIiiIiiiiIIiI {
         ActivityFCBase IiiiiiiiIIIII4 = activityFCBuy.getUses()[0];
         if (IiiiiiiiIIIII3.getType() == 1) {
             IiiiiiiiIIIII = IiiIiiiiIiIIi.ALLATORIxDEMO((IiiIiiiiIiIIi)this.IiiiiiiiIIIII).getPointKey(IiiiiiiiIIIII3.getId());
-            this.iiIiiiiiiiIii.setText(String.valueOf(IiiiiiiiIIIII3.getNum()) + (IiiiiiiiIIIII != null ? IiiiiiiiIIIII.IiiiiiiiIIIII : "\u672a\u77e5\u79ef\u5206"));
+            this.iiIiiiiiiiIii.setText(String.valueOf(IiiiiiiiIIIII3.getNum()) + (IiiiiiiiIIIII != null ? IiiiiiiiIIIII.IiiiiiiiIIIII : "未知积分"));
             this.ALLATORIxDEMO.ALLATORIxDEMO(22, (Object)this.iiIiiiiiiiIii.getText());
             this.ALLATORIxDEMO.ALLATORIxDEMO(IIiIiiiiIiiIi.iiiiiiiiIIiii((String)"903"));
         } else if (IiiiiiiiIIIII3.getType() == 2) {
@@ -71,7 +71,7 @@ extends IIiiIiiiiIIiI {
             this.iiIiiiiiiiIii.setText(IiiiiiiiIIIII != null ? IiiiiiiiIIIII.getGoodsname() : "");
             this.ALLATORIxDEMO.ALLATORIxDEMO(IiiiiiiiIIIII != null ? 1 : 0, (Object)IiiiiiiiIIIII);
         } else if (IiiiiiiiIIIII3.getType() == 3) {
-            this.iiIiiiiiiiIii.setText("\u968f\u673a\u5956\u52b1");
+            this.iiIiiiiiiiIii.setText("随机奖励");
             this.ALLATORIxDEMO.ALLATORIxDEMO(22, (Object)this.iiIiiiiiiiIii.getText());
             this.ALLATORIxDEMO.ALLATORIxDEMO(IIiIiiiiIiiIi.iiiiiiiiIIiii((String)"903"));
         } else if (IiiiiiiiIIIII3.getType() == 4) {
@@ -84,7 +84,7 @@ extends IIiiIiiiiIIiI {
         }
         if (IiiiiiiiIIIII4.getType() == 1) {
             IiiiiiiiIIIII = IiiIiiiiIiIIi.ALLATORIxDEMO((IiiIiiiiIiIIi)this.IiiiiiiiIIIII).getPointKey(IiiiiiiiIIIII4.getId());
-            IiiiiiiiIIIII2 = IiiiiiiiIIIII != null ? IiiiiiiiIIIII.IiiiiiiiIIIII : "\u672a\u77e5\u79ef\u5206";
+            IiiiiiiiIIIII2 = IiiiiiiiIIIII != null ? IiiiiiiiIIIII.IiiiiiiiIIIII : "未知积分";
         } else if (IiiiiiiiIIIII4.getType() == 4) {
             IiiiiiiiIIIII2 = IiiiiiiiIIIII4.getKey();
         }
