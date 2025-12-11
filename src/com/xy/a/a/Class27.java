@@ -20,9 +20,7 @@ public class Class27 extends com.xy.q.Class30 {
    public Class27(GameView var1) {
       super(-1, -1, com.xy.q.Class30.agf, var1);
       this.yy(0, 0, 743, 519, com.xy.q.Class30.agf);
-      String var10011 = "t\u0004c#d\"e!";
       this.df = com.xy.q.Class1.k(112, 267, 40, 19, com.xy.q.Class49.c("#c4D3E2F"), com.xy.q.Class49.ao);
-      String var10006 = "乲夊";
       this.df.setText("中天");
       this.df.setHorizontalAlignment(0);
       this.add(this.df);
@@ -39,10 +37,7 @@ public class Class27 extends com.xy.q.Class30 {
          var4[var7] = var10001;
       }
 
-      String var10009 = "$\u0004x\u0002xV`Sy\u00179\u0000";
-      String var10014 = "匘纄";
       this.ze = new com.xy.i.Class4("sc/e/174.png", 1, 191, com.xy.q.Class49.ao, null, "升级", this);
-      var10006 = "t\u0004bVe%gV";
       this.ze.setForeground(com.xy.q.Class49.c("#c512B01"));
       this.ze.setBounds(421, 450, 120, 33);
       this.add(this.ze);
