@@ -64,7 +64,7 @@ import javax.swing.JScrollPane;
 /*
  * Duplicate member names - consider using --renamedupmembers true
  */
-public class iiIiIiiiiIiii
+public class PetJpanel3
 extends IiiiIiiiiIiIi {
     private JLabel[] IiIiiiiiIIIII;
     private boolean iiIiIiiiiIIIi;
@@ -125,7 +125,7 @@ extends IiiiIiiiiIiIi {
         this.ALLATORIxDEMO.iIiIiiiiIIiii();
     }
 
-    public iiIiIiiiiIiii(GameView gameView) {
+    public PetJpanel3(GameView gameView) {
         super(6, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-2, 0, 397, 495, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u53ec\u5524\u517d");
@@ -248,7 +248,7 @@ extends IiiiIiiiiIiIi {
         this.iIiIiiiiIIiii(0);
     }
 
-    static /* synthetic */ iiIIiiiiIiiII ALLATORIxDEMO(iiIiIiiiiIiii arg0) {
+    static /* synthetic */ iiIIiiiiIiiII ALLATORIxDEMO(PetJpanel3 arg0) {
         return arg0.IIiiIiiiIIiIi;
     }
 
@@ -342,7 +342,7 @@ extends IiiiIiiiiIiIi {
         this.iIiIiiiiIIiii(IiiiIiiiiIIII.IIIIIiiiiIIii((int)grade));
     }
 
-    static /* synthetic */ IIIIIiiiIIIiI ALLATORIxDEMO(iiIiIiiiiIiii arg0) {
+    static /* synthetic */ IIIIIiiiIIIiI ALLATORIxDEMO(PetJpanel3 arg0) {
         return arg0.ALLATORIxDEMO;
     }
 

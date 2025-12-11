@@ -62,7 +62,7 @@ import javax.swing.BorderFactory;
 import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 
-public class IIiiIiiiIiiiI
+public class PetJpanel2
 extends IiiiIiiiiIiIi {
     private IIiIiiiiIiiIi[] iIiiIiiiiiiII;
     private JLabel[] IIiiIiiiIIiIi;
@@ -325,7 +325,7 @@ lbl166:
         return text;
     }
 
-    static /* synthetic */ IiIiIiiiiIIiI ALLATORIxDEMO(IIiiIiiiIiiiI arg0) {
+    static /* synthetic */ IiLiIiiiiIIiI ALLATORIxDEMO(PetJpanel2 arg0) {
         return arg0.IiIIIiiiiIiiI;
     }
 
@@ -384,7 +384,7 @@ lbl166:
         return IiiiiiiiIIIII;
     }
 
-    public IIiiIiiiIiiiI(GameView gameView) {
+    public PetJpanel2(GameView gameView) {
         super(18, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 574, 451, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u6280\u80fd");
