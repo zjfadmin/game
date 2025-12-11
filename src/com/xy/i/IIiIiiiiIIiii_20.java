@@ -122,7 +122,7 @@ extends IIiiIiiiiIIiI {
                     return;
                 }
                 if (IiiiiiiiIIIII.getMapid() == 1236L && IiiiiiiiIIIII.getX() > 7130 && IiiiiiiiIIIII.getX() < 7370 && IiiiiiiiIIIII.getY() > 3435 && IiiiiiiiIIIII.getY() < 3585) {
-                    this.form.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u8f66\u592b\u5468\u56f4\u7981\u6b62\u6446\u644a");
+                    this.form.iiIIiiiiIiIIi.iIiIiiiiIIiii("车夫周围禁止摆摊");
                     return;
                 }
             } else {
@@ -131,7 +131,7 @@ extends IIiiIiiiiIIiI {
                     return;
                 }
                 if (IiiiiiiiIIIII.getMapid() == 1236L && IiiiiiiiIIIII.getX() > 7130 && IiiiiiiiIIIII.getX() < 7370 && IiiiiiiiIIIII.getY() > 3435 && IiiiiiiiIIIII.getY() < 3585) {
-                    this.form.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u8f66\u592b\u5468\u56f4\u7981\u6b62\u6446\u644a");
+                    this.form.iiIIiiiiIiIIi.iIiIiiiiIIiii("车夫周围禁止摆摊");
                     return;
                 }
             }
