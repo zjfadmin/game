@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.xy.a.i.IIIIIiiiIiIii
+ *  com.xy.a.i.WorkshopBtn
  *  com.xy.a.i.IIiiIiiiiIIiI
  *  com.xy.a.i.iiIIiiiiIiiII
  *  com.xy.a.i.iiIiIiiiiIiii
@@ -19,7 +19,7 @@
  */
 package com.xy.q;
 
-import com.xy.a.i.IIIIIiiiIiIii;
+import com.xy.a.i.WorkshopBtn;
 import com.xy.a.i.iiIiIiiiiIiii;
 import com.xy.a.iiIiiiiiIIiiI;
 import com.xy.formula.GoodType;

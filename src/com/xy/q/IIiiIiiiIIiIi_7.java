@@ -47,7 +47,7 @@
  *  com.xy.a.a.iiIiIiiiiiiiI
  *  com.xy.a.a.iiiIIiiiIIIii
  *  com.xy.a.a.iiiiiiiiiiIiI
- *  com.xy.a.i.IIIIIiiiIIIiI
+ *  com.xy.a.i.WorkshopBtn
  *  com.xy.a.i.IIIIIiiiIiiII
  *  com.xy.a.i.IIIiiiiiIiIiI
  *  com.xy.a.i.IIiIIiiiIIIiI
@@ -560,7 +560,7 @@ public class IIiiIiiiIIiIi {
                 return IiiiiiiiIIIII;
             }
             case 64: {
-                IiiiiiiiIIIII = new com.xy.a.i.IIIIIiiiIIIiI(this.IiIIIiiiiIiiI);
+                IiiiiiiiIIIII = new com.xy.a.i.WorkshopBtn(this.IiIIIiiiiIiiI);
                 return IiiiiiiiIIIII;
             }
             case 65: {

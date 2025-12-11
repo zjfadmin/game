@@ -7,7 +7,7 @@
  *  com.xy.a.IiiIIiiiiIiii
  *  com.xy.a.a.IIIiIiiiiIIiI
  *  com.xy.a.a.iIiIiiiiiiiIi
- *  com.xy.a.i.IiIIIiiiiiiIi
+ *  com.xy.a.i.WorkshopBtn
  *  com.xy.a.i.IiIiIiiiiiIiI
  *  com.xy.a.i.iIiIIiiiIIiIi
  *  com.xy.a.i.iiIiiiiiIIiiI
@@ -89,8 +89,8 @@ extends PlainDocument {
         if (this.IIiiIiiiIIiIi instanceof IiIiIiiiiiIiI) {
             return ((IiIiIiiiiiIiI)this.IIiiIiiiIIiIi).ALLATORIxDEMO(number, this.IiIIIiiiiIiiI);
         }
-        if (this.IIiiIiiiIIiIi instanceof com.xy.a.i.IiIIIiiiiiiIi) {
-            return ((com.xy.a.i.IiIIIiiiiiiIi)this.IIiiIiiiIIiIi).ALLATORIxDEMO(number, this.IiIIIiiiiIiiI);
+        if (this.IIiiIiiiIIiIi instanceof com.xy.a.i.WorkshopBtn) {
+            return ((com.xy.a.i.WorkshopBtn)this.IIiiIiiiIIiIi).ALLATORIxDEMO(number, this.IiIIIiiiiIiiI);
         }
         if (this.IIiiIiiiIIiIi instanceof com.xy.a.i.IiIiIiiiiiIiI) {
             return ((com.xy.a.i.IiIiIiiiiiIiI)this.IIiiIiiiIIiIi).ALLATORIxDEMO(number, this.IiIIIiiiiIiiI);
@@ -160,8 +160,8 @@ extends PlainDocument {
         if (this.IIiiIiiiIIiIi instanceof IiIiIiiiiiIiI) {
             return ((IiIiIiiiiiIiI)this.IIiiIiiiIIiIi).ALLATORIxDEMO(this.iIiIiiiiIiIii, this.IiIIIiiiiIiiI);
         }
-        if (this.IIiiIiiiIIiIi instanceof com.xy.a.i.IiIIIiiiiiiIi) {
-            return ((com.xy.a.i.IiIIIiiiiiiIi)this.IIiiIiiiIIiIi).ALLATORIxDEMO(this.iIiIiiiiIiIii, this.IiIIIiiiiIiiI);
+        if (this.IIiiIiiiIIiIi instanceof com.xy.a.i.WorkshopBtn) {
+            return ((com.xy.a.i.WorkshopBtn)this.IIiiIiiiIIiIi).ALLATORIxDEMO(this.iIiIiiiiIiIii, this.IiIIIiiiiIiiI);
         }
         if (this.IIiiIiiiIIiIi instanceof com.xy.a.i.IiIiIiiiiiIiI) {
             return ((com.xy.a.i.IiIiIiiiiiIiI)this.IIiiIiiiIIiIi).ALLATORIxDEMO(this.iIiIiiiiIiIii, this.IiIIIiiiiIiiI);
@@ -301,8 +301,8 @@ extends PlainDocument {
             ((IiIiIiiiiiIiI)this.IIiiIiiiIIiIi).ALLATORIxDEMO(number, this.IiIIIiiiiIiiI);
             return;
         }
-        if (this.IIiiIiiiIIiIi instanceof com.xy.a.i.IiIIIiiiiiiIi) {
-            ((com.xy.a.i.IiIIIiiiiiiIi)this.IIiiIiiiIIiIi).ALLATORIxDEMO(number, this.IiIIIiiiiIiiI);
+        if (this.IIiiIiiiIIiIi instanceof com.xy.a.i.WorkshopBtn) {
+            ((com.xy.a.i.WorkshopBtn)this.IIiiIiiiIIiIi).ALLATORIxDEMO(number, this.IiIIIiiiiIiiI);
             return;
         }
         if (this.IIiiIiiiIIiIi instanceof com.xy.a.i.IiIiIiiiiiIiI) {

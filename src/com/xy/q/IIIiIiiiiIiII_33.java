@@ -5,7 +5,7 @@
  *  com.xy.a.IIIiIiiiIiIii
  *  com.xy.a.IIIiIiiiiIIiI
  *  com.xy.a.a.iiIiIiiiiiiiI
- *  com.xy.a.i.IIIIIiiiIiiII
+ *  com.xy.a.i.WorkshopBtn
  *  com.xy.a.iiIIiiiiIiIiI
  *  com.xy.a.q.IiIIIiiiiiiIi
  *  com.xy.a.v.iiIiIiiiiIiIi
@@ -221,8 +221,8 @@ extends JComponent {
             ((IiIIIiiiiiiIi)this.iiiIiiiiiiiIi).ALLATORIxDEMO((BigDecimal)item.ALLATORIxDEMO());
             return;
         }
-        if (this.iiiIiiiiiiiIi instanceof com.xy.a.i.IIIIIiiiIiiII) {
-            ((com.xy.a.i.IIIIIiiiIiiII)this.iiiIiiiiiiiIi).ALLATORIxDEMO((BigDecimal)item.ALLATORIxDEMO());
+        if (this.iiiIiiiiiiiIi instanceof com.xy.a.i.WorkshopBtn) {
+            ((com.xy.a.i.WorkshopBtn)this.iiiIiiiiiiiIi).ALLATORIxDEMO((BigDecimal)item.ALLATORIxDEMO());
             return;
         }
         if (this.iiiIiiiiiiiIi instanceof iiIIiiiiIiIiI) {
