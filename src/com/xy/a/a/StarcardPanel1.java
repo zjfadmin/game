@@ -35,8 +35,8 @@ import javax.swing.JLabel;
 /*
  * Exception performing whole class analysis ignored.
  */
-static class iIiIIiiiIIIiI
-extends iIiIIiiiIiiiI {
+static class StarcardPanel1
+extends StarcardJpanel1 {
     private iiIiIiiiiIiIi iIiiIiiiiiiII;
     private iIIiIiiiIiiIi IIiiIiiiIIiIi;
     private long iIiIiiiiIiIii;
@@ -45,11 +45,11 @@ extends iIiIIiiiIiiiI {
     private IiIiIiiiiIIiI IiiiiiiiIIIII;
     private MoneyType ALLATORIxDEMO;
 
-    static /* synthetic */ long ALLATORIxDEMO(iIiIIiiiIIIiI arg0) {
+    static /* synthetic */ long ALLATORIxDEMO(StarcardPanel1 arg0) {
         return arg0.iIiIiiiiIiIii;
     }
 
-    public iIiIIiiiIIIiI(IIIiIiiiiIIiI iIIiIiiiiIIiI) {
+    public StarcardPanel1(IIIiIiiiiIIiI iIIiIiiiiIIiI) {
         this.IiIIIiiiiIiiI = iIIiIiiiiIIiI;
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.iiIiiiiiiiIii.length) {

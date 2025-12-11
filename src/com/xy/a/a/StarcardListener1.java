@@ -6,18 +6,18 @@
  */
 package com.xy.a.a;
 
-import com.xy.a.a.iIiIIiiiIiiiI;
+import com.xy.a.a.StarcardJpanel1;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 /*
  * Exception performing whole class analysis ignored.
  */
-static class IiiiIiiiiIiIi
+static class StarcardListener1
 implements MouseListener {
-    final /* synthetic */ iIiIIiiiIiiiI ALLATORIxDEMO;
+    final /* synthetic */ StarcardJpanel1 ALLATORIxDEMO;
 
-    IiiiIiiiiIiIi(iIiIIiiiIiiiI iIiIIiiiIiiiI2) {
+    StarcardListener1(StarcardJpanel1 starcardJpanel1) {
         this.ALLATORIxDEMO = iIiIIiiiIiiiI2;
     }
 
@@ -39,7 +39,7 @@ implements MouseListener {
 
     @Override
     public void mousePressed(MouseEvent e) {
-        if (iIiIIiiiIiiiI.ALLATORIxDEMO((iIiIIiiiIiiiI)this.ALLATORIxDEMO) == 1) {
+        if (StarcardJpanel1.ALLATORIxDEMO((StarcardJpanel1)this.ALLATORIxDEMO) == 1) {
             return;
         }
         this.ALLATORIxDEMO.iIiIiiiiIIiii(1);

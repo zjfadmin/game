@@ -76,7 +76,7 @@ import javax.swing.JLabel;
 /*
  * Duplicate member names - consider using --renamedupmembers true
  */
-public class iIiIIiiiIiiiI
+public class StarcardJpanel1
 extends com.xy.q.IiiiIiiiiIiIi {
     private int iiIIiiiiIiIIi = -1;
     private iIIiIiiiIiiIi[] IiIIiiiiIIIII;
@@ -133,10 +133,10 @@ extends com.xy.q.IiiiIiiiiIiIi {
         this.IiiIIiiiiiiiI.setVisible(false);
         if (this.IIIiiiiiIIiII == 0) {
             this.IiIiiiiiIIIII.ALLATORIxDEMO(new long[]{522L});
-            this.ALLATORIxDEMO.setText("\u57f9\u517b");
-            this.IiiiiiiiIIIII[1].ALLATORIxDEMO("\u89c2\u661f\u518c");
-            this.IIiiiiiiiIIIi[0].setText("\u6d88\u8017\u91d1\u94b1");
-            this.IIiiiiiiiIIIi[1].setText("\u5f53\u524d\u795e\u529b");
+            this.ALLATORIxDEMO.setText("培养");
+            this.IiiiiiiiIIIII[1].ALLATORIxDEMO("观星册");
+            this.IIiiiiiiiIIIi[0].setText("消耗金钱");
+            this.IIiiiiiiiIIIi[1].setText("当前神力");
             this.IiiIIiiiiiiiI.ALLATORIxDEMO(null);
             this.IiiIIiiiiiiiI.setText(null);
             iiIIiiiiIiiII.ALLATORIxDEMO((JLabel)this.iiiIiiiiiiiIi, (long)(this.ALLATORIxDEMO().ALLATORIxDEMO(2, 12) ? 100000L : 1000000L));
@@ -147,10 +147,10 @@ extends com.xy.q.IiiiIiiiiIiIi {
             this.IiiIIiiiiiiiI.setVisible(true);
         } else if (this.IIIiiiiiIIiII == 1) {
             this.IiIiiiiiIIIII.ALLATORIxDEMO(new long[]{500L});
-            this.ALLATORIxDEMO.setText("\u5347\u7ea7");
-            this.IiiiiiiiIIIII[1].ALLATORIxDEMO("\u77ff\u77f3");
-            this.IIiiiiiiiIIIi[0].setText("\u6d88\u8017\u91d1\u94b1");
-            this.IIiiiiiiiIIIi[1].setText("\u5f53\u524d\u91d1\u94b1");
+            this.ALLATORIxDEMO.setText("升级");
+            this.IiiiiiiiIIIII[1].ALLATORIxDEMO("矿石");
+            this.IIiiiiiiiIIIi[0].setText("消耗金钱");
+            this.IIiiiiiiiIIIi[1].setText("当前金钱");
             this.IiiIIiiiiiiiI.ALLATORIxDEMO(this.iiiiIiiiIiiII);
             this.iiiIiiiiiiiIi.setBounds(200, 162, 114, 19);
             this.IiiIIiiiiiiiI.setBounds(200, 188, 114, 19);
@@ -161,16 +161,16 @@ extends com.xy.q.IiiiIiiiiIiIi {
             this.iIiIiiiiIIiii(0);
         } else if (this.IIIiiiiiIIiII == 3) {
             this.IiIiiiiiIIIII.ALLATORIxDEMO(new long[]{521L});
-            this.ALLATORIxDEMO.setText("\u70bc\u661f");
-            this.IiiiiiiiIIIII[1].ALLATORIxDEMO("\u70bc\u661f\u77f3");
+            this.ALLATORIxDEMO.setText("炼星");
+            this.IiiiiiiiIIIII[1].ALLATORIxDEMO("炼星石");
             this.iiiIiiiiiiiIi.setText(null);
             this.iiiIiiiiiiiIi.setBounds(241, 149, 54, 19);
             this.IIiiiiiiiIIIi[2].setFont(iiIIiiiiIiiII.iIIiiiiiiIIII);
             this.IIiiiiiiiIIIi[3].setFont(iiIIiiiiIiiII.iIIiiiiiiIIII);
             this.IIiiiiiiiIIIi[2].setBounds(101, 178, 250, 14);
             this.IIiiiiiiiIIIi[3].setBounds(101, 194, 250, 14);
-            this.IIiiiiiiiIIIi[2].setText("\u6ce8\uff1a\u6709\u4e00\u5b9a\u51e0\u7387\u5730\u715e\u661f\u7b26\u6700\u9ad8\u7b49\u7ea7+1\uff1b");
-            this.IIiiiiiiiIIIi[3].setText("\u975e100%\u6210\u529f\uff0c\u82e5\u5931\u8d25\u4e0d\u5f71\u54cd\u5730\u715e\u661f\u7b26\u3002");
+            this.IIiiiiiiiIIIi[2].setText("注：有一定几率地煞星符最高等级+1；");
+            this.IIiiiiiiiIIIi[3].setText("非100%成功，若失败不影响地煞星符。");
             this.IIiiiiiiiIIIi[2].setVisible(true);
             this.IIiiiiiiiIIIi[3].setVisible(true);
         }
@@ -275,11 +275,11 @@ extends com.xy.q.IiiiIiiiiIiIi {
     /*
      * WARNING - void declaration
      */
-    public iIiIIiiiIiiiI(GameView gameView) {
+    public StarcardJpanel1(GameView gameView) {
         super(95, 2, com.xy.q.IiiiIiiiiIiIi.iIIIIiiiiiIIi, (GameView)gameView2);
         void gameView2;
         this.ALLATORIxDEMO(-1, 0, 637, 443, com.xy.q.IiiiIiiiiIiIi.iiIIIiiiiiiiI);
-        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u5730\u715e\u661f");
+        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "地煞星");
         iiiiiiiiIIIII IiiiiiiiIIIII = new iiiiiiiiIIIII(6, 21, 0, 18);
         this.iIIIIiiiiiIIi = new IIiIiiiiIiiIi[4];
         int IiiiiiiiIIIII2 = 0;
@@ -287,24 +287,24 @@ extends com.xy.q.IiiiIiiiiIiIi {
             String[] stringArray;
             if (IiiiiiiiIIIII2 == 0) {
                 String[] stringArray2 = new String[2];
-                stringArray2[0] = "\u57f9";
+                stringArray2[0] = "培";
                 stringArray = stringArray2;
-                stringArray2[1] = "\u517b";
+                stringArray2[1] = "养";
             } else if (IiiiiiiiIIIII2 == 1) {
                 String[] stringArray3 = new String[2];
-                stringArray3[0] = "\u5347";
+                stringArray3[0] = "升";
                 stringArray = stringArray3;
-                stringArray3[1] = "\u7ea7";
+                stringArray3[1] = "级";
             } else if (IiiiiiiiIIIII2 == 2) {
                 String[] stringArray4 = new String[2];
-                stringArray4[0] = "\u91cd";
+                stringArray4[0] = "重";
                 stringArray = stringArray4;
-                stringArray4[1] = "\u6d17";
+                stringArray4[1] = "洗";
             } else if (IiiiiiiiIIIII2 == 3) {
                 String[] stringArray5 = new String[2];
-                stringArray5[0] = "\u70bc";
+                stringArray5[0] = "炼";
                 stringArray = stringArray5;
-                stringArray5[1] = "\u661f";
+                stringArray5[1] = "星";
             } else {
                 stringArray = null;
             }
@@ -316,7 +316,7 @@ extends com.xy.q.IiiiIiiiiIiIi {
             this.add((Component)this.iIIIIiiiiiIIi[IiiiiiiiIIIII2++]);
         }
         this.iiiiIiiiIiiII = new MoneyType();
-        this.iiiiIiiiIiiII.setIdAndKey(1, "\u91d1\u94b1");
+        this.iiiiIiiiIiiII.setIdAndKey(1, "金钱");
         this.IIiiiiiiiIIIi = new JLabel[4];
         IiiiiiiiIIIII2 = 0;
         while (IiiiiiiiIIIII2 < this.IIiiiiiiiIIIi.length) {
@@ -337,8 +337,8 @@ extends com.xy.q.IiiiIiiiiIiIi {
             this.IiiiiiiiIIIII[IiiiiiiiIIIII2].setBounds(151 + IiiiiiiiIIIII2 * 87, 90, 59, 58);
             this.add((Component)this.IiiiiiiiIIIII[IiiiiiiiIIIII2++]);
         }
-        this.IiiiiiiiIIIII[0].ALLATORIxDEMO("\u5730\u715e\u661f");
-        this.ALLATORIxDEMO = new IiIiIiiiiIIiI("sc/e/7.png", 1, 115, iiIIiiiiIiiII.iiiiIiiiIiiII, iiIIiiiiIiiII.IIiiiiiiIiiII, "\u57f9\u517b", (com.xy.q.IiiiIiiiiIiIi)this);
+        this.IiiiiiiiIIIII[0].ALLATORIxDEMO("地煞星");
+        this.ALLATORIxDEMO = new IiIiIiiiiIIiI("sc/e/7.png", 1, 115, iiIIiiiiIiiII.iiiiIiiiIiiII, iiIIiiiiIiiII.IIiiiiiiIiiII, "培养", (com.xy.q.IiiiIiiiiIiIi)this);
         this.ALLATORIxDEMO.setBounds(197, 218, 59, 25);
         this.add((Component)this.ALLATORIxDEMO);
         this.iIIiIiiiiiiIi = new com.xy.w.IIIiiiiiIiIiI[4];
@@ -396,7 +396,7 @@ extends com.xy.q.IiiiIiiiiIiIi {
         IiiiiiiiIIIII2 = 0;
         while (IiiiiiiiIIIII2 < this.IIIIiiiiiiiII.length) {
             this.IIIIiiiiiiiII[IiiiiiiiIIIII2] = IiIIIiiiiIIiI.ALLATORIxDEMO((int)58, (int)(304 + 25 * IiiiiiiiIIIII2), (int)36, (int)19, (int)0, (Color)iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c000000"), (Font)iiIIiiiiIiiII.iiiiIiiiIiiII);
-            this.IIIIiiiiiiiII[IiiiiiiiIIIII2].setText(IiiiiiiiIIIII2 == 0 ? "\u795e\u529b" : (IiiiiiiiIIIII2 == 1 ? "\u6218\u529b" : (IiiiiiiiIIIII2 == 2 ? "\u5b66\u4e60\u4ea4\u6d41" : (IiiiiiiiIIIII2 == 3 ? "8" : (IiiiiiiiIIIII2 == 4 ? "/18" : "")))));
+            this.IIIIiiiiiiiII[IiiiiiiiIIIII2].setText(IiiiiiiiIIIII2 == 0 ? "神力" : (IiiiiiiiIIIII2 == 1 ? "战力" : (IiiiiiiiIIIII2 == 2 ? "学习交流" : (IiiiiiiiIIIII2 == 3 ? "8" : (IiiiiiiiIIIII2 == 4 ? "/18" : "")))));
             this.add(this.IIIIiiiiiiiII[IiiiiiiiIIIII2]);
             if (IiiiiiiiIIIII2 == 2) {
                 this.IIIIiiiiiiiII[IiiiiiiiIIIII2].setFont(iiIIiiiiIiiII.IIiiiiiiiIIIi);
@@ -430,7 +430,7 @@ extends com.xy.q.IiiiIiiiiIiIi {
             }
             this.add((Component)this.iIiiIiiiIiIIi[IiiiiiiiIIIII2++]);
         }
-        this.iIiiIiiiIiIIi[0].setTextSize("#cFFFFFF\u3010\u7b49\u7ea7\u3011", 180);
+        this.iIiiIiiiIiIIi[0].setTextSize("#cFFFFFF【等级】", 180);
         this.iIiiIiiiiiiII = new com.xy.w.IIIiiiiiIiIiI[9];
         IiiiiiiiIIIII2 = 0;
         while (IiiiiiiiIIIII2 < this.iIiiIiiiiiiII.length) {
@@ -467,7 +467,7 @@ extends com.xy.q.IiiiIiiiiIiIi {
         this.iiIiiiiiiiIii = new IiIiIiiiiIIiI[2];
         IiiiiiiiIIIII2 = 0;
         while (IiiiiiiiIIIII2 < this.iiIiiiiiiiIii.length) {
-            this.iiIiiiiiiiIii[IiiiiiiiIIIII2] = new IiIiIiiiiIIiI("sc/e/39.png", 2, 103 + IiiiiiiiIIIII2, iiIIiiiiIiiII.IIiiIiiiIIiIi, null, IiiiiiiiIIIII2 == 0 ? "\u5c5e\u6027" : (IiiiiiiiIIIII2 == 1 ? "\u91cd\u94f8" : ""), (com.xy.q.IiiiIiiiiIiIi)this);
+            this.iiIiiiiiiiIii[IiiiiiiiIIIII2] = new IiIiIiiiiIIiI("sc/e/39.png", 2, 103 + IiiiiiiiIIIII2, iiIIiiiiIiiII.IIiiIiiiIIiIi, null, IiiiiiiiIIIII2 == 0 ? "属性" : (IiiiiiiiIIIII2 == 1 ? "重铸" : ""), (com.xy.q.IiiiIiiiiIiIi)this);
             this.iiIiiiiiiiIii[IiiiiiiiIIIII2].setOffsetTexts(iiIIiiiiIiiII.IiIIIiiiiiiiI);
             this.iiIiiiiiiiIii[IiiiiiiiIIIII2].setBounds(58 + 65 * IiiiiiiiIIIII2, 20, 63, 24);
             this.add((Component)this.iiIiiiiiiiIii[IiiiiiiiIIIII2++]);
@@ -475,7 +475,7 @@ extends com.xy.q.IiiiIiiiiIiIi {
         this.IIiiiiiiIiiII = new IiIiIiiiiIIiI[4];
         IiiiiiiiIIIII2 = 0;
         while (IiiiiiiiIIIII2 < this.IIiiiiiiIiiII.length) {
-            this.IIiiiiiiIiiII[IiiiiiiiIIIII2] = new IiIiIiiiiIIiI("sc/e/7.png", 1, 105 + IiiiiiiiIIIII2, iiIIiiiiIiiII.iiiiIiiiIiiII, null, IiiiiiiiIIIII2 == 0 ? "\u5151\u6362" : (IiiiiiiiIIIII2 == 1 ? "\u5730\u715e\u661f\u79f0\u8c13" : (IiiiiiiiIIIII2 == 2 ? "\u53d6\u51fa" : (IiiiiiiiIIIII2 == 3 ? "\u9b42\u5f52" : ""))), (com.xy.q.IiiiIiiiiIiIi)this);
+            this.IIiiiiiiIiiII[IiiiiiiiIIIII2] = new IiIiIiiiiIIiI("sc/e/7.png", 1, 105 + IiiiiiiiIIIII2, iiIIiiiiIiiII.iiiiIiiiIiiII, null, IiiiiiiiIIIII2 == 0 ? "兑换" : (IiiiiiiiIIIII2 == 1 ? "地煞星称谓" : (IiiiiiiiIIIII2 == 2 ? "取出" : (IiiiiiiiIIIII2 == 3 ? "魂归" : ""))), (com.xy.q.IiiiIiiiiIiIi)this);
             this.IIiiiiiiIiiII[IiiiiiiiIIIII2].setBounds(432 + (IiiiiiiiIIIII2 - 2) * 82, 371, 59, 25);
             if (IiiiiiiiIIIII2 == 0) {
                 this.IIiiiiiiIiiII[IiiiiiiiIIIII2].setFont(iiIIiiiiIiiII.iiIiiiiiiIIiI);
@@ -491,10 +491,10 @@ extends com.xy.q.IiiiIiiiiIiIi {
             this.add((Component)this.IIiiiiiiIiiII[IiiiiiiiIIIII2++]);
         }
         this.IiiiIiiiIiIII = IiIIIiiiiIIiI.ALLATORIxDEMO((int)260, (int)26, (int)36, (int)19, (int)10, (Color)iiIIiiiiIiiII.ALLATORIxDEMO((String)"#c000000"), (Font)iiIIiiiiIiiII.iiiiIiiiIiiII);
-        this.IiiiIiiiIiIII.setText("\u661f\u8292");
+        this.IiiiIiiiIiIII.setText("星芒");
         this.add(this.IiiiIiiiIiIII);
         this.iIiIiiiiIiIii = new MoneyType();
-        this.iIiIiiiiIiIii.setIdAndKey(0, "\u661f\u8292");
+        this.iIiIiiiiIiIii.setIdAndKey(0, "星芒");
         this.iiIiIiiiiIIIi = IiIIIiiiiIIiI.ALLATORIxDEMO((int)10, (Color)Color.white, (Font)iiIIiiiiIiiII.iIIIiiiiIIIii, (MoneyType)this.iIiIiiiiIiIii, (GameView)gameView2);
         this.iiIiIiiiiIIIi.ALLATORIxDEMO(2);
         this.iiIiIiiiiIIIi.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/17.png", (int)3, (int)3, (int)3, (int)3, (boolean)false));
@@ -572,7 +572,7 @@ extends com.xy.q.IiiiIiiiiIiIi {
         this.IIIIiiiiiiiII[4].setText(null);
         this.iiiiIiiiIIiii[3].setVisible(false);
         this.iiiiIiiiIIiii[4].setVisible(false);
-        this.iiiiIiiiIIiii[5].setText("\u53c2 \u6218");
+        this.iiiiIiiiIIiii[5].setText("参 战");
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.iIiiIiiiIiIIi.length) {
             this.iIiiIiiiIiIIi[IiiiiiiiIIIII++].setVisible(false);
@@ -586,7 +586,7 @@ extends com.xy.q.IiiiIiiiiIiIi {
             return;
         }
         this.iiIiiiiiiIIiI = good.getRgid();
-        this.iiiiIiiiIIiii[5].setText(good.getStatus() == 1 ? "\u5f85 \u673a" : "\u53c2 \u6218");
+        this.iiiiIiiiIIiii[5].setText(good.getStatus() == 1 ? "待 机" : "参 战");
         this.iIiiIiiiiiiII[1].iIiIiiiiIIiii(com.xy.w.IIiIiiiiIiiIi.iiiIiiiiiiIIi((String)good.getSkin()));
         String[] IiiiiiiiIIIII2 = good.getValue().split("\\|");
         int IiiiiiiiIIIII3 = IiiiiiiiIIIII2[0].indexOf("/");
@@ -603,10 +603,10 @@ extends com.xy.q.IiiiIiiiiIiIi {
         this.IIIIiiiiiiiII[4].setText("/" + IiiiiiiiIIIII5);
         String[] IiiiiiiiIIIII8 = IiiiiiiiIIIII2[3].split("&");
         String[] IiiiiiiiIIIII9 = IiiiiiiiIIIII2[4].split("&");
-        this.iIiiIiiiIiIIi[1].setTextSize("#W\u3010\u795e\u901a\u3011 \u8d44\u8d28\uff1a" + IiiiiiiiIIIII8[1].split("=")[1] + "/100#r#G" + this.ALLATORIxDEMO(IiiiiiiiIIIII8[2], "+") + "#r" + this.ALLATORIxDEMO(IiiiiiiiIIIII8[3], "+"), 180);
+        this.iIiiIiiiIiIIi[1].setTextSize("#W【神通】 资质：" + IiiiiiiiIIIII8[1].split("=")[1] + "/100#r#G" + this.ALLATORIxDEMO(IiiiiiiiIIIII8[2], "+") + "#r" + this.ALLATORIxDEMO(IiiiiiiiIIIII8[3], "+"), 180);
         this.iIiiIiiiIiIIi[1].setVisible(true);
         StringBuffer IiiiiiiiIIIII10 = new StringBuffer();
-        IiiiiiiiIIIII10.append("#W\u3010\u4e94\u884c\u3011");
+        IiiiiiiiIIIII10.append("#W【五行】");
         int IiiiiiiiIIIII11 = 1;
         while (IiiiiiiiIIIII11 < IiiiiiiiIIIII9.length) {
             String string = this.ALLATORIxDEMO(IiiiiiiiIIIII9[IiiiiiiiIIIII11], " ");
@@ -617,7 +617,7 @@ extends com.xy.q.IiiiIiiiiIiIi {
         double IiiiiiiiIIIII12 = 0.0;
         int IiiiiiiiIIIII13 = 0;
         while (IiiiiiiiIIIII13 < IiiiiiiiIIIII8.length) {
-            if (IiiiiiiiIIIII8[IiiiiiiiIIIII13].startsWith("\u661f\u9635\u5c5e\u6027")) {
+            if (IiiiiiiiIIIII8[IiiiiiiiIIIII13].startsWith("星阵属性")) {
                 String[] IiiiiiiiIIIII14 = IiiiiiiiIIIII8[IiiiiiiiIIIII13].split("=");
                 int IiiiiiiiIIIII15 = 1;
                 while (IiiiiiiiIIIII15 < IiiiiiiiIIIII9.length) {
@@ -625,11 +625,11 @@ extends com.xy.q.IiiiIiiiiIiIi {
                     ++IiiiiiiiIIIII15;
                     IiiiiiiiIIIII12 += MsgUntil.ALLATORIxDEMO((String)IiiiiiiiIIIII14[2], (String)IiiiiiiiIIIII16[0], (String)IiiiiiiiIIIII16[1]);
                 }
-                IiiiiiiiIIIII10.append("#r#c43E4D2\u4e94\u884c\u52a0\u6210\u661f\u9635\u4e4b\u529b " + String.format("%.1f", IiiiiiiiIIIII12) + "%");
+                IiiiiiiiIIIII10.append("#r#c43E4D2五行加成星阵之力 " + String.format("%.1f", IiiiiiiiIIIII12) + "%");
                 this.iIiiIiiiiiiII[4].ALLATORIxDEMO(IIIIIiiiIiiII.iiiIiiiiiiIIi((String)("sc/skill/" + IiiiiiiiIIIII14[1] + ".png")));
                 this.iIiiIiiiiiiII[4].setVisible(true);
                 this.iIiiIiiiiiiII[5].setVisible(true);
-                this.iIiiIiiiIiIIi[3].setTextSize("#W\u3010\u661f\u9635\u4e4b\u529b\u3011 " + IiiiiiiiIIIII14[1], 180);
+                this.iIiiIiiiIiIIi[3].setTextSize("#W【星阵之力】 " + IiiiiiiiIIIII14[1], 180);
                 this.iIiiIiiiIiIIi[3].setVisible(true);
                 this.iiiiIiiiIIiii[3].setVisible(true);
                 this.iiiiIiiiIIiii[4].setVisible(true);
@@ -638,8 +638,8 @@ extends com.xy.q.IiiiIiiiiIiIi {
             ++IiiiiiiiIIIII13;
         }
         if (IiiiiiiiIIIII11 == 0) {
-            IiiiiiiiIIIII10.append("#r#Y\u65e0\u661f\u9635\uff0c\u4e94\u884c\u6682\u4e0d\u751f\u6548");
-            this.iIiiIiiiIiIIi[3].setTextSize("#W\u3010\u661f\u9635\u4e4b\u529b\u3011 \u65e0", 180);
+            IiiiiiiiIIIII10.append("#r#Y无星阵，五行暂不生效");
+            this.iIiiIiiiIiIIi[3].setTextSize("#W【星阵之力】 无", 180);
             this.iIiiIiiiIiIIi[3].setVisible(true);
         }
         this.iIiiIiiiIiIIi[2].setTextSize(IiiiiiiiIIIII10.toString(), 180);
@@ -651,10 +651,10 @@ extends com.xy.q.IiiiIiiiiIiIi {
     }
 
     public static boolean ALLATORIxDEMO(String value) {
-        if (value.equals("\u6731\u96c0")) return true;
-        if (value.equals("\u7384\u6b66")) return true;
-        if (value.equals("\u767d\u864e")) return true;
-        if (!value.equals("\u9752\u9f99")) return false;
+        if (value.equals("朱雀")) return true;
+        if (value.equals("玄武")) return true;
+        if (value.equals("白虎")) return true;
+        if (!value.equals("青龙")) return false;
         return true;
     }
 
@@ -688,11 +688,11 @@ extends com.xy.q.IiiiIiiiiIiIi {
             IiiiiiiiIIIII = this.ALLATORIxDEMO();
             v0 = IiiiiiiiIIIII = this.iiIiiiiiiIIiI != null ? IiiiiiiiIIIII.getGood(this.iiIiiiiiiIIiI) : null;
             if (IiiiiiiiIIIII == null) {
-                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u8bf7\u9009\u62e9\u5bf9\u5e94\u7684\u661f\u5361");
+                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("请选择对应的星卡");
                 return;
             }
             if (id == 107) {
-                this.iiIIiiiiIiIIi.ALLATORIxDEMO(new ConfirmBean(2, IiiiiiiiIIIII.getRgid().toString(), "\u771f\u7684\u8981\u53d6\u51fa\u8be5\u661f\u5361\u5417?"));
+                this.iiIIiiiiIiIIi.ALLATORIxDEMO(new ConfirmBean(2, IiiiiiiiIIIII.getRgid().toString(), "真的要取出该星卡吗?"));
                 return;
             }
             if (id == 111) {
@@ -701,7 +701,7 @@ extends com.xy.q.IiiiIiiiiIiIi {
                 return;
             }
             if (id == 112) {
-                this.iiIIiiiiIiIIi.ALLATORIxDEMO(new ConfirmBean(20, IiiiiiiiIIIII.getRgid().toString(), "\u771f\u7684\u8981\u5220\u9664\u8be5\u661f\u5361\u7684\u661f\u9635\u5417\uff1f\u5220\u9664\u540e\u4e0d\u53ef\u6062\u590d"));
+                this.iiIIiiiiIiIIi.ALLATORIxDEMO(new ConfirmBean(20, IiiiiiiiIIIII.getRgid().toString(), "真的要删除该星卡的星阵吗？删除后不可恢复"));
                 return;
             }
             if (id != 113) break block13;
@@ -713,7 +713,7 @@ extends com.xy.q.IiiiIiiiiIiIi {
         if (id != 114) return;
         IiiiiiiiIIIII = Integer.parseInt(IiiiiiiiIIIII.getValue().split("\\|")[2].split("=")[1]);
         if (IiiiiiiiIIIII <= 0) {
-            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u6218\u529b\u4e0d\u8db3\u65e0\u6cd5\u53c2\u6218");
+            this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("战力不足无法参战");
             return;
         }
         if (IiiiiiiiIIIII.getStatus() == 1) {
@@ -734,13 +734,13 @@ extends com.xy.q.IiiiIiiiiIiIi {
             IiiiiiiiIIIII.ALLATORIxDEMO(IiiiiiiiIIIII);
             ParamTool.ALLATORIxDEMO((Goodstable)IiiiiiiiIIIII, (int)0, (GameClient)this.ALLATORIxDEMO());
         }
-        this.iiiiIiiiIIiii[5].setText(IiiiiiiiIIIII.getStatus() == 1 ? "\u5f85 \u673a" : "\u53c2 \u6218");
+        this.iiiiIiiiIIiii[5].setText(IiiiiiiiIIIII.getStatus() == 1 ? "待 机" : "参 战");
         return;
         do {
-            if (IiiiiiiiIIIII[IiiiiiiiIIIII].startsWith("\u661f\u9635\u5c5e\u6027")) {
+            if (IiiiiiiiIIIII[IiiiiiiiIIIII].startsWith("星阵属性")) {
                 IiiiiiiiIIIII = IiiiiiiiIIIII[IiiiiiiiIIIII].split("=");
                 if (!iIiIIiiiIiiiI.ALLATORIxDEMO(IiiiiiiiIIIII[1])) {
-                    this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4e0d\u662f\u56db\u795e\u517d\u661f\u9635\u65e0\u6cd5\u8f6c\u79fb");
+                    this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("不是四神兽星阵无法转移");
                     return;
                 }
                 ((iiiiiiiiiiIiI)this.ALLATORIxDEMO().iiiIiiiiiiIIi(97)).ALLATORIxDEMO(0, IiiiiiiiIIIII, IiiiiiiiIIIII);
@@ -1016,8 +1016,8 @@ lbl60:
         } else {
             iiIIiiiiIiiII.ALLATORIxDEMO((JLabel)this.iiiIiiiiiiiIi, (long)(this.iiIIiiiiIiIIi == 0 ? 1000000L : 5000000L));
         }
-        this.IIiiiiiiiIIIi[0].setText("\u6d88\u8017\u91d1\u94b1");
-        this.IIiiiiiiiIIIi[1].setText("\u5f53\u524d\u91d1\u94b1");
+        this.IIiiiiiiiIIIi[0].setText("消耗金钱");
+        this.IIiiiiiiiIIIi[1].setText("当前金钱");
         this.IiiIIiiiiiiiI.ALLATORIxDEMO(this.iiiiIiiiIiiII);
         this.iiiIiiiiiiiIi.setBounds(200, 162, 114, 19);
         this.IiiIIiiiiiiiI.setBounds(200, 188, 114, 19);
@@ -1028,8 +1028,8 @@ lbl60:
         this.IIiiiiiiiIIIi[3].setFont(iiIIiiiiIiiII.iIiIiiiiiiIIi);
         this.IIiiiiiiiIIIi[2].setBounds(145, 64, 72, 18);
         this.IIiiiiiiiIIIi[3].setBounds(252, 64, 72, 18);
-        this.IIiiiiiiiIIIi[2].setText("\u91cd\u6d17\u795e\u901a");
-        this.IIiiiiiiiIIIi[3].setText("\u91cd\u6d17\u4e94\u884c");
+        this.IIiiiiiiiIIIi[2].setText("重洗神通");
+        this.IIiiiiiiiIIIi[3].setText("重洗五行");
         this.IIiiiiiiiIIIi[2].setVisible(true);
         this.IIiiiiiiiIIIi[3].setVisible(true);
     }
