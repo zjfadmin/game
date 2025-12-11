@@ -156,7 +156,7 @@
  *  com.xy.a.w.IiIIIiiiiiiIi
  *  com.xy.a.w.IiiIiiiiIIIii
  *  com.xy.a.w.iIIIIiiiIiiIi
- *  com.xy.a.w.iIiIIiiiIiiiI
+ *  com.xy.a.w.TeststateJpanel
  *  com.xy.a.w.iIiIiiiiIiIII
  *  com.xy.a.w.iiIiIiiiIIIiI
  *  com.xy.a.w.iiiiiiiiiiIiI
@@ -353,10 +353,10 @@ public class IIiiIiiiIIiIi {
     }
 
     public IiiiIiiiiIiIi iIiIiiiiIIiIi(int bh) {
-        com.xy.a.w.iIiIIiiiIiiiI IiiiiiiiIIIII = null;
+        com.xy.a.w.TeststateJpanel IiiiiiiiIIIII = null;
         switch (bh) {
             case 0: {
-                IiiiiiiiIIIII = new com.xy.a.w.iIiIIiiiIiiiI(this.IiIIIiiiiIiiI);
+                IiiiiiiiIIIII = new com.xy.a.w.TeststateJpanel(this.IiIIIiiiiIiiI);
                 return IiiiiiiiIIIII;
             }
             case 1: {

@@ -6,7 +6,7 @@
  *  com.xy.bean.LoginResult
  *  com.xy.d.IiIiIiiiiIIiI
  *  com.xy.game.RoleData
- *  com.xy.i.IIiIiiiiIiIII
+ *  com.xy.i.JpanelOnJalbelBtn
  *  com.xy.q.IiIIIiiiiIIiI
  *  com.xy.q.IiiiIiiiiIiIi
  *  com.xy.q.iIIiIiiiIiiIi
@@ -24,7 +24,7 @@ import com.xy.bean.BeauBean;
 import com.xy.bean.LoginResult;
 import com.xy.d.IiIiIiiiiIIiI;
 import com.xy.game.RoleData;
-import com.xy.i.IIiIiiiiIiIII;
+import com.xy.i.JpanelOnJalbelBtn;
 import com.xy.q.IiIIIiiiiIIiI;
 import com.xy.q.IiiiIiiiiIiIi;
 import com.xy.q.iIIiIiiiIiiIi;
@@ -44,11 +44,11 @@ public class TeststateJpanel
 extends IiiiIiiiiIiIi {
     private iIIiIiiiIiiIi[] iIiiIiiiiiiII;
     private IIIiiiiiIiIiI IIiiIiiiIIiIi;
-    private IIiIiiiiIiIII[] iIiIiiiiIiIii;
+    private JpanelOnJalbelBtn[] iIiIiiiiIiIii;
     private RichLabel IiIIIiiiiIiiI;
     private IIIiiiiiIiIiI iiIiiiiiiiIii;
     private JLabel[] IiiiiiiiIIIII;
-    private IIiIiiiiIiIII[] ALLATORIxDEMO;
+    private JpanelOnJalbelBtn[] ALLATORIxDEMO;
 
     /*
      * Enabled unnecessary exception pruning
@@ -167,10 +167,10 @@ extends IiiiIiiiiIiIi {
             }
             this.add(this.IiiiiiiiIIIII[IiiiiiiiIIIII++]);
         }
-        this.iIiIiiiiIiIii = new IIiIiiiiIiIII[13];
+        this.iIiIiiiiIiIii = new JpanelOnJalbelBtn[13];
         IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.iIiIiiiiIiIii.length) {
-            this.iIiIiiiiIiIii[IiiiiiiiIIIII] = new IIiIiiiiIiIII(null, 1, 1 + IiiiiiiiIIIII, iiIIiiiiIiiII.iiIiiiiiiIIiI, null, IiiiiiiiIIIII == 0 ? "名字" : (IiiiiiiiIIIII == 1 ? "I D" : (IiiiiiiiIIIII == 2 ? "称谓" : (IiiiiiiiIIIII == 3 ? "切属性" : (IiiiiiiiIIIII == 4 ? "推荐加点" : (IiiiiiiiIIIII == 5 ? "确认加点" : (IiiiiiiiIIIII == 6 ? "七十二变" : (IiiiiiiiIIIII == 7 ? "灵 宝" : (IiiiiiiiIIIII == 8 ? "抗 性" : (IiiiiiiiIIIII == 9 ? "人物技能" : (IiiiiiiiIIIII == 10 ? "坐 骑" : (IiiiiiiiIIIII == 11 ? "作 坊" : (IiiiiiiiIIIII == 12 ? "转换" : "")))))))))))), (IiiiIiiiiIiIi)this);
+            this.iIiIiiiiIiIii[IiiiiiiiIIIII] = new JpanelOnJalbelBtn(null, 1, 1 + IiiiiiiiIIIII, iiIIiiiiIiiII.iiIiiiiiiIIiI, null, IiiiiiiiIIIII == 0 ? "名字" : (IiiiiiiiIIIII == 1 ? "I D" : (IiiiiiiiIIIII == 2 ? "称谓" : (IiiiiiiiIIIII == 3 ? "切属性" : (IiiiiiiiIIIII == 4 ? "推荐加点" : (IiiiiiiiIIIII == 5 ? "确认加点" : (IiiiiiiiIIIII == 6 ? "七十二变" : (IiiiiiiiIIIII == 7 ? "灵 宝" : (IiiiiiiiIIIII == 8 ? "抗 性" : (IiiiiiiiIIIII == 9 ? "人物技能" : (IiiiiiiiIIIII == 10 ? "坐 骑" : (IiiiiiiiIIIII == 11 ? "作 坊" : (IiiiiiiiIIIII == 12 ? "转换" : "")))))))))))), (IiiiIiiiiIiIi)this);
             if (IiiiiiiiIIIII == 0 || IiiiiiiiIIIII == 1) {
                 this.iIiIiiiiIiIii[IiiiiiiiIIIII].setImage("sc/e/5.png");
                 this.iIiIiiiiIiIii[IiiiiiiiIIIII].setBounds(170, 33 + 24 * IiiiiiiiIIIII, 34, 17);
@@ -205,10 +205,10 @@ extends IiiiIiiiiIiIi {
             }
             this.add((Component)this.iIiIiiiiIiIii[IiiiiiiiIIIII++]);
         }
-        this.ALLATORIxDEMO = new IIiIiiiiIiIII[10];
+        this.ALLATORIxDEMO = new JpanelOnJalbelBtn[10];
         IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.ALLATORIxDEMO.length) {
-            this.ALLATORIxDEMO[IiiiiiiiIIIII] = new IIiIiiiiIiIII(IiiiiiiiIIIII % 2 == 0 ? "sc/e/32.png" : "sc/e/34.png", 1, 100 + IiiiiiiiIIIII, (IiiiIiiiiIiIi)this);
+            this.ALLATORIxDEMO[IiiiiiiiIIIII] = new JpanelOnJalbelBtn(IiiiiiiiIIIII % 2 == 0 ? "sc/e/32.png" : "sc/e/34.png", 1, 100 + IiiiiiiiIIIII, (IiiiIiiiiIiIi)this);
             this.ALLATORIxDEMO[IiiiiiiiIIIII].setBounds(312 + 11 * (IiiiiiiiIIIII % 2), 211 + 24 * (IiiiiiiiIIIII / 2), 11, 15);
             this.add((Component)this.ALLATORIxDEMO[IiiiiiiiIIIII++]);
         }

@@ -76,7 +76,7 @@ import java.math.BigDecimal;
 /*
  * Duplicate member names - consider using --renamedupmembers true
  */
-public class IIiIiiiiIiIII
+public class JpanelOnJalbelBtn
 extends IIiiIiiiiIIiI {
     private Object IiiiiiiiIIIII;
     private int ALLATORIxDEMO;
@@ -107,7 +107,7 @@ extends IIiiIiiiiIIiI {
         ((com.xy.a.w.IIiiIiiiiIIiI)this.form).iiiIiiiiiiIIi();
     }
 
-    public IIiIiiiiIiIII(String path, int type, int id, IiiiIiiiiIiIi form) {
+    public JpanelOnJalbelBtn(String path, int type, int id, IiiiIiiiiIiIi form) {
         super(path, type, form);
         this.ALLATORIxDEMO = id;
         this.form = form;
@@ -349,7 +349,7 @@ extends IIiiIiiiiIIiI {
         ((iiIiIiiiIIIiI)this.form).iIiIiiiiIIiii(this.ALLATORIxDEMO);
     }
 
-    public IIiIiiiiIiIII(String path, int type, int id, String text, IiiiIiiiiIiIi form) {
+    public JpanelOnJalbelBtn(String path, int type, int id, String text, IiiiIiiiiIiIi form) {
         this(path, type, id, null, null, text, form);
     }
 
@@ -461,7 +461,7 @@ extends IIiiIiiiiIIiI {
         ((com.xy.a.w.IIiiIiiiiIIiI)this.form).iiiIiiiiiiIIi();
     }
 
-    public IIiIiiiiIiIII(String path, int type, int id, Font font, Color[] colors, String text, IiiiIiiiiIiIi form) {
+    public JpanelOnJalbelBtn(String path, int type, int id, Font font, Color[] colors, String text, IiiiIiiiiIiIi form) {
         super(path, type, colors, form);
         this.ALLATORIxDEMO = id;
         if (font != null) {
