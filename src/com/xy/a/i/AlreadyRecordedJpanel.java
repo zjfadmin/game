@@ -103,7 +103,7 @@ extends IiiiIiiiiIiIi {
         this.iIiIiiiiIiIii.setBackground(iiIIiiiiIiiII.IIiIiiiiIIiII);
         this.iIiIiiiiIiIii.setModel(this.iiiiIiiiIIiii);
         this.iIiIiiiiIiIii.setSelectionMode(0);
-        this.iIiIiiiiIiIii.addListSelectionListener((ListSelectionListener)new iiiIiiiiIiiiI(this));
+        this.iIiIiiiiIiIii.addListSelectionListener((ListSelectionListener)new AlreadyRecordedListener(this));
         this.iIIiIiiiiiiIi = IiIIIiiiiIIiI.ALLATORIxDEMO((int)47, (int)42, (int)165, (int)318, this.iIiIiiiiIiIii, (int)-1);
         this.add(this.iIIiIiiiiiiIi);
         this.iiIiiiiiiiIii = new iiIiIiiiiIiii[6];
