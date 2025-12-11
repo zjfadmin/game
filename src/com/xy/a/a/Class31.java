@@ -56,9 +56,7 @@ public class Class31 extends com.xy.q.Class30 {
                String var10002 = "K";
                String var7 = Agreement.getSendTextAES("rolechange", var12.append("=").append(var2.getMid()).toString());
                this.za().k(var7);
-               com.xy.i.Class4 var11 = this.ly[0];
-               String var13 = "伕急";
-               var11.setText("休息");
+               this.ly[0].setText("休息");
             } else {
                int var4;
                int var10000 = var4 = 0;
@@ -82,9 +80,7 @@ public class Class31 extends com.xy.q.Class30 {
                var8.getLoginResult().setMount_id(0);
                String var5 = Agreement.getSendTextAES("rolechange", "M");
                this.za().k(var5);
-               com.xy.i.Class4 var9 = this.ly[0];
-               String var10001 = "骝丮";
-               var9.setText("骑乘");
+               this.ly[0].setText("骑乘");
             }
          }
       }
@@ -148,12 +144,10 @@ public class Class31 extends com.xy.q.Class30 {
             RolePet var3;
             RoleSummoning var4 = (var3 = var1.getRolePet(this.f.ee())) != null ? var3.getPet() : null;
             if (var4 == null) {
-               String var14 = "读避拥伖覍篗刺盲叠啒共ｷ";
                this.afx._do("请选择你要管制的召唤兽！");
             } else {
                Mount var5;
                if ((var5 = var1.getPetMount(var4.getSid())) != null && var5.getMountid() != var2.getMountid()) {
-                  String var13 = "诡厦唠儷巶裡兲亜坔髛箥剼";
                   this.afx._do("该召唤兽已被其他坐骑管制");
                } else {
                   byte var6 = 0;
@@ -183,8 +177,7 @@ public class Class31 extends com.xy.q.Class30 {
                   }
 
                   if (var10000 == 0) {
-                     String var10001 = "皘剁圦骝篗刺乼陜W";
-                     this.afx._do("目前坐骑管制上限!");
+                     this.afx._do("目前坐骑管制上限！");
                   } else {
                      this.f.t();
                      String var7 = Agreement.getSendTextAES("changemountvalue", com.xy.v.Class31.a().toJson(var2));
@@ -207,10 +200,8 @@ public class Class31 extends com.xy.q.Class30 {
 
    public Class31(GameView var1) {
       super(7, 2, com.xy.q.Class30.afz, var1);
-      String var10015 = "\u007f\u0015#\u0012#G\"\u0006b\u0011";
       this.yy(-2, 0, 412, 475, com.xy.q.Class30.agh);
       com.xy.w.Class9 var43 = com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false);
-      String var10016 = "坔髛";
       this.yu(var43, "坐骑");
       this.rp = new DefaultListModel<>();
       this.ahw = new JList<>();
@@ -226,8 +217,6 @@ public class Class31 extends com.xy.q.Class30 {
       this.add(this.rf);
       JLabel var2 = com.xy.q.Class1.f(193, 245, 110, 20, 0, Color.white, com.xy.q.Class49.ch);
       JLabel var3 = com.xy.q.Class1.f(303, 245, 70, 20, 0, Color.white, com.xy.q.Class49.ch);
-      String var10005 = "箥剼坔髛";
-      String var10007 = "厚唨儋";
       var2.setText("召唤兽");
       var3.setText("管制坐骑");
       this.add(var2);
@@ -240,31 +229,24 @@ public class Class31 extends com.xy.q.Class30 {
 
       int var4;
       for (int var10000 = var4 = 0; var10000 < this.ly.length; var10000 = var4) {
-         String var10006 = "\u007f\u0015#\u0013#A\"\u0006b\u0011";
          this.ly[var4] = new com.xy.i.Class4("sc/e/7.png", 1, 61 + var4, com.xy.q.Class49.ch, com.xy.q.Class49.bv, "", this);
          this.ly[var4].setBounds(44 + 73 * var4, 432, 59, 25);
-         com.xy.i.Class4 var8 = this.ly[var4];
          String var15;
          if (var4 == 0) {
-            var15 = "伕急";
             var15 = "休息";
          } else if (var4 == 1) {
-            var15 = "箭剀";
             var15 = "管制";
          } else if (var4 == 2) {
-            var15 = "喆儱";
             var15 = "喂养";
          } else if (var4 == 3) {
-            var15 = "抌肋";
             var15 = "技能";
          } else if (var4 == 4) {
-            var15 = "攺畕";
             var15 = "放生";
          } else {
             var15 = "";
          }
 
-         var8.setText(var15);
+         this.ly[var4].setText(var15);
          this.add(this.ly[var4++]);
       }
 
@@ -273,40 +255,30 @@ public class Class31 extends com.xy.q.Class30 {
       for (int var9 = var4 = 0; var9 < this.au.length; var9 = ++var4) {
          if (var4 != 7 && var4 != 8) {
             this.au[var4] = com.xy.q.Class1.f(198, 28 + 34 * var4, 36, 19, 0, var4 >= 6 && var4 <= 8 ? Color.white : Color.black, com.xy.q.Class49.ch);
-            JLabel var10 = this.au[var4];
             String var21;
             if (var4 == 0) {
-               var21 = "筅绑";
                var21 = "等级";
             } else if (var4 == 1) {
-               var21 = "佗勑";
                var21 = "体力";
             } else if (var4 == 2) {
-               var21 = "灹恑";
                var21 = "灵性";
             } else if (var4 == 3) {
-               var21 = "功醅";
                var21 = "力量";
             } else if (var4 == 4) {
-               var21 = "栵髞";
                var21 = "根骨";
             } else if (var4 == 5) {
-               var21 = "绋髆";
                var21 = "经验";
             } else if (var4 == 6) {
-               var21 = "坜髧创蠞";
                var21 = "坐骑列表";
             } else if (var4 == 7) {
-               var21 = "厦唠儷";
                var21 = "召唤兽";
             } else if (var4 == 8) {
-               var21 = "箭剀坜髧";
                var21 = "管制坐骑";
             } else {
                var21 = "";
             }
 
-            var10.setText(var21);
+            this.au[var4].setText(var21);
             Class31 var11;
             if (var4 == 6) {
                var11 = this;
@@ -419,17 +391,14 @@ public class Class31 extends com.xy.q.Class30 {
                }
             }
 
-            com.xy.i.Class4 var12 = this.ly[0];
             String var14;
             if (var2.getLoginResult().getMount_id() == var1.getMountid()) {
-               var14 = "伝怙";
                var14 = "休息";
             } else {
-               var14 = "骕丒";
                var14 = "骑乘";
             }
 
-            var12.setText(var14);
+            this.ly[0].setText(var14);
             this.s[0].setText(var1.getMountlvlString());
             this.s[1].setText("" + var1.getLive());
             this.s[2].setText(String.valueOf(var4));
