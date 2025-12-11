@@ -1000,222 +1000,222 @@ extends IiiiIiiiiIiIi {
                 break;
             }
             case "bjmh": {
-                ql.setKey("\u9b45\u60d1\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("魅惑暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjgh": {
-                ql.setKey("\u9b3c\u706b\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("鬼火暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjyw": {
-                ql.setKey("\u9057\u5fd8\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("遗忘暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjlpl": {
-                ql.setKey("\u9739\u96f3\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("霹雳暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjlfy": {
-                ql.setKey("\u6276\u6447\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("扶摇暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjlcb": {
-                ql.setKey("\u6ca7\u6ce2\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("沧波暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjlgl": {
-                ql.setKey("\u7518\u9716\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("甘霖暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "efsds": {
-                ql.setKey("\u6cd5\u672f\u8eb2\u95ea");
+                ql.setKey("法术躲闪");
                 ql.setValue(5.0);
                 break;
             }
             case "ejs": {
-                ql.setKey("\u4f24\u5bb3\u51cf\u514d");
+                ql.setKey("伤害减免");
                 ql.setValue(5.0);
                 break;
             }
             case "qlpl": {
-                ql.setKey("\u52a0\u5f3a\u9739\u96f3\u6548\u679c");
+                ql.setKey("加强霹雳效果");
                 ql.setValue(2.0);
                 break;
             }
             case "qlfy": {
-                ql.setKey("\u52a0\u5f3a\u6276\u6447\u6548\u679c");
+                ql.setKey("加强扶摇效果");
                 ql.setValue(2.0);
                 break;
             }
             case "qlcb": {
-                ql.setKey("\u52a0\u5f3a\u6ca7\u6ce2\u6548\u679c");
+                ql.setKey("加强沧波效果");
                 ql.setValue(2.0);
                 break;
             }
             case "qlglv": {
-                ql.setKey("\u7518\u9716\u56de\u8840\u503c");
+                ql.setKey("甘霖回血值");
                 ql.setValue(2.0);
                 break;
             }
             case "qlglc": {
-                ql.setKey("\u7518\u9716\u56de\u8840\u7a0b\u5ea6");
+                ql.setKey("甘霖回血程度");
                 ql.setValue(2.0);
                 break;
             }
             case "blfcd": {
-                ql.setKey("\u96f7\u6cd5\u72c2\u66b4\u7a0b\u5ea6");
+                ql.setKey("雷法狂暴程度");
                 ql.setValue(2.0);
                 break;
             }
             case "bffcd": {
-                ql.setKey("\u98ce\u6cd5\u72c2\u66b4\u7a0b\u5ea6");
+                ql.setKey("风法狂暴程度");
                 ql.setValue(2.0);
                 break;
             }
             case "bsfcd": {
-                ql.setKey("\u6c34\u6cd5\u72c2\u66b4\u7a0b\u5ea6");
+                ql.setKey("水法狂暴程度");
                 ql.setValue(2.0);
                 break;
             }
             case "bhfcd": {
-                ql.setKey("\u706b\u6cd5\u72c2\u66b4\u7a0b\u5ea6");
+                ql.setKey("火法狂暴程度");
                 ql.setValue(2.0);
                 break;
             }
             case "bghcd": {
-                ql.setKey("\u9b3c\u706b\u72c2\u66b4\u7a0b\u5ea6");
+                ql.setKey("鬼火狂暴程度");
                 ql.setValue(2.0);
                 break;
             }
             case "bsccd": {
-                ql.setKey("\u4e09\u5c38\u866b\u72c2\u66b4\u7a0b\u5ea6");
+                ql.setKey("三尸虫狂暴程度");
                 ql.setValue(2.0);
                 break;
             }
             case "dzs": {
-                ql.setKey("\u9707\u6151\u8eb2\u95ea");
+                ql.setKey("震慑躲闪");
                 ql.setValue(5.0);
                 break;
             }
             case "dhf": {
-                ql.setKey("\u706b\u6cd5\u8eb2\u95ea");
+                ql.setKey("火法躲闪");
                 ql.setValue(5.0);
                 break;
             }
             case "dlf": {
-                ql.setKey("\u96f7\u6cd5\u8eb2\u95ea");
+                ql.setKey("雷法躲闪");
                 ql.setValue(5.0);
                 break;
             }
             case "dff": {
-                ql.setKey("\u98ce\u6cd5\u8eb2\u95ea");
+                ql.setKey("风法躲闪");
                 ql.setValue(5.0);
                 break;
             }
             case "dsf": {
-                ql.setKey("\u6c34\u6cd5\u8eb2\u95ea");
+                ql.setKey("水法躲闪");
                 ql.setValue(5.0);
                 break;
             }
             case "ddf": {
-                ql.setKey("\u6bd2\u6cd5\u8eb2\u95ea");
+                ql.setKey("毒法躲闪");
                 ql.setValue(5.0);
                 break;
             }
             case "dfy": {
-                ql.setKey("\u5c01\u5370\u8eb2\u95ea");
+                ql.setKey("封印躲闪");
                 ql.setValue(5.0);
                 break;
             }
             case "dhl": {
-                ql.setKey("\u6df7\u4e71\u8eb2\u95ea");
+                ql.setKey("混乱躲闪");
                 ql.setValue(5.0);
                 break;
             }
             case "dhs": {
-                ql.setKey("\u660f\u7761\u8eb2\u95ea");
+                ql.setKey("昏睡躲闪");
                 ql.setValue(5.0);
                 break;
             }
             case "dyw": {
-                ql.setKey("\u9057\u5fd8\u8eb2\u95ea");
+                ql.setKey("遗忘躲闪");
                 ql.setValue(5.0);
                 break;
             }
             case "dgh": {
-                ql.setKey("\u9b3c\u706b\u8eb2\u95ea");
+                ql.setKey("鬼火躲闪");
                 ql.setValue(5.0);
                 break;
             }
             case "dsc": {
-                ql.setKey("\u4e09\u5c38\u866b\u8eb2\u95ea");
+                ql.setKey("三尸虫躲闪");
                 ql.setValue(5.0);
                 break;
             }
             case "jsf": {
-                ql.setKey("\u6c34\u6cd5\u4f24\u5bb3\u51cf\u514d");
+                ql.setKey("水法伤害减免");
                 ql.setValue(5.0);
                 break;
             }
             case "jff": {
-                ql.setKey("\u98ce\u6cd5\u4f24\u5bb3\u51cf\u514d");
+                ql.setKey("风法伤害减免");
                 ql.setValue(5.0);
                 break;
             }
             case "jlf": {
-                ql.setKey("\u96f7\u6cd5\u4f24\u5bb3\u51cf\u514d");
+                ql.setKey("雷法伤害减免");
                 ql.setValue(5.0);
                 break;
             }
             case "jhf": {
-                ql.setKey("\u706b\u6cd5\u4f24\u5bb3\u51cf\u514d");
+                ql.setKey("火法伤害减免");
                 ql.setValue(5.0);
                 break;
             }
             case "jgh": {
-                ql.setKey("\u9b3c\u706b\u4f24\u5bb3\u51cf\u514d");
+                ql.setKey("鬼火伤害减免");
                 ql.setValue(5.0);
                 break;
             }
             case "ehsfzl": {
-                ql.setKey("\u5ffd\u89c6\u53cd\u9707\u51e0\u7387");
+                ql.setKey("忽视反震几率");
                 ql.setValue(5.0);
                 break;
             }
             case "mzs": {
-                ql.setKey("\u9707\u6151\u547d\u4e2d");
+                ql.setKey("震慑命中");
                 ql.setValue(5.0);
                 break;
             }
             case "mhf": {
-                ql.setKey("\u706b\u6cd5\u547d\u4e2d");
+                ql.setKey("火法命中");
                 ql.setValue(5.0);
                 break;
             }
             case "mlf": {
-                ql.setKey("\u96f7\u6cd5\u547d\u4e2d");
+                ql.setKey("雷法命中");
                 ql.setValue(5.0);
                 break;
             }
             case "mff": {
-                ql.setKey("\u98ce\u6cd5\u547d\u4e2d");
+                ql.setKey("风法命中");
                 ql.setValue(5.0);
                 break;
             }
             case "msf": {
-                ql.setKey("\u6c34\u6cd5\u547d\u4e2d");
+                ql.setKey("水法命中");
                 ql.setValue(5.0);
                 break;
             }
             case "mdf": {
-                ql.setKey("\u6bd2\u6cd5\u547d\u4e2d");
+                ql.setKey("毒法命中");
                 ql.setValue(5.0);
                 break;
             }
