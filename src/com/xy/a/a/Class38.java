@@ -53,9 +53,7 @@ public class Class38 extends com.xy.q.Class30 {
 
    public void e() {
       String var2 = com.xy.v.Class4.h(this.yx().getLoginResult().getGrade());
-      StringBuilder var10002 = new StringBuilder(String.valueOf(var2));
-      String var10003 = "绿";
-      String var3 = var10002.append("级").toString();
+      String var3 = new StringBuilder(String.valueOf(var2)).append("级").toString();
       int var4 = this.qe.getComponentCount();
       int var5 = 0;
       int var6 = this.qe.getComponentCount();
@@ -214,7 +212,6 @@ public class Class38 extends com.xy.q.Class30 {
    public void y(int var1) {
       if (var1 == 123) {
          String var19 = Class13.ju(this.akd)[0].getText();
-         String var29 = "濠浾";
          if (var19.equals("激活")) {
             this.h();
          } else {
@@ -233,9 +230,7 @@ public class Class38 extends com.xy.q.Class30 {
                               com.xy.i.Class4[] var21 = Class13.ju(this.akd);
                               int var30 = 2 + var14;
                               var14++;
-                              com.xy.i.Class4 var22 = var21[var30];
-                              var29 = "伵怷";
-                              var22.setText("休息");
+                              var21[var30].setText("休息");
                            } else {
                               com.xy.i.Class4[] var23 = Class13.ju(this.akd);
                               int var32 = 2 + var14;
@@ -253,7 +248,6 @@ public class Class38 extends com.xy.q.Class30 {
       } else if (var1 == 124) {
          Pal var10;
          if ((var10 = this.yx().getPal(this.gy)) == null) {
-            String var28 = "佀辝沁杌濠浾彳刈伹佱";
             this.afx.dp("你还没有激活当前伙伴");
          } else {
             ((com.xy.a.w.Class25)this.zc().j(8)).abn(PropertyUtil.getPalQl(var10, this.yx()), 2, var10.getId());
@@ -264,7 +258,7 @@ public class Class38 extends com.xy.q.Class30 {
             String var3;
             String[] var10000;
             if ((var3 = this.yx().getLoginResult().getPals()) != null && !var3.equals("")) {
-               String var10001 = "x$";
+               String var10001 = "|9";
                var10000 = var3.split("\\|");
             } else {
                var10000 = null;
@@ -282,7 +276,6 @@ public class Class38 extends com.xy.q.Class30 {
                      if (var7++ == var5) {
                         var6 = false;
                         if (var8.length() != 0) {
-                           String var24 = "9";
                            var8.append("|");
                         }
 
@@ -293,7 +286,6 @@ public class Class38 extends com.xy.q.Class30 {
                      }
 
                      if (var8.length() != 0) {
-                        String var25 = "$";
                         var8.append("|");
                      }
 
@@ -304,7 +296,6 @@ public class Class38 extends com.xy.q.Class30 {
 
             if (var6 && var5 > 0) {
                if (var8.length() != 0) {
-                  String var26 = "9";
                   var8.append("|");
                }
 
@@ -312,9 +303,7 @@ public class Class38 extends com.xy.q.Class30 {
             }
 
             this.yx().getLoginResult().setPals(var8.toString());
-            String var10003 = "\b";
             StringBuilder var27 = new StringBuilder("P").append(var2.getId());
-            String var10002 = "9";
             String var16 = Agreement.getSendTextAES("userpal", var27.append("|").append(var5 == 0 ? -1 : var5 - 1).toString());
             this.za().k(var16);
             this.akd.ah();
@@ -336,7 +325,6 @@ public class Class38 extends com.xy.q.Class30 {
    public void h() {
       PalData var1;
       if ((var1 = this.yt().bj(this.gy)) == null) {
-         String var6 = "诓儐逭乵两乲伽佬";
          this.afx.dp("请先选中一个伙伴");
       } else {
          StringBuffer var3;
@@ -344,30 +332,23 @@ public class Class38 extends com.xy.q.Class30 {
          label31: {
             String var2 = var1.getXh();
             var3 = new StringBuffer();
-            String var10002 = "fw砫宺规濠浾\u0003\u0002";
             var3.append("#W确定要激活#G");
             var3.append(var1.getName());
             if (var2 != null && !"".equals(var2)) {
-               String var4 = "\u0001";
-               String var10003 = "{s呏\u001b淐耳b\u0007\n";
                var3.append("#W吗?消耗:#R");
                var3.append(var2.substring(1, var2.length()));
                if (var2.startsWith("D")) {
                   var10000 = this;
-                  var10002 = "夃讅帥{sず";
                   var3.append("大话币#W。");
                   break label31;
                }
 
-               var4 = "\u001d";
                if (var2.startsWith("X")) {
                   var10000 = this;
-                  var10002 = "亁玭{sず";
                   var3.append("仙玉#W。");
                   break label31;
                }
             } else {
-               String var10001 = "呒\u001f淍耷\u007f\u0003\u0017旀淍耷fwぇ";
                var3.append("吗?消耗:#R无消耗#W。");
             }
 
@@ -380,40 +361,25 @@ public class Class38 extends com.xy.q.Class30 {
 
    public Class38(GameView var1) {
       super(105, 2, com.xy.q.Class30.afz, var1);
-      String var10003 = "W;\u000b<\u000bi\n(J?";
       this.gy = -1;
       this.yy(-1, 0, 563, 383, com.xy.q.Class30.agh);
-      com.xy.w.Class9 var12 = com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false);
-      String var10004 = "伹佱糛纚";
-      this.yu(var12, "伙伴系统");
+      this.yu(com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false), "伙伴系统");
       this.ly = new com.xy.i.Class4[3];
 
       int var2;
       for (int var10000 = var2 = 0; var10000 < this.ly.length; var10000 = var2) {
-         com.xy.i.Class4[] var4 = this.ly;
-         var10004 = "+GwAw\u0017`\n(J?";
-         int var10006 = 120 + var2;
          String var16;
-         Class38 var10010;
          if (var2 == 0) {
-            var16 = "阿佈";
             var16 = "队伍";
-            var10010 = this;
          } else if (var2 == 1) {
-            var16 = "护肥";
             var16 = "技能";
-            var10010 = this;
          } else if (var2 == 2) {
-            var16 = "裥奂";
             var16 = "装备";
-            var10010 = this;
          } else {
             var16 = "";
-            var10010 = this;
          }
 
-         com.xy.i.Class4 var10002 = new com.xy.i.Class4("sc/e/38.png", 2, var10006, com.xy.q.Class49.bx, com.xy.q.Class49.bv, var16, var10010);
-         var4[var2] = var10002;
+         this.ly[var2] = new com.xy.i.Class4("sc/e/38.png", 2, 120 + var2, com.xy.q.Class49.bx, com.xy.q.Class49.bv, var16, this);
          this.ly[var2].setOffsetTexts(com.xy.q.Class49.d);
          this.ly[var2].setBounds(214 + 82 * var2, 25, 79, 33);
          this.add(this.ly[var2++]);
@@ -421,7 +387,6 @@ public class Class38 extends com.xy.q.Class30 {
 
       this.bd = com.xy.q.Class1.k(46, 31, 155, 21, Color.white, com.xy.q.Class49.ch);
       this.bd.setHorizontalAlignment(0);
-      String var10005 = "伽佬刳蠰";
       this.bd.setText("伙伴列表");
       this.add(this.bd);
       this.qe = new Class21(this);
