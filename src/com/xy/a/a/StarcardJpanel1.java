@@ -350,10 +350,10 @@ extends com.xy.q.IiiiIiiiiIiIi {
                 this.iIIiIiiiiiiIi[IiiiiiiiIIIII2].setBounds(64, 282, 309, 105);
             } else if (IiiiiiiiIIIII2 == 1) {
                 this.iIIiIiiiiiiIi[IiiiiiiiIIIII2].setBounds(129 + (IiiiiiiiIIIII2 - 1) * 107, 64, 18, 18);
-                this.iIIiIiiiiiiIi[IiiiiiiiIIIII2].addMouseListener((MouseListener)new IIIiiiiiIiIiI(this));
+                this.iIIiIiiiiiiIi[IiiiiiiiIIIII2].addMouseListener((MouseListener)new StarcardListener2(this));
             } else if (IiiiiiiiIIIII2 == 2) {
                 this.iIIiIiiiiiiIi[IiiiiiiiIIIII2].setBounds(129 + (IiiiiiiiIIIII2 - 1) * 107, 64, 18, 18);
-                this.iIIiIiiiiiiIi[IiiiiiiiIIIII2].addMouseListener((MouseListener)new IiiiIiiiiIiIi(this));
+                this.iIIiIiiiiiiIi[IiiiiiiiIIIII2].addMouseListener((MouseListener)new StarcardListener1(this));
             } else if (IiiiiiiiIIIII2 == 3) {
                 this.iIIiIiiiiiiIi[IiiiiiiiIIIII2].ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/33.png", (int)30, (int)30, (int)30, (int)30, (boolean)false));
                 this.iIIiIiiiiiiIi[IiiiiiiiIIIII2].setBounds(87, 58, 287, 196);
