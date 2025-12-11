@@ -40,14 +40,11 @@ public class Class22 extends com.xy.q.Class30 {
          if (var1 == 213) {
             Goodstable var9;
             if ((var9 = var2.au(107L)) == null || Class58.all(this.tl) > var9.getUsetime().intValue()) {
-               String var13 = "沎朣趜夵皫灟公晜";
                this.afx._do("没有足够的灵元晶");
                return;
             }
 
-            String var15 = "\u001b*\u001c2";
             StringBuilder var12 = new StringBuilder("SHTP").append(var3.getId());
-            String var14 = "V";
             String var5 = Agreement.getSendTextAES("usermount", var12.append("|").append(var9.getRgid()).toString());
             this.afx.getClient().k(var5);
          }
@@ -55,15 +52,11 @@ public class Class22 extends com.xy.q.Class30 {
          long var4 = var3.getExpTotal();
          long var6 = var1 == 211 ? Class11.ih(this.tm).ee() : var4 - var3.getExp();
          if (var6 <= 0L) {
-            String var11 = "揿卭俁丐炖敚丢胗丕\u001a";
             this.afx._do("提升修为点数不能为0");
          } else if (var2.getMoney(Class11.ii(this.tm)) < var6 * Class11.ik(this.tm)) {
-            String var10 = "醙铓久跑";
             this.afx._do("金钱不足");
          } else {
-            String var10003 = "|bwf";
             StringBuilder var10001 = new StringBuilder("SHXL").append(var3.getId());
-            String var10002 = "\u001e";
             String var8 = Agreement.getSendTextAES("usermount", var10001.append("|").append(var6).toString());
             this.afx.getClient().k(var8);
          }
@@ -77,7 +70,6 @@ public class Class22 extends com.xy.q.Class30 {
       this.bx[1].setText(String.valueOf(var2.getLvl()));
       com.xy.q.Class14 var10000 = this.bx[2];
       StringBuilder var10001 = new StringBuilder(String.valueOf(var2.getExp()));
-      String var10002 = "M";
       var10000.setText(String.valueOf(var10001.append("/").append(var3).toString()));
       if (var2.getExp() < var3) {
          this.tm.ig(var2);
@@ -97,9 +89,7 @@ public class Class22 extends com.xy.q.Class30 {
    public Class22(GameView var1) {
       super(174, 2, com.xy.q.Class30.afz, var1);
       this.yy(-1, 0, 342, 386, com.xy.q.Class30.agh);
-      com.xy.w.Class9 var11 = com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false);
-      String var10005 = "掘匥寀拆七勹";
-      this.yu(var11, "提升守护之力");
+      this.yu(com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false), "提升守护之力");
       this.wp(new com.xy.v.Class32(14, 0, 0, 44));
       this.au = new JLabel[4];
 
@@ -109,13 +99,10 @@ public class Class22 extends com.xy.q.Class30 {
          JLabel var4 = this.au[var2];
          String var6;
          if (var2 == 0) {
-            var6 = "宧抎乤励";
             var6 = "守护之力";
          } else if (var2 == 1) {
-            var6 = "笁绅";
             var6 = "等级";
          } else if (var2 == 2) {
-            var6 = "俄丕炓";
             var6 = "修为点";
          } else {
             var6 = "";
