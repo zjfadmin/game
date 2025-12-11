@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.xy.a.v.iiIiIiiiiIiIi
+ *  com.xy.a.v.BWDHJpanel2
  *  com.xy.a.v.iiiIiiiiIiiiI
  *  com.xy.q.IiIIIiiiiIIiI
  *  com.xy.q.iIiIIiiiIiiiI
@@ -34,14 +34,14 @@ import javax.swing.table.TableCellRenderer;
 /*
  * Exception performing whole class analysis ignored.
  */
-static class IiIiIiiiiiIiI
+static class BWDHJpanel9
 extends iIiIIiiiIiiiI {
-    final /* synthetic */ iiIiIiiiiIiIi IiIIIiiiiIiiI;
+    final /* synthetic */ BWDHJpanel2 IiIIIiiiiIiiI;
     private Vector<Vector<Object>> iiIiiiiiiiIii;
     private JScrollPane IiiiiiiiIIIII;
     private JTable ALLATORIxDEMO;
 
-    public IiIiIiiiiiIiI(iiIiIiiiiIiIi iiIiIiiiiIiIi2) {
+    public BWDHJpanel9(BWDHJpanel2 iiIiIiiiiIiIi2) {
         this.IiIIIiiiiIiiI = iiIiIiiiiIiIi2;
         Vector<String> IiiiiiiiIIIII = new Vector<String>();
         IiiiiiiiIIIII.addElement("排名");

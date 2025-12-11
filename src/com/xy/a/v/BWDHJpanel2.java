@@ -3,7 +3,7 @@
  * 
  * Could not load the following classes:
  *  com.xy.a.v.IiIIIiiiIIiII
- *  com.xy.a.v.IiIiIiiiiiIiI
+ *  com.xy.a.v.BWDHJpanel9
  *  com.xy.a.v.BWDHJpanel8
  *  com.xy.a.v.BWDHJpanel1
  *  com.xy.q.IiiiIiiiiIiIi
@@ -40,7 +40,7 @@ import java.awt.Component;
 public class BWDHJpanel2
 extends IiiiIiiiiIiIi {
     private long iiiIiiiiiiiIi;
-    private IiIiIiiiiiIiI iIiiIiiiiiiII;
+    private BWDHJpanel9 iIiiIiiiiiiII;
     private BWDHJpanel8 IIiiIiiiIIiIi;
     private IIIiiiiiIiIiI[] iIiIiiiiIiIii;
     private IIIiiiiiIiIiI IiIIIiiiiIiiI;
