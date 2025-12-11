@@ -89,8 +89,8 @@ extends IiiiIiiiiIiIi {
         int IiiiiiiiIIIII3 = IiiiIiiiiIIII.iIiIiiiiIIiii((int)IiiiiiiiIIIII2.getGrade());
         int IiiiiiiiIIIII4 = IiiiIiiiiIIII.ALLATORIxDEMO((int)IiiiiiiiIIIII2.getGrade());
         this.iiIiiiiiiiIii.iIiIiiiiIIiii(IIiIiiiiIiiIi.iiiIiiiiiiIIi((String)IiiiiiiiIIIII2.getSpecies_id().toString()));
-        this.iIiiIiiiiiiII[6].setText(String.valueOf(IiiiIiiiiIIII.iIiIiiiiIIiii((int)IiiiiiiiIIIII2.getGrade())) + "\u7ea7");
-        this.IiiiiiiiIIIII[0].setText(String.valueOf(IiiiiiiiIIIII2.getRace_name()) + "\u00b7" + IiiiiiiiIIIII2.getLocalname());
+        this.iIiiIiiiiiiII[6].setText(String.valueOf(IiiiIiiiiIIII.iIiIiiiiIIiii((int)IiiiiiiiIIIII2.getGrade())) + "级");
+        this.IiiiiiiiIIIII[0].setText(String.valueOf(IiiiiiiiIIIII2.getRace_name()) + "·" + IiiiiiiiIIIII2.getLocalname());
         this.iIiiIiiiiiiII[2].setText(IiiiiiiiIIIII2.getGangname());
         this.iIiiIiiiiiiII[5].setText(IiiiiiiiIIIII2.getTitle());
         this.iIiiIiiiiiiII[0].setText(IiiiiiiiIIIII2.getRolename());
@@ -151,7 +151,7 @@ extends IiiiIiiiiIiIi {
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.IiiiiiiiIIIII.length) {
             this.IiiiiiiiIIIII[IiiiiiiiIIIII] = IiIIIiiiiIIiI.ALLATORIxDEMO((int)40, (int)146, (int)130, (int)18, (int)0, (Color)Color.black, (Font)iiIIiiiiIiiII.iiiiIiiiIiiII);
-            this.IiiiiiiiIIIII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "学习交流·自学" : (IiiiiiiiIIIII == 1 ? "帮派" : (IiiiiiiiIIIII == 2 ? "声望" : (IiiiiiiiIIIII == 3 ? "战绩" : (IiiiiiiiIIIII == 4 ? "等级" : (IiiiiiiiIIIII == 5 ? "气血" : (IiiiiiiiIIIII == 6 ? "法力" : (IiiiiiiiIIIII == 7 ? "攻击" : (IiiiiiiiIIIII == 8 ? "速度" : (IiiiiiiiIIIII == 9 ? "经验" : (IiiiiiiiIIIII == 10 ? "可分配点" : (IiiiiiiiIIIII == 11 ? "根骨" : (IiiiiiiiIIIII == 12 ? "灵性" : (IiiiiiiiIIIII == 13 ? "力量" : (IiiiiiiiIIIII == 14 ? "敏捷" : (IiiiiiiiIIIII == 15 ? "禅定" : (IiiiiiiiIIIII == 16 ? "定力" : "")))))))))))))));
+            this.IiiiiiiiIIIII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "\u5b66\u4e60\u4ea4\u6d41\u00b7\u81ea\u5b66" : (IiiiiiiiIIIII == 1 ? "\u547c\u4e09" : (IiiiiiiiIIIII == 2 ? "\u58f1\u8c01" : (IiiiiiiiIIIII == 3 ? "\u6218\u7ee9" : (IiiiiiiiIIIII == 4 ? "\u7b49\u7ea7" : (IiiiiiiiIIIII == 5 ? "\u6c17\u8840" : (IiiiiiiiIIIII == 6 ? "\u6cd5\u5e9c" : (IiiiiiiiIIIII == 7 ? "\u653b\u51fb" : (IiiiiiiiIIIII == 8 ? "\u901f\u5ea6" : (IiiiiiiiIIIII == 9 ? "\u7ecf\u9a8c" : (IiiiiiiiIIIII == 10 ? "\u53ef\u5206\u914d\u70b9" : (IiiiiiiiIIIII == 11 ? "\u6839\u9aa4" : (IiiiiiiiIIIII == 12 ? "\u9c7c\u6027" : (IiiiiiiiIIIII == 13 ? "\u529b\u91cf" : (IiiiiiiiIIIII == 14 ? "\u660e\u6298" : (IiiiiiiiIIIII == 15 ? "\u79cb\u5b9a" : (IiiiiiiiIIIII == 16 ? "\u5b9a\u529b" : "")))))))))))))));
             if (IiiiiiiiIIIII >= 1 && IiiiiiiiIIIII <= 3) {
                 this.IiiiiiiiIIIII[IiiiiiiiIIIII].setBounds(167, 80 + (IiiiiiiiIIIII - 1) * 24, 40, 19);
             } else if (IiiiiiiiIIIII >= 4 && IiiiiiiiIIIII <= 9) {
