@@ -88,16 +88,16 @@ extends IIiiIiiiiIIiI {
         }
         int IiiiiiiiIIIII2 = IiiiIiiiiIIII.ALLATORIxDEMO((int)IiiiiiiiIIIII.getGrade());
         if (IiiiiiiiIIIII2 >= 200) {
-            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u5df2\u8fbe\u5230\u7b49\u7ea7\u4e0a\u9650");
+            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("已达到等级上限");
             return;
         }
         int IiiiiiiiIIIII3 = IiiiIiiiiIIII.iIiIiiiiIIiIi((int)IiiiiiiiIIIII2);
         if (IiiiiiiiIIIII3 > IiiiiiiiIIIII.getXiuwei()) {
-            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4e0d\u591f\u4fee\u4e3a\u70b9\u5347\u7ea7");
+            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("不够修为点升级");
             return;
         }
         ++IiiiiiiiIIIII2;
-        this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u5347\u7ea7\u6210\u529f");
+        this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("升级成功");
         IiiiiiiiIIIII.setXiuwei(Integer.valueOf(IiiiiiiiIIIII.getXiuwei() - IiiiiiiiIIIII3));
         String IiiiiiiiIIIII4 = Agreement.getSendTextAES((String)"rolechange", (String)"4");
         this.form.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII4);
@@ -143,12 +143,12 @@ extends IIiiIiiiiIIiI {
             RoleProperty IiiiiiiiIIIII2 = IiiiiiiiIIIII.getRoleProperty();
             LoginResult IiiiiiiiIIIII3 = IiiiiiiiIIIII.getLoginResult();
             iIiIIiiiIiiiI IiiiiiiiIIIII4 = (iIiIIiiiIiiiI)this.form;
-            IiiiiiiiIIIII3.setBone(Integer.valueOf(IiiiiiiiIIIII4.ALLATORIxDEMO(0) - (int)IiiiiiiiIIIII2.getValue("\u6839\u9aa8")));
-            IiiiiiiiIIIII3.setSpir(Integer.valueOf(IiiiiiiiIIIII4.ALLATORIxDEMO(1) - (int)IiiiiiiiIIIII2.getValue("\u7075\u6027")));
-            IiiiiiiiIIIII3.setPower(Integer.valueOf(IiiiiiiiIIIII4.ALLATORIxDEMO(2) - (int)IiiiiiiiIIIII2.getValue("\u529b\u91cf")));
-            IiiiiiiiIIIII3.setSpeed(Integer.valueOf(IiiiiiiiIIIII4.ALLATORIxDEMO(3) - (int)IiiiiiiiIIIII2.getValue("\u654f\u6377")));
+            IiiiiiiiIIIII3.setBone(Integer.valueOf(IiiiiiiiIIIII4.ALLATORIxDEMO(0) - (int)IiiiiiiiIIIII2.getValue("根骨")));
+            IiiiiiiiIIIII3.setSpir(Integer.valueOf(IiiiiiiiIIIII4.ALLATORIxDEMO(1) - (int)IiiiiiiiIIIII2.getValue("灵性")));
+            IiiiiiiiIIIII3.setPower(Integer.valueOf(IiiiiiiiIIIII4.ALLATORIxDEMO(2) - (int)IiiiiiiiIIIII2.getValue("力量")));
+            IiiiiiiiIIIII3.setSpeed(Integer.valueOf(IiiiiiiiIIIII4.ALLATORIxDEMO(3) - (int)IiiiiiiiIIIII2.getValue("敏捷")));
             if (IiiiiiiiIIIII3.getTurnAround() >= 4) {
-                IiiiiiiiIIIII3.setCalm(Integer.valueOf(IiiiiiiiIIIII4.ALLATORIxDEMO(4) - (int)IiiiiiiiIIIII2.getValue("\u5b9a\u529b")));
+                IiiiiiiiIIIII3.setCalm(Integer.valueOf(IiiiiiiiIIIII4.ALLATORIxDEMO(4) - (int)IiiiiiiiIIIII2.getValue("定力")));
             }
             String IiiiiiiiIIIII5 = Agreement.getSendTextAES((String)"rolechange", (String)("D" + IiiiiiiiIIIII3.getBone() + "=" + IiiiiiiiIIIII3.getSpir() + "=" + IiiiiiiiIIIII3.getPower() + "=" + IiiiiiiiIIIII3.getSpeed() + "=" + IiiiiiiiIIIII3.getCalm()));
             this.form.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII5);
@@ -279,7 +279,7 @@ extends IIiiIiiiiIIiI {
         if (this.ALLATORIxDEMO == 307 || this.ALLATORIxDEMO == 308) {
             iiIiIiiiiIiii IiiiiiiiIIIII = (iiIiIiiiiIiii)this.form;
             if (IiiiiiiiIIIII.iIiIiiiiIIiii()) {
-                this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4f60\u9700\u8981\u6d17\u70b9\u540e\u624d\u80fd\u5207\u6362\u5929\u6f14\u7b56");
+                this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("你需要洗点后才能切换天演策");
                 return;
             }
             int IiiiiiiiIIIII11 = IiiiiiiiIIIII.iiiIiiiiiiIIi();
@@ -358,7 +358,7 @@ extends IIiiIiiiiIIiI {
         iIiIIiiiIiiiI IiiiiiiiIIIII2 = (iIiIIiiiIiiiI)this.form;
         value = this.ALLATORIxDEMO(this.ALLATORIxDEMO(IiiiiiiiIIIII, null), IiiiiiiiIIIII2.ALLATORIxDEMO(IiiiiiiiIIIII), IiiiiiiiIIIII2.ALLATORIxDEMO(5), value);
         if (value == 0) {
-            this.form.ALLATORIxDEMO().iIiIiiiiIIiii("\u5df2\u65e0\u6cd5\u6539\u53d8\u70b9\u6570");
+            this.form.ALLATORIxDEMO().iIiIiiiiIIiii("已无法改变点数");
             return;
         }
         IiiiiiiiIIIII2.ALLATORIxDEMO(IiiiiiiiIIIII, value);
@@ -445,14 +445,14 @@ extends IIiiIiiiiIIiI {
         }
         int IiiiiiiiIIIII3 = IiiiiiiiIIIII2.getExtraPointInt("F") + 1;
         if (IiiiiiiiIIIII3 > IiiiiiiiIIIII2.getXiuwei()) {
-            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4fee\u4e3a\u70b9\u4e0d\u591f\u5151\u6362");
+            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("修为点不够兑换");
             return;
         }
         if (IiiiiiiiIIIII3 >= 41) {
-            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u5c5e\u6027\u70b9\u5151\u6362\u8fbe\u5230\u4e0a\u9650");
+            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("属性点兑换达到上限");
             return;
         }
-        this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u5151\u6362\u4e86\u4e00\u70b9\u5c5e\u6027\u70b9");
+        this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("兑换了一点属性点");
         IiiiiiiiIIIII2.setXiuwei(Integer.valueOf(IiiiiiiiIIIII2.getXiuwei() - IiiiiiiiIIIII3));
         IiiiiiiiIIIII2.setExtraPoint("F", 1);
         String IiiiiiiiIIIII4 = Agreement.getSendTextAES((String)"rolechange", (String)"5");
@@ -482,7 +482,7 @@ extends IIiiIiiiiIIiI {
         com.xy.a.a.iiIiIiiiiIiii IiiiiiiiIIIII3 = (com.xy.a.a.iiIiIiiiiIiii)this.form;
         value = this.ALLATORIxDEMO(this.ALLATORIxDEMO(IiiiiiiiIIIII2, IiiiiiiiIIIII), IiiiiiiiIIIII3.ALLATORIxDEMO(IiiiiiiiIIIII2), IiiiiiiiIIIII3.ALLATORIxDEMO(5), value);
         if (value == 0) {
-            this.form.ALLATORIxDEMO().iIiIiiiiIIiii("\u5df2\u65e0\u6cd5\u6539\u53d8\u70b9\u6570");
+            this.form.ALLATORIxDEMO().iIiIiiiiIIiii("已无法改变点数");
             return;
         }
         IiiiiiiiIIIII3.ALLATORIxDEMO(IiiiiiiiIIIII2, value);
@@ -494,7 +494,7 @@ extends IIiiIiiiiIIiI {
             if (this.ALLATORIxDEMO < 200) return;
             if (this.ALLATORIxDEMO > 209) return;
         }
-        ((iiIiiiiiIIiiI)this.form.ALLATORIxDEMO().iiiIiiiiiiIIi(46)).IiiIiiiiiiIiI("\u6309Shift\u952e\u52a040\u70b9");
+        ((iiIiiiiiIIiiI)this.form.ALLATORIxDEMO().iiiIiiiiiiIIi(46)).IiiIiiiiiiIiI("按Shift键加40点");
     }
 
     public void iiiIiiiiiiIIi() {
@@ -504,19 +504,19 @@ extends IIiiIiiiiIIiI {
         }
         long IiiiiiiiIIIII2 = IiiiiiiiIIIII.getExperience().longValue();
         if (IiiiiiiiIIIII2 < 1000000000L) {
-            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u5f53\u524d\u7ecf\u9a8c\u4e0d\u8db310E");
+            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("当前经验不足10E");
             return;
         }
         int IiiiiiiiIIIII3 = IiiiIiiiiIIII.iiiIiiiiiiIIi((int)IiiiIiiiiIIII.ALLATORIxDEMO((int)IiiiiiiiIIIII.getGrade()));
         if (IiiiiiiiIIIII.getXiuwei() >= IiiiiiiiIIIII3) {
-            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4fee\u4e3a\u70b9\u4ee5\u8fbe\u5230\u4e0a\u9650,\u65e0\u6cd5\u7ee7\u7eed\u8f6c\u6362");
+            this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("修为点以达到上限,无法继续转换");
             return;
         }
         IiiiiiiiIIIII.setExperience(new BigDecimal(IiiiiiiiIIIII2 -= 1000000000L));
         IiiiiiiiIIIII.setXiuwei(Integer.valueOf(IiiiiiiiIIIII.getXiuwei() + 1));
         String IiiiiiiiIIIII4 = Agreement.getSendTextAES((String)"rolechange", (String)"3");
         this.form.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII4);
-        this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u4fee\u4e3a\u503c\u52a01");
+        this.form.iiIIiiiiIiIIi.iiiIiiiiiiIIi("修为值加1");
         ((com.xy.a.w.IIiiIiiiiIIiI)this.form).iiiIiiiiiiIIi();
         this.form.iiIIiiiiIiIIi.baseView.IIiIIiiiIiIIi();
     }
