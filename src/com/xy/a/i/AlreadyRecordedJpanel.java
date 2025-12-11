@@ -71,7 +71,7 @@ import javax.swing.event.ListSelectionListener;
 /*
  * Duplicate member names - consider using --renamedupmembers true
  */
-public class IiIiIiiiiiIiI
+public class AlreadyRecordedJpanel
 extends IiiiIiiiiIiIi {
     private DefaultListModel<String> iiiiIiiiIIiii;
     private JScrollPane iIIiIiiiiiiIi;
@@ -89,7 +89,7 @@ extends IiiiIiiiiIiIi {
     private JLabel[] IiiiiiiiIIIII;
     public int ALLATORIxDEMO;
 
-    public IiIiIiiiiiIiI(GameView gameView) {
+    public AlreadyRecordedJpanel(GameView gameView) {
         super(65, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 552, 441, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "已有符录");
