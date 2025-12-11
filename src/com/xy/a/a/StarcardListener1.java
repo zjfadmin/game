@@ -18,7 +18,7 @@ implements MouseListener {
     final /* synthetic */ StarcardJpanel1 ALLATORIxDEMO;
 
     StarcardListener1(StarcardJpanel1 starcardJpanel1) {
-        this.ALLATORIxDEMO = iIiIIiiiIiiiI2;
+        this.ALLATORIxDEMO = starcardJpanel1;
     }
 
     @Override
