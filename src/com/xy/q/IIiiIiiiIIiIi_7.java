@@ -2,7 +2,7 @@
 package com.xy.q;
 
 import com.xy.a.IIIIIiiiIIIiI;
-import com.xy.a.IIIIIiiiIiiII;
+import com.xy.a.TesttaskJpanel;
 import com.xy.a.IIIIIiiiiiiii;
 import com.xy.a.IIIIiiiiiIiII;
 import com.xy.a.IIIiIiiiIiIii;
@@ -203,7 +203,7 @@ public class IIiiIiiiIIiIi {
                 return IiiiiiiiIIIII;
             }
             case 3: {
-                IiiiiiiiIIIII = new IIIIIiiiIiiII(this.IiIIIiiiiIiiI);
+                IiiiiiiiIIIII = new TesttaskJpanel(this.IiIIIiiiiIiiI);
                 return IiiiiiiiIIIII;
             }
             case 4: {

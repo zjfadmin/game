@@ -69,7 +69,7 @@ import javax.swing.tree.TreeCellRenderer;
 /*
  * Duplicate member names - consider using --renamedupmembers true
  */
-public class IIIIIiiiIiiII
+public class TesttaskJpanel
 extends IiiiIiiiiIiIi {
     private RichLabel IiIiiiiiIIIII;
     private IIIiiiiiIiIiI[] iiIiIiiiiIIIi;
@@ -83,7 +83,7 @@ extends IiiiIiiiiIiIi {
     private JTree IiiiiiiiIIIII;
     private DefaultMutableTreeNode ALLATORIxDEMO;
 
-    public IIIIIiiiIiiII(GameView gameView) {
+    public TesttaskJpanel(GameView gameView) {
         super(3, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 582, 415, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(com.xy.w.IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u4efb\u52a1\u680f");

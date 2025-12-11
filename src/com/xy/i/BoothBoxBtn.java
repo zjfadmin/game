@@ -45,24 +45,24 @@ import java.awt.Font;
 import java.awt.event.MouseEvent;
 import java.math.BigDecimal;
 
-public class IIiIiiiiIIiii
+public class BoothBoxBtn
 extends IIiiIiiiiIIiI {
     private int ALLATORIxDEMO;
 
-    public IIiIiiiiIIiii(String path, int type, int id, String text, IiiiIiiiiIiIi form) {
+    public BoothBoxBtn(String path, int type, int id, String text, IiiiIiiiiIiIi form) {
         this(path, type, id, null, null, text, form);
     }
 
     public void ALLATORIxDEMO(MouseEvent e, boolean isChoice) {
     }
 
-    public IIiIiiiiIIiii(String path, int type, int id, IiiiIiiiiIiIi form) {
+    public BoothBoxBtn(String path, int type, int id, IiiiIiiiiIiIi form) {
         super(path, type, form);
         this.ALLATORIxDEMO = id;
         this.form = form;
     }
 
-    public IIiIiiiiIIiii(String path, int type, int id, Font font, Color[] colors, String text, IiiiIiiiiIiIi form) {
+    public BoothBoxBtn(String path, int type, int id, Font font, Color[] colors, String text, IiiiIiiiiIiIi form) {
         super(path, type, colors, form);
         this.ALLATORIxDEMO = id;
         if (font != null) {
