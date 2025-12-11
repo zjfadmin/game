@@ -122,10 +122,10 @@ extends com.xy.q.IiiiIiiiiIiIi {
             StringBuffer IiiiiiiiIIIII3 = new StringBuffer();
             if (IiiiiiiiIIIII2 > 0) {
                 IiiiiiiiIIIII3.append(IiiiiiiiIIIII2);
-                IiiiiiiiIIIII3.append("\u5c81");
+                IiiiiiiiIIIII3.append("岁");
             }
             IiiiiiiiIIIII3.append(IiiiiiiiIIIII);
-            IiiiiiiiIIIII3.append("\u6708");
+            IiiiiiiiIIIII3.append("月");
             this.iIiiIiiiiiiII.setText(IiiiiiiiIIIII3.toString());
         } else {
             this.iIiiIiiiiiiII.setText(outcome);
@@ -209,9 +209,9 @@ extends com.xy.q.IiiiIiiiiIiIi {
                     }
                 }
                 if ((IiiiiiiiIIIII = IiiiiiiiIIIII.getLoginResult().getBabyId()) == null || IiiiiiiiIIIII.compareTo(IiiiiiiiIIIII.getBabyid()) != 0) {
-                    IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[2].setText("\u53c2\u6218");
+                    IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[2].setText("参战");
                 } else {
-                    IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[2].setText("\u5f85\u673a");
+                    IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[2].setText("待机");
                 }
                 IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii).setText(IiiiiiiiIIIII.getBabyname());
                 if (!this.ALLATORIxDEMO().gameBaby) break block17;
@@ -225,16 +225,16 @@ extends com.xy.q.IiiiIiiiiIiIi {
                 if (true) ** GOTO lbl64
             }
             IiiiiiiiIIIII = BaseValue.getProperty((Baby)IiiiiiiiIIIII, (BigDecimal[])IiiiiiiiIIIII, (RoleData)IiiiiiiiIIIII);
-            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[0].setText(((Integer)IiiiiiiiIIIII.get("\u6c14\u8d28")).toString());
-            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[1].setText(((Integer)IiiiiiiiIIIII.get("\u5185\u529b")).toString());
-            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[2].setText(((Integer)IiiiiiiiIIIII.get("\u667a\u529b")).toString());
-            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[3].setText(((Integer)IiiiiiiiIIIII.get("\u8010\u529b")).toString());
-            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[4].setText(((Integer)IiiiiiiiIIIII.get("\u540d\u6c14")).toString());
-            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[5].setText(((Integer)IiiiiiiiIIIII.get("\u9053\u5fb7")).toString());
-            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[6].setText(((Integer)IiiiiiiiIIIII.get("\u53db\u9006")).toString());
-            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[7].setText(((Integer)IiiiiiiiIIIII.get("\u73a9\u6027")).toString());
+            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[0].setText(((Integer)IiiiiiiiIIIII.get("气质")).toString());
+            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[1].setText(((Integer)IiiiiiiiIIIII.get("内力")).toString());
+            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[2].setText(((Integer)IiiiiiiiIIIII.get("智力")).toString());
+            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[3].setText(((Integer)IiiiiiiiIIIII.get("耐力")).toString());
+            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[4].setText(((Integer)IiiiiiiiIIIII.get("名气")).toString());
+            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[5].setText(((Integer)IiiiiiiiIIIII.get("道德")).toString());
+            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[6].setText(((Integer)IiiiiiiiIIIII.get("叛逆")).toString());
+            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[7].setText(((Integer)IiiiiiiiIIIII.get("玩性")).toString());
             IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[8].setText(IiiiiiiiIIIII.getQingmi().toString());
-            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[9].setText(((Integer)IiiiiiiiIIIII.get("\u5b5d\u5fc3")).toString());
+            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[9].setText(((Integer)IiiiiiiiIIIII.get("孝心")).toString());
             IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[10].setText(IiiiiiiiIIIII.getWenbao().toString());
             IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[11].setText(IiiiiiiiIIIII.getPilao().toString());
             IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[12].setText(IiiiiiiiIIIII.getYangyujin().toString());
@@ -273,7 +273,7 @@ lbl64:
                 }
                 ++IiiiiiiiIIIII;
             }
-            this.ALLATORIxDEMO.setTextSize("#Z#W\u8bc4\u5206:#G" + (int)IiiiiiiiIIIII + "#W(" + (int)IiiiiiiiIIIII + ")", 200);
+            this.ALLATORIxDEMO.setTextSize("#Z#W评分:#G" + (int)IiiiiiiiIIIII + "#W(" + (int)IiiiiiiiIIIII + ")", 200);
             this.ALLATORIxDEMO.setBounds(110 + (200 - this.ALLATORIxDEMO.getWidth()) / 2, 55, this.ALLATORIxDEMO.getWidth(), this.ALLATORIxDEMO.getHeight());
             IIiIiiiiIiIII.ALLATORIxDEMO((Map)IiiiiiiiIIIII);
         }
@@ -305,12 +305,12 @@ lbl64:
         }
         String IiiiiiiiIIIII3 = IiiiiiiiIIIII2.getOutcome();
         if (IiiiiiiiIIIII3 == null || IiiiiiiiIIIII3.equals("")) {
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u6210\u5e74\u540e\u624d\u80fd\u5f3a\u5316\u6280\u80fd");
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("成年后才能强化技能");
             return;
         }
         Goodstable IiiiiiiiIIIII4 = IiiiiiiiIIIII.ALLATORIxDEMO(new BigDecimal(615));
         if (IiiiiiiiIIIII4 == null) {
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u4f60\u80cc\u5305\u6ca1\u6709\u743c\u6d46\u7389\u6db2");
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("你背包没有琼浆玉液");
             return;
         }
         int IiiiiiiiIIIII5 = -1;
@@ -332,11 +332,11 @@ lbl64:
     public iIIIiiiiIiiII(GameView gameView) {
         super(1, 2, com.xy.q.IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-2, 0, 582, 375, com.xy.q.IiiiIiiiiIiIi.iiIIIiiiiiiiI);
-        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u517b\u80b2");
+        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "养育");
         this.IiIIIiiiiIiiI = new IiIiIiiiiIIiI[2];
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.IiIIIiiiiIiiI.length) {
-            this.IiIIIiiiiIiiI[IiiiiiiiIIIII] = new IiIiIiiiiIIiI("sc/e/39.png", 2, 1 + IiiiiiiiIIIII, iiIIiiiiIiiII.IIiiIiiiIIiIi, null, IiiiiiiiIIIII == 0 ? "\u5c5e\u6027" : (IiiiiiiiIIIII == 1 ? "\u5929\u8d44" : ""), (com.xy.q.IiiiIiiiiIiIi)this);
+            this.IiIIIiiiiIiiI[IiiiiiiiIIIII] = new IiIiIiiiiIIiI("sc/e/39.png", 2, 1 + IiiiiiiiIIIII, iiIIiiiiIiiII.IIiiIiiiIIiIi, null, IiiiiiiiIIIII == 0 ? "属性" : (IiiiiiiiIIIII == 1 ? "天资" : ""), (com.xy.q.IiiiIiiiiIiIi)this);
             this.IiIIIiiiiIiiI[IiiiiiiiIIIII].setOffsetTexts(iiIIiiiiIiiII.IiIIIiiiiiiiI);
             this.IiIIIiiiiIiiI[IiiiiiiiIIIII].setBounds(323 + 65 * IiiiiiiiIIIII, 36, 63, 24);
             this.add((Component)this.IiIIIiiiiIiiI[IiiiiiiiIIIII++]);
@@ -408,37 +408,37 @@ lbl64:
         if (id == 3) {
             String IiiiiiiiIIIII3 = IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii).getText().trim();
             if (IIiiIiiiiIIiI.iIiIiiiiIIiIi((String)IiiiiiiiIIIII3) || IIiiIiiiiIIiI.ALLATORIxDEMO((String)IiiiiiiiIIIII2.getBabyname(), (String)IiiiiiiiIIIII3)) {
-                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u8bf7\u8f93\u5165\u5b69\u5b50\u7684\u65b0\u540d\u79f0");
+                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("请输入孩子的新名称");
                 return;
             }
             if (IiiiiiiiIIIII3.length() > 9) {
-                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("\u540d\u79f0\u592a\u957f");
+                this.iiIIiiiiIiIIi.iiiIiiiiiiIIi("名称太长");
                 return;
             }
             if (!IiiiIiiiiIiIi.ALLATORIxDEMO((String)IiiiiiiiIIIII3)) {
-                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u4fee\u6539\u540e\u7684\u540d\u5b57\u4e0d\u80fd\u6709\u7279\u6b8a\u7b26\u53f7");
+                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("修改后的名字不能有特殊符号");
                 return;
             }
             if (!IiiiIiiiiIiIi.iIiIiiiiIIiii((String)IiiiiiiiIIIII3)) {
-                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u540d\u79f0\u4e2d\u5305\u542b\u975e\u6cd5\u5b57\u7b26\uff01\uff01");
+                this.iiIIiiiiIiIIi.iIiIiiiiIIiii("名称中包含非法字符！！");
                 return;
             }
             IiiiiiiiIIIII2.setBabyname(IiiiiiiiIIIII3);
             ParamTool.ALLATORIxDEMO((Baby)IiiiiiiiIIIII2, (GameClient)this.ALLATORIxDEMO());
-            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("\u5b69\u5b50\u540d\u79f0\u4fee\u6539\u6210\u529f");
+            this.iiIIiiiiIiIIi.iIiIiiiiIIiii("孩子名称修改成功");
             return;
         }
         if (id != 5) return;
         BigDecimal IiiiiiiiIIIII4 = IiiiiiiiIIIII.getLoginResult().getBabyId();
         if (IiiiiiiiIIIII4 != null && IiiiiiiiIIIII4.compareTo(IiiiiiiiIIIII2.getBabyid()) == 0) {
-            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[2].setText("\u53c2\u6218");
+            IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[2].setText("参战");
             IiiiiiiiIIIII.getLoginResult().setBabyId(null);
             String IiiiiiiiIIIII5 = Agreement.getSendTextAES((String)"rolechange", (String)"B");
             this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII5);
             IiiiiiiiIIIII.getRoleProperty().iIiIiiiiIIiii(null);
             return;
         }
-        IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[2].setText("\u5f85\u673a");
+        IIIIiiiiiIiII.ALLATORIxDEMO((IIIIiiiiiIiII)this.iIiIiiiiIiIii)[2].setText("待机");
         IiiiiiiiIIIII.getLoginResult().setBabyId(IiiiiiiiIIIII2.getBabyid());
         String IiiiiiiiIIIII6 = Agreement.getSendTextAES((String)"rolechange", (String)("B" + IiiiiiiiIIIII2.getBabyid()));
         this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII6);
