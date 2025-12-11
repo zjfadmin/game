@@ -147,7 +147,6 @@ public class Class0 extends com.xy.q.Class30 {
          if ((var3 = var2.getChoseMount()) != null) {
             RoleSummoning var4 = var1 != null ? var2.getPet(var1) : null;
             if (var4 == null) {
-               String var9 = "讣逡抽佈觕箉剢皬厸唌儩Ｉ";
                this.afx._do("请选择你要管制的召唤兽！");
             } else {
                byte var5 = 0;
@@ -168,7 +167,6 @@ public class Class0 extends com.xy.q.Class30 {
                }
 
                if (var10000 == 0) {
-                  String var10001 = "叴唯入丆袳诮坈骚箹刽9";
                   this.afx._do("召唤兽不被该坐骑管制!");
                } else {
                   String var6 = Agreement.getSendTextAES("changemountvalue", com.xy.v.Class31.a().toJson(var3));
@@ -237,15 +235,12 @@ public class Class0 extends com.xy.q.Class30 {
          String var40;
          Class0 var10010;
          if (var2 == 0) {
-            var40 = "一骉";
             var40 = "下骑";
             var10010 = this;
          } else if (var2 == 1) {
-            var40 = "拔胕";
             var40 = "技能";
             var10010 = this;
          } else if (var2 == 2) {
-            var40 = "喉兣";
             var40 = "喂养";
             var10010 = this;
          } else {
@@ -267,34 +262,24 @@ public class Class0 extends com.xy.q.Class30 {
          JLabel var10 = this.c[var2];
          String var16;
          if (var2 == 0) {
-            var16 = "笝纏";
             var16 = "等级";
          } else if (var2 == 1) {
-            var16 = "佘劃";
             var16 = "体力";
          } else if (var2 == 2) {
-            var16 = "瀡怏";
             var16 = "灵性";
          } else if (var2 == 3) {
-            var16 = "劐釗";
             var16 = "力量";
          } else if (var2 == 4) {
-            var16 = "桭骀";
             var16 = "根骨";
          } else if (var2 == 5) {
-            var16 = "组骔";
             var16 = "经验";
          } else if (var2 == 6) {
-            var16 = "篵刞";
             var16 = "管制";
          } else if (var2 == 7) {
-            var16 = "坛骉刜衰";
             var16 = "坐骑列表";
          } else if (var2 == 8) {
-            var16 = "叄啰兕剃血";
             var16 = "召唤兽列表";
          } else if (var2 == 9) {
-            var16 = "箪刮坛骉";
             var16 = "管制坐骑";
          } else {
             var16 = "";
@@ -328,7 +313,6 @@ public class Class0 extends com.xy.q.Class30 {
       }
 
       this.h = new RichLabel("", com.xy.q.Class49.n);
-      String var39 = "\u000b7n\u0012\u0018d\u0018d叛镺\u000b7\u0018d\u0018d\u0018d炑冯刿蠼刯挶箉剢ＤwK\u0012nd\u0018d\u0018厧锆wKd\u0018d\u0018d\u0018热凓奠僧覷陌篵刞";
       this.h.setTextSize("#cFF0000右键#c000000点击列表切换管制，#cFF0000右键#c000000点击头像解除管制", 300);
       this.h.setBounds(358, 259, this.h.getWidth(), this.h.getHeight());
       this.add(this.h);
@@ -336,9 +320,7 @@ public class Class0 extends com.xy.q.Class30 {
 
       for (int var12 = var2 = 0; var12 < this.k.length; var12 = var2) {
          this.k[var2] = com.xy.q.Class1.i(90, 298 + 30 * var2, 168, 19, 10, Color.white, com.xy.q.Class49.w);
-         com.xy.q.Class14 var32 = this.k[var2];
-         String var10003 = "kh7o7:/%he\u007f";
-         var32.mt(com.xy.w.Class16.m("sc/d/17.png", 6, 6, 6, 6, false));
+         this.k[var2].mt(com.xy.w.Class16.m("sc/d/17.png", 6, 6, 6, 6, false));
          this.add(this.k[var2++]);
       }
 
@@ -349,9 +331,7 @@ public class Class0 extends com.xy.q.Class30 {
          label159: {
             this.j[var2] = new com.xy.w.Class18();
             if (var2 == 0 || var2 == 1) {
-               com.xy.w.Class18 var15 = this.j[var2];
-               String var28 = "[7\u00070\u0007f\u001dzX:O";
-               var15.mt(com.xy.w.Class16.m("sc/d/25.png", 2, 2, 2, 2, false));
+               this.j[var2].mt(com.xy.w.Class16.m("sc/d/25.png", 2, 2, 2, 2, false));
                if (var2 == 0) {
                   var14 = this;
                   this.j[var2].setBounds(48, 50, 210, 21);
@@ -364,9 +344,7 @@ public class Class0 extends com.xy.q.Class30 {
                   break label159;
                }
             } else if (var2 >= 2 && var2 <= 4) {
-               com.xy.w.Class18 var27 = this.j[var2];
-               String var36 = "kh7o79,%he\u007f";
-               var27.mt(com.xy.w.Class16.m("sc/d/24.png", 2, 2, 2, 2, false));
+               this.j[var2].mt(com.xy.w.Class16.m("sc/d/24.png", 2, 2, 2, 2, false));
                if (var2 == 2) {
                   var14 = this;
                   this.j[var2].setBounds(48, 50, 210, 242);
@@ -387,17 +365,13 @@ public class Class0 extends com.xy.q.Class30 {
             } else {
                if (var2 == 5) {
                   var14 = this;
-                  com.xy.w.Class18 var35 = this.j[var2];
-                  String var38 = "'K{L{\u0019a\u0018zX:O";
-                  var35.dp("sc/d/150.png");
+                  this.j[var2].dp("sc/d/150.png");
                   this.j[var2].setBounds(585, 133, 30, 56);
                   break label159;
                }
 
                if (var2 == 6) {
-                  com.xy.w.Class18 var26 = this.j[var2];
-                  String var34 = "kh7o78.%he\u007f";
-                  var26.mt(com.xy.w.Class16.m("sc/d/36.png", 30, 30, 30, 30, false));
+                  this.j[var2].mt(com.xy.w.Class16.m("sc/d/36.png", 30, 30, 30, 30, false));
                   this.j[var2].setBounds(269, 50, 446, 453);
                }
             }
@@ -439,12 +413,10 @@ public class Class0 extends com.xy.q.Class30 {
          if ((var3 = var2.getChoseMount()) != null) {
             RoleSummoning var4 = var1 != null ? var2.getPet(var1) : null;
             if (var4 == null) {
-               String var12 = "诼逑拢佸覊箹刽皜叧唼其９";
                this.afx._do("请选择你要管制的召唤兽！");
             } else {
                Mount var5;
                if ((var5 = var2.getPetMount(var4.getSid())) != null && var5.getMountid() == var3.getMountid()) {
-                  String var11 = "叄啰兕嶦袃讱坸髅箉剢\t";
                   this.afx._do("召唤兽已被该坐骑管制!");
                } else if (var3.getSid() == null
                   || var3.getOthrersid() == null
@@ -487,7 +459,6 @@ public class Class0 extends com.xy.q.Class30 {
                   this.f.t();
                   this.c();
                } else {
-                  String var10001 = "诽坛骉箪刮吆卍巹滹";
                   this.afx._do("该坐骑管制名单已满");
                }
             }
