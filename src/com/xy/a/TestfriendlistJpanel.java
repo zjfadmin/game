@@ -83,7 +83,7 @@ extends IiiiIiiiiIiIi {
         this.add((Component)this.IiiiiiiiIIIII);
         this.IiiiiiiiIIIII.ALLATORIxDEMO().removeAllChildren();
         FriendBean IiiiiiiiIIIII2 = new FriendBean();
-        IiiiiiiiIIIII2.setRoleName("\u5927\u8bdd\u7cbe\u7075");
+        IiiiiiiiIIIII2.setRoleName("大话精灵");
         IiiiiiiiIIIII2.setSpeciesId(999999);
         IiiiiiiiIIIII2 = this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII2);
         IIiIiiiiIiiIi IiiiiiiiIIIII3 = new IIiIiiiiIiiIi(IiiiiiiiIIIII2.getRoleName(), (Object)IiiiiiiiIIIII2);
@@ -91,14 +91,14 @@ extends IiiiIiiiiIiIi {
         IiiiiiiiIIIII3.ALLATORIxDEMO(iiIIiiiiIiiII.IIiiIiiiIIiIi);
         IiiiiiiiIIIII3.ALLATORIxDEMO((Icon)new IIiiIiiiIiiiI(com.xy.w.IIIIIiiiIiiII.iiiIiiiiiiIIi((String)com.xy.w.IIiIiiiiIiiIi.iiiIiiiiiiIIi((String)("s" + IiiiiiiiIIIII2.getSpeciesId()))), 28, 28, 2, 2));
         this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode(IiiiiiiiIIIII3));
-        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("\u5728\u7ebf\u597d\u53cb[0]"));
-        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("\u6211\u7684\u597d\u53cb[0/0]"));
-        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("\u5e08\u5f92\u5173\u7cfb[0]"));
-        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("\u7ed3\u4f34\u6c5f\u6e56[0]"));
-        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("\u8de8\u670d\u597d\u53cb[0]"));
-        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("\u79fb\u6c11\u597d\u53cb[0]"));
-        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("\u4e34\u65f6\u597d\u53cb[0]"));
-        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("\u9ed1\u540d\u5355[0]"));
+        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("在线好友[0]"));
+        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("我的好友[0/0]"));
+        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("师徒关系[0]"));
+        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("结伴江湖[0]"));
+        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("跨服好友[0]"));
+        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("移民好友[0]"));
+        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("临时好友[0]"));
+        this.IiiiiiiiIIIII.ALLATORIxDEMO().add(new DefaultMutableTreeNode("黑名单[0]"));
         this.IiiiiiiiIIIII.ALLATORIxDEMO();
     }
 
