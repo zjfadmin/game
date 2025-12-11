@@ -70,9 +70,7 @@ public class Class16 extends com.xy.q.Class30 {
    public Class16(GameView var1) {
       super(6, 2, com.xy.q.Class30.afz, var1);
       this.yy(-2, 0, 397, 495, com.xy.q.Class30.agh);
-      com.xy.w.Class9 var76 = com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false);
-      String var10010 = "句啲兴";
-      this.yu(var76, "召唤兽");
+      this.yu(com.xy.w.Class16.m("sc/d/1.png", 68, 68, 68, 68, false), "召唤兽");
       this.ox = new com.xy.q.Class18(this);
       this.ox.setBounds(0, 0, 150, 20);
       this.cp = com.xy.q.Class1.g(45, 42, 170, 140, this.ox, 20);
@@ -85,55 +83,38 @@ public class Class16 extends com.xy.q.Class30 {
          JLabel var7 = this.ou[var2];
          String var19;
          if (var2 == 0) {
-            var19 = "叛啳兊\u007f\u0001x\u0006o\u001e";
             var19 = "召唤兽(6/18)";
          } else if (var2 == 1) {
-            var19 = "呛秹";
             var19 = "名称";
          } else if (var2 == 2) {
-            var19 = "笞纐";
             var19 = "等级";
          } else if (var2 == 3) {
-            var19 = "徶诓";
             var19 = "忠诚";
          } else if (var2 == 4) {
-            var19 = "以寱";
             var19 = "亲密";
          } else if (var2 == 5) {
-            var19 = "求衉";
             var19 = "气血";
          } else if (var2 == 6) {
-            var19 = "沂劬";
             var19 = "法力";
          } else if (var2 == 7) {
-            var19 = "敭凲";
             var19 = "攻击";
          } else if (var2 == 8) {
-            var19 = "遈庑";
             var19 = "速度";
          } else if (var2 == 9) {
-            var19 = "纙骅";
             var19 = "经验";
          } else if (var2 == 10) {
-            var19 = "厸刱鄚炎";
             var19 = "可分配点";
          } else if (var2 == 11) {
-            var19 = "桯骡";
             var19 = "根骨";
          } else if (var2 == 12) {
-            var19 = "瀢怐";
             var19 = "灵性";
          } else if (var2 == 13) {
-            var19 = "勍釆";
             var19 = "力量";
          } else if (var2 == 14) {
-            var19 = "攘捀";
             var19 = "敏捷";
          } else if (var2 == 15) {
-            var19 = "秓宓";
             var19 = "禅定";
          } else if (var2 == 16) {
-            var19 = "寍劬";
             var19 = "定力";
          } else {
             var19 = "";
@@ -175,40 +156,28 @@ public class Class16 extends com.xy.q.Class30 {
          com.xy.i.Class4 var10 = this.e[var2];
          String var37;
          if (var2 == 5) {
-            var37 = "攰";
             var37 = "改";
          } else if (var2 == 6) {
-            var37 = "敩用";
             var37 = "放生";
          } else if (var2 == 7) {
-            var37 = "騹兲";
             var37 = "驯养";
          } else if (var2 == 8) {
-            var37 = "去唓";
             var37 = "召唤";
          } else if (var2 == 9) {
-            var37 = "厔我";
             var37 = "参战";
          } else if (var2 == 10) {
-            var37 = "爾哶";
             var37 = "物品";
          } else if (var2 == 11) {
-            var37 = "烪妟";
             var37 = "炼妖";
          } else if (var2 == 12) {
-            var37 = "拀怐";
             var37 = "抗性";
          } else if (var2 == 13) {
-            var37 = "拖胴";
             var37 = "技能";
          } else if (var2 == 14) {
-            var37 = "揿荧勷炎";
             var37 = "推荐加点";
          } else if (var2 == 15) {
-            var37 = "砸训勶炰";
             var37 = "确认加点";
          } else if (var2 == 16) {
-            var37 = "瀢犷";
             var37 = "灵犀";
          } else {
             var37 = "";
@@ -503,10 +472,7 @@ public class Class16 extends com.xy.q.Class30 {
    public void cp(int var1, String var2) {
       this.nw.setText(var2);
       this.ov[0].setForeground(Color.white);
-      com.xy.q.Class14 var10002 = this.ov[0];
-      StringBuilder var10003 = new StringBuilder(String.valueOf(com.xy.v.Class4.k(var1)));
-      String var10004 = "纮";
-      var10002.setText(var10003.append("级").toString());
+      this.ov[0].setText(new StringBuilder(String.valueOf(com.xy.v.Class4.k(var1))).append("级").toString());
       this.g(com.xy.v.Class4.c(var1));
    }
 
@@ -585,13 +551,9 @@ public class Class16 extends com.xy.q.Class30 {
          this.afx.baseView.xq(var4, var3);
          BigDecimal var5;
          if ((var5 = var2.getLoginResult().getSummoning_id()) != null && var5.compareTo(var3.getSid()) == 0) {
-            com.xy.i.Class4 var12 = this.e[9];
-            String var16 = "但恘";
-            var12.setText("休息");
+            this.e[9].setText("休息");
          } else {
-            com.xy.i.Class4 var10000 = this.e[9];
-            String var10001 = "厔我";
-            var10000.setText("参战");
+            this.e[9].setText("参战");
          }
 
          int var6;
