@@ -26,10 +26,7 @@ public class Class13 extends JComponent {
       int[] var5 = PetProperty.getPalHMASp(var1, var2, var3);
       this.mv[0].setText(var2.getName());
       this.mv[1].setText(var2.getTrait());
-      com.xy.q.Class14 var10001 = this.mv[2];
-      StringBuilder var10002 = new StringBuilder(String.valueOf(var4));
-      String var10003 = "续";
-      var10001.setText(var10002.append("级").toString());
+      this.mv[2].setText(new StringBuilder(String.valueOf(var4)).append("级").toString());
       this.mv[3].setForeground(BaseValue.getPalLvlColor(var1 == null ? 0.0 : var1.getGrow()));
       this.mv[3].setText(BaseValue.getPalLvl(var1 == null ? 0.0 : var1.getGrow()));
       this.mv[4].setText(String.valueOf(var5[0]));
@@ -81,16 +78,13 @@ public class Class13 extends JComponent {
       int var2;
       for (int var10000 = var2 = 0; var10000 < this.ly.length; var10000 = var2) {
          com.xy.i.Class4[] var5 = this.ly;
-         String var10004 = "6Zj\\j\u000ekI+^";
          int var10006 = 123 + var2;
          String var23;
          Class38 var10010;
          if (var2 == 0) {
-            var23 = "谇放";
             var23 = "调整";
             var10010 = var1;
          } else if (var2 == 1) {
-            var23 = "拒怞";
             var23 = "抗性";
             var10010 = var1;
          } else {
@@ -119,28 +113,20 @@ public class Class13 extends JComponent {
          JLabel var8 = this.o[var2];
          String var10;
          if (var2 == 0) {
-            var10 = "吉嬝";
             var10 = "名字";
          } else if (var2 == 1) {
-            var10 = "閭洇";
             var10 = "门派";
          } else if (var2 == 2) {
-            var10 = "筍续";
             var10 = "等级";
          } else if (var2 == 3) {
-            var10 = "贁贑";
             var10 = "资质";
          } else if (var2 == 4) {
-            var10 = "氐蠊";
             var10 = "气血";
          } else if (var2 == 5) {
-            var10 = "沐劢";
             var10 = "法力";
          } else if (var2 == 6) {
-            var10 = "政冱";
             var10 = "攻击";
          } else if (var2 == 7) {
-            var10 = "遚废";
             var10 = "速度";
          } else {
             var10 = "";
@@ -154,13 +140,10 @@ public class Class13 extends JComponent {
 
       for (int var9 = var2 = 0; var9 < this.mv.length; var9 = var2) {
          this.mv[var2] = com.xy.q.Class1.i(425, 82 + 28 * var2, 114, 19, 10, Color.white, com.xy.q.Class49.w);
-         com.xy.q.Class14 var20 = this.mv[var2];
-         String var10003 = "9ge`e5}*:j-";
-         var20.mt(com.xy.w.Class16.m("sc/d/17.png", 6, 6, 6, 6, false));
+         this.mv[var2].mt(com.xy.w.Class16.m("sc/d/17.png", 6, 6, 6, 6, false));
          this.add(this.mv[var2++]);
       }
 
-      String var22 = "J&\u0016!\u0016t\u000fkI+^";
       this.co = new com.xy.w.Class18(com.xy.w.Class16.m("sc/d/16.png", 2, 2, 2, 2, false));
       this.co.setBounds(205, 70, 175, 244);
       this.add(this.co);
@@ -181,17 +164,11 @@ public class Class13 extends JComponent {
 
    public void n(int var1) {
       if (var1 == 0) {
-         com.xy.i.Class4 var3 = this.ly[0];
-         String var5 = "厇戡";
-         var3.setText("参战");
+         this.ly[0].setText("参战");
       } else if (var1 > 0) {
-         com.xy.i.Class4 var2 = this.ly[0];
-         String var4 = "谇放";
-         var2.setText("调整");
+         this.ly[0].setText("调整");
       } else {
-         com.xy.i.Class4 var10000 = this.ly[0];
-         String var10001 = "澅洂";
-         var10000.setText("激活");
+         this.ly[0].setText("激活");
       }
    }
 
