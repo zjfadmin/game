@@ -58,7 +58,7 @@ import javax.swing.JList;
 import javax.swing.JScrollPane;
 import javax.swing.event.ListSelectionListener;
 
-public class IIIIiiiiIIIIi
+public class PetJpanel1
 extends IiiiIiiiiIiIi {
     private com.xy.w.IiiiIiiiiIiIi iiIiIiiiiIIIi;
     private JList<String> iiiiIiiiIiiII;
@@ -221,7 +221,7 @@ lbl35:
         }
     }
 
-    public IIIIiiiiIIIIi(GameView gameView) {
+    public PetJpanel1(GameView gameView) {
         super(7, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-2, 0, 412, 475, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u5750\u9a91");
@@ -303,7 +303,7 @@ lbl35:
         }
     }
 
-    static /* synthetic */ JList ALLATORIxDEMO(IIIIiiiiIIIIi arg0) {
+    static /* synthetic */ JList ALLATORIxDEMO(PetJpanel1 arg0) {
         return arg0.iiiiIiiiIiiII;
     }
 

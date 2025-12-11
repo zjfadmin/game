@@ -2,13 +2,13 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.xy.a.a.IIIIiiiiIIIIi
+ *  com.xy.a.a.PetJpanel1
  *  com.xy.entity.Mount
  *  com.xy.game.RoleData
  */
 package com.xy.a.a;
 
-import com.xy.a.a.IIIIiiiiIIIIi;
+import com.xy.a.a.PetJpanel1;
 import com.xy.entity.Mount;
 import com.xy.game.RoleData;
 import javax.swing.event.ListSelectionEvent;
@@ -19,14 +19,14 @@ import javax.swing.event.ListSelectionListener;
  */
 static class IiiIIiiiiIiii
 implements ListSelectionListener {
-    final /* synthetic */ IIIIiiiiIIIIi ALLATORIxDEMO;
+    final /* synthetic */ PetJpanel1 ALLATORIxDEMO;
 
     @Override
     public void valueChanged(ListSelectionEvent e) {
         try {
-            if (IIIIiiiiIIIIi.ALLATORIxDEMO((IIIIiiiiIIIIi)this.ALLATORIxDEMO).getSelectedIndex() < 0) return;
+            if (PetJpanel1.ALLATORIxDEMO((PetJpanel1)this.ALLATORIxDEMO).getSelectedIndex() < 0) return;
             RoleData IiiiiiiiIIIII = this.ALLATORIxDEMO.ALLATORIxDEMO();
-            Mount IiiiiiiiIIIII2 = (Mount)IiiiiiiiIIIII.mounts.get(IIIIiiiiIIIIi.ALLATORIxDEMO((IIIIiiiiIIIIi)this.ALLATORIxDEMO).getSelectedIndex());
+            Mount IiiiiiiiIIIII2 = (Mount)IiiiiiiiIIIII.mounts.get(PetJpanel1.ALLATORIxDEMO((PetJpanel1)this.ALLATORIxDEMO).getSelectedIndex());
             this.ALLATORIxDEMO.ALLATORIxDEMO(IiiiiiiiIIIII2);
             return;
         }
@@ -35,7 +35,7 @@ implements ListSelectionListener {
         }
     }
 
-    IiiIIiiiiIiii(IIIIiiiiIIIIi iIIIiiiiIIIIi) {
-        this.ALLATORIxDEMO = iIIIiiiiIIIIi;
+    IiiIIiiiiIiii(PetJpanel1 petJpanel1) {
+        this.ALLATORIxDEMO = petJpanel1;
     }
 }
