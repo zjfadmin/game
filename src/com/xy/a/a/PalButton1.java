@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.xy.a.a.iiIiIiiiiIiIi
+ *  com.xy.a.a.PalJpanel1
  *  com.xy.entity.Pal
  *  com.xy.formula.BaseValue
  *  com.xy.i.IiIiIiiiiIIiI
@@ -14,7 +14,7 @@
  */
 package com.xy.a.a;
 
-import com.xy.a.a.iiIiIiiiiIiIi;
+import com.xy.a.a.PalJpanel1;
 import com.xy.entity.Pal;
 import com.xy.formula.BaseValue;
 import com.xy.i.IiIiIiiiiIIiI;
@@ -36,11 +36,11 @@ import javax.swing.JLabel;
 /*
  * Exception performing whole class analysis ignored.
  */
-static class iiiIiiiiIiiiI
+static class PalButton1
 extends JComponent
 implements MouseListener {
     private JLabel iiiIiiiiiiiIi;
-    final /* synthetic */ iiIiIiiiiIiIi iIiiIiiiiiiII;
+    final /* synthetic */ PalJpanel1 iIiiIiiiiiiII;
     private JLabel IIiiIiiiIIiIi;
     private IiIiIiiiiIIiI iIiIiiiiIiIii;
     private int IiIIIiiiiIiiI = -1;
@@ -73,12 +73,12 @@ implements MouseListener {
     public void mouseClicked(MouseEvent e) {
     }
 
-    static /* synthetic */ int iIiIiiiiIIiii(iiiIiiiiIiiiI arg0) {
+    static /* synthetic */ int iIiIiiiiIIiii(PalButton1 arg0) {
         return arg0.IiIIIiiiiIiiI;
     }
 
-    public iiiIiiiiIiiiI(iiIiIiiiiIiIi iiIiIiiiiIiIi2) {
-        this.iIiiIiiiiiiII = iiIiIiiiiIiIi2;
+    public PalButton1(PalJpanel1 palJpanel1) {
+        this.iIiiIiiiiiiII = palJpanel1;
         this.setPreferredSize(new Dimension(147, 49));
         this.ALLATORIxDEMO = new IIIiiiiiIiIiI();
         this.ALLATORIxDEMO.setBounds(5, 4, 37, 37);
@@ -101,7 +101,7 @@ implements MouseListener {
         this.addMouseListener(this);
     }
 
-    static /* synthetic */ JLabel ALLATORIxDEMO(iiiIiiiiIiiiI arg0) {
+    static /* synthetic */ JLabel ALLATORIxDEMO(PalButton1 arg0) {
         return arg0.iiiIiiiiiiiIi;
     }
 
@@ -145,16 +145,16 @@ implements MouseListener {
     public void mouseReleased(MouseEvent e) {
     }
 
-    static /* synthetic */ int ALLATORIxDEMO(iiiIiiiiIiiiI arg0) {
+    static /* synthetic */ int ALLATORIxDEMO(PalButton1 arg0) {
         return arg0.IiiiiiiiIIIII;
     }
 
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        if (iiIiIiiiiIiIi.ALLATORIxDEMO() == null) {
-            iiIiIiiiiIiIi.ALLATORIxDEMO((Image)IIIIIiiiIiiII.iiiIiiiiiiIIi((String)"sc/b/S153.png"));
+        if (PalJpanel1.ALLATORIxDEMO() == null) {
+            PalJpanel1.ALLATORIxDEMO((Image)IIIIIiiiIiiII.iiiIiiiiiiIIi((String)"sc/b/S153.png"));
         }
-        g.drawImage(iiIiIiiiiIiIi.ALLATORIxDEMO(), 0, 0, 147, 49, this);
+        g.drawImage(PalJpanel1.ALLATORIxDEMO(), 0, 0, 147, 49, this);
     }
 }

@@ -6,7 +6,7 @@
  *  com.xy.a.a.IiIIIiiiIIiII
  *  com.xy.a.a.IiIiIiiiiiIiI
  *  com.xy.a.a.iiIiIiiiIIIiI
- *  com.xy.a.a.iiiIiiiiIiiiI
+ *  com.xy.a.a.PalButton1
  *  com.xy.a.w.IIIiiiiiiiiIi
  *  com.xy.bean.ConfirmBean
  *  com.xy.bean.LoginResult
@@ -30,10 +30,10 @@
 package com.xy.a.a;
 
 import com.xy.a.a.IIiIIiiiIIIiI;
-import com.xy.a.a.IiIIIiiiIIiII;
+import com.xy.a.a.PalJpanel2;
 import com.xy.a.a.IiIiIiiiiiIiI;
 import com.xy.a.a.iiIiIiiiIIIiI;
-import com.xy.a.a.iiiIiiiiIiiiI;
+import com.xy.a.a.PalButton1;
 import com.xy.a.w.IIIiiiiiiiiIi;
 import com.xy.bean.ConfirmBean;
 import com.xy.bean.LoginResult;
@@ -64,7 +64,7 @@ import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 
-public class iiIiIiiiiIiIi
+public class PalJpanel1
 extends IiiiIiiiiIiIi {
     public int IiIiiiiiIIIII = -1;
     public IiIiIiiiiiIiI iiIiIiiiiIIIi;
@@ -347,7 +347,7 @@ lbl76:
         this.iiIIiiiiIiIIi.ALLATORIxDEMO(new ConfirmBean(23, String.valueOf(this.IiIiiiiiIIIII), IiiiiiiiIIIII3.toString()));
     }
 
-    public iiIiIiiiiIiIi(GameView gameView) {
+    public PalJpanel1(GameView gameView) {
         super(105, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 563, 383, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u4f19\u4f34\u7cfb\u7edf");

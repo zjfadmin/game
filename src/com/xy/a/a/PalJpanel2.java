@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.xy.a.a.iiIiIiiiiIiIi
+ *  com.xy.a.a.PalJpanel1
  *  com.xy.entity.Pal
  *  com.xy.formula.BaseValue
  *  com.xy.formula.PetProperty
@@ -21,7 +21,7 @@
  */
 package com.xy.a.a;
 
-import com.xy.a.a.iiIiIiiiiIiIi;
+import com.xy.a.a.PalJpanel1;
 import com.xy.entity.Pal;
 import com.xy.formula.BaseValue;
 import com.xy.formula.PetProperty;
