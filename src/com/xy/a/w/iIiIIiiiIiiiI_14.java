@@ -89,8 +89,8 @@ extends IiiiIiiiiIiIi {
         int IiiiiiiiIIIII3 = IiiiIiiiiIIII.iIiIiiiiIIiii((int)IiiiiiiiIIIII2.getGrade());
         int IiiiiiiiIIIII4 = IiiiIiiiiIIII.ALLATORIxDEMO((int)IiiiiiiiIIIII2.getGrade());
         this.iiIiiiiiiiIii.iIiIiiiiIIiii(IIiIiiiiIiiIi.iiiIiiiiiiIIi((String)IiiiiiiiIIIII2.getSpecies_id().toString()));
-        this.iIiiIiiiiiiII[6].setText(String.valueOf(IiiiIiiiiIIII.iIiIiiiiIIiii((int)IiiiiiiiIIIII2.getGrade())) + "级");
-        this.IiiiiiiiIIIII[0].setText(String.valueOf(IiiiiiiiIIIII2.getRace_name()) + "·" + IiiiiiiiIIIII2.getLocalname());
+        this.iIiiIiiiiiiII[6].setText(String.valueOf(IiiiIiiiiIIII.iIiIiiiiIIiii((int)IiiiiiiiIIIII2.getGrade())) + "\u7ea7");
+        this.IiiiiiiiIIIII[0].setText(String.valueOf(IiiiiiiiIIIII2.getRace_name()) + "\u00b7" + IiiiiiiiIIIII2.getLocalname());
         this.iIiiIiiiiiiII[2].setText(IiiiiiiiIIIII2.getGangname());
         this.iIiiIiiiiiiII[5].setText(IiiiiiiiIIIII2.getTitle());
         this.iIiiIiiiiiiII[0].setText(IiiiiiiiIIIII2.getRolename());
@@ -139,7 +139,7 @@ extends IiiiIiiiiIiIi {
     public iIiIIiiiIiiiI(GameView gameView) {
         super(0, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-3, 0, 362, 455, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
-        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "人物属性");
+        this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "\u4eba\u7269\u5c5e\u6027");
         this.iiIiiiiiiiIii = new IIIiiiiiIiIiI();
         this.IIiiIiiiIIiIi = new IIIiiiiiIiIiI();
         this.iiIiiiiiiiIii.setBounds(67, 41, 75, 100);
@@ -151,7 +151,7 @@ extends IiiiIiiiiIiIi {
         int IiiiiiiiIIIII = 0;
         while (IiiiiiiiIIIII < this.IiiiiiiiIIIII.length) {
             this.IiiiiiiiIIIII[IiiiiiiiIIIII] = IiIIIiiiiIIiI.ALLATORIxDEMO((int)40, (int)146, (int)130, (int)18, (int)0, (Color)Color.black, (Font)iiIIiiiiIiiII.iiiiIiiiIiiII);
-            this.IiiiiiiiIIIII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "\u5b66\u4e60\u4ea4\u6d41\u00b7\u81ea\u5b66" : (IiiiiiiiIIIII == 1 ? "\u547c\u4e09" : (IiiiiiiiIIIII == 2 ? "\u58f1\u8c01" : (IiiiiiiiIIIII == 3 ? "\u6218\u7ee9" : (IiiiiiiiIIIII == 4 ? "\u7b49\u7ea7" : (IiiiiiiiIIIII == 5 ? "\u6c17\u8840" : (IiiiiiiiIIIII == 6 ? "\u6cd5\u5e9c" : (IiiiiiiiIIIII == 7 ? "\u653b\u51fb" : (IiiiiiiiIIIII == 8 ? "\u901f\u5ea6" : (IiiiiiiiIIIII == 9 ? "\u7ecf\u9a8c" : (IiiiiiiiIIIII == 10 ? "\u53ef\u5206\u914d\u70b9" : (IiiiiiiiIIIII == 11 ? "\u6839\u9aa4" : (IiiiiiiiIIIII == 12 ? "\u9c7c\u6027" : (IiiiiiiiIIIII == 13 ? "\u529b\u91cf" : (IiiiiiiiIIIII == 14 ? "\u660e\u6298" : (IiiiiiiiIIIII == 15 ? "\u79cb\u5b9a" : (IiiiiiiiIIIII == 16 ? "\u5b9a\u529b" : "")))))))))))))));
+            this.IiiiiiiiIIIII[IiiiiiiiIIIII].setText(IiiiiiiiIIIII == 0 ? "\u5b66\u4e60\u4ea4\u6d41\u00b7\u81ea\u5b66" : (IiiiiiiiIIIII == 1 ? "\u5e2e\u6d3e" : (IiiiiiiiIIIII == 2 ? "\u58f0\u671b" : (IiiiiiiiIIIII == 3 ? "\u6218\u7ee9" : (IiiiiiiiIIIII == 4 ? "\u7b49\u7ea7" : (IiiiiiiiIIIII == 5 ? "\u6c14\u8840" : (IiiiiiiiIIIII == 6 ? "\u6cd5\u529b" : (IiiiiiiiIIIII == 7 ? "\u653b\u51fb" : (IiiiiiiiIIIII == 8 ? "\u901f\u5ea6" : (IiiiiiiiIIIII == 9 ? "\u7ecf\u9a8c" : (IiiiiiiiIIIII == 10 ? "\u53ef\u5206\u914d\u70b9" : (IiiiiiiiIIIII == 11 ? "\u6839\u9aa8" : (IiiiiiiiIIIII == 12 ? "\u7075\u6027" : (IiiiiiiiIIIII == 13 ? "\u529b\u91cf" : (IiiiiiiiIIIII == 14 ? "\u654f\u6377" : (IiiiiiiiIIIII == 15 ? "\u7985\u5b9a" : (IiiiiiiiIIIII == 16 ? "\u5b9a\u529b" : "")))))))))))))))));
             if (IiiiiiiiIIIII >= 1 && IiiiiiiiIIIII <= 3) {
                 this.IiiiiiiiIIIII[IiiiiiiiIIIII].setBounds(167, 80 + (IiiiiiiiIIIII - 1) * 24, 40, 19);
             } else if (IiiiiiiiIIIII >= 4 && IiiiiiiiIIIII <= 9) {
