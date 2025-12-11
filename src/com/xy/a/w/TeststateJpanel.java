@@ -40,7 +40,7 @@ import java.awt.Component;
 import java.awt.Font;
 import javax.swing.JLabel;
 
-public class iIiIIiiiIiiiI
+public class TeststateJpanel
 extends IiiiIiiiiIiIi {
     private iIIiIiiiIiiIi[] iIiiIiiiiiiII;
     private IIIiiiiiIiIiI IIiiIiiiIIiIi;
@@ -113,7 +113,7 @@ extends IiiiIiiiiIiIi {
         this.iIiiIiiiiiiII[16].setText(String.valueOf(IiiiiiiiIIIII.getRoleProperty().getSpeed()));
         this.iIiiIiiiiiiII[18].setText(String.valueOf(IiiiiiiiIIIII.getRoleProperty().getCalm()));
         IiIiIiiiiIIiI IiiiiiiiIIIII6 = this.iiIIiiiiIiIIi.getBattleScene() != null ? this.iiIIiiiiIiIIi.getBattleScene().getBattleUnit(0, this.iiIIiiiiIiIIi.roleData.getRoleId()) : null;
-        iIiIIiiiIiiiI iIiIIiiiIiiiI2 = this;
+        TeststateJpanel iIiIIiiiIiiiI2 = this;
         if (IiiiiiiiIIIII6 != null) {
             iIiIIiiiIiiiI2.iIiiIiiiiiiII[7].setText(String.valueOf(IiiiiiiiIIIII6.ALLATORIxDEMO().getHp_Current()) + "/" + IiiiiiiiIIIII6.ALLATORIxDEMO().getHp_Total());
             this.iIiiIiiiiiiII[8].setText(String.valueOf(IiiiiiiiIIIII6.ALLATORIxDEMO().getMp_Current()) + "/" + IiiiiiiiIIIII6.ALLATORIxDEMO().getMp_Total());
@@ -136,7 +136,7 @@ extends IiiiIiiiiIiIi {
         super.iIiIiiiiIIiii();
     }
 
-    public iIiIIiiiIiiiI(GameView gameView) {
+    public TeststateJpanel(GameView gameView) {
         super(0, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-3, 0, 362, 455, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "人物属性");

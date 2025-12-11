@@ -16,7 +16,7 @@
  *  com.xy.a.w.IiIIIiiiiiiIi
  *  com.xy.a.w.IiiIiiiiIIIii
  *  com.xy.a.w.iIIIIiiiIiiIi
- *  com.xy.a.w.iIiIIiiiIiiiI
+ *  com.xy.a.w.TeststateJpanel
  *  com.xy.a.w.iIiIiiiiIiIII
  *  com.xy.a.w.iiIiIiiiIIIiI
  *  com.xy.a.w.iiIiIiiiiIiii
@@ -48,7 +48,7 @@ import com.xy.a.w.IIiIIiiiIIIiI;
 import com.xy.a.w.IiIIIiiiIIiII;
 import com.xy.a.w.IiIIIiiiiiiIi;
 import com.xy.a.w.iIIIIiiiIiiIi;
-import com.xy.a.w.iIiIIiiiIiiiI;
+import com.xy.a.w.TeststateJpanel;
 import com.xy.a.w.iIiIiiiiIiIII;
 import com.xy.a.w.iiIiIiiiIIIiI;
 import com.xy.a.w.iiIiIiiiiIiii;
@@ -142,7 +142,7 @@ extends IIiiIiiiiIIiI {
             RoleData IiiiiiiiIIIII = this.form.ALLATORIxDEMO();
             RoleProperty IiiiiiiiIIIII2 = IiiiiiiiIIIII.getRoleProperty();
             LoginResult IiiiiiiiIIIII3 = IiiiiiiiIIIII.getLoginResult();
-            iIiIIiiiIiiiI IiiiiiiiIIIII4 = (iIiIIiiiIiiiI)this.form;
+            TeststateJpanel IiiiiiiiIIIII4 = (TeststateJpanel)this.form;
             IiiiiiiiIIIII3.setBone(Integer.valueOf(IiiiiiiiIIIII4.ALLATORIxDEMO(0) - (int)IiiiiiiiIIIII2.getValue("根骨")));
             IiiiiiiiIIIII3.setSpir(Integer.valueOf(IiiiiiiiIIIII4.ALLATORIxDEMO(1) - (int)IiiiiiiiIIIII2.getValue("灵性")));
             IiiiiiiiIIIII3.setPower(Integer.valueOf(IiiiiiiiIIIII4.ALLATORIxDEMO(2) - (int)IiiiiiiiIIIII2.getValue("力量")));
@@ -355,7 +355,7 @@ extends IIiiIiiiiIIiI {
 
     public void iIiIiiiiIIiii(int value) {
         int IiiiiiiiIIIII = (this.ALLATORIxDEMO - 100) / 2;
-        iIiIIiiiIiiiI IiiiiiiiIIIII2 = (iIiIIiiiIiiiI)this.form;
+        TeststateJpanel IiiiiiiiIIIII2 = (TeststateJpanel)this.form;
         value = this.ALLATORIxDEMO(this.ALLATORIxDEMO(IiiiiiiiIIIII, null), IiiiiiiiIIIII2.ALLATORIxDEMO(IiiiiiiiIIIII), IiiiiiiiIIIII2.ALLATORIxDEMO(5), value);
         if (value == 0) {
             this.form.ALLATORIxDEMO().iIiIiiiiIIiii("已无法改变点数");
