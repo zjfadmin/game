@@ -68,7 +68,7 @@ public class PalJpanel1
 extends IiiiIiiiiIiIi {
     public int IiIiiiiiIIIII = -1;
     public IiIiIiiiiiIiI iiIiIiiiiIIIi;
-    public IiIIIiiiIIiII iiiiIiiiIiiII;
+    public PalJpanel2 iiiiIiiiIiiII;
     private JScrollPane iiiIiiiiiiiIi;
     private JLabel iIiiIiiiiiiII;
     private static Image IIiiIiiiIIiIi;
@@ -147,7 +147,7 @@ extends IiiiIiiiiIiIi {
             if (IiiiiiiiIIIII8 < IiiiiiiiIIIII9) {
                 IiiiiiiiIIIII = (iiiIiiiiIiiiI)this.IiiiiiiiIIIII.getComponent(IiiiiiiiIIIII8);
             } else {
-                IiiiiiiiIIIII = new iiiIiiiiIiiiI(this);
+                IiiiiiiiIIIII = new PalButton1(this);
                 this.IiiiiiiiIIIII.add((Component)IiiiiiiiIIIII);
             }
             ++IiiiiiiiIIIII8;
@@ -251,7 +251,7 @@ extends IiiiIiiiiIiIi {
                 }
                 IiiiiiiiIIIII = this.ALLATORIxDEMO().getLoginResult().getPals();
                 IiiiiiiiIIIII = IiiiiiiiIIIII != null && IiiiiiiiIIIII.equals("") == false ? IiiiiiiiIIIII.split("\\|") : null;
-                IiiiiiiiIIIII = BaseValue.getPalBtnArrStr((String)IiIIIiiiIIiII.ALLATORIxDEMO((IiIIIiiiIIiII)this.iiiiIiiiIiiII)[2 + id - 125].getText());
+                IiiiiiiiIIIII = BaseValue.getPalBtnArrStr((String)PalJpanel2.ALLATORIxDEMO((PalJpanel2)this.iiiiIiiiIiiII)[2 + id - 125].getText());
                 IiiiiiiiIIIII = true;
                 IiiiiiiiIIIII = 1;
                 IiiiiiiiIIIII = new StringBuffer();
@@ -366,7 +366,7 @@ lbl76:
         this.IiiiiiiiIIIII = new IIiIIiiiIIIiI(this);
         this.iiiIiiiiiiiIi = IiIIIiiiiIIiI.ALLATORIxDEMO((int)49, (int)51, (int)153, (int)310, (Component)this.IiiiiiiiIIIII, (int)20);
         this.add(this.iiiIiiiiiiiIi);
-        this.iiiiIiiiIiiII = new IiIIIiiiIIiII(this);
+        this.iiiiIiiiIiiII = new PalJpanel2(this);
         this.iIiIiiiiIiIii = new iiIiIiiiIIIiI(this);
         this.iiIiIiiiiIIIi = new IiIiIiiiiiIiI(this);
         this.iiiiIiiiIiiII.setBounds(0, 0, 563, 383);

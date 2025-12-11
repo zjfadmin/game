@@ -93,7 +93,7 @@ implements MouseListener {
         this.iiiIiiiiiiiIi.setFont(iiIIiiiiIiiII.iIiIIiiiiIIiI);
         this.iiiIiiiiiiiIi.setBounds(45, 25, 70, 16);
         this.add(this.iiiIiiiiiiiIi);
-        this.iIiIiiiiIiIii = new IiIiIiiiiIIiI("sc/e/5.png", 1, 0, iiIIiiiiIiiII.iiIiiiiiiIIiI, null, "", iiIiIiiiiIiIi2.ALLATORIxDEMO());
+        this.iIiIiiiiIiIii = new IiIiIiiiiIIiI("sc/e/5.png", 1, 0, iiIIiiiiIiiII.iiIiiiiiiIIiI, null, "", palJpanel1.ALLATORIxDEMO());
         this.iIiIiiiiIiIii.setBounds(100, 8, 34, 17);
         this.iIiIiiiiIiIii.setForeground(Color.white);
         this.iIiIiiiiIiIii.removeMouseListener((MouseListener)this.iIiIiiiiIiIii);

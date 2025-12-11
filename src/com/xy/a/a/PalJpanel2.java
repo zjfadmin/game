@@ -75,7 +75,7 @@ extends JComponent {
         this.ALLATORIxDEMO(false);
     }
 
-    static /* synthetic */ IiIiIiiiiIIiI[] ALLATORIxDEMO(IiIIIiiiIIiII arg0) {
+    static /* synthetic */ IiIiIiiiiIIiI[] ALLATORIxDEMO(PalJpanel2 arg0) {
         return arg0.iiIiiiiiiiIii;
     }
 
