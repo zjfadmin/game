@@ -775,227 +775,227 @@ extends IiiiIiiiiIiIi {
                 break;
             }
             case "qqk": {
-                ql.setKey("\u589e\u52a0\u5f3a\u514b\u6548\u679c");
+                ql.setKey("增加强克效果");
                 ql.setValue(4.0);
                 break;
             }
             case "kqk": {
-                ql.setKey("\u62b5\u5fa1\u5f3a\u514b\u6548\u679c");
+                ql.setKey("抵御强克效果");
                 ql.setValue(4.0);
                 break;
             }
             case "klb": {
-                ql.setKey("\u968f\u673a\u6297\u7075\u5b9d\u4f24\u5bb3");
+                ql.setKey("随机抗灵宝伤害");
                 ql.setValue(5.0);
                 break;
             }
             case "kwsx": {
-                ql.setKey("\u6297\u65e0\u5c5e\u6027\u4f24\u5bb3");
+                ql.setKey("抗无属性伤害");
                 ql.setValue(5.0);
                 break;
             }
             case "kzshp": {
-                ql.setKey("\u6297\u9707\u6151\u6c14\u8840");
+                ql.setKey("抗震慑气血");
                 ql.setValue(1.0);
                 break;
             }
             case "kzsmp": {
-                ql.setKey("\u6297\u9707\u6151\u9b54\u6cd5");
+                ql.setKey("抗震慑魔法");
                 ql.setValue(1.0);
                 break;
             }
             case "qzhs": {
-                ql.setKey("\u5bf9\u53ec\u5524\u517d\u4f24\u5bb3");
+                ql.setKey("对召唤兽伤害");
                 ql.setValue(5.0);
                 break;
             }
             case "kjge": {
-                ql.setKey("\u6297\u91d1\u7b8d");
+                ql.setKey("抗金箍");
                 ql.setValue(5.0);
                 break;
             }
             case "kqw": {
-                ql.setKey("\u6297\u60c5\u7f51");
+                ql.setKey("抗情网");
                 ql.setValue(5.0);
                 break;
             }
             case "khr": {
-                ql.setKey("\u6297\u6d69\u7136\u6b63\u6c14");
+                ql.setKey("抗浩然正气");
                 ql.setValue(5.0);
                 break;
             }
             case "kgs": {
-                ql.setKey("\u6297\u9694\u5c71\u6253\u725b");
+                ql.setKey("抗隔山打牛");
                 ql.setValue(5.0);
                 break;
             }
             case "kqm": {
-                ql.setKey("\u6297\u9752\u9762\u7360\u7259");
+                ql.setKey("抗青面獠牙");
                 ql.setValue(5.0);
                 break;
             }
             case "ktm": {
-                ql.setKey("\u6297\u5929\u9b54\u89e3\u4f53");
+                ql.setKey("抗天魔解体");
                 ql.setValue(5.0);
                 break;
             }
             case "kxl": {
-                ql.setKey("\u6297\u5c0f\u697c\u591c\u54ed");
+                ql.setKey("抗小楼夜哭");
                 ql.setValue(5.0);
                 break;
             }
             case "kfg": {
-                ql.setKey("\u6297\u5206\u5149\u5316\u5f71");
+                ql.setKey("抗分光化影");
                 ql.setValue(5.0);
                 break;
             }
             case "f_f": {
-                ql.setKey("\u9644\u5c01\u653b\u51fb");
+                ql.setKey("附封攻击");
                 ql.setValue(5.0);
                 break;
             }
             case "f_h": {
-                ql.setKey("\u9644\u6df7\u653b\u51fb");
+                ql.setKey("附混攻击");
                 ql.setValue(5.0);
                 break;
             }
             case "f_d": {
-                ql.setKey("\u9644\u6bd2\u653b\u51fb");
+                ql.setKey("附毒攻击");
                 ql.setValue(5.0);
                 break;
             }
             case "f_zs": {
-                ql.setKey("\u9644\u9707\u6151\u653b\u51fb");
+                ql.setKey("附震慑攻击");
                 ql.setValue(5.0);
                 break;
             }
             case "f_sc": {
-                ql.setKey("\u9644\u4e09\u5c38\u653b\u51fb");
+                ql.setKey("附三尸攻击");
                 ql.setValue(5.0);
                 break;
             }
             case "f_xf": {
-                ql.setKey("\u9644\u98ce\u653b\u51fb");
+                ql.setKey("附风攻击");
                 ql.setValue(5.0);
                 break;
             }
             case "f_xh": {
-                ql.setKey("\u9644\u706b\u653b\u51fb");
+                ql.setKey("附火攻击");
                 ql.setValue(5.0);
                 break;
             }
             case "f_xs": {
-                ql.setKey("\u9644\u6c34\u653b\u51fb");
+                ql.setKey("附水攻击");
                 ql.setValue(5.0);
                 break;
             }
             case "f_xl": {
-                ql.setKey("\u9644\u96f7\u653b\u51fb");
+                ql.setKey("附雷攻击");
                 ql.setValue(5.0);
                 break;
             }
             case "kbf": {
-                ql.setKey("\u6297\u98ce\u6cd5\u72c2\u66b4");
+                ql.setKey("抗风法狂暴");
                 ql.setValue(1.0);
                 break;
             }
             case "kbh": {
-                ql.setKey("\u6297\u706b\u6cd5\u72c2\u66b4");
+                ql.setKey("抗火法狂暴");
                 ql.setValue(1.0);
                 break;
             }
             case "kbs": {
-                ql.setKey("\u6297\u6c34\u6cd5\u72c2\u66b4");
+                ql.setKey("抗水法狂暴");
                 ql.setValue(1.0);
                 break;
             }
             case "kbl": {
-                ql.setKey("\u6297\u96f7\u6cd5\u72c2\u66b4");
+                ql.setKey("抗雷法狂暴");
                 ql.setValue(1.0);
                 break;
             }
             case "kbg": {
-                ql.setKey("\u6297\u9b3c\u706b\u72c2\u66b4");
+                ql.setKey("抗鬼火狂暴");
                 ql.setValue(1.0);
                 break;
             }
             case "qmh": {
-                ql.setKey("\u52a0\u5f3a\u9b45\u60d1");
+                ql.setKey("加强魅惑");
                 ql.setValue(2.0);
                 break;
             }
             case "qjg": {
-                ql.setKey("\u5f3a\u91d1\u7b8d");
+                ql.setKey("强金箍");
                 ql.setValue(5.0);
                 break;
             }
             case "qqw": {
-                ql.setKey("\u5f3a\u60c5\u7f51");
+                ql.setKey("强情网");
                 ql.setValue(5.0);
                 break;
             }
             case "bjff": {
-                ql.setKey("\u98ce\u6cd5\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("风法暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjlf": {
-                ql.setKey("\u96f7\u6cd5\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("雷法暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjsf": {
-                ql.setKey("\u6c34\u6cd5\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("水法暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjhf": {
-                ql.setKey("\u706b\u6cd5\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("火法暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjhl": {
-                ql.setKey("\u6df7\u4e71\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("混乱暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjfy": {
-                ql.setKey("\u5c01\u5370\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("封印暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjhs": {
-                ql.setKey("\u660f\u7761\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("昏睡暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjzd": {
-                ql.setKey("\u4e2d\u6bd2\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("中毒暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjzs": {
-                ql.setKey("\u9707\u6151\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("震慑暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjjs": {
-                ql.setKey("\u52a0\u901f\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("加速暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjjg": {
-                ql.setKey("\u52a0\u653b\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("加攻暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjjf": {
-                ql.setKey("\u52a0\u9632\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("加防暴击几率");
                 ql.setValue(2.0);
                 break;
             }
             case "bjsc": {
-                ql.setKey("\u4e09\u5c38\u66b4\u51fb\u51e0\u7387");
+                ql.setKey("三尸暴击几率");
                 ql.setValue(2.0);
                 break;
             }
