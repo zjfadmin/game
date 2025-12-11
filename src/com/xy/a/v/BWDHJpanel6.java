@@ -6,7 +6,7 @@
  *  com.xy.a.v.IIiiIiiiIiiiI
  *  com.xy.a.v.IiIIIiiiiiiIi
  *  com.xy.a.v.IiiiiiiiiIIII
- *  com.xy.a.v.iiIiIiiiiIiii
+ *  com.xy.a.v.BWDHJpanel1
  *  com.xy.q.IiiiIiiiiIiIi
  *  com.xy.q.iIiIIiiiIiiiI
  *  com.xy.readbean.Activity
@@ -27,7 +27,7 @@ import com.xy.a.v.IIiIiiiiIIiii;
 import com.xy.a.v.IIiiIiiiIiiiI;
 import com.xy.a.v.IiIIIiiiiiiIi;
 import com.xy.a.v.IiiiiiiiiIIII;
-import com.xy.a.v.iiIiIiiiiIiii;
+import com.xy.a.v.BWDHJpanel1;
 import com.xy.q.IiiiIiiiiIiIi;
 import com.xy.q.iIiIIiiiIiiiI;
 import com.xy.readbean.Activity;
@@ -42,9 +42,9 @@ import com.xy.w.IIIIIiiiIiiII;
 import com.xy.w.IIIiiiiiIiIiI;
 import java.awt.Component;
 
-public class iiIiIiiiiiIIi
+public class BWDHJpanel6
 extends IiiiIiiiiIiIi {
-    private iiIiIiiiiIiii iIiiIiiiiiiII;
+    private BWDHJpanel1 iIiiIiiiiiiII;
     private IIIIIiiiIiIii IIiiIiiiIIiIi = null;
     private long iIiIiiiiIiIii;
     private IIIiiiiiIiIiI IiIIIiiiiIiiI;
@@ -149,7 +149,7 @@ extends IiiiIiiiiIiIi {
         ((IiiiiiiiiIIII)this.ALLATORIxDEMO[0]).ALLATORIxDEMO(null);
     }
 
-    public iiIiIiiiiiIIi(iiIiIiiiiIiii bwdhView) {
+    public BWDHJpanel6(BWDHJpanel1 bwdhView) {
         super(-1, -1, IiiiIiiiiIiIi.iIIiIiiiiiiIi, bwdhView.iiIIiiiiIiIIi);
         this.ALLATORIxDEMO(0, 0, 718, 526, IiiiIiiiiIiIi.iIIiIiiiiiiIi);
         this.iIiiIiiiiiiII = bwdhView;

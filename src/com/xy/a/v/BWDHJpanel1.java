@@ -5,8 +5,8 @@
  *  com.xy.a.iiiIiiiiIiiiI
  *  com.xy.a.v.IiiIiiiiIIIii
  *  com.xy.a.v.iIiIiiiiIiIII
- *  com.xy.a.v.iiIiIiiiiIiIi
- *  com.xy.a.v.iiIiIiiiiiIIi
+ *  com.xy.a.v.BWDHJpanel2
+ *  com.xy.a.v.BWDHJpanel6
  *  com.xy.i.IIIIIiiiIiIii
  *  com.xy.i.IIiIiiiiIiiIi
  *  com.xy.i.iiIiIiiiIIIiI
@@ -27,8 +27,8 @@ package com.xy.a.v;
 import com.xy.a.iiiIiiiiIiiiI;
 import com.xy.a.v.IiiIiiiiIIIii;
 import com.xy.a.v.iIiIiiiiIiIII;
-import com.xy.a.v.iiIiIiiiiIiIi;
-import com.xy.a.v.iiIiIiiiiiIIi;
+import com.xy.a.v.BWDHJpanel2;
+import com.xy.a.v.BWDHJpanel6;
 import com.xy.i.IIIIIiiiIiIii;
 import com.xy.i.IIiIiiiiIiiIi;
 import com.xy.i.iiIiIiiiIIIiI;
@@ -49,7 +49,7 @@ import java.util.List;
 /*
  * Duplicate member names - consider using --renamedupmembers true
  */
-public class iiIiIiiiiIiii
+public class BWDHJpanel1
 extends IiiiIiiiiIiIi {
     private iiIiIiiiIIIiI IIiiIiiiIIiIi;
     private IiiiIiiiiIiIi[] iIiIiiiiIiIii;

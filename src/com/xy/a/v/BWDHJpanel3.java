@@ -4,7 +4,7 @@
  * Could not load the following classes:
  *  com.xy.a.v.IIIiIiiiIiIII
  *  com.xy.a.v.iIIIIiiiIiiIi
- *  com.xy.a.v.iiIiIiiiiIiii
+ *  com.xy.a.v.BWDHJpanel1
  *  com.xy.i.iiIiIiiiIIIiI
  *  com.xy.q.IiIIIiiiiIIiI
  *  com.xy.q.IiiiIiiiiIiIi
@@ -21,7 +21,7 @@ package com.xy.a.v;
 
 import com.xy.a.v.IIIiIiiiIiIII;
 import com.xy.a.v.iIIIIiiiIiiIi;
-import com.xy.a.v.iiIiIiiiiIiii;
+import com.xy.a.v.BWDHJpanel1;
 import com.xy.i.iiIiIiiiIIIiI;
 import com.xy.q.IiIIIiiiiIIiI;
 import com.xy.q.IiiiIiiiiIiIi;
@@ -45,7 +45,7 @@ import javax.swing.plaf.ScrollBarUI;
 /*
  * Duplicate member names - consider using --renamedupmembers true
  */
-public class iIiIiiiiIiIII
+public class BWDHJpanel3
 extends IiiiIiiiiIiIi {
     private List<iIIIIiiiIiiIi> iiiiIiiiIiiII;
     private JComponent iiiIiiiiiiiIi;
@@ -53,7 +53,7 @@ extends IiiiIiiiiIiIi {
     private IIIiiiiiIiIiI IIiiIiiiIIiIi;
     private IIIiiiiiIiIiI iIiIiiiiIiIii;
     private List<IIIiiiiiIiIiI> IiIIIiiiiIiiI;
-    private iiIiIiiiiIiii iiIiiiiiiiIii;
+    private BWDHJpanel1 iiIiiiiiiiIii;
     private List<iiIiIiiiIIIiI> IiiiiiiiIIIII;
     private JScrollPane ALLATORIxDEMO;
 
@@ -130,7 +130,7 @@ extends IiiiIiiiiIiIi {
         IiiiiiiiIIIII22.setValue(0);
     }
 
-    public iIiIiiiiIiIII(iiIiIiiiiIiii bwdhView) {
+    public BWDHJpanel3(BWDHJpanel1 bwdhView) {
         super(-1, -1, IiiiIiiiiIiIi.iIIiIiiiiiiIi, bwdhView.iiIIiiiiIiIIi);
         this.ALLATORIxDEMO(0, 0, 718, 526, IiiiIiiiiIiIi.iIIiIiiiiiiIi);
         this.iiIiiiiiiiIii = bwdhView;

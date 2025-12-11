@@ -30,7 +30,7 @@ import java.awt.Component;
 import java.awt.Font;
 import javax.swing.JLabel;
 
-public class iiIiiiiiIIiii
+public class BWDHJpanel7
 extends IiiiIiiiiIiIi {
     private RichLabel IIiiIiiiIIiIi;
     private IIIiiiiiIiIiI[] iIiIiiiiIiIii;
@@ -39,7 +39,7 @@ extends IiiiIiiiiIiIi {
     private RichLabel IiiiiiiiIIIII;
     private JLabel[] ALLATORIxDEMO;
 
-    public iiIiiiiiIIiii(GameView gameView) {
+    public BWDHJpanel7(GameView gameView) {
         super(178, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 747, 383, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/189.png", (int)0, (int)0, (int)0, (int)0, (boolean)false), null);

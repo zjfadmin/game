@@ -26,7 +26,7 @@ import com.xy.w.IIIIIiiiIiIii;
 import com.xy.w.IIIiiiiiIiIiI;
 import java.awt.Component;
 
-public class IIIIIiiiIiiII
+public class BWDHJpanel5
 extends IiiiIiiiiIiIi {
     private IIiIiiiiIiIII[] iIiIiiiiIiIii;
     private int IiIIIiiiiIiiI = 0;
@@ -34,11 +34,11 @@ extends IiiiIiiiiIiIi {
     private IIiIiiiiIiiIi IiiiiiiiIIIII;
     private IIIiiiiiIiIiI ALLATORIxDEMO;
 
-    static /* synthetic */ void ALLATORIxDEMO(IIIIIiiiIiiII arg0, IIIIIiiiIiIii arg1) {
+    static /* synthetic */ void ALLATORIxDEMO(BWDHJpanel5 arg0, IIIIIiiiIiIii arg1) {
         arg0.iiIiiiiiiiIii = arg1;
     }
 
-    static /* synthetic */ IIIIIiiiIiIii ALLATORIxDEMO(IIIIIiiiIiiII arg0) {
+    static /* synthetic */ IIIIIiiiIiIii ALLATORIxDEMO(BWDHJpanel5 arg0) {
         return arg0.iiIiiiiiiiIii;
     }
 
@@ -81,7 +81,7 @@ lbl17:
         this.IiiiiiiiIIIII.ALLATORIxDEMO(IiiiiiiiIIIII);
     }
 
-    public IIIIIiiiIiiII(GameView gameView) {
+    public BWDHJpanel5(GameView gameView) {
         super(179, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 632, 234, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(com.xy.w.IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/145.png", (int)60, (int)60, (int)200, (int)100, (boolean)false), null);

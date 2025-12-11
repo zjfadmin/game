@@ -5,7 +5,7 @@
  *  com.xy.a.v.IiIIIiiiIIiII
  *  com.xy.a.v.IiIiIiiiiiIiI
  *  com.xy.a.v.iiIiIiiiIIIiI
- *  com.xy.a.v.iiIiIiiiiIiii
+ *  com.xy.a.v.BWDHJpanel1
  *  com.xy.q.IiiiIiiiiIiIi
  *  com.xy.readbean.Activity
  *  com.xy.readbean.ActivityFC
@@ -23,7 +23,7 @@ package com.xy.a.v;
 import com.xy.a.v.IiIIIiiiIIiII;
 import com.xy.a.v.IiIiIiiiiiIiI;
 import com.xy.a.v.iiIiIiiiIIIiI;
-import com.xy.a.v.iiIiIiiiiIiii;
+import com.xy.a.v.BWDHJpanel1;
 import com.xy.q.IiiiIiiiiIiIi;
 import com.xy.readbean.Activity;
 import com.xy.readbean.ActivityFC;
@@ -37,7 +37,7 @@ import com.xy.w.IIIIIiiiIiiII;
 import com.xy.w.IIIiiiiiIiIiI;
 import java.awt.Component;
 
-public class iiIiIiiiiIiIi
+public class BWDHJpanel2
 extends IiiiIiiiiIiIi {
     private long iiiIiiiiiiiIi;
     private IiIiIiiiiiIiI iIiiIiiiiiiII;
@@ -46,7 +46,7 @@ extends IiiiIiiiiIiIi {
     private IIIiiiiiIiIiI IiIIIiiiiIiiI;
     private IiIIIiiiIIiII[] iiIiiiiiiiIii;
     private int IiiiiiiiIIIII;
-    private iiIiIiiiiIiii ALLATORIxDEMO;
+    private BWDHJpanel1 ALLATORIxDEMO;
 
     public void iIiIiiiiIIiii(int type, Object data) {
         this.IiiiiiiiIIIII = type;
@@ -85,7 +85,7 @@ extends IiiiIiiiiIiIi {
         this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII2);
     }
 
-    public iiIiIiiiiIiIi(iiIiIiiiiIiii bwdhView) {
+    public BWDHJpanel2(BWDHJpanel1 bwdhView) {
         super(-1, -1, IiiiIiiiiIiIi.iIIiIiiiiiiIi, bwdhView.iiIIiiiiIiIIi);
         this.ALLATORIxDEMO(0, 0, 718, 526, IiiiIiiiiIiIi.iIIiIiiiiiiIi);
         this.ALLATORIxDEMO = bwdhView;
@@ -146,7 +146,7 @@ extends IiiiIiiiiIiIi {
         this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII6);
     }
 
-    static /* synthetic */ iiIiIiiiiIiii ALLATORIxDEMO(iiIiIiiiiIiIi arg0) {
+    static /* synthetic */ BWDHJpanel1 ALLATORIxDEMO(BWDHJpanel2 arg0) {
         return arg0.ALLATORIxDEMO;
     }
 
