@@ -213,33 +213,27 @@ public class Class12 extends com.xy.q.Class30 {
    }
 
    public void ci(String var1) {
-      String var10001 = "爀瑀粒";
       if ((this.mo = var1).equals("物理系")) {
-         String var9 = "V}\n|\nM\u0017(\u001d0UpB";
          this._do("sc/b/S268.png");
          this.y(1);
          this.z = BaseValue.getLxLvl(this.jm().getLxValue());
          this.a();
       } else {
-         var10001 = "沼杩粒";
-         if (var1.equals("法术系")) {
-            String var10006 = "V}\n|\nM\u0017(\u001c0UpB";
-            this._do("sc/b/S269.png");
-            this.y(1);
-            this.z = BaseValue.getLxLvl(this.jm().getLxValue());
-            this.a();
+         if (this.ao == null) {
+            this.ci("");
          } else {
-            var10001 = "迬勯粒";
-            if (var1.equals("辅助系")) {
-               var10001 = "V}\n|\nM\u0017)\u00150UpB";
-               this._do("sc/b/S270.png");
-               this.y(1);
-               this.z = BaseValue.getLxLvl(this.jm().getLxValue());
-               this.a();
+            if (this.ao.indexOf("物理系") != -1) {
+               this.ci("物理系");
             } else {
-               var10001 = "\u001a%F$F\u0015[p^h\u0019(\u000e";
-               this._do("sc/b/S267.png");
-               this.y(0);
+               if (this.ao.indexOf("法术系") != -1) {
+                  this.ci("法术系");
+               } else {
+                  if (this.ao.indexOf("辅助系") != -1) {
+                     this.ci("辅助系");
+                  } else {
+                     this.ci("");
+                  }
+               }
             }
          }
       }
@@ -296,22 +290,14 @@ public class Class12 extends com.xy.q.Class30 {
       for (int var10000 = var7 = 1; var10000 <= 34; var10000 = var7) {
          String var8 = MsgUntil.h(var7);
          if (var7 > 10 && var7 % 10 == 0) {
-            StringBuilder var11 = new StringBuilder(String.valueOf(MsgUntil.h(var7 / 10)));
-            String var13 = "卤";
-            var8 = var11.append("十").toString();
+            var8 = new StringBuilder(String.valueOf(MsgUntil.h(var7 / 10))).append("十").toString();
          } else if (var7 > 20) {
-            StringBuilder var10 = new StringBuilder(String.valueOf(MsgUntil.h(var7 / 10)));
-            String var10001 = "匨";
-            var8 = var10.append("十").append(MsgUntil.h(var7 % 10)).toString();
+            var8 = new StringBuilder(String.valueOf(MsgUntil.h(var7 / 10))).append("十").append(MsgUntil.h(var7 % 10)).toString();
          } else if (var7 > 10) {
-            String var10002 = "卤";
             var8 = "十" + MsgUntil.h(var7 % 10);
          }
 
-         String var15 = "\u0012瀳狩";
-         StringBuilder var12 = new StringBuilder("{灵犀").append(var8);
-         String var14 = "X";
-         var8 = var12.append("}").toString();
+         var8 = new StringBuilder("{灵犀").append(var8).append("}").toString();
          var2 = var2.replace(var8, jq(var7++, var3, var5, var1));
       }
 
@@ -331,30 +317,18 @@ public class Class12 extends com.xy.q.Class30 {
    public void ew(RoleSummoning var1) {
       this.ko = var1.getSid();
       this.ao = var1.getLx();
-      Class12 var10000;
       if (this.ao == null) {
-         var10000 = this;
          this.ci("");
       } else {
-         String var10001 = "牌琘糞";
          if (this.ao.indexOf("物理系") != -1) {
-            var10000 = this;
-            String var10002 = "爀瑀粒";
             this.ci("物理系");
          } else {
-            var10001 = "泰朱糞";
             if (this.ao.indexOf("法术系") != -1) {
-               var10000 = this;
-               String var4 = "沼杩粒";
                this.ci("法术系");
             } else {
-               var10001 = "辠劷糞";
                if (this.ao.indexOf("辅助系") != -1) {
-                  var10000 = this;
-                  String var5 = "迬勯粒";
                   this.ci("辅助系");
                } else {
-                  var10000 = this;
                   this.ci("");
                }
             }
