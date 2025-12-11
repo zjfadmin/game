@@ -74,10 +74,8 @@ public class Class0 extends com.xy.q.Class30 {
             com.xy.i.Class4 var14 = this.e[0];
             String var21;
             if (var2.getLoginResult().getMount_id() == var1.getMountid()) {
-               var21 = "也骹";
                var21 = "下骑";
             } else {
-               var21 = "骚乀";
                var21 = "骑乘";
             }
 
@@ -197,7 +195,6 @@ public class Class0 extends com.xy.q.Class30 {
                String var5 = Agreement.getSendTextAES("rolechange", "M");
                this.za().k(var5);
                com.xy.i.Class4 var6 = this.e[0];
-               String var8 = "髅买";
                var6.setText("骑乘");
             } else {
                var1.getLoginResult().setMount_id(var2.getMountid());
@@ -206,7 +203,6 @@ public class Class0 extends com.xy.q.Class30 {
                String var4 = Agreement.getSendTextAES("rolechange", var10001.append("=").append(var2.getMid()).toString());
                this.za().k(var4);
                com.xy.i.Class4 var10000 = this.e[0];
-               String var7 = "也骹";
                var10000.setText("下骑");
             }
          }
