@@ -73,38 +73,27 @@ public class Class9 extends com.xy.q.Class30 {
                   String var13 = !this.za().gameBattle && var2 != 1282 ? fx(var4.getRemark()) : var4.getRemark();
                   if (var2 == 1267) {
                      double var7 = Math.pow(var1.getFriendliness().longValue(), 0.16666666666666666);
-                     String var10001 = "\u0018攟偟^\u001e";
-                     String var39 = var13.replace("{数值1}", com.xy.v.Class12.e(5.0 + 0.3 * var7 + 0.4 * Math.pow(var1.getZBone(this.afx).intValue(), 0.5), 1));
-                     var10001 = "E敭倂/C";
-                     String var40 = var39.replace("{数值2}", com.xy.v.Class12.e(3.0 + 0.4 * var7 + 0.6 * Math.pow(var1.getZBone(this.afx).intValue(), 0.5), 1));
-                     var10001 = "\u0018攟偟\\\u001e";
-                     String var41 = var40.replace("{数值3}", com.xy.v.Class12.e(2.0 + 0.2 * var7 + 0.2 * Math.pow(var1.getZSpeed(this.afx).intValue(), 0.5), 1));
-                     var10001 = "E敭倂)C";
-                     String var42 = var41.replace("{数值4}", com.xy.v.Class12.e(3.5 + 0.2 * var7 + 0.3 * Math.pow(var1.getZSpeed(this.afx).intValue(), 0.5), 1));
-                     var10001 = "\u0018攟偟Z\u001e";
-                     var13 = var42.replace("{数值5}", com.xy.v.Class12.e(4.5 + 0.2 * var7 + 0.3 * Math.pow(var1.getZPower(this.afx).intValue(), 0.5), 1));
+                     var13 = var13.replace("{数值1}", com.xy.v.Class12.e(5.0 + 0.3 * var7 + 0.4 * Math.pow(var1.getZBone(this.afx).intValue(), 0.5), 1))
+                        .replace("{数值2}", com.xy.v.Class12.e(3.0 + 0.4 * var7 + 0.6 * Math.pow(var1.getZBone(this.afx).intValue(), 0.5), 1))
+                        .replace("{数值3}", com.xy.v.Class12.e(2.0 + 0.2 * var7 + 0.2 * Math.pow(var1.getZSpeed(this.afx).intValue(), 0.5), 1))
+                        .replace("{数值4}", com.xy.v.Class12.e(3.5 + 0.2 * var7 + 0.3 * Math.pow(var1.getZSpeed(this.afx).intValue(), 0.5), 1))
+                        .replace("{数值5}", com.xy.v.Class12.e(4.5 + 0.2 * var7 + 0.3 * Math.pow(var1.getZPower(this.afx).intValue(), 0.5), 1));
                      var38 = this;
                   } else {
                      if (var2 == 1282) {
                         double var17 = 20.0 + CustomFunction.a(var1.getFriendliness(), 0.6);
                         StringBuffer var9;
                         (var9 = new StringBuffer()).append(com.xy.v.Class12.e(var17, 1));
-                        String var10002 = "\u001dZ\u0011>l";
                         var9.append("#G/#R");
                         var9.append(com.xy.v.Class12.e(var17 * 1.1, 1));
-                        String var10004 = "@(LL1";
                         var9.append("#G/#R");
                         var9.append(com.xy.v.Class12.e(var17 * 1.2, 1));
-                        String var10006 = "\u001dZ\u0011>l";
                         var9.append("#G/#R");
                         var9.append(com.xy.v.Class12.e(var17 * 1.85, 1));
                         int[] var10 = PetProperty.getPetHMASp(var1, this.yx());
                         var17 = 12.0 + CustomFunction.a(var1.getFriendliness(), 0.2);
                         var17 = 1000.0 + var17 / 100.0 * var10[1];
-                        String var10008 = "\u0018攟偟^\u001e";
-                        String var10007 = var13.replace("{数值1}", var9.toString());
-                        var10008 = "E敭倂/C";
-                        var13 = var10007.replace("{数值2}", com.xy.v.Class12.e(var17, 0));
+                        var13 = var13.replace("{数值1}", var9.toString()).replace("{数值2}", com.xy.v.Class12.e(var17, 0));
                      }
 
                      var38 = this;
@@ -112,28 +101,21 @@ public class Class9 extends com.xy.q.Class30 {
 
                   if (var38.za().gameBattle || var2 == 1282) {
                      String var53 = var4.getSkilltype();
-                     String var76 = "W";
                      if (!var53.equals("4")) {
                         if (var2 == 1288) {
                            double var22 = 20.0 + CustomFunction.a(var1.getFriendliness(), 0.7);
                            StringBuffer var32;
                            (var32 = new StringBuffer()).append(com.xy.v.Class12.e(var22, 1));
-                           String var88 = "@(LL1";
                            var32.append("#G/#R");
                            var32.append(com.xy.v.Class12.e(var22 * 1.2, 1));
-                           String var95 = "\u001dZ\u0011>l";
                            var32.append("#G/#R");
                            var32.append(com.xy.v.Class12.e(var22 * 1.4, 1));
-                           String var96 = "@(LL1";
                            var32.append("#G/#R");
                            var32.append(com.xy.v.Class12.e(var22 * 2.0, 1));
                            int[] var36 = PetProperty.getPetHMASp(var1, this.yx());
                            var22 = 20.0 + CustomFunction.a(var1.getFriendliness(), 0.3);
                            var22 = 1000.0 + var22 / 100.0 * var36[1];
-                           String var99 = "E敭倂,C";
-                           String var97 = var13.replace("{数值1}", var32.toString());
-                           var99 = "\u0018攟偟]\u001e";
-                           var13 = var97.replace("{数值2}", com.xy.v.Class12.e(var22, 0));
+                           var13 = var13.replace("{数值1}", var32.toString()).replace("{数值2}", com.xy.v.Class12.e(var22, 0));
                            var38 = this;
                         } else {
                            if (var2 != 1267 && var2 != 1282) {
@@ -335,87 +317,60 @@ public class Class9 extends com.xy.q.Class30 {
       double var8 = Double.parseDouble(var1.getDielectric());
       String var19;
       if (var0 <= 1005) {
-         var19 = "淪乏";
          var19 = "混乱";
       } else if (var0 <= 1010) {
-         var19 = "屮匓";
          var19 = "封印";
       } else if (var0 <= 1015) {
-         var19 = "昒睟";
          var19 = "昏睡";
       } else if (var0 <= 1020) {
-         var19 = "乂殱";
          var19 = "中毒";
       } else if (var0 <= 1025) {
-         var19 = "霚慯";
          var19 = "震慑";
       } else if (var0 <= 1030) {
-         var19 = "勴醬";
          var19 = "力量";
       } else if (var0 <= 1035) {
-         var19 = "把怙";
          var19 = "抗性";
       } else if (var0 <= 1040) {
-         var19 = "勏遼";
          var19 = "加速";
       } else if (var0 <= 1045) {
-         var19 = "飰";
          var19 = "风";
       } else if (var0 <= 1050) {
-         var19 = "隔";
          var19 = "雷";
       } else if (var0 <= 1055) {
-         var19 = "氊";
          var19 = "水";
       } else if (var0 <= 1060) {
-         var19 = "瀈";
          var19 = "火";
       } else if (var0 <= 1065) {
-         var19 = "鬡灕";
          var19 = "鬼火";
       } else if (var0 <= 1070) {
-         var19 = "乪屗蘈";
          var19 = "三尸虫";
       } else if (var0 <= 1075) {
-         var19 = "遊忦";
          var19 = "遗忘";
       } else if (var0 <= 1080) {
-         var19 = "\u001c\u000e\u0002\u000b";
          var19 = "smmh";
       } else if (var0 <= 1085) {
-         var19 = "霤雍";
          var19 = "霹雳";
       } else if (var0 <= 1090) {
-         var19 = "泈沁";
          var19 = "沧波";
       } else if (var0 <= 1095) {
-         var19 = "甅霨";
          var19 = "甘霖";
       } else {
-         var19 = "戙搤";
          var19 = "扶摇";
       }
 
       String var10 = var19;
       int var11 = (var0 - 1001) / 5;
       StringBuffer var12 = new StringBuffer();
-      var19 = var6;
-      String var10002 = ">i」闖洣〯";
       var12.append("#W【门派】");
       var12.append(SkillUtil.getSkillBySM(var11));
-      String var10004 = "L\u0011み幫僪ひ";
       var12.append("#r【师傅】");
       var12.append(SkillUtil.getSkillBySMSF(var11));
-      String var10006 = "\u001do〮泈朑糦〯";
       var12.append("#r【法术系】");
       var12.append(SkillUtil.getSkillBySMText(var11));
-      String var10008 = "@\u001dび燰纠廉ひ";
       var12.append("#r【熟练度】");
       var12.append((int)var2);
-      String var10010 = ">L」涶耊sM〯";
       var12.append("#r【消耗MP】");
       var12.append((int)(var8 * (var2 / 25000.0 + 1.0)));
-      String var10012 = "L\u0011";
       var12.append("#r");
       int var13 = 0;
       int var14 = 0;
