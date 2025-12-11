@@ -24,7 +24,7 @@
 package com.xy.a.a;
 
 import com.xy.a.a.IIiiIiiiiIIiI;
-import com.xy.a.a.iIiIIiiiIiiiI;
+import com.xy.a.a.StarcardJpanel1;
 import com.xy.bean.SuitOperBean;
 import com.xy.entity.PartJade;
 import com.xy.formula.MsgUntil;
@@ -48,7 +48,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import javax.swing.JLabel;
 
-public class iiiiiiiiiiIiI
+public class StarcardJpanel2
 extends IiiiIiiiiIiIi {
     private JLabel[] iIiiIiiiiiiII;
     private int IIiiIiiiIIiIi = -1;
@@ -58,7 +58,7 @@ extends IiiiIiiiiIiIi {
     private com.xy.q.IIIiiiiiIiIiI[] IiiiiiiiIIIII;
     private int ALLATORIxDEMO = -1;
 
-    public iiiiiiiiiiIiI(GameView gameView) {
+    public StarcardJpanel2(GameView gameView) {
         super(97, 2, IiiiIiiiiIiIi.iIIIIiiiiiIIi, gameView);
         this.ALLATORIxDEMO(-1, 0, 562, 435, IiiiIiiiiIiIi.iiIIIiiiiiiiI);
         this.ALLATORIxDEMO(IIIIIiiiIiiII.ALLATORIxDEMO((String)"sc/d/1.png", (int)68, (int)68, (int)68, (int)68, (boolean)false), "斗转星移");
@@ -121,7 +121,7 @@ extends IiiiIiiiiIiIi {
         this.add((Component)this.iIiIiiiiIiIii);
     }
 
-    static /* synthetic */ void iIiIiiiiIIiii(iiiiiiiiiiIiI arg0, int arg1) {
+    static /* synthetic */ void iIiIiiiiIIiii(StarcardJpanel2 arg0, int arg1) {
         arg0.ALLATORIxDEMO = arg1;
     }
 
@@ -254,7 +254,7 @@ lbl50:
             String IiiiiiiiIIIII9 = Agreement.getSendTextAES((String)"suitoperate", (String)iiIiiiiiIIiii.ALLATORIxDEMO().toJson(IiiiiiiiIIIII7));
             this.ALLATORIxDEMO().ALLATORIxDEMO(IiiiiiiiIIIII9);
             IiiiiiiiIIIII.iIiIiiiiIIiii(IiiiiiiiIIIII3.getRgid());
-            iIiIIiiiIiiiI IiiiiiiiIIIII10 = (iIiIIiiiIiiiI)this.ALLATORIxDEMO().iIiIiiiiIIiii(95);
+            StarcardJpanel1 IiiiiiiiIIIII10 = (StarcardJpanel1)this.ALLATORIxDEMO().iIiIiiiiIIiii(95);
             if (IiiiiiiiIIIII10 == null) return;
             IiiiiiiiIIIII10.iiiIiiiiiiIIi(IiiiiiiiIIIII3);
             return;
@@ -262,7 +262,7 @@ lbl50:
         this.iiIIiiiiIiIIi.iIiIiiiiIIiii("请选择主卡或者副卡要替换的星阵宫");
     }
 
-    static /* synthetic */ IIIiiiiiIiIiI[] ALLATORIxDEMO(iiiiiiiiiiIiI arg0) {
+    static /* synthetic */ IIIiiiiiIiIiI[] ALLATORIxDEMO(StarcardJpanel2 arg0) {
         return arg0.iiIiiiiiiiIii;
     }
 
