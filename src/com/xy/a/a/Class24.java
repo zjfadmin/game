@@ -36,25 +36,21 @@ class Class24 extends JComponent implements MouseListener {
          com.xy.a.Class48 var2 = (com.xy.a.Class48)this.vf.zc().j(46);
          if (this.ae == 6) {
             if (this.eg == -2) {
-               String var3 = "L1礱儞拯肞桓K杅菔厹JL\u0011L:菘厵拯肞桓盧旖彬U@\u001d刮Y义拯肞桓邞菘厵料膉勇菔厹X";
                var2.bq("#R神兽技能格(未获取)#r#Y获取技能格的方式:#r前6个技能格都获取时自动获取;");
                return;
             }
 
             if (this.eg == -1) {
-               String var10001 = "Ao礼克拢胋桞\u001e屣卆K\u0015\u0010觕屣抶肟栊旛弹X\u0015\u0010剻T东拢胋桞郋形吙斔臜勊弶呍\r";
                var2.bq("#Y神兽技能格(封印)#r解封技能格方式:#r前6个技能格都开启时自动开启;");
                return;
             }
          } else {
             if (this.eg == -2) {
-               String var5 = "@=拣肒桟G杉菘厵F@\u001d@6菔厹拣肒桟盫旚彠YL\u0011^M厃啇儒烚卹呭C伜畇掳烓辤盫耹鬫乚料杪冏珤菘忴T@\u001dQA厏啋儞呀瀖料O杦冃珨菔忸K屮匓狙恢FX";
                var2.bq("#R技能格(未获取)#r#Y获取技能格的方式:#r1.召唤兽点化后,使用提炼过的聚魄丹时有几率获得;#r2.召唤兽启灵时,有几率获得(封印状态);");
                return;
             }
 
             if (this.eg == -1) {
-               String var4 = "\u0015;抶肟栊J尷匒\u001fAD要尷拢胋桞斏彭\fADS\u0018晬雁扺斡厍隹杘弶呍\rADP\u0018伝甞呍魴乛弶呍\r";
                var2.bq("#Y技能格(封印)#r解封技能格方式:#r1.明雷战斗可随机开启;#r2.使用启魂丹开启;");
             }
          }
